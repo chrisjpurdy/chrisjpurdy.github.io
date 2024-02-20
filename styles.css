@@ -1,0 +1,9 @@
+.dot:before {
+    content: ".";
+    color: #777777;
+}
+
+.at:before {
+    content: "@";
+    color: #777777;
+}
