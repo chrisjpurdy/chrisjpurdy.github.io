@@ -7,3 +7,15 @@
     content: "@";
     color: #777777;
 }
+
+.icon {
+    margin-top: -2px;
+    cursor: pointer;
+}
+.icon:hover {
+    color: darkcyan;
+}
+
+ul[class^="ul-"] > li {
+    margin-bottom: 14px;
+}
