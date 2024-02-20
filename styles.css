@@ -1,11 +1,37 @@
+.cyan {
+    color: rgb(9, 114, 114) !important;
+}
+
+h1 {
+    color: rgb(9, 114, 114) !important;
+}
+h2 {
+    color: rgb(9, 114, 114) !important;
+}
+h3 {
+    color: rgb(9, 114, 114) !important;
+}
+
+.red {
+    color: red;
+}
+.blue {
+    color: rgb(17, 177, 226);
+}
+.green {
+    color: rgb(61, 251, 4);
+}
+.purple {
+    color: rgb(169, 34, 169);
+}
+
 .dot:before {
     content: ".";
-    color: #777777;
 }
 
 .at:before {
     content: "@";
-    color: #777777;
+    color: rgb(9, 114, 114);
 }
 
 .icon {
@@ -13,7 +39,7 @@
     cursor: pointer;
 }
 .icon:hover {
-    color: darkcyan;
+    color: rgb(9, 114, 114);
 }
 
 ul[class^="ul-"] > li {
