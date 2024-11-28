@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>297</fr:anchor><fr:addr
+type="user">chrisjpurdy</fr:addr><fr:route>chrisjpurdy.xml</fr:route><fr:title
+text="Chris Purdy">Chris Purdy</fr:title><fr:taxon>Person</fr:taxon><fr:authors /><fr:meta
+name="external">https://www.chrisjpurdy.github.io/</fr:meta><fr:meta
+name="orcid">0009-0007-6105-1775</fr:meta><fr:meta
+name="position">PhD student</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>PhD student at Royal Holloway, University of London researching programming language semantics via cyclic proof theory, type theory, and category theory. Supervised by <fr:link
+type="local"
+href="reubensrowe.xml"
+addr="reubensrowe"
+title="Reuben Rowe">Reuben Rowe</fr:link>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>298</fr:anchor><fr:addr
+type="user">reubensrowe</fr:addr><fr:route>reubensrowe.xml</fr:route><fr:title
+text="Reuben Rowe">Reuben Rowe</fr:title><fr:taxon>Person</fr:taxon><fr:authors /><fr:meta
+name="external">https://pure.royalholloway.ac.uk/en/persons/reuben-rowe</fr:meta><fr:meta
+name="orcid">0000-0002-4271-9078</fr:meta><fr:meta
+name="position">Senior Lecturer in Computer Science</fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Contributions">Contributions</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>299</fr:anchor><fr:addr
+type="user">lsd-0003</fr:addr><fr:route>lsd-0003.xml</fr:route><fr:title
+text="Commutative monad containers">Commutative monad containers</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(S \triangleright  P, \iota , \sigma , \text {pr})]]></fr:tex> be a <fr:link
+type="local"
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">monad container</fr:link>. We call the monad container
+  commutative when the following laws hold:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       \sigma \ a\ (\lambda  \_ . b) &= \sigma \ b\ (\lambda  \_ . a)\\       \text {pr}_1\ p &= \text {pr}_2\ p\\       \text {pr}_2\ p &= \text {pr}_1\ p     \end {align*}   ]]></fr:tex>
+  The laws for <fr:tex
+display="inline"><![CDATA[\text {pr}]]></fr:tex> hold given the first law. Commutative monad containers interpret exactly
+  the commutative monads for container functors.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>301</fr:anchor><fr:addr
+type="user">lsd-0002</fr:addr><fr:route>lsd-0002.xml</fr:route><fr:title
+text="Monad container">Monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S \triangleright  P]]></fr:tex> be a container. A mnd-container (or monad container) on <fr:tex
+display="inline"><![CDATA[S \triangleright  P]]></fr:tex> is
+  given by the following data:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       \iota  &: S\\       \sigma  &: \prod _{s : S} (P\ s \to  S) \to  S\\       \text {pr} &: \prod _{\{s : S\}} \prod _{\{f : P\ s \to  S\}} P\ (\sigma \ s\ f) \to  \sum _{p : P\ s} P\ (f\ p)     \end {align*}   ]]></fr:tex>
+  For which the following laws hold:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       \sigma \ \iota \ (\lambda  \_ . a ) &= a\\       \sigma \ a\ (\lambda  \_ . \iota  ) &= a\\       \sigma \ (\sigma \ a\ f)\ (\lambda  p . g\ (\text {pr}_1\ p)\ (\text {pr}_2\ p)) &= \sigma \ a\ (\lambda  p . \sigma \ (f\ p)\ (g\ p))\\       \text {pr}_1\ (\text {pr}_1\ p) &= \text {pr}_1\ p\\       \text {pr}_1\ (\text {pr}_2\ p) &= \text {pr}_2\ (\text {pr}_1\ p)\\       \text {pr}_2\ p &= \text {pr}_2\ (\text {pr}_2\ p)     \end {align*}   ]]></fr:tex>
+  We abbreviate <fr:tex
+display="inline"><![CDATA[\pi _1 \circ  \text {pr}]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[\text {pr}_1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\pi _2 \circ  \text {pr}]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[\text {pr}_2]]></fr:tex>. The last three laws
+  hold up the "associativity" law for <fr:tex
+display="inline"><![CDATA[\sigma ]]></fr:tex>.</fr:p><fr:p><fr:em>TODO: define monad container interpretation and statement that all monads on container extension functors arise as monad containers. Maybe I should reference Uustalu here? I need a separate reference tree for that anyway.</fr:em></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>303</fr:anchor><fr:addr
+type="user">lsd-0004</fr:addr><fr:route>lsd-0004.xml</fr:route><fr:title
+text="Reader is the only affine monad container">Reader is the only affine monad container</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(S \triangleright  P, \iota , \sigma , \text {pr})]]></fr:tex> be a <fr:link
+type="local"
+href="lsd-0003.xml"
+addr="lsd-0003"
+title="Commutative monad containers">commutative monad container</fr:link>. By taking the categorical definition of affine monads and specialising it to monad container extensions, we get for all <fr:tex
+display="inline"><![CDATA[a, b : S]]></fr:tex> the equation:
+  <fr:tex
+display="block"><![CDATA[     \sigma \ a\ (\lambda  \_ . b) = a   ]]></fr:tex>
+  Since we have a point <fr:tex
+display="inline"><![CDATA[\iota  : S]]></fr:tex>, we can conclude that <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is contractible. Hence we have that <fr:tex
+display="inline"><![CDATA[S \triangleright  P]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[1 \triangleright  \lambda  \_ . P\ \iota ]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>305</fr:anchor><fr:addr
+type="user">mhe-0001</fr:addr><fr:route>mhe-0001.xml</fr:route><fr:title
+text="HOL^{ex}"><fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
+display="inline"><![CDATA[^{ex}]]></fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
+display="inline"><![CDATA[^{ex}]]></fr:tex> is a proof system that I've been developing for part of my PhD project with my
+  supervisor <fr:link
+type="local"
+href="reubensrowe.xml"
+addr="reubensrowe"
+title="Reuben Rowe">Reuben Rowe</fr:link>.</fr:p><fr:p>The goal is to develop a proof system for higher-order logic with fixed-point operators, that allows for induction and coinduction by adding fixed-point "unfolding" rules, and allowing proofs to be cyclic.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>307</fr:anchor><fr:addr
+type="user">lsd-0001</fr:addr><fr:route>lsd-0001.xml</fr:route><fr:title
+text="Distributive laws of monad containers">Distributive laws of monad containers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Joint work with <fr:link
+type="local"
+href="stefaniadamato.xml"
+addr="stefaniadamato"
+title="Stefania Damato">Stefania Damato</fr:link> on characterising distributive laws between
+  monad containers. <fr:link
+type="local"
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">Monad containers</fr:link> were originally characterised by <fr:link
+type="local"
+href="tarmouustalu.xml"
+addr="tarmouustalu"
+title="Tarmo Uustalu">Tarmo Uustalu</fr:link> - these are containers with extra structure such that their interpretation as Set functors are monads.</fr:p><fr:p>This characterisation is useful for enumerating all possible distributive laws between two monad containers, which may help in developing no-go theorems for distributive laws between a larger class of monads.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>309</fr:anchor><fr:addr
+type="user">def-0000</fr:addr><fr:route>def-0000.xml</fr:route><fr:title
+text="Macro definitions">Macro definitions</fr:title><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
