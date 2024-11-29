@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>247</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>261</fr:anchor><fr:addr
 type="user">lsd-0003</fr:addr><fr:route>lsd-0003.xml</fr:route><fr:title
 text="Commutative monad containers">Commutative monad containers</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -39,7 +39,33 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>249</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>263</fr:anchor><fr:addr
+type="user">lsd-0004</fr:addr><fr:route>lsd-0004.xml</fr:route><fr:title
+text="All affine monad containers are representable">All affine monad containers are representable</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(S \triangleright  P, \iota , \sigma , \text {pr})]]></fr:tex> be a <fr:link
+type="local"
+href="lsd-0003.xml"
+addr="lsd-0003"
+title="Commutative monad containers">commutative monad container</fr:link>. By taking the categorical definition of affine monads and specialising it to monad container extensions, we get for all <fr:tex
+display="inline"><![CDATA[a, b : S]]></fr:tex> the equation:
+  <fr:tex
+display="block"><![CDATA[     \sigma \ a\ (\lambda  \_ . b) = a   ]]></fr:tex>
+  Since we have a point <fr:tex
+display="inline"><![CDATA[\iota  : S]]></fr:tex>, we can conclude that <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is contractible. Hence we have that <fr:tex
+display="inline"><![CDATA[S \triangleright  P]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[1 \triangleright  \lambda  \_ . P\ \iota ]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>265</fr:anchor><fr:addr
 type="user">dia-0002</fr:addr><fr:route>dia-0002.xml</fr:route><fr:title
 text="Diary: UoN research visit, Nov 2024">Diary: UoN research visit, Nov 2024</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -64,38 +90,12 @@ title="Commutative monad containers">commutative</fr:link>, <fr:link
 type="local"
 href="lsd-0004.xml"
 addr="lsd-0004"
-title="Reader is the only affine monad container">affine</fr:link>, relevant) and see if this simplifies the distributive law. We have already characterised distributive laws for cartesian monad containers for example.</fr:li>
+title="All affine monad containers are representable">affine</fr:link>, relevant) and see if this simplifies the distributive law. We have already characterised distributive laws for cartesian monad containers for example.</fr:li>
     <fr:li>Prove more than just mere existence of distributive laws - use the characterisation to find exactly how many there are for a given pair of monad containers.</fr:li>
     <fr:li>Over-approximate distributive law requirements to have an easier time with the above. For example, we could consider when the position map <fr:tex
 display="inline"><![CDATA[v]]></fr:tex> is just <fr:tex
 display="inline"><![CDATA[\langle  \pi _2 , \pi _1 \rangle ]]></fr:tex>, which often seems to be the case in simpler examples.</fr:li>
-    <fr:li>Find which algebraic theories correspond to container monads, to tie our work to Maaike Zwart and Dan's work on distributive laws for algebraic theories.</fr:li></fr:ol></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>251</fr:anchor><fr:addr
-type="user">lsd-0004</fr:addr><fr:route>lsd-0004.xml</fr:route><fr:title
-text="Reader is the only affine monad container">Reader is the only affine monad container</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="chrisjpurdy.xml"
-addr="chrisjpurdy"
-title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(S \triangleright  P, \iota , \sigma , \text {pr})]]></fr:tex> be a <fr:link
-type="local"
-href="lsd-0003.xml"
-addr="lsd-0003"
-title="Commutative monad containers">commutative monad container</fr:link>. By taking the categorical definition of affine monads and specialising it to monad container extensions, we get for all <fr:tex
-display="inline"><![CDATA[a, b : S]]></fr:tex> the equation:
-  <fr:tex
-display="block"><![CDATA[     \sigma \ a\ (\lambda  \_ . b) = a   ]]></fr:tex>
-  Since we have a point <fr:tex
-display="inline"><![CDATA[\iota  : S]]></fr:tex>, we can conclude that <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> is contractible. Hence we have that <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> is <fr:tex
-display="inline"><![CDATA[1 \triangleright  \lambda  \_ . P\ \iota ]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+    <fr:li>Find which algebraic theories correspond to container monads, to tie our work to Maaike Zwart and Dan's work on distributive laws for algebraic theories.</fr:li></fr:ol></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -110,7 +110,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>253</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>267</fr:anchor><fr:addr
 type="user">lsd-0002</fr:addr><fr:route>lsd-0002.xml</fr:route><fr:title
 text="Monad container">Monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -131,4 +131,4 @@ display="inline"><![CDATA[\text {pr}_1]]></fr:tex> and <fr:tex
 display="inline"><![CDATA[\pi _2 \circ  \text {pr}]]></fr:tex> as <fr:tex
 display="inline"><![CDATA[\text {pr}_2]]></fr:tex>. The last three laws
   hold up the "associativity" law for <fr:tex
-display="inline"><![CDATA[\sigma ]]></fr:tex>.</fr:p><fr:p><fr:em>TODO: define monad container interpretation and statement that all monads on container extension functors arise as monad containers. Maybe I should reference Uustalu here? I need a separate reference tree for that anyway.</fr:em></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+display="inline"><![CDATA[\sigma ]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
