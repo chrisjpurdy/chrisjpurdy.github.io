@@ -7,25 +7,23 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>374</fr:anchor><fr:addr
-type="user">mhe-0001</fr:addr><fr:route>mhe-0001.xml</fr:route><fr:title
-text="HOL^{ex}"><fr:tex
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>265</fr:anchor><fr:addr
+type="user">mhe-0005</fr:addr><fr:route>mhe-0005.xml</fr:route><fr:title
+text="HOL^{ex} domain syntax"><fr:tex
 display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
-display="inline"><![CDATA[^{ex}]]></fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+display="inline"><![CDATA[^{ex}]]></fr:tex> domain syntax</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
-title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
-type="local"
-href="mhe-0003.xml"
-addr="mhe-0003"
-title="HOL^{ex} encyclopedia"><fr:tex
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Domains/types in <fr:tex
 display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
-display="inline"><![CDATA[^{ex}]]></fr:tex></fr:link> is a logic and cyclic proof system that I've been developing for part of my PhD project with my supervisor <fr:link
-type="local"
-href="reubensrowe.xml"
-addr="reubensrowe"
-title="Reuben Rowe">Reuben Rowe</fr:link>.</fr:p><fr:p>The goal is to develop a proof system for higher-order logic with fixed-point operators, that allows for induction and coinduction by adding fixed-point "unfolding" rules, and allowing proofs to be cyclic.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+display="inline"><![CDATA[^{ex}]]></fr:tex> are defined as follows, where <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> ranges over a countable set of <fr:em>base domains</fr:em>, and <fr:tex
+display="inline"><![CDATA[v]]></fr:tex> ranges over the set <fr:tex
+display="inline"><![CDATA[\{+, -, \star \}]]></fr:tex> of <fr:em>variance annotations</fr:em>.
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       S, T &::= D\ |\ S \to ^v T\\       P &::= \text {Prop}\ |\ T \to ^v P     \end {align*}   ]]></fr:tex>
+  The base domains would be specified in a signature.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -40,200 +38,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>376</fr:anchor><fr:addr
-type="user">index</fr:addr><fr:route>index.xml</fr:route><fr:title
-text="Chris Purdy">Chris Purdy</fr:title><fr:authors /><fr:meta
-name="comments">true</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>I am a PhD student at Royal Holloway, University of London researching programming language semantics via cyclic proof theory, type theory, and category theory.
-
-  
-    <fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>377</fr:anchor><fr:addr
-type="user">mhe-0001</fr:addr><fr:route>mhe-0001.xml</fr:route><fr:title
-text="HOL^{ex}"><fr:tex
-display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
-display="inline"><![CDATA[^{ex}]]></fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="chrisjpurdy.xml"
-addr="chrisjpurdy"
-title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
-type="local"
-href="mhe-0003.xml"
-addr="mhe-0003"
-title="HOL^{ex} encyclopedia"><fr:tex
-display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
-display="inline"><![CDATA[^{ex}]]></fr:tex></fr:link> is a logic and cyclic proof system that I've been developing for part of my PhD project with my supervisor <fr:link
-type="local"
-href="reubensrowe.xml"
-addr="reubensrowe"
-title="Reuben Rowe">Reuben Rowe</fr:link>.</fr:p><fr:p>The goal is to develop a proof system for higher-order logic with fixed-point operators, that allows for induction and coinduction by adding fixed-point "unfolding" rules, and allowing proofs to be cyclic.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
-    <fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>379</fr:anchor><fr:addr
-type="user">lsd-0001</fr:addr><fr:route>lsd-0001.xml</fr:route><fr:title
-text="Distributive laws of monad containers">Distributive laws of monad containers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="chrisjpurdy.xml"
-addr="chrisjpurdy"
-title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Joint work with <fr:link
-type="local"
-href="stefaniadamato.xml"
-addr="stefaniadamato"
-title="Stefania Damato">Stefania Damato</fr:link> on characterising <fr:link
-type="local"
-href="lsd-0008.xml"
-addr="lsd-0008"
-title="Monad container distributive law">distributive laws between monad containers</fr:link>. <fr:link
-type="local"
-href="lsd-0002.xml"
-addr="lsd-0002"
-title="Monad container">Monad containers</fr:link> were originally characterised by <fr:link
-type="local"
-href="tarmouustalu.xml"
-addr="tarmouustalu"
-title="Tarmo Uustalu">Tarmo Uustalu</fr:link> - these are containers with extra structure such that their interpretation as Set functors are monads.</fr:p><fr:p>This characterisation is useful for enumerating all possible distributive laws between two monad containers, which may help in developing no-go theorems for distributive laws between a larger class of monads.</fr:p><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>283</fr:anchor><fr:addr
-type="user">lsd-0010</fr:addr><fr:route>lsd-0010.xml</fr:route><fr:title
-text="Monad container zoo">Monad container zoo</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="chrisjpurdy.xml"
-addr="chrisjpurdy"
-title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Here's a compilation of some classes and specific cases of <fr:link
-type="local"
-href="lsd-0002.xml"
-addr="lsd-0002"
-title="Monad container">monad containers</fr:link> for reference:
-  <fr:ul><fr:li><fr:link
-type="local"
-href="lsd-0009.xml"
-addr="lsd-0009"
-title="Cartesian monad container">Cartesian</fr:link></fr:li>
-    <fr:li><fr:link
-type="local"
-href="lsd-0005.xml"
-addr="lsd-0005"
-title="Idempotent monad containers are almost trivial">Idempotent</fr:link></fr:li>
-    <fr:li><fr:link
-type="local"
-href="lsd-0003.xml"
-addr="lsd-0003"
-title="Commutative monad containers">Commutative</fr:link></fr:li>
-    <fr:li><fr:link
-type="local"
-href="lsd-0004.xml"
-addr="lsd-0004"
-title="All affine monad containers are representable">Affine</fr:link></fr:li>
-    <fr:li><fr:link
-type="local"
-href="lsd-0007.xml"
-addr="lsd-0007"
-title="There is only one representable monad container">Representable</fr:link></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree>
-  
-
-  <fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>381</fr:anchor><fr:addr
-type="user">dia-0001</fr:addr><fr:route>dia-0001.xml</fr:route><fr:title
-text="Research diary">Research diary</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>I was previously using Obsidian for my research diary, but I found it a little heavyweight for
-  what I was using it for: weekly (or fortnightly) notes on what I've been thinking about.</fr:p><fr:p>Being able to "transclude" trees into other ones is another reason why I'm using Forester for this. Writing definitions once and then including them as many times as needed seems far better than having to jump inbetween files.</fr:p><fr:p>Most recent entry:
-  
-  <fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>348</fr:anchor><fr:addr
-type="user">dia-0002</fr:addr><fr:route>dia-0002.xml</fr:route><fr:title
-text="Diary: UoN research visit, Nov 2024">Diary: UoN research visit, Nov 2024</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="chrisjpurdy.xml"
-addr="chrisjpurdy"
-title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
-type="local"
-href="dia-0001.xml"
-addr="dia-0001"
-title="Research diary">Previous entry</fr:link>, <fr:link
-type="external"
-href="dia-0003">Next entry</fr:link></fr:p><fr:p>Earlier this week <fr:link
-type="local"
-href="stefaniadamato.xml"
-addr="stefaniadamato"
-title="Stefania Damato">Stef</fr:link> and I were working on the monad container distributive law project. We had a very insightful meeting with Dan Marsden who mentioned (among other things) that we should look for applications for our characterisation. Things to try:
-  <fr:ol><fr:li>Find characterisations for tighter classes of monad containers (i.e. <fr:link
-type="local"
-href="lsd-0003.xml"
-addr="lsd-0003"
-title="Commutative monad containers">commutative</fr:link>, <fr:link
-type="local"
-href="lsd-0004.xml"
-addr="lsd-0004"
-title="All affine monad containers are representable">affine</fr:link>, relevant) and see if this simplifies the distributive law. We have already characterised distributive laws for cartesian monad containers for example.</fr:li>
-    <fr:li>Prove more than just mere existence of distributive laws - use the characterisation to find exactly how many there are for a given pair of monad containers.</fr:li>
-    <fr:li>Over-approximate distributive law requirements to have an easier time with the above. For example, we could consider when the position map <fr:tex
-display="inline"><![CDATA[v]]></fr:tex> is just <fr:tex
-display="inline"><![CDATA[\langle  \pi _2 , \pi _1 \rangle ]]></fr:tex>, which often seems to be the case in simpler examples.</fr:li>
-    <fr:li>Find which algebraic theories correspond to container monads, to tie our work to Maaike Zwart and Dan's work on distributive laws for algebraic theories.</fr:li></fr:ol></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
-  <fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>382</fr:anchor><fr:addr
-type="user">abt-0001</fr:addr><fr:route>abt-0001.xml</fr:route><fr:title
-text="About this website">About this website</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>This website uses the <fr:link
-type="external"
-href="https://sr.ht/~jonsterling/forester/">Forester</fr:link> tool developed by
-  <fr:link
-type="local"
-href="jonmsterling.xml"
-addr="jonmsterling"
-title="Jon Sterling">Jon Sterling</fr:link>. See Jon's website for tutorials/information about the tool.</fr:p><fr:p>It is a fantastic way to organise notes and I've been enjoying it a lot! There is even a <fr:link
-type="external"
-href="https://marketplace.visualstudio.com/items?itemName=TreborHuang.vscode-forester">VSCode plugin</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
-
-  <fr:link
-type="external"
-href="https://chrisjpurdy.github.io/">Back to my Github pages</fr:link></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>383</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>267</fr:anchor><fr:addr
 type="user">mhe-0003</fr:addr><fr:route>mhe-0003.xml</fr:route><fr:title
 text="HOL^{ex} encyclopedia"><fr:tex
 display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
@@ -520,16 +325,42 @@ style="display: block; min-height: 20px" />
   <html:mark
 xmlns:html="http://www.w3.org/1999/xhtml">TODO: Add the other <fr:tex
 display="inline"><![CDATA[\lambda ]]></fr:tex> for functions <fr:tex
-display="inline"><![CDATA[T \to  T]]></fr:tex> (where variance isn't considered)</html:mark></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+display="inline"><![CDATA[T \to  T]]></fr:tex> (where variance isn't considered)</html:mark></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>385</fr:anchor><fr:addr
-type="user">reubensrowe</fr:addr><fr:route>reubensrowe.xml</fr:route><fr:title
-text="Reuben Rowe">Reuben Rowe</fr:title><fr:taxon>Person</fr:taxon><fr:authors /><fr:meta
-name="external">https://pure.royalholloway.ac.uk/en/persons/reuben-rowe</fr:meta><fr:meta
-name="institution">Royal Holloway, University of London</fr:meta><fr:meta
-name="orcid">0000-0002-4271-9078</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Senior Lecturer in Computer Science.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>269</fr:anchor><fr:addr
+type="user">mhe-0004</fr:addr><fr:route>mhe-0004.xml</fr:route><fr:title
+text="HOL^{ex} formula syntax"><fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
+display="inline"><![CDATA[^{ex}]]></fr:tex> formula syntax</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The syntax of <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
+display="inline"><![CDATA[^{ex}]]></fr:tex> formulae has a small logical fragment, extended with a fixed-point operator, variance annotations and contraints for ordinal variables. <fr:tex
+display="inline"><![CDATA[v]]></fr:tex> ranges over <fr:link
+type="local"
+href="mhe-0005.xml"
+addr="mhe-0005"
+title="HOL^{ex} domain syntax">variance annotations</fr:link>, and <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[T]]></fr:tex> range over <fr:link
+type="local"
+href="mhe-0005.xml"
+addr="mhe-0005"
+title="HOL^{ex} domain syntax">predicate and non-predicate domains</fr:link> respectively.
+  <fr:tex
+display="block"><![CDATA[     t ::=\ x\ |\ \forall  (x : T).t\ |\ t \Rightarrow  t^\prime \ |\ \lambda (x^v : T).t\ |\ t\ t^\prime \ |\ \mu ^\alpha (x:P).t\ |\ \exists \alpha .t\ |\ \beta  < \alpha    ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>251</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>317</fr:anchor><fr:addr
 type="user">lsd-0006</fr:addr><fr:route>lsd-0006.xml</fr:route><fr:title
 text="Monad container extension">Monad container extension</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -40,14 +40,14 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>253</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>319</fr:anchor><fr:addr
 type="user">lsd-0002</fr:addr><fr:route>lsd-0002.xml</fr:route><fr:title
 text="Monad container">Monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> be a container. A mnd-container (or monad container) on <fr:tex
+display="inline"><![CDATA[S \triangleright  P]]></fr:tex> be a container. A monad container (or mnd-container) on <fr:tex
 display="inline"><![CDATA[S \triangleright  P]]></fr:tex> is
   given by the following data:
   <fr:tex
@@ -60,5 +60,5 @@ display="inline"><![CDATA[\pi _1 \circ  \text {pr}]]></fr:tex> as <fr:tex
 display="inline"><![CDATA[\text {pr}_1]]></fr:tex> and <fr:tex
 display="inline"><![CDATA[\pi _2 \circ  \text {pr}]]></fr:tex> as <fr:tex
 display="inline"><![CDATA[\text {pr}_2]]></fr:tex>. The last three laws
-  hold up the "associativity" law for <fr:tex
+  hold up to the "associativity" law for <fr:tex
 display="inline"><![CDATA[\sigma ]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

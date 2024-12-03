@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>303</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>389</fr:anchor><fr:addr
 type="user">lsd-0001</fr:addr><fr:route>lsd-0001.xml</fr:route><fr:title
 text="Distributive laws of monad containers">Distributive laws of monad containers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -17,8 +17,11 @@ title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatt
 type="local"
 href="stefaniadamato.xml"
 addr="stefaniadamato"
-title="Stefania Damato">Stefania Damato</fr:link> on characterising distributive laws between
-  monad containers. <fr:link
+title="Stefania Damato">Stefania Damato</fr:link> on characterising <fr:link
+type="local"
+href="lsd-0008.xml"
+addr="lsd-0008"
+title="Monad container distributive law">distributive laws between monad containers</fr:link>. <fr:link
 type="local"
 href="lsd-0002.xml"
 addr="lsd-0002"
@@ -26,7 +29,49 @@ title="Monad container">Monad containers</fr:link> were originally characterised
 type="local"
 href="tarmouustalu.xml"
 addr="tarmouustalu"
-title="Tarmo Uustalu">Tarmo Uustalu</fr:link> - these are containers with extra structure such that their interpretation as Set functors are monads.</fr:p><fr:p>This characterisation is useful for enumerating all possible distributive laws between two monad containers, which may help in developing no-go theorems for distributive laws between a larger class of monads.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+title="Tarmo Uustalu">Tarmo Uustalu</fr:link> - these are containers with extra structure such that their interpretation as Set functors are monads.</fr:p><fr:p>This characterisation is useful for enumerating all possible distributive laws between two monad containers, which may help in developing no-go theorems for distributive laws between a larger class of monads.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>283</fr:anchor><fr:addr
+type="user">lsd-0010</fr:addr><fr:route>lsd-0010.xml</fr:route><fr:title
+text="Monad container zoo">Monad container zoo</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Here's a compilation of some classes and specific cases of <fr:link
+type="local"
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">monad containers</fr:link> for reference:
+  <fr:ul><fr:li><fr:link
+type="local"
+href="lsd-0009.xml"
+addr="lsd-0009"
+title="Cartesian monad container">Cartesian</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="lsd-0005.xml"
+addr="lsd-0005"
+title="Idempotent monad containers are almost trivial">Idempotent</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="lsd-0003.xml"
+addr="lsd-0003"
+title="Commutative monad containers">Commutative</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="lsd-0004.xml"
+addr="lsd-0004"
+title="All affine monad containers are representable">Affine</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="lsd-0007.xml"
+addr="lsd-0007"
+title="There is only one representable monad container">Representable</fr:link></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -41,19 +86,20 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>305</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>391</fr:anchor><fr:addr
 type="user">index</fr:addr><fr:route>index.xml</fr:route><fr:title
-text="Chris Purdy">Chris Purdy</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>I am a PhD student at Royal Holloway, University of London researching programming language semantics via cyclic proof theory, type theory, and category theory.
+text="Chris Purdy">Chris Purdy</fr:title><fr:authors /><fr:meta
+name="comments">true</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>I am a PhD student at Royal Holloway, University of London researching programming language semantics via cyclic proof theory, type theory, and category theory.
 
   
-  <fr:tree
+    <fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
-expanded="false"
+expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>293</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>377</fr:anchor><fr:addr
 type="user">mhe-0001</fr:addr><fr:route>mhe-0001.xml</fr:route><fr:title
 text="HOL^{ex}"><fr:tex
 display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
@@ -61,22 +107,25 @@ display="inline"><![CDATA[^{ex}]]></fr:tex></fr:title><fr:date><fr:year>2024</fr
 type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
-title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+type="local"
+href="mhe-0003.xml"
+addr="mhe-0003"
+title="HOL^{ex} encyclopedia"><fr:tex
 display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
-display="inline"><![CDATA[^{ex}]]></fr:tex> is a proof system that I've been developing for part of my PhD project with my
-  supervisor <fr:link
+display="inline"><![CDATA[^{ex}]]></fr:tex></fr:link> is a logic and cyclic proof system that I've been developing for part of my PhD project with my supervisor <fr:link
 type="local"
 href="reubensrowe.xml"
 addr="reubensrowe"
 title="Reuben Rowe">Reuben Rowe</fr:link>.</fr:p><fr:p>The goal is to develop a proof system for higher-order logic with fixed-point operators, that allows for induction and coinduction by adding fixed-point "unfolding" rules, and allowing proofs to be cyclic.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
-  <fr:tree
+    <fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
-expanded="false"
+expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>295</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>379</fr:anchor><fr:addr
 type="user">lsd-0001</fr:addr><fr:route>lsd-0001.xml</fr:route><fr:title
 text="Distributive laws of monad containers">Distributive laws of monad containers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -86,8 +135,11 @@ title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatt
 type="local"
 href="stefaniadamato.xml"
 addr="stefaniadamato"
-title="Stefania Damato">Stefania Damato</fr:link> on characterising distributive laws between
-  monad containers. <fr:link
+title="Stefania Damato">Stefania Damato</fr:link> on characterising <fr:link
+type="local"
+href="lsd-0008.xml"
+addr="lsd-0008"
+title="Monad container distributive law">distributive laws between monad containers</fr:link>. <fr:link
 type="local"
 href="lsd-0002.xml"
 addr="lsd-0002"
@@ -95,7 +147,49 @@ title="Monad container">Monad containers</fr:link> were originally characterised
 type="local"
 href="tarmouustalu.xml"
 addr="tarmouustalu"
-title="Tarmo Uustalu">Tarmo Uustalu</fr:link> - these are containers with extra structure such that their interpretation as Set functors are monads.</fr:p><fr:p>This characterisation is useful for enumerating all possible distributive laws between two monad containers, which may help in developing no-go theorems for distributive laws between a larger class of monads.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Tarmo Uustalu">Tarmo Uustalu</fr:link> - these are containers with extra structure such that their interpretation as Set functors are monads.</fr:p><fr:p>This characterisation is useful for enumerating all possible distributive laws between two monad containers, which may help in developing no-go theorems for distributive laws between a larger class of monads.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>283</fr:anchor><fr:addr
+type="user">lsd-0010</fr:addr><fr:route>lsd-0010.xml</fr:route><fr:title
+text="Monad container zoo">Monad container zoo</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Here's a compilation of some classes and specific cases of <fr:link
+type="local"
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">monad containers</fr:link> for reference:
+  <fr:ul><fr:li><fr:link
+type="local"
+href="lsd-0009.xml"
+addr="lsd-0009"
+title="Cartesian monad container">Cartesian</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="lsd-0005.xml"
+addr="lsd-0005"
+title="Idempotent monad containers are almost trivial">Idempotent</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="lsd-0003.xml"
+addr="lsd-0003"
+title="Commutative monad containers">Commutative</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="lsd-0004.xml"
+addr="lsd-0004"
+title="All affine monad containers are representable">Affine</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="lsd-0007.xml"
+addr="lsd-0007"
+title="There is only one representable monad container">Representable</fr:link></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree>
   
 
   <fr:tree
@@ -105,14 +199,49 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>297</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>381</fr:anchor><fr:addr
 type="user">dia-0001</fr:addr><fr:route>dia-0001.xml</fr:route><fr:title
 text="Research diary">Research diary</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>I was previously using Obsidian for my research diary, but I found it a little heavyweight for
-  what I was using it for: weekly (or fortnightly) notes on what I've been thinking about.</fr:p><fr:p>Being able to "transclude" trees into other ones is one of the reasons I'm using Forester for this. Writing definitions once and then including them as many times as needed seems far better than having to jump between files.</fr:p><fr:p><fr:link
+  what I was using it for: weekly (or fortnightly) notes on what I've been thinking about.</fr:p><fr:p>Being able to "transclude" trees into other ones is another reason why I'm using Forester for this. Writing definitions once and then including them as many times as needed seems far better than having to jump inbetween files.</fr:p><fr:p>Most recent entry:
+  
+  <fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>348</fr:anchor><fr:addr
+type="user">dia-0002</fr:addr><fr:route>dia-0002.xml</fr:route><fr:title
+text="Diary: UoN research visit, Nov 2024">Diary: UoN research visit, Nov 2024</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-href="dia-0002.xml"
-addr="dia-0002"
-title="Diary: UoN research visit, Nov 2024">Most recent entry</fr:link></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+type="local"
+href="dia-0001.xml"
+addr="dia-0001"
+title="Research diary">Previous entry</fr:link>, <fr:link
+type="external"
+href="dia-0003">Next entry</fr:link></fr:p><fr:p>Earlier this week <fr:link
+type="local"
+href="stefaniadamato.xml"
+addr="stefaniadamato"
+title="Stefania Damato">Stef</fr:link> and I were working on the monad container distributive law project. We had a very insightful meeting with Dan Marsden who mentioned (among other things) that we should look for applications for our characterisation. Things to try:
+  <fr:ol><fr:li>Find characterisations for tighter classes of monad containers (i.e. <fr:link
+type="local"
+href="lsd-0003.xml"
+addr="lsd-0003"
+title="Commutative monad containers">commutative</fr:link>, <fr:link
+type="local"
+href="lsd-0004.xml"
+addr="lsd-0004"
+title="All affine monad containers are representable">affine</fr:link>, relevant) and see if this simplifies the distributive law. We have already characterised distributive laws for cartesian monad containers for example.</fr:li>
+    <fr:li>Prove more than just mere existence of distributive laws - use the characterisation to find exactly how many there are for a given pair of monad containers.</fr:li>
+    <fr:li>Over-approximate distributive law requirements to have an easier time with the above. For example, we could consider when the position map <fr:tex
+display="inline"><![CDATA[v]]></fr:tex> is just <fr:tex
+display="inline"><![CDATA[\langle  \pi _2 , \pi _1 \rangle ]]></fr:tex>, which often seems to be the case in simpler examples.</fr:li>
+    <fr:li>Find which algebraic theories correspond to container monads, to tie our work to Maaike Zwart and Dan's work on distributive laws for algebraic theories.</fr:li></fr:ol></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
   <fr:tree
 toc="true"
 numbered="true"
@@ -120,7 +249,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>298</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>382</fr:anchor><fr:addr
 type="user">abt-0001</fr:addr><fr:route>abt-0001.xml</fr:route><fr:title
 text="About this website">About this website</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>This website uses the <fr:link
 type="external"
@@ -150,14 +279,43 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>306</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>392</fr:anchor><fr:addr
+type="user">lsd-0008</fr:addr><fr:route>lsd-0008.xml</fr:route><fr:title
+text="Monad container distributive law">Monad container distributive law</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(S \triangleright  P, \iota ^S, \sigma ^S, \text {pr}^S)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(T \triangleright  Q, \iota ^T, \sigma ^T, \text {pr}^T)]]></fr:tex> be <fr:link
+type="local"
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">monad containers</fr:link>.
+  A distributive law of <fr:tex
+display="inline"><![CDATA[S \triangleright  P]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[T \triangleright  Q]]></fr:tex> is given by the data:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       &u_1 : \prod _{s : S} (P\ s \to  T) \to  T \\       &u_2 : \prod _{s : S} \prod _{f : P\ s \to  T} Q\ (u_1\ s\ f) \to  S \\       &v_1 : \prod _{\{s : S\}} \prod _{\{f : P\ s \to  T\}} \prod _{q : Q\ (u_1\ s\ f)} P\ (u_2\ s\ f\ q) \to  P\ s \\       &v_2 : \prod _{\{s : S\}} \prod _{\{f : P\ s \to  T\}} \prod _{q : Q\ (u_1\ s\ f)} \prod _{p : P\ (u_2\ s\ f\ q)} Q\ (f\ (v_1\ q\ p)) \\     \end {align*}   ]]></fr:tex>
+  where the following equalities hold:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       u\ \iota ^S\ (\lambda  \_ . t) &= (t , \lambda  \_ . \iota ^S)\\       u\ s\ (\lambda  \_. \iota ^T) &= (\iota ^T , \lambda  \_. s)\\       v\ \{\iota ^S\}\ \{\lambda  \_. t\} &= \langle  \pi _2 , \pi _1 \rangle \\       v\ \{s\}\ \{\lambda  \_. \iota ^T\} &= \langle  \pi _2 , \pi _1 \rangle \\       \\        u_1\ (\sigma ^S\ s\ f)\ (g \circ  \text {pr}^S) &= u_1\ s\ (u_1 \circ  \langle  f , g \rangle )\\       u_2\ (\sigma ^S\ s\ f)\ (g \circ  \text {pr}^S) &= \sigma ^S \circ  \langle  u_2\ s\ (u_1 \circ  \langle  f , g \rangle ) , (u_2 \circ  \langle  f , g \rangle ) \circ  v \rangle \\         \text {pr}^S_1\ (v_1\ q\ p) &= v_1\ q\ (\text {pr}^S_1\ p)\\       \text {pr}^S_2\ (v_1\ q\ p) &= v_1\ (v_2\ q\ (\text {pr}^S_1\ p)) \ (\text {pr}^S_2\ p)\\       v_2\ q\ p &= v_2\ (v_2\ q\ (\text {pr}^S_1\ p))\ (\text {pr}^S_2\ p)\\       \\       u_1\ s\ (\sigma ^T \circ  \langle  f , g \rangle ) &= \sigma ^T\ (u_1\ s\ f, u_1 \circ  \langle  u_2\ s\ f , g \circ  v \rangle )\\       u_2\ s\ (\sigma ^T \circ  \langle  f , g \rangle ) &= (u_2 \circ  \langle  u_2\ s\ f , g \circ  v \rangle ) \circ  \text {pr}^T\\       v_1\ (\text {pr}^T_1\ q)\ (v_1\ (\text {pr}^T_2\ q)\ p) &= v_1\ q\ p\\       v_2\ (\text {pr}^T_1\ q)\ (v_1\ (\text {pr}^T_2\ q)\ p) &= \text {pr}^T_1\ (v_2\ q\ p)\\       v_2\ (\text {pr}^T_2\ q)\ p &= \text {pr}^T_2\ (v_2\ q\ p)     \end {align*}   ]]></fr:tex>
+  We use the notation <fr:tex
+display="inline"><![CDATA[\langle  f , g \rangle  := \lambda  x . (f\ x , g\ x)]]></fr:tex>, and liberal use of currying and uncurrying.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>394</fr:anchor><fr:addr
 type="user">lsd-0002</fr:addr><fr:route>lsd-0002.xml</fr:route><fr:title
 text="Monad container">Monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> be a container. A mnd-container (or monad container) on <fr:tex
+display="inline"><![CDATA[S \triangleright  P]]></fr:tex> be a container. A monad container (or mnd-container) on <fr:tex
 display="inline"><![CDATA[S \triangleright  P]]></fr:tex> is
   given by the following data:
   <fr:tex
@@ -170,7 +328,7 @@ display="inline"><![CDATA[\pi _1 \circ  \text {pr}]]></fr:tex> as <fr:tex
 display="inline"><![CDATA[\text {pr}_1]]></fr:tex> and <fr:tex
 display="inline"><![CDATA[\pi _2 \circ  \text {pr}]]></fr:tex> as <fr:tex
 display="inline"><![CDATA[\text {pr}_2]]></fr:tex>. The last three laws
-  hold up the "associativity" law for <fr:tex
+  hold up to the "associativity" law for <fr:tex
 display="inline"><![CDATA[\sigma ]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
@@ -178,10 +336,11 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>308</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>396</fr:anchor><fr:addr
 type="user">stefaniadamato</fr:addr><fr:route>stefaniadamato.xml</fr:route><fr:title
 text="Stefania Damato">Stefania Damato</fr:title><fr:taxon>Person</fr:taxon><fr:authors /><fr:meta
 name="external">https://stefaniatadama.com/</fr:meta><fr:meta
+name="institution">University of Nottingham</fr:meta><fr:meta
 name="position">PhD student</fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
@@ -189,8 +348,9 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>309</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>397</fr:anchor><fr:addr
 type="user">tarmouustalu</fr:addr><fr:route>tarmouustalu.xml</fr:route><fr:title
 text="Tarmo Uustalu">Tarmo Uustalu</fr:title><fr:taxon>Person</fr:taxon><fr:authors /><fr:meta
 name="external">https://cs.ioc.ee/~tarmo/</fr:meta><fr:meta
+name="institution">Reykjavik University</fr:meta><fr:meta
 name="orcid">0000-0002-1297-0579</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Professor at Reykjavik University.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

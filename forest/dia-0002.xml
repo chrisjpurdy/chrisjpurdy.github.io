@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>271</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>345</fr:anchor><fr:addr
 type="user">dia-0002</fr:addr><fr:route>dia-0002.xml</fr:route><fr:title
 text="Diary: UoN research visit, Nov 2024">Diary: UoN research visit, Nov 2024</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -45,21 +45,56 @@ show-metadata="false"
 expanded="true"
 root="false"
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>273</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>347</fr:anchor><fr:addr
 type="user">dia-0001</fr:addr><fr:route>dia-0001.xml</fr:route><fr:title
 text="Research diary">Research diary</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>I was previously using Obsidian for my research diary, but I found it a little heavyweight for
-  what I was using it for: weekly (or fortnightly) notes on what I've been thinking about.</fr:p><fr:p>Being able to "transclude" trees into other ones is one of the reasons I'm using Forester for this. Writing definitions once and then including them as many times as needed seems far better than having to jump between files.</fr:p><fr:p><fr:link
+  what I was using it for: weekly (or fortnightly) notes on what I've been thinking about.</fr:p><fr:p>Being able to "transclude" trees into other ones is another reason why I'm using Forester for this. Writing definitions once and then including them as many times as needed seems far better than having to jump inbetween files.</fr:p><fr:p>Most recent entry:
+  
+  <fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>348</fr:anchor><fr:addr
+type="user">dia-0002</fr:addr><fr:route>dia-0002.xml</fr:route><fr:title
+text="Diary: UoN research visit, Nov 2024">Diary: UoN research visit, Nov 2024</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-href="dia-0002.xml"
-addr="dia-0002"
-title="Diary: UoN research visit, Nov 2024">Most recent entry</fr:link></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+type="local"
+href="dia-0001.xml"
+addr="dia-0001"
+title="Research diary">Previous entry</fr:link>, <fr:link
+type="external"
+href="dia-0003">Next entry</fr:link></fr:p><fr:p>Earlier this week <fr:link
+type="local"
+href="stefaniadamato.xml"
+addr="stefaniadamato"
+title="Stefania Damato">Stef</fr:link> and I were working on the monad container distributive law project. We had a very insightful meeting with Dan Marsden who mentioned (among other things) that we should look for applications for our characterisation. Things to try:
+  <fr:ol><fr:li>Find characterisations for tighter classes of monad containers (i.e. <fr:link
+type="local"
+href="lsd-0003.xml"
+addr="lsd-0003"
+title="Commutative monad containers">commutative</fr:link>, <fr:link
+type="local"
+href="lsd-0004.xml"
+addr="lsd-0004"
+title="All affine monad containers are representable">affine</fr:link>, relevant) and see if this simplifies the distributive law. We have already characterised distributive laws for cartesian monad containers for example.</fr:li>
+    <fr:li>Prove more than just mere existence of distributive laws - use the characterisation to find exactly how many there are for a given pair of monad containers.</fr:li>
+    <fr:li>Over-approximate distributive law requirements to have an easier time with the above. For example, we could consider when the position map <fr:tex
+display="inline"><![CDATA[v]]></fr:tex> is just <fr:tex
+display="inline"><![CDATA[\langle  \pi _2 , \pi _1 \rangle ]]></fr:tex>, which often seems to be the case in simpler examples.</fr:li>
+    <fr:li>Find which algebraic theories correspond to container monads, to tie our work to Maaike Zwart and Dan's work on distributive laws for algebraic theories.</fr:li></fr:ol></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -74,7 +109,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>274</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>350</fr:anchor><fr:addr
 type="user">lsd-0004</fr:addr><fr:route>lsd-0004.xml</fr:route><fr:title
 text="All affine monad containers are representable">All affine monad containers are representable</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -100,7 +135,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>276</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>352</fr:anchor><fr:addr
 type="user">lsd-0003</fr:addr><fr:route>lsd-0003.xml</fr:route><fr:title
 text="Commutative monad containers">Commutative monad containers</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -124,22 +159,58 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>278</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>354</fr:anchor><fr:addr
 type="user">dia-0001</fr:addr><fr:route>dia-0001.xml</fr:route><fr:title
 text="Research diary">Research diary</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>I was previously using Obsidian for my research diary, but I found it a little heavyweight for
-  what I was using it for: weekly (or fortnightly) notes on what I've been thinking about.</fr:p><fr:p>Being able to "transclude" trees into other ones is one of the reasons I'm using Forester for this. Writing definitions once and then including them as many times as needed seems far better than having to jump between files.</fr:p><fr:p><fr:link
+  what I was using it for: weekly (or fortnightly) notes on what I've been thinking about.</fr:p><fr:p>Being able to "transclude" trees into other ones is another reason why I'm using Forester for this. Writing definitions once and then including them as many times as needed seems far better than having to jump inbetween files.</fr:p><fr:p>Most recent entry:
+  
+  <fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>348</fr:anchor><fr:addr
+type="user">dia-0002</fr:addr><fr:route>dia-0002.xml</fr:route><fr:title
+text="Diary: UoN research visit, Nov 2024">Diary: UoN research visit, Nov 2024</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-href="dia-0002.xml"
-addr="dia-0002"
-title="Diary: UoN research visit, Nov 2024">Most recent entry</fr:link></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+type="local"
+href="dia-0001.xml"
+addr="dia-0001"
+title="Research diary">Previous entry</fr:link>, <fr:link
+type="external"
+href="dia-0003">Next entry</fr:link></fr:p><fr:p>Earlier this week <fr:link
+type="local"
+href="stefaniadamato.xml"
+addr="stefaniadamato"
+title="Stefania Damato">Stef</fr:link> and I were working on the monad container distributive law project. We had a very insightful meeting with Dan Marsden who mentioned (among other things) that we should look for applications for our characterisation. Things to try:
+  <fr:ol><fr:li>Find characterisations for tighter classes of monad containers (i.e. <fr:link
+type="local"
+href="lsd-0003.xml"
+addr="lsd-0003"
+title="Commutative monad containers">commutative</fr:link>, <fr:link
+type="local"
+href="lsd-0004.xml"
+addr="lsd-0004"
+title="All affine monad containers are representable">affine</fr:link>, relevant) and see if this simplifies the distributive law. We have already characterised distributive laws for cartesian monad containers for example.</fr:li>
+    <fr:li>Prove more than just mere existence of distributive laws - use the characterisation to find exactly how many there are for a given pair of monad containers.</fr:li>
+    <fr:li>Over-approximate distributive law requirements to have an easier time with the above. For example, we could consider when the position map <fr:tex
+display="inline"><![CDATA[v]]></fr:tex> is just <fr:tex
+display="inline"><![CDATA[\langle  \pi _2 , \pi _1 \rangle ]]></fr:tex>, which often seems to be the case in simpler examples.</fr:li>
+    <fr:li>Find which algebraic theories correspond to container monads, to tie our work to Maaike Zwart and Dan's work on distributive laws for algebraic theories.</fr:li></fr:ol></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>279</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>355</fr:anchor><fr:addr
 type="user">stefaniadamato</fr:addr><fr:route>stefaniadamato.xml</fr:route><fr:title
 text="Stefania Damato">Stefania Damato</fr:title><fr:taxon>Person</fr:taxon><fr:authors /><fr:meta
 name="external">https://stefaniatadama.com/</fr:meta><fr:meta
+name="institution">University of Nottingham</fr:meta><fr:meta
 name="position">PhD student</fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

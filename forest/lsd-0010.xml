@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>287</fr:anchor><fr:addr
+type="user">lsd-0010</fr:addr><fr:route>lsd-0010.xml</fr:route><fr:title
+text="Monad container zoo">Monad container zoo</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Here's a compilation of some classes and specific cases of <fr:link
+type="local"
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">monad containers</fr:link> for reference:
+  <fr:ul><fr:li><fr:link
+type="local"
+href="lsd-0009.xml"
+addr="lsd-0009"
+title="Cartesian monad container">Cartesian</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="lsd-0005.xml"
+addr="lsd-0005"
+title="Idempotent monad containers are almost trivial">Idempotent</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="lsd-0003.xml"
+addr="lsd-0003"
+title="Commutative monad containers">Commutative</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="lsd-0004.xml"
+addr="lsd-0004"
+title="All affine monad containers are representable">Affine</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="lsd-0007.xml"
+addr="lsd-0007"
+title="There is only one representable monad container">Representable</fr:link></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>289</fr:anchor><fr:addr
+type="user">lsd-0001</fr:addr><fr:route>lsd-0001.xml</fr:route><fr:title
+text="Distributive laws of monad containers">Distributive laws of monad containers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Joint work with <fr:link
+type="local"
+href="stefaniadamato.xml"
+addr="stefaniadamato"
+title="Stefania Damato">Stefania Damato</fr:link> on characterising <fr:link
+type="local"
+href="lsd-0008.xml"
+addr="lsd-0008"
+title="Monad container distributive law">distributive laws between monad containers</fr:link>. <fr:link
+type="local"
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">Monad containers</fr:link> were originally characterised by <fr:link
+type="local"
+href="tarmouustalu.xml"
+addr="tarmouustalu"
+title="Tarmo Uustalu">Tarmo Uustalu</fr:link> - these are containers with extra structure such that their interpretation as Set functors are monads.</fr:p><fr:p>This characterisation is useful for enumerating all possible distributive laws between two monad containers, which may help in developing no-go theorems for distributive laws between a larger class of monads.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>283</fr:anchor><fr:addr
+type="user">lsd-0010</fr:addr><fr:route>lsd-0010.xml</fr:route><fr:title
+text="Monad container zoo">Monad container zoo</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Here's a compilation of some classes and specific cases of <fr:link
+type="local"
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">monad containers</fr:link> for reference:
+  <fr:ul><fr:li><fr:link
+type="local"
+href="lsd-0009.xml"
+addr="lsd-0009"
+title="Cartesian monad container">Cartesian</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="lsd-0005.xml"
+addr="lsd-0005"
+title="Idempotent monad containers are almost trivial">Idempotent</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="lsd-0003.xml"
+addr="lsd-0003"
+title="Commutative monad containers">Commutative</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="lsd-0004.xml"
+addr="lsd-0004"
+title="All affine monad containers are representable">Affine</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="lsd-0007.xml"
+addr="lsd-0007"
+title="There is only one representable monad container">Representable</fr:link></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>291</fr:anchor><fr:addr
+type="user">lsd-0009</fr:addr><fr:route>lsd-0009.xml</fr:route><fr:title
+text="Cartesian monad container">Cartesian monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(S \triangleright  P, \iota , \sigma , \text {pr})]]></fr:tex> be a <fr:link
+type="local"
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">monad containers</fr:link>. It is cartesian
+  iff <fr:tex
+display="inline"><![CDATA[P\ \iota  \cong  1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\text {pr}]]></fr:tex> is an isomorphism. This is equivalent to saying that the
+  extension of the monad container is a cartesian monad (container functors always preserve pullbacks).</fr:p><fr:p>These can also be seen as proper <fr:tex
+display="inline"><![CDATA[(1,\Sigma )]]></fr:tex> type universes (Tarski-style).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>293</fr:anchor><fr:addr
+type="user">lsd-0005</fr:addr><fr:route>lsd-0005.xml</fr:route><fr:title
+text="Idempotent monad containers are almost trivial">Idempotent monad containers are almost trivial</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A monad <fr:tex
+display="inline"><![CDATA[T]]></fr:tex> is idempotent when <fr:tex
+display="inline"><![CDATA[T \eta  = \eta  T]]></fr:tex>, which for <fr:link
+type="local"
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">monad containers</fr:link> immediately gives us <fr:tex
+display="inline"><![CDATA[\iota  = s]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[s : S]]></fr:tex>, and hence <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is contractible.</fr:p><fr:p>Another equivalent condition for a monad <fr:tex
+display="inline"><![CDATA[T]]></fr:tex> to be idempotent is that <fr:tex
+display="inline"><![CDATA[\text {Id}]]></fr:tex> is a distributive law <fr:tex
+display="inline"><![CDATA[TT \Rightarrow  TT]]></fr:tex>. For <fr:link
+type="local"
+href="lsd-0008.xml"
+addr="lsd-0008"
+title="Monad container distributive law">monad container distributive laws</fr:link> this implies futher that all positions are equal, so the set <fr:tex
+display="inline"><![CDATA[P\ \iota ]]></fr:tex> is subsingleton.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>295</fr:anchor><fr:addr
+type="user">lsd-0007</fr:addr><fr:route>lsd-0007.xml</fr:route><fr:title
+text="There is only one representable monad container">There is only one representable monad container</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given the container <fr:tex
+display="inline"><![CDATA[1 \triangleright  \lambda  \_ . A]]></fr:tex>, we look at the required data for a <fr:link
+type="local"
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">monad container</fr:link>. <fr:tex
+display="inline"><![CDATA[\iota ]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\sigma \ a\ b]]></fr:tex> are trival (both are elements of <fr:tex
+display="inline"><![CDATA[1]]></fr:tex>). The equations for <fr:tex
+display="inline"><![CDATA[\text {pr}]]></fr:tex> force it to be defined as the diagonal map:
+  <fr:tex
+display="block"><![CDATA[     \text {pr}\ a := (a , a)   ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>297</fr:anchor><fr:addr
+type="user">lsd-0004</fr:addr><fr:route>lsd-0004.xml</fr:route><fr:title
+text="All affine monad containers are representable">All affine monad containers are representable</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(S \triangleright  P, \iota , \sigma , \text {pr})]]></fr:tex> be a <fr:link
+type="local"
+href="lsd-0003.xml"
+addr="lsd-0003"
+title="Commutative monad containers">commutative monad container</fr:link>. By taking the categorical definition of affine monads and specialising it to monad container extensions, we get for all <fr:tex
+display="inline"><![CDATA[a, b : S]]></fr:tex> the equation:
+  <fr:tex
+display="block"><![CDATA[     \sigma \ a\ (\lambda  \_ . b) = a   ]]></fr:tex>
+  Since we have a point <fr:tex
+display="inline"><![CDATA[\iota  : S]]></fr:tex>, we can conclude that <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is contractible. Hence we have that <fr:tex
+display="inline"><![CDATA[S \triangleright  P]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[1 \triangleright  \lambda  \_ . P\ \iota ]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>299</fr:anchor><fr:addr
+type="user">lsd-0003</fr:addr><fr:route>lsd-0003.xml</fr:route><fr:title
+text="Commutative monad containers">Commutative monad containers</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(S \triangleright  P, \iota , \sigma , \text {pr})]]></fr:tex> be a <fr:link
+type="local"
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">monad container</fr:link>. We call the monad container
+  commutative when the following laws hold:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       \sigma \ a\ (\lambda  \_ . b) &= \sigma \ b\ (\lambda  \_ . a)\\       \text {pr}_1\ p &= \text {pr}_2\ p\\       \text {pr}_2\ p &= \text {pr}_1\ p     \end {align*}   ]]></fr:tex>
+  The laws for <fr:tex
+display="inline"><![CDATA[\text {pr}]]></fr:tex> hold given the first law. Commutative monad containers interpret exactly
+  the commutative monads for container functors.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>301</fr:anchor><fr:addr
+type="user">lsd-0002</fr:addr><fr:route>lsd-0002.xml</fr:route><fr:title
+text="Monad container">Monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S \triangleright  P]]></fr:tex> be a container. A monad container (or mnd-container) on <fr:tex
+display="inline"><![CDATA[S \triangleright  P]]></fr:tex> is
+  given by the following data:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       \iota  &: S\\       \sigma  &: \prod _{s : S} (P\ s \to  S) \to  S\\       \text {pr} &: \prod _{\{s : S\}} \prod _{\{f : P\ s \to  S\}} P\ (\sigma \ s\ f) \to  \sum _{p : P\ s} P\ (f\ p)     \end {align*}   ]]></fr:tex>
+  For which the following laws hold:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       \sigma \ \iota \ (\lambda  \_ . a ) &= a\\       \sigma \ a\ (\lambda  \_ . \iota  ) &= a\\       \sigma \ (\sigma \ a\ f)\ (\lambda  p . g\ (\text {pr}_1\ p)\ (\text {pr}_2\ p)) &= \sigma \ a\ (\lambda  p . \sigma \ (f\ p)\ (g\ p))\\       \text {pr}_1\ (\text {pr}_1\ p) &= \text {pr}_1\ p\\       \text {pr}_1\ (\text {pr}_2\ p) &= \text {pr}_2\ (\text {pr}_1\ p)\\       \text {pr}_2\ p &= \text {pr}_2\ (\text {pr}_2\ p)     \end {align*}   ]]></fr:tex>
+  We abbreviate <fr:tex
+display="inline"><![CDATA[\pi _1 \circ  \text {pr}]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[\text {pr}_1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\pi _2 \circ  \text {pr}]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[\text {pr}_2]]></fr:tex>. The last three laws
+  hold up to the "associativity" law for <fr:tex
+display="inline"><![CDATA[\sigma ]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
