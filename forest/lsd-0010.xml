@@ -172,7 +172,7 @@ text="Maybe monad container">Maybe monad container</fr:title><fr:taxon>Definitio
 type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
-title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The Maybe monad can be represented as the cartesian monad container <fr:tex
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The Maybe monad can be represented as the monad container <fr:tex
 display="inline"><![CDATA[2 \triangleright  T]]></fr:tex> where
   <fr:tex
 display="inline"><![CDATA[T\ \text {true} := 1]]></fr:tex>, <fr:tex
