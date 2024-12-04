@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>257</fr:anchor><fr:addr
+type="user">lsd-0012</fr:addr><fr:route>lsd-0012.xml</fr:route><fr:title
+text="State monad container">State monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The State functor for some set of states <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> can be represented by the container <fr:tex
+display="inline"><![CDATA[S \to  S \triangleright  \lambda  \_ . S]]></fr:tex>, which can be extended to a monad container with the data:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       \iota  &:= \lambda  x . x\\       \sigma \ f\ g &:= \lambda  s . g\ s\ (f\ s)\\       \text {pr}\ \{f\}\ \{g\}\ s &:= (s , f\ s)     \end {align*}   ]]></fr:tex>
+  It is not cartesian for general <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>.</fr:p><fr:p>Interestingly it seems to consist of the combinators <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> (a version with flipped arguments) and <fr:tex
+display="inline"><![CDATA[I]]></fr:tex>. Is there some deeper connection to combinatory logic here?</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>259</fr:anchor><fr:addr
+type="user">lsd-0013</fr:addr><fr:route>lsd-0013.xml</fr:route><fr:title
+text="Reverse State monad container">Reverse State monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The Reverse State monad for some set of states <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> can be represented by the monad container <fr:tex
+display="inline"><![CDATA[S \to  S \triangleright  \lambda  \_ . S]]></fr:tex> with the data:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       \iota  &:= \lambda  x . x\\       \sigma \ f\ g &:= \lambda  s . f\ (\pi _2\ (g^\infty \ s))\\       \text {pr}\ \{f\}\ \{g\}\ s &:= (s , \pi _1\ (g^\infty \ s))     \end {align*}   ]]></fr:tex>
+  Where we use the notation:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       -^\infty  &: (S \to  S \to  S) \to  S \to  S\\       f^\infty \ s &:= \text {fix}\ (f' , s'') . (f\ s'', f'\ s)     \end {align*}   ]]></fr:tex>
+  This is only definable in a theory with unrestricted fixed points; <fr:tex
+display="inline"><![CDATA[f^\infty ]]></fr:tex> may be undefined.<html:br
+xmlns:html="http://www.w3.org/1999/xhtml" />
+  <html:mark
+xmlns:html="http://www.w3.org/1999/xhtml">TODO: Double check the definition of <fr:tex
+display="inline"><![CDATA[\text {pr}]]></fr:tex> (in particular the second projection) and prove the laws - the unit laws hold at least, and associativity looks plausible</html:mark></fr:p><fr:p>It might be possible to change the type of the shapes to some <fr:tex
+display="inline"><![CDATA[M]]></fr:tex>-type to allow for this monad container to be definable in MLTT for example.</fr:p><fr:p>A random unorganised thought: since there seems to be some connection between the <fr:link
+type="local"
+href="lsd-0012.xml"
+addr="lsd-0012"
+title="State monad container">State monad container</fr:link> and the <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>(<fr:tex
+display="inline"><![CDATA[K]]></fr:tex>?)<fr:tex
+display="inline"><![CDATA[I]]></fr:tex> combinator calculus, maybe <fr:tex
+display="inline"><![CDATA[\sigma ]]></fr:tex> here can act as different interpretation of the <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> combinator?</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>261</fr:anchor><fr:addr
+type="user">lsd-0010</fr:addr><fr:route>lsd-0010.xml</fr:route><fr:title
+text="Monad container zoo">Monad container zoo</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Here's a compilation of <fr:link
+type="local"
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">monad container</fr:link> examples for reference.</fr:p><fr:p>Classes:
+  <fr:ul><fr:li><fr:link
+type="local"
+href="lsd-0009.xml"
+addr="lsd-0009"
+title="Cartesian monad container">Cartesian</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="lsd-0005.xml"
+addr="lsd-0005"
+title="Idempotent monad containers are almost trivial">Idempotent</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="lsd-0003.xml"
+addr="lsd-0003"
+title="Commutative monad containers">Commutative</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="lsd-0004.xml"
+addr="lsd-0004"
+title="All affine monad containers are representable">Affine</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="lsd-0007.xml"
+addr="lsd-0007"
+title="There is only one representable monad container">Representable</fr:link></fr:li></fr:ul></fr:p><fr:p>Specific monad containers:
+  <fr:ul><fr:li><fr:link
+type="local"
+href="lsd-0011.xml"
+addr="lsd-0011"
+title="Maybe monad container">Maybe</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="lsd-0012.xml"
+addr="lsd-0012"
+title="State monad container">State</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="lsd-0013.xml"
+addr="lsd-0013"
+title="Reverse State monad container">Reverse State</fr:link> - just a curiosity, only definable in a theory with unrestricted fixed points</fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
