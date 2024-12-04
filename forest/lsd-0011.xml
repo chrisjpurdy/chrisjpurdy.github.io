@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>257</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>259</fr:anchor><fr:addr
 type="user">lsd-0011</fr:addr><fr:route>lsd-0011.xml</fr:route><fr:title
 text="Maybe monad container">Maybe monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -39,7 +39,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>259</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>261</fr:anchor><fr:addr
 type="user">lsd-0010</fr:addr><fr:route>lsd-0010.xml</fr:route><fr:title
 text="Monad container zoo">Monad container zoo</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -123,7 +123,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>261</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>263</fr:anchor><fr:addr
 type="user">lsd-0016</fr:addr><fr:route>lsd-0016.xml</fr:route><fr:title
 text="Coproduct monad container">Coproduct monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -138,5 +138,11 @@ display="inline"><![CDATA[T\ (\text {inr}\ \_) := 0]]></fr:tex> and:
   <fr:tex
 display="block"><![CDATA[     \begin {align*}       \iota  &:= \text {inl}\ *\\       \sigma \ (\text {inl}\ *)\ f &:= f\ *\\       \sigma \ (\text {inr}\ e)\ f &:= \text {inr}\ e\\       \text {pr}\ * &:= (* , *)     \end {align*}   ]]></fr:tex>
   This is the unique monad container structure that you can give the container <fr:tex
-display="inline"><![CDATA[1 + E \triangleright  T]]></fr:tex>. This also happens to be a cartesian monad container. <fr:tex
+display="inline"><![CDATA[1 + E \triangleright  T]]></fr:tex> <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="link-reference"><fr:link
+type="local"
+href="uustalu2017.xml"
+addr="uustalu2017"
+title="Container Combinatorics: Monads and Lax Monoidal Functors">[uustalu2017]</fr:link></html:span>. This also happens to be a cartesian monad container. <fr:tex
 display="inline"><![CDATA[\text {pr}]]></fr:tex> is well-defined up to function extensionality by induction on its implicit arguments.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

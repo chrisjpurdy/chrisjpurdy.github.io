@@ -22,8 +22,49 @@ display="inline"><![CDATA[T\ (\text {inr}\ \_) := 0]]></fr:tex> and:
   <fr:tex
 display="block"><![CDATA[     \begin {align*}       \iota  &:= \text {inl}\ *\\       \sigma \ (\text {inl}\ *)\ f &:= f\ *\\       \sigma \ (\text {inr}\ e)\ f &:= \text {inr}\ e\\       \text {pr}\ * &:= (* , *)     \end {align*}   ]]></fr:tex>
   This is the unique monad container structure that you can give the container <fr:tex
-display="inline"><![CDATA[1 + E \triangleright  T]]></fr:tex>. This also happens to be a cartesian monad container. <fr:tex
+display="inline"><![CDATA[1 + E \triangleright  T]]></fr:tex> <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="link-reference"><fr:link
+type="local"
+href="uustalu2017.xml"
+addr="uustalu2017"
+title="Container Combinatorics: Monads and Lax Monoidal Functors">[uustalu2017]</fr:link></html:span>. This also happens to be a cartesian monad container. <fr:tex
 display="inline"><![CDATA[\text {pr}]]></fr:tex> is well-defined up to function extensionality by induction on its implicit arguments.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="References">References</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>249</fr:anchor><fr:addr
+type="user">uustalu2017</fr:addr><fr:route>uustalu2017.xml</fr:route><fr:title
+text="Container Combinatorics: Monads and Lax Monoidal Functors">Container Combinatorics: Monads and Lax Monoidal Functors</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2017</fr:year></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="tarmouustalu.xml"
+addr="tarmouustalu"
+title="Tarmo Uustalu">Tarmo Uustalu</fr:link></fr:author></fr:authors><fr:meta
+name="bibtex"><![CDATA[@inproceedings{
+  Uustalu_2017, 
+  address={Cham}, 
+  title={Container Combinatorics: Monads and Lax Monoidal Functors}, 
+  ISBN={978-3-319-68953-1}, DOI={10.1007/978-3-319-68953-1_8}, 
+  abstractNote={Abbott et al.’s containers are a “syntax” for a wide class of set functors in terms of shapes and positions. Containers whose “denotation” carries a comonad structure can be characterized as directed containers, or containers where a shape and a position in it determine another shape, intuitively a subshape of this shape rooted by this position. In this paper, we develop similar explicit characterizations for container functors with a monad structure and container functors with a lax monoidal functor structure as well as some variations. We argue that this type of characterizations make a tool, e.g., for enumerating the monad structures or lax monoidal functors that some set functor admits. Such explorations are of interest, e.g., in the semantics of effectful functional programming languages.}, 
+  booktitle={Topics in Theoretical Computer Science}, 
+  publisher={Springer International Publishing}, 
+  author={Uustalu, Tarmo}, 
+  editor={Mousavi, Mohammad Reza and Sgall, Jiří}, 
+  year={2017}, 
+  pages={91–105}, 
+  language={en} 
+}]]></fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -38,7 +79,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>249</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>251</fr:anchor><fr:addr
 type="user">lsd-0011</fr:addr><fr:route>lsd-0011.xml</fr:route><fr:title
 text="Maybe monad container">Maybe monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -62,7 +103,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>251</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>253</fr:anchor><fr:addr
 type="user">lsd-0010</fr:addr><fr:route>lsd-0010.xml</fr:route><fr:title
 text="Monad container zoo">Monad container zoo</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
