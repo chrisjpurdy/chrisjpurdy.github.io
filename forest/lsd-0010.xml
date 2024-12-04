@@ -283,7 +283,7 @@ title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatt
 display="inline"><![CDATA[S]]></fr:tex> can be represented by the monad container <fr:tex
 display="inline"><![CDATA[S \to  S \triangleright  \lambda  \_ . S]]></fr:tex> with the data:
   <fr:tex
-display="block"><![CDATA[     \begin {align*}       \iota  &:= \lambda  x . x\\       \sigma \ f\ g &:= \lambda  s . f\ (\pi _2\ (g^\circlearrowright \ s))\\       \text {pr}\ \{f\}\ \{g\}\ s &:= (\pi _1\ (g^\circlearrowright \ s) , s)     \end {align*}   ]]></fr:tex>
+display="block"><![CDATA[     \begin {align*}       \iota  &:= \lambda  x . x\\       \sigma \ f\ g &:= \lambda  s . f\ (\pi _2\ (g^\circlearrowright \ s))\\       \text {pr}\ \{f\}\ \{g\}\ s &:= (\pi _2\ (g^\circlearrowright \ s) , s)     \end {align*}   ]]></fr:tex>
   Where we use the notation:
   <fr:tex
 display="block"><![CDATA[     \begin {align*}       -^\circlearrowright  &: (S \to  S \to  S) \to  S \to  S\\       f^\circlearrowright \ s &:= \text {fix}\ (f' , s'') . (f\ s'', f'\ s)     \end {align*}   ]]></fr:tex>
