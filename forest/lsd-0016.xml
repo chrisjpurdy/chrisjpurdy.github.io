@@ -7,7 +7,38 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>257</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>247</fr:anchor><fr:addr
+type="user">lsd-0016</fr:addr><fr:route>lsd-0016.xml</fr:route><fr:title
+text="Coproduct monad container">Coproduct monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The Coproduct monad for a set <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> is given by the data <fr:tex
+display="inline"><![CDATA[1 + E \triangleright  T]]></fr:tex> where
+  <fr:tex
+display="inline"><![CDATA[T\ (\text {inl}\ *) := 1]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[T\ (\text {inr}\ \_) := 0]]></fr:tex> and:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       \iota  &:= \text {inl}\ *\\       \sigma \ (\text {inl}\ *)\ f &:= f\ *\\       \sigma \ (\text {inr}\ e)\ f &:= \text {inr}\ e\\       \text {pr}\ * &:= (* , *)     \end {align*}   ]]></fr:tex>
+  This is the unique monad container structure that you can give the container <fr:tex
+display="inline"><![CDATA[1 + E \triangleright  T]]></fr:tex>. This also happens to be a cartesian monad container. <fr:tex
+display="inline"><![CDATA[\text {pr}]]></fr:tex> is well-defined up to function extensionality by induction on its implicit arguments.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>249</fr:anchor><fr:addr
 type="user">lsd-0011</fr:addr><fr:route>lsd-0011.xml</fr:route><fr:title
 text="Maybe monad container">Maybe monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -24,22 +55,14 @@ display="block"><![CDATA[     \begin {align*}       \iota  &:= \text {true}\\   
 type="local"
 href="lsd-0016.xml"
 addr="lsd-0016"
-title="Coproduct monad container">Coproduct monad container</fr:link>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+title="Coproduct monad container">Coproduct monad container</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>259</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>251</fr:anchor><fr:addr
 type="user">lsd-0010</fr:addr><fr:route>lsd-0010.xml</fr:route><fr:title
 text="Monad container zoo">Monad container zoo</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -108,35 +131,4 @@ title="Reverse State monad container">Reverse State</fr:link> - just a curiosity
     <fr:li><html:mark
 xmlns:html="http://www.w3.org/1999/xhtml">TODO: Update</html:mark></fr:li>
     <fr:li><html:mark
-xmlns:html="http://www.w3.org/1999/xhtml">TODO: Free</html:mark></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>261</fr:anchor><fr:addr
-type="user">lsd-0016</fr:addr><fr:route>lsd-0016.xml</fr:route><fr:title
-text="Coproduct monad container">Coproduct monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="chrisjpurdy.xml"
-addr="chrisjpurdy"
-title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The Coproduct monad for a set <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> is given by the data <fr:tex
-display="inline"><![CDATA[1 + E \triangleright  T]]></fr:tex> where
-  <fr:tex
-display="inline"><![CDATA[T\ (\text {inl}\ *) := 1]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[T\ (\text {inr}\ \_) := 0]]></fr:tex> and:
-  <fr:tex
-display="block"><![CDATA[     \begin {align*}       \iota  &:= \text {inl}\ *\\       \sigma \ (\text {inl}\ *)\ f &:= f\ *\\       \sigma \ (\text {inr}\ e)\ f &:= \text {inr}\ e\\       \text {pr}\ * &:= (* , *)     \end {align*}   ]]></fr:tex>
-  This is the unique monad container structure that you can give the container <fr:tex
-display="inline"><![CDATA[1 + E \triangleright  T]]></fr:tex>. This also happens to be a cartesian monad container. <fr:tex
-display="inline"><![CDATA[\text {pr}]]></fr:tex> is well-defined up to function extensionality by induction on its implicit arguments.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+xmlns:html="http://www.w3.org/1999/xhtml">TODO: Free</html:mark></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

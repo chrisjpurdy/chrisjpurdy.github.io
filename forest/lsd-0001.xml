@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>411</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>433</fr:anchor><fr:addr
 type="user">lsd-0001</fr:addr><fr:route>lsd-0001.xml</fr:route><fr:title
 text="Distributive laws of monad containers">Distributive laws of monad containers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -36,7 +36,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>299</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>315</fr:anchor><fr:addr
 type="user">lsd-0010</fr:addr><fr:route>lsd-0010.xml</fr:route><fr:title
 text="Monad container zoo">Monad container zoo</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -46,7 +46,7 @@ title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatt
 type="local"
 href="lsd-0002.xml"
 addr="lsd-0002"
-title="Monad container">monad container</fr:link> examples for reference.</fr:p><fr:p>Classes:
+title="Monad container">monad container</fr:link> examples for reference.</fr:p><fr:p>Properties/classes:
   <fr:ul><fr:li><fr:link
 type="local"
 href="lsd-0009.xml"
@@ -66,17 +66,32 @@ title="Commutative monad containers">Commutative</fr:link></fr:li>
 type="local"
 href="lsd-0004.xml"
 addr="lsd-0004"
-title="All affine monad containers are representable">Affine</fr:link></fr:li>
-    <fr:li><fr:link
+title="All affine monad containers are representable">Affine</fr:link></fr:li></fr:ul></fr:p><fr:p>"Specific" monad containers:
+  <fr:ul><fr:li><fr:link
 type="local"
 href="lsd-0007.xml"
 addr="lsd-0007"
-title="There is only one representable monad container">Representable</fr:link></fr:li></fr:ul></fr:p><fr:p>Specific monad containers:
-  <fr:ul><fr:li><fr:link
+title="There is only one representable monad container">Representable</fr:link></fr:li>
+    <fr:li><fr:link
 type="local"
 href="lsd-0011.xml"
 addr="lsd-0011"
 title="Maybe monad container">Maybe</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="lsd-0015.xml"
+addr="lsd-0015"
+title="Writer monad container">Writer</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="lsd-0016.xml"
+addr="lsd-0016"
+title="Coproduct monad container">Coproduct</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="lsd-0014.xml"
+addr="lsd-0014"
+title="List monad container">List</fr:link></fr:li>
     <fr:li><fr:link
 type="local"
 href="lsd-0012.xml"
@@ -86,7 +101,11 @@ title="State monad container">State</fr:link></fr:li>
 type="local"
 href="lsd-0013.xml"
 addr="lsd-0013"
-title="Reverse State monad container">Reverse State</fr:link> - just a curiosity, only definable in a theory with unrestricted fixed points</fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter><fr:tree
+title="Reverse State monad container">Reverse State</fr:link> - just a curiosity, only definable in a theory with unrestricted fixed points</fr:li>
+    <fr:li><html:mark
+xmlns:html="http://www.w3.org/1999/xhtml">TODO: Update</html:mark></fr:li>
+    <fr:li><html:mark
+xmlns:html="http://www.w3.org/1999/xhtml">TODO: Free</html:mark></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -101,7 +120,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>413</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>435</fr:anchor><fr:addr
 type="user">index</fr:addr><fr:route>index.xml</fr:route><fr:title
 text="Chris Purdy">Chris Purdy</fr:title><fr:authors /><fr:meta
 name="comments">true</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>I am a PhD student at Royal Holloway, University of London researching programming language semantics via cyclic proof theory, type theory, and category theory.
@@ -114,7 +133,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>399</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>421</fr:anchor><fr:addr
 type="user">mhe-0001</fr:addr><fr:route>mhe-0001.xml</fr:route><fr:title
 text="HOL^{ex}"><fr:tex
 display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
@@ -140,7 +159,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>401</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>423</fr:anchor><fr:addr
 type="user">lsd-0001</fr:addr><fr:route>lsd-0001.xml</fr:route><fr:title
 text="Distributive laws of monad containers">Distributive laws of monad containers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -169,7 +188,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>299</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>315</fr:anchor><fr:addr
 type="user">lsd-0010</fr:addr><fr:route>lsd-0010.xml</fr:route><fr:title
 text="Monad container zoo">Monad container zoo</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -179,7 +198,7 @@ title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatt
 type="local"
 href="lsd-0002.xml"
 addr="lsd-0002"
-title="Monad container">monad container</fr:link> examples for reference.</fr:p><fr:p>Classes:
+title="Monad container">monad container</fr:link> examples for reference.</fr:p><fr:p>Properties/classes:
   <fr:ul><fr:li><fr:link
 type="local"
 href="lsd-0009.xml"
@@ -199,17 +218,32 @@ title="Commutative monad containers">Commutative</fr:link></fr:li>
 type="local"
 href="lsd-0004.xml"
 addr="lsd-0004"
-title="All affine monad containers are representable">Affine</fr:link></fr:li>
-    <fr:li><fr:link
+title="All affine monad containers are representable">Affine</fr:link></fr:li></fr:ul></fr:p><fr:p>"Specific" monad containers:
+  <fr:ul><fr:li><fr:link
 type="local"
 href="lsd-0007.xml"
 addr="lsd-0007"
-title="There is only one representable monad container">Representable</fr:link></fr:li></fr:ul></fr:p><fr:p>Specific monad containers:
-  <fr:ul><fr:li><fr:link
+title="There is only one representable monad container">Representable</fr:link></fr:li>
+    <fr:li><fr:link
 type="local"
 href="lsd-0011.xml"
 addr="lsd-0011"
 title="Maybe monad container">Maybe</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="lsd-0015.xml"
+addr="lsd-0015"
+title="Writer monad container">Writer</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="lsd-0016.xml"
+addr="lsd-0016"
+title="Coproduct monad container">Coproduct</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="lsd-0014.xml"
+addr="lsd-0014"
+title="List monad container">List</fr:link></fr:li>
     <fr:li><fr:link
 type="local"
 href="lsd-0012.xml"
@@ -219,7 +253,11 @@ title="State monad container">State</fr:link></fr:li>
 type="local"
 href="lsd-0013.xml"
 addr="lsd-0013"
-title="Reverse State monad container">Reverse State</fr:link> - just a curiosity, only definable in a theory with unrestricted fixed points</fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Reverse State monad container">Reverse State</fr:link> - just a curiosity, only definable in a theory with unrestricted fixed points</fr:li>
+    <fr:li><html:mark
+xmlns:html="http://www.w3.org/1999/xhtml">TODO: Update</html:mark></fr:li>
+    <fr:li><html:mark
+xmlns:html="http://www.w3.org/1999/xhtml">TODO: Free</html:mark></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree>
   
 
   <fr:tree
@@ -229,7 +267,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>403</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>425</fr:anchor><fr:addr
 type="user">dia-0001</fr:addr><fr:route>dia-0001.xml</fr:route><fr:title
 text="Research diary">Research diary</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>I was previously using Obsidian for my research diary, but I found it a little heavyweight for
   what I was using it for: weekly (or fortnightly) notes on what I've been thinking about.</fr:p><fr:p>Being able to "transclude" trees into other ones is another reason why I'm using Forester for this. Writing definitions once and then including them as many times as needed seems far better than having to jump inbetween files.</fr:p><fr:p>Most recent entry:
@@ -241,7 +279,7 @@ show-heading="true"
 show-metadata="false"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>370</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>392</fr:anchor><fr:addr
 type="user">dia-0002</fr:addr><fr:route>dia-0002.xml</fr:route><fr:title
 text="Diary: UoN research visit, Nov 2024">Diary: UoN research visit, Nov 2024</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -279,7 +317,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>404</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>426</fr:anchor><fr:addr
 type="user">abt-0001</fr:addr><fr:route>abt-0001.xml</fr:route><fr:title
 text="About this website">About this website</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>This website uses the <fr:link
 type="external"
@@ -309,7 +347,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>414</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>436</fr:anchor><fr:addr
 type="user">lsd-0008</fr:addr><fr:route>lsd-0008.xml</fr:route><fr:title
 text="Monad container distributive law">Monad container distributive law</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -338,7 +376,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>416</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>438</fr:anchor><fr:addr
 type="user">lsd-0002</fr:addr><fr:route>lsd-0002.xml</fr:route><fr:title
 text="Monad container">Monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -366,7 +404,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>418</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>440</fr:anchor><fr:addr
 type="user">stefaniadamato</fr:addr><fr:route>stefaniadamato.xml</fr:route><fr:title
 text="Stefania Damato">Stefania Damato</fr:title><fr:taxon>Person</fr:taxon><fr:authors /><fr:meta
 name="external">https://stefaniatadama.com/</fr:meta><fr:meta
@@ -378,7 +416,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>419</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>441</fr:anchor><fr:addr
 type="user">tarmouustalu</fr:addr><fr:route>tarmouustalu.xml</fr:route><fr:title
 text="Tarmo Uustalu">Tarmo Uustalu</fr:title><fr:taxon>Person</fr:taxon><fr:authors /><fr:meta
 name="external">https://cs.ioc.ee/~tarmo/</fr:meta><fr:meta
