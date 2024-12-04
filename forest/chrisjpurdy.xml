@@ -147,7 +147,7 @@ display="inline"><![CDATA[S \to  S \triangleright  \lambda  \_ . S]]></fr:tex> w
 display="block"><![CDATA[     \begin {align*}       \iota  &:= \lambda  x . x\\       \sigma \ f\ g &:= \lambda  s . f\ (\pi _2\ (g^\circlearrowright \ s))\\       \text {pr}\ \{f\}\ \{g\}\ s &:= (\pi _2\ (g^\circlearrowright \ s) , s)     \end {align*}   ]]></fr:tex>
   Where we use the notation:
   <fr:tex
-display="block"><![CDATA[     \begin {align*}       -^\circlearrowright  &: (S \to  S \to  S) \to  (S \to  S) \times  S\\       f^\circlearrowright \ s &:= \text {fix}\ (f' , s'') . (f\ s'', f'\ s)     \end {align*}   ]]></fr:tex>
+display="block"><![CDATA[     \begin {align*}       -^\circlearrowright  &: (S \to  S \to  S) \to  S \to  (S \to  S) \times  S\\       f^\circlearrowright \ s &:= \text {fix}\ (f' , s'') . (f\ s'', f'\ s)     \end {align*}   ]]></fr:tex>
   This is only definable in a theory with unrestricted fixed points; <fr:tex
 display="inline"><![CDATA[f^\circlearrowright ]]></fr:tex> may be undefined.<html:br
 xmlns:html="http://www.w3.org/1999/xhtml" />
