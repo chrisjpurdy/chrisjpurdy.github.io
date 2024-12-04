@@ -7,13 +7,17 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>279</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>339</fr:anchor><fr:addr
 type="user">lsd-0015</fr:addr><fr:route>lsd-0015.xml</fr:route><fr:title
 text="Writer monad container">Writer monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
-title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The Writer monad container for a monoid <fr:tex
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The Writer <fr:link
+type="local"
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">monad container</fr:link> for a monoid <fr:tex
 display="inline"><![CDATA[(A, \otimes , e)]]></fr:tex> is given by the data <fr:tex
 display="inline"><![CDATA[A \triangleright  \lambda  \_ . 1]]></fr:tex> and:
   <fr:tex
@@ -32,7 +36,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>281</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>341</fr:anchor><fr:addr
 type="user">lsd-0010</fr:addr><fr:route>lsd-0010.xml</fr:route><fr:title
 text="Monad container zoo">Monad container zoo</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -101,4 +105,46 @@ title="Reverse State monad container">Reverse State</fr:link> - just a curiosity
     <fr:li><html:mark
 xmlns:html="http://www.w3.org/1999/xhtml">TODO: Update</html:mark></fr:li>
     <fr:li><html:mark
-xmlns:html="http://www.w3.org/1999/xhtml">TODO: Free</html:mark></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+xmlns:html="http://www.w3.org/1999/xhtml">TODO: Free</html:mark></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>343</fr:anchor><fr:addr
+type="user">lsd-0002</fr:addr><fr:route>lsd-0002.xml</fr:route><fr:title
+text="Monad container">Monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S \triangleright  P]]></fr:tex> be a container. A monad container (or mnd-container) <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="link-reference"><fr:link
+type="local"
+href="uustalu2017.xml"
+addr="uustalu2017"
+title="Container Combinatorics: Monads and Lax Monoidal Functors">[uustalu2017]</fr:link></html:span> on <fr:tex
+display="inline"><![CDATA[S \triangleright  P]]></fr:tex> is
+  given by the following data:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       \iota  &: S\\       \sigma  &: \prod _{s : S} (P\ s \to  S) \to  S\\       \text {pr} &: \prod _{\{s : S\}} \prod _{\{f : P\ s \to  S\}} P\ (\sigma \ s\ f) \to  \sum _{p : P\ s} P\ (f\ p)     \end {align*}   ]]></fr:tex>
+  For which the following laws hold:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       \sigma \ \iota \ (\lambda  \_ . a ) &= a\\       \sigma \ a\ (\lambda  \_ . \iota  ) &= a\\       \sigma \ (\sigma \ a\ f)\ (\lambda  p . g\ (\text {pr}_1\ p)\ (\text {pr}_2\ p)) &= \sigma \ a\ (\lambda  p . \sigma \ (f\ p)\ (g\ p))\\       \text {pr}_1\ (\text {pr}_1\ p) &= \text {pr}_1\ p\\       \text {pr}_1\ (\text {pr}_2\ p) &= \text {pr}_2\ (\text {pr}_1\ p)\\       \text {pr}_2\ p &= \text {pr}_2\ (\text {pr}_2\ p)     \end {align*}   ]]></fr:tex>
+  We abbreviate <fr:tex
+display="inline"><![CDATA[\pi _1 \circ  \text {pr}]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[\text {pr}_1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\pi _2 \circ  \text {pr}]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[\text {pr}_2]]></fr:tex>. The last three laws
+  hold up to the "associativity" law for <fr:tex
+display="inline"><![CDATA[\sigma ]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

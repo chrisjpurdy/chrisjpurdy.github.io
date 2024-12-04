@@ -7,19 +7,18 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>452</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>535</fr:anchor><fr:addr
 type="user">uustalu2017</fr:addr><fr:route>uustalu2017.xml</fr:route><fr:title
 text="Container Combinatorics: Monads and Lax Monoidal Functors">Container Combinatorics: Monads and Lax Monoidal Functors</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2017</fr:year></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="tarmouustalu.xml"
 addr="tarmouustalu"
 title="Tarmo Uustalu">Tarmo Uustalu</fr:link></fr:author></fr:authors><fr:meta
-name="bibtex"><![CDATA[@inproceedings{
+name="bibtex"><![CDATA[ @inproceedings{
   Uustalu_2017, 
   address={Cham}, 
   title={Container Combinatorics: Monads and Lax Monoidal Functors}, 
-  ISBN={978-3-319-68953-1}, DOI={10.1007/978-3-319-68953-1_8}, 
-  abstractNote={Abbott et al.’s containers are a “syntax” for a wide class of set functors in terms of shapes and positions. Containers whose “denotation” carries a comonad structure can be characterized as directed containers, or containers where a shape and a position in it determine another shape, intuitively a subshape of this shape rooted by this position. In this paper, we develop similar explicit characterizations for container functors with a monad structure and container functors with a lax monoidal functor structure as well as some variations. We argue that this type of characterizations make a tool, e.g., for enumerating the monad structures or lax monoidal functors that some set functor admits. Such explorations are of interest, e.g., in the semantics of effectful functional programming languages.}, 
+  ISBN={978-3-319-68953-1}, DOI={10.1007/978-3-319-68953-1_8},
   booktitle={Topics in Theoretical Computer Science}, 
   publisher={Springer International Publishing}, 
   author={Uustalu, Tarmo}, 
@@ -27,7 +26,7 @@ name="bibtex"><![CDATA[@inproceedings{
   year={2017}, 
   pages={91–105}, 
   language={en} 
-}]]></fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter><fr:tree
+ }]]></fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -42,13 +41,17 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>454</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>537</fr:anchor><fr:addr
 type="user">lsd-0016</fr:addr><fr:route>lsd-0016.xml</fr:route><fr:title
 text="Coproduct monad container">Coproduct monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
-title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The Coproduct monad for a set <fr:tex
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The Coproduct <fr:link
+type="local"
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">monad container</fr:link> for a set <fr:tex
 display="inline"><![CDATA[E]]></fr:tex> is given by the data <fr:tex
 display="inline"><![CDATA[1 + E \triangleright  T]]></fr:tex> where
   <fr:tex
@@ -71,7 +74,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>456</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>539</fr:anchor><fr:addr
 type="user">lsd-0002</fr:addr><fr:route>lsd-0002.xml</fr:route><fr:title
 text="Monad container">Monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"

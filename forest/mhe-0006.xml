@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>279</fr:anchor><fr:addr
+type="user">mhe-0006</fr:addr><fr:route>mhe-0006.xml</fr:route><fr:title
+text="Simple type environments">Simple type environments</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author><fr:author><fr:link
+type="local"
+href="reubensrowe.xml"
+addr="reubensrowe"
+title="Reuben Rowe">Reuben Rowe</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Simple type environments, denoted <fr:tex
+display="inline"><![CDATA[\mathcal {H}]]></fr:tex> are finite partial maps from expression variables to tuples of a variance annotation and a domain.</fr:p><fr:p>When <fr:tex
+display="inline"><![CDATA[\mathcal {H}(x)]]></fr:tex> is undefined for all <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we say <fr:tex
+display="inline"><![CDATA[\mathcal {H}]]></fr:tex> is <fr:em>empty</fr:em>.
+  Abusing notation, we write <fr:tex
+display="inline"><![CDATA[x^v : T \in  \mathcal {H}]]></fr:tex> to mean <fr:tex
+display="inline"><![CDATA[\mathcal {H}(x) = (v , T)]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[\mathcal {H} \subseteq  \mathcal {H}^\prime ]]></fr:tex> to mean that <fr:tex
+display="inline"><![CDATA[x^v : T \in  \mathcal {H}]]></fr:tex> implies <fr:tex
+display="inline"><![CDATA[x^v : T \in  \mathcal {H}^\prime ]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>282</fr:anchor><fr:addr
+type="user">mhe-0008</fr:addr><fr:route>mhe-0008.xml</fr:route><fr:title
+text="Simple type environments">Simple type environments</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author><fr:author><fr:link
+type="local"
+href="reubensrowe.xml"
+addr="reubensrowe"
+title="Reuben Rowe">Reuben Rowe</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>285</fr:anchor><fr:addr
+type="user">mhe-0006</fr:addr><fr:route>mhe-0006.xml</fr:route><fr:title
+text="Simple type environments">Simple type environments</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author><fr:author><fr:link
+type="local"
+href="reubensrowe.xml"
+addr="reubensrowe"
+title="Reuben Rowe">Reuben Rowe</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Simple type environments, denoted <fr:tex
+display="inline"><![CDATA[\mathcal {H}]]></fr:tex> are finite partial maps from expression variables to tuples of a variance annotation and a domain.</fr:p><fr:p>When <fr:tex
+display="inline"><![CDATA[\mathcal {H}(x)]]></fr:tex> is undefined for all <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we say <fr:tex
+display="inline"><![CDATA[\mathcal {H}]]></fr:tex> is <fr:em>empty</fr:em>.
+  Abusing notation, we write <fr:tex
+display="inline"><![CDATA[x^v : T \in  \mathcal {H}]]></fr:tex> to mean <fr:tex
+display="inline"><![CDATA[\mathcal {H}(x) = (v , T)]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[\mathcal {H} \subseteq  \mathcal {H}^\prime ]]></fr:tex> to mean that <fr:tex
+display="inline"><![CDATA[x^v : T \in  \mathcal {H}]]></fr:tex> implies <fr:tex
+display="inline"><![CDATA[x^v : T \in  \mathcal {H}^\prime ]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+  <fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>288</fr:anchor><fr:addr
+type="user">mhe-0007</fr:addr><fr:route>mhe-0007.xml</fr:route><fr:title
+text="Simple type environment negation">Simple type environment negation</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author><fr:author><fr:link
+type="local"
+href="reubensrowe.xml"
+addr="reubensrowe"
+title="Reuben Rowe">Reuben Rowe</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We write <fr:tex
+display="inline"><![CDATA[\mathcal {H}^-]]></fr:tex> for the simple type environment satisfying:
+  <fr:ul><fr:li><fr:tex
+display="inline"><![CDATA[x^+ : T \in  \mathcal {H}^-]]></fr:tex> if and only if <fr:tex
+display="inline"><![CDATA[x^- : T \in  \mathcal {H}]]></fr:tex></fr:li>
+    <fr:li><fr:tex
+display="inline"><![CDATA[x^- : T \in  \mathcal {H}^-]]></fr:tex> if and only if <fr:tex
+display="inline"><![CDATA[x^+ : T \in  \mathcal {H}]]></fr:tex></fr:li>
+    <fr:li><fr:tex
+display="inline"><![CDATA[x^\star  : T \in  \mathcal {H}^-]]></fr:tex> if and only if <fr:tex
+display="inline"><![CDATA[x^\star  : T \in  \mathcal {H}]]></fr:tex></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+  <fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>291</fr:anchor><fr:addr
+type="user">mhe-0009</fr:addr><fr:route>mhe-0009.xml</fr:route><fr:title
+text="Simple type environment negation involutes">Simple type environment negation involutes</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author><fr:author><fr:link
+type="local"
+href="reubensrowe.xml"
+addr="reubensrowe"
+title="Reuben Rowe">Reuben Rowe</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For all simple type environments we have
+  <fr:tex
+display="inline"><![CDATA[(\mathcal {H}^-)^- = \mathcal {H}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+  <fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>294</fr:anchor><fr:addr
+type="user">mhe-0010</fr:addr><fr:route>mhe-0010.xml</fr:route><fr:title
+text="Simple type environment negation preserves inclusion">Simple type environment negation preserves inclusion</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author><fr:author><fr:link
+type="local"
+href="reubensrowe.xml"
+addr="reubensrowe"
+title="Reuben Rowe">Reuben Rowe</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For all simple type environments we have
+  <fr:tex
+display="inline"><![CDATA[\mathcal {H}_1 \subseteq  \mathcal {H}_2]]></fr:tex> if and only if <fr:tex
+display="inline"><![CDATA[\mathcal {H}_1^- \subseteq  \mathcal {H}_2^-]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
