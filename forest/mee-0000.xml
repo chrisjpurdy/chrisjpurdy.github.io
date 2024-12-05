@@ -7,49 +7,36 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>538</fr:anchor><fr:addr
-type="user">dia-0001</fr:addr><fr:route>dia-0001.xml</fr:route><fr:title
-text="Research diary">Research diary</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>I was previously using Obsidian for my research diary, but I found it a little heavyweight for
-  what I was using it for: weekly (or fortnightly) notes on what I've been thinking about.</fr:p><fr:p>Being able to "transclude" trees into other ones is another reason why I'm using Forester for this. Writing definitions once and then including them as many times as needed seems far better than having to jump inbetween files.</fr:p><fr:p>Most recent entry:
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>248</fr:anchor><fr:addr
+type="user">mee-0000</fr:addr><fr:route>mee-0000.xml</fr:route><fr:title
+text="Meeting notes">Meeting notes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A repository of notes I've made for meetings with my supervisor, collaborators and others.
   
-  <fr:tree
-toc="true"
+    
+    
+    <fr:tree
+toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>480</fr:anchor><fr:addr
-type="user">dia-0002</fr:addr><fr:route>dia-0002.xml</fr:route><fr:title
-text="Diary: UoN research visit, Nov 2024">Diary: UoN research visit, Nov 2024</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>250</fr:anchor><fr:addr
+type="user">mee-0001</fr:addr><fr:route>mee-0001.xml</fr:route><fr:title
+text="Meeting notes: Stef 05/12/24">Meeting notes: Stef 05/12/24</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
-title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
-type="local"
-href="dia-0001.xml"
-addr="dia-0001"
-title="Research diary">Previous entry</fr:link>, <fr:link
+title="Chris Purdy">Chris Purdy</fr:link></fr:author><fr:author>stefaniademato</fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We need to read the current literature on distributive laws in order to tie our work in and work out what results of ours are significant.
+  For next week we should read
+  <fr:ul><fr:li>No Go Theorems: Directed Containers That Do Not Distribute Over Distribution Monads</fr:li>
+    <fr:li>Maaike Zwart's thesis</fr:li>
+    <fr:li>Kleisli and Eilenberg-Moore laws/liftings: <fr:link
 type="external"
-href="dia-0003">Next entry</fr:link></fr:p><fr:p>Earlier this week <fr:link
-type="local"
-href="stefaniadamato.xml"
-addr="stefaniadamato"
-title="Stefania Damato">Stef</fr:link> and I were working on the monad container distributive law project. We had a very insightful meeting with Dan Marsden who mentioned (among other things) that we should look for applications for our characterisation. Things to try:
-  <fr:ol><fr:li>Find characterisations for tighter classes of monad containers (i.e. <fr:link
-type="local"
-href="lsd-0003.xml"
-addr="lsd-0003"
-title="Commutative monad containers">commutative</fr:link>, <fr:link
-type="local"
-href="lsd-0004.xml"
-addr="lsd-0004"
-title="All affine monad containers are representable">affine</fr:link>, relevant) and see if this simplifies the distributive law. We have already characterised distributive laws for cartesian monad containers for example.</fr:li>
-    <fr:li>Prove more than just mere existence of distributive laws - use the characterisation to find exactly how many there are for a given pair of monad containers.</fr:li>
-    <fr:li>Over-approximate distributive law requirements to have an easier time with the above. For example, we could consider when the position map <fr:tex
-display="inline"><![CDATA[v]]></fr:tex> is just <fr:tex
-display="inline"><![CDATA[\langle  \pi _2 , \pi _1 \rangle ]]></fr:tex>, which often seems to be the case in simpler examples.</fr:li>
-    <fr:li>Find which algebraic theories correspond to container monads, to tie our work to Maaike Zwart and Dan's work on distributive laws for algebraic theories.</fr:li></fr:ol></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter><fr:tree
+href="https://stringdiagram.com/2022/05/25/monads-laws-and-liftings/">Dan's blog post</fr:link></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -64,44 +51,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>539</fr:anchor><fr:addr
-type="user">dia-0002</fr:addr><fr:route>dia-0002.xml</fr:route><fr:title
-text="Diary: UoN research visit, Nov 2024">Diary: UoN research visit, Nov 2024</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="chrisjpurdy.xml"
-addr="chrisjpurdy"
-title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
-type="local"
-href="dia-0001.xml"
-addr="dia-0001"
-title="Research diary">Previous entry</fr:link>, <fr:link
-type="external"
-href="dia-0003">Next entry</fr:link></fr:p><fr:p>Earlier this week <fr:link
-type="local"
-href="stefaniadamato.xml"
-addr="stefaniadamato"
-title="Stefania Damato">Stef</fr:link> and I were working on the monad container distributive law project. We had a very insightful meeting with Dan Marsden who mentioned (among other things) that we should look for applications for our characterisation. Things to try:
-  <fr:ol><fr:li>Find characterisations for tighter classes of monad containers (i.e. <fr:link
-type="local"
-href="lsd-0003.xml"
-addr="lsd-0003"
-title="Commutative monad containers">commutative</fr:link>, <fr:link
-type="local"
-href="lsd-0004.xml"
-addr="lsd-0004"
-title="All affine monad containers are representable">affine</fr:link>, relevant) and see if this simplifies the distributive law. We have already characterised distributive laws for cartesian monad containers for example.</fr:li>
-    <fr:li>Prove more than just mere existence of distributive laws - use the characterisation to find exactly how many there are for a given pair of monad containers.</fr:li>
-    <fr:li>Over-approximate distributive law requirements to have an easier time with the above. For example, we could consider when the position map <fr:tex
-display="inline"><![CDATA[v]]></fr:tex> is just <fr:tex
-display="inline"><![CDATA[\langle  \pi _2 , \pi _1 \rangle ]]></fr:tex>, which often seems to be the case in simpler examples.</fr:li>
-    <fr:li>Find which algebraic theories correspond to container monads, to tie our work to Maaike Zwart and Dan's work on distributive laws for algebraic theories.</fr:li></fr:ol></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>541</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>253</fr:anchor><fr:addr
 type="user">index</fr:addr><fr:route>index.xml</fr:route><fr:title
 text="Chris Purdy">Chris Purdy</fr:title><fr:authors /><fr:meta
 name="comments">true</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>I am a PhD student at Royal Holloway, University of London researching programming language semantics via cyclic proof theory, type theory, and category theory.
