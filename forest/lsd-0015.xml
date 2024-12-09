@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>359</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>428</fr:anchor><fr:addr
 type="user">lsd-0015</fr:addr><fr:route>lsd-0015.xml</fr:route><fr:title
 text="Writer monad container">Writer monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -36,7 +36,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>361</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>430</fr:anchor><fr:addr
 type="user">lsd-0010</fr:addr><fr:route>lsd-0010.xml</fr:route><fr:title
 text="Monad container zoo">Monad container zoo</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -46,12 +46,21 @@ title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatt
 type="local"
 href="lsd-0002.xml"
 addr="lsd-0002"
-title="Monad container">monad container</fr:link> examples for reference.</fr:p><fr:p>Properties/classes:
+title="Monad container">monad container</fr:link> and <fr:link
+type="local"
+href="lsd-0008.xml"
+addr="lsd-0008"
+title="Monad container distributive law">monad container distributive law</fr:link> examples for reference.</fr:p><fr:p>Properties/classes of monad containers:
   <fr:ul><fr:li><fr:link
 type="local"
 href="lsd-0009.xml"
 addr="lsd-0009"
 title="Cartesian monad container">Cartesian</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="lsd-0021.xml"
+addr="lsd-0021"
+title="Finitary container">Finitary</fr:link></fr:li>
     <fr:li><fr:link
 type="local"
 href="lsd-0005.xml"
@@ -105,7 +114,12 @@ title="Reverse State monad container">Reverse State</fr:link> - just a curiosity
     <fr:li><html:mark
 xmlns:html="http://www.w3.org/1999/xhtml">TODO: Update</html:mark></fr:li>
     <fr:li><html:mark
-xmlns:html="http://www.w3.org/1999/xhtml">TODO: Free</html:mark></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+xmlns:html="http://www.w3.org/1999/xhtml">TODO: Free</html:mark></fr:li></fr:ul></fr:p><fr:p>Distributive laws:
+  <fr:ul><fr:li><fr:link
+type="local"
+href="lsd-0017.xml"
+addr="lsd-0017"
+title="Representable monad container distribution on the right">Any monad container over a representable one</fr:link></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -120,7 +134,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>363</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>432</fr:anchor><fr:addr
 type="user">lsd-0002</fr:addr><fr:route>lsd-0002.xml</fr:route><fr:title
 text="Monad container">Monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
