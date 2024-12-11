@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>402</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>399</fr:anchor><fr:addr
 type="user">mee-0001</fr:addr><fr:route>mee-0001.xml</fr:route><fr:title
 text="Meeting notes: Stef 05/12/24">Meeting notes: Stef 05/12/24</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -19,48 +19,4 @@ title="Chris Purdy">Chris Purdy</fr:link></fr:author><fr:author>stefaniademato</
     <fr:li>Maaike Zwart's thesis</fr:li>
     <fr:li>Kleisli and Eilenberg-Moore laws/liftings: <fr:link
 type="external"
-href="https://stringdiagram.com/2022/05/25/monads-laws-and-liftings/">Dan's blog post</fr:link></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>405</fr:anchor><fr:addr
-type="user">mee-0000</fr:addr><fr:route>mee-0000.xml</fr:route><fr:title
-text="Meeting notes">Meeting notes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="chrisjpurdy.xml"
-addr="chrisjpurdy"
-title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A repository of notes I've made for meetings with my supervisor, collaborators and others.
-  
-    
-    
-    <fr:tree
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>392</fr:anchor><fr:addr
-type="user">mee-0001</fr:addr><fr:route>mee-0001.xml</fr:route><fr:title
-text="Meeting notes: Stef 05/12/24">Meeting notes: Stef 05/12/24</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="chrisjpurdy.xml"
-addr="chrisjpurdy"
-title="Chris Purdy">Chris Purdy</fr:link></fr:author><fr:author>stefaniademato</fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We need to read the current literature on distributive laws in order to tie our work in and work out what results of ours are significant.
-  For next week we should read
-  <fr:ul><fr:li>No Go Theorems: Directed Containers That Do Not Distribute Over Distribution Monads</fr:li>
-    <fr:li>Maaike Zwart's thesis</fr:li>
-    <fr:li>Kleisli and Eilenberg-Moore laws/liftings: <fr:link
-type="external"
-href="https://stringdiagram.com/2022/05/25/monads-laws-and-liftings/">Dan's blog post</fr:link></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+href="https://stringdiagram.com/2022/05/25/monads-laws-and-liftings/">Dan's blog post</fr:link></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
