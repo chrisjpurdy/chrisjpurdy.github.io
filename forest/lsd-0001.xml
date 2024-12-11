@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>704</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>700</fr:anchor><fr:addr
 type="user">lsd-0001</fr:addr><fr:route>lsd-0001.xml</fr:route><fr:title
 text="Distributive laws of monad containers">Distributive laws of monad containers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -141,231 +141,6 @@ show-metadata="false"
 expanded="true"
 root="false"
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>706</fr:anchor><fr:addr
-type="user">index</fr:addr><fr:route>index.xml</fr:route><fr:title
-text="Chris Purdy">Chris Purdy</fr:title><fr:authors /><fr:meta
-name="comments">true</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>I am a PhD student at Royal Holloway, University of London researching programming language semantics via cyclic proof theory, type theory, and category theory.
-
-  
-    <fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>398</fr:anchor><fr:addr
-type="user">mhe-0001</fr:addr><fr:route>mhe-0001.xml</fr:route><fr:title
-text="HOL^{ex}"><fr:tex
-display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
-display="inline"><![CDATA[^{ex}]]></fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="chrisjpurdy.xml"
-addr="chrisjpurdy"
-title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
-type="local"
-href="mhe-0003.xml"
-addr="mhe-0003"
-title="HOL^{ex} encyclopedia"><fr:tex
-display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
-display="inline"><![CDATA[^{ex}]]></fr:tex></fr:link> is a logic and cyclic proof system that I've been developing for part of my PhD project with my supervisor <fr:link
-type="local"
-href="reubensrowe.xml"
-addr="reubensrowe"
-title="Reuben Rowe">Reuben Rowe</fr:link>.</fr:p><fr:p>The goal is to develop a proof system for higher-order logic with fixed-point operators, that allows for induction and coinduction by adding fixed-point "unfolding" rules, and allowing proofs to be cyclic.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
-    <fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>400</fr:anchor><fr:addr
-type="user">lsd-0001</fr:addr><fr:route>lsd-0001.xml</fr:route><fr:title
-text="Distributive laws of monad containers">Distributive laws of monad containers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="chrisjpurdy.xml"
-addr="chrisjpurdy"
-title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Joint work with <fr:link
-type="local"
-href="stefaniadamato.xml"
-addr="stefaniadamato"
-title="Stefania Damato">Stefania Damato</fr:link> on characterising <fr:link
-type="local"
-href="lsd-0008.xml"
-addr="lsd-0008"
-title="Monad container distributive law">distributive laws between monad containers</fr:link>. <fr:link
-type="local"
-href="lsd-0002.xml"
-addr="lsd-0002"
-title="Monad container">Monad containers</fr:link> were originally characterised by <fr:link
-type="local"
-href="tarmouustalu.xml"
-addr="tarmouustalu"
-title="Tarmo Uustalu">Tarmo Uustalu</fr:link> - these are containers with extra structure such that their interpretation as Set functors are monads.</fr:p><fr:p>This characterisation is useful for enumerating possible distributive laws between two monad containers, which may help in developing no-go theorems for distributive laws between a larger class of monads.</fr:p><fr:p>By combining the work of Ahman and Uustalu on <fr:link
-type="local"
-href="lsd-0022.xml"
-addr="lsd-0022"
-title="Directed container distributive law">distributive laws for directed containers</fr:link> and our work, it is also easy enough to characterise mixed distributive laws.</fr:p><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>284</fr:anchor><fr:addr
-type="user">lsd-0010</fr:addr><fr:route>lsd-0010.xml</fr:route><fr:title
-text="Monad container zoo">Monad container zoo</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="chrisjpurdy.xml"
-addr="chrisjpurdy"
-title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Here's a compilation of <fr:link
-type="local"
-href="lsd-0002.xml"
-addr="lsd-0002"
-title="Monad container">monad container</fr:link> and <fr:link
-type="local"
-href="lsd-0008.xml"
-addr="lsd-0008"
-title="Monad container distributive law">monad container distributive law</fr:link> examples for reference.</fr:p><fr:p>Properties/classes of monad containers:
-  <fr:ul><fr:li><fr:link
-type="local"
-href="lsd-0009.xml"
-addr="lsd-0009"
-title="Cartesian monad container">Cartesian</fr:link></fr:li>
-    <fr:li><fr:link
-type="local"
-href="lsd-0021.xml"
-addr="lsd-0021"
-title="Finitary container">Finitary</fr:link></fr:li>
-    <fr:li><fr:link
-type="local"
-href="lsd-0005.xml"
-addr="lsd-0005"
-title="Idempotent monad containers are almost trivial">Idempotent</fr:link></fr:li>
-    <fr:li><fr:link
-type="local"
-href="lsd-0003.xml"
-addr="lsd-0003"
-title="Commutative monad containers">Commutative</fr:link></fr:li>
-    <fr:li><fr:link
-type="local"
-href="lsd-0004.xml"
-addr="lsd-0004"
-title="All affine monad containers are representable">Affine</fr:link></fr:li></fr:ul></fr:p><fr:p>"Specific" monad containers:
-  <fr:ul><fr:li><fr:link
-type="local"
-href="lsd-0007.xml"
-addr="lsd-0007"
-title="There is only one representable monad container">Representable</fr:link></fr:li>
-    <fr:li><fr:link
-type="local"
-href="lsd-0011.xml"
-addr="lsd-0011"
-title="Maybe monad container">Maybe</fr:link></fr:li>
-    <fr:li><fr:link
-type="local"
-href="lsd-0015.xml"
-addr="lsd-0015"
-title="Writer monad container">Writer</fr:link></fr:li>
-    <fr:li><fr:link
-type="local"
-href="lsd-0016.xml"
-addr="lsd-0016"
-title="Coproduct monad container">Coproduct</fr:link></fr:li>
-    <fr:li><fr:link
-type="local"
-href="lsd-0014.xml"
-addr="lsd-0014"
-title="List monad container">List</fr:link></fr:li>
-    <fr:li><fr:link
-type="local"
-href="lsd-0012.xml"
-addr="lsd-0012"
-title="State monad container">State</fr:link></fr:li>
-    <fr:li><fr:link
-type="local"
-href="lsd-0013.xml"
-addr="lsd-0013"
-title="Reverse State monad container">Reverse State</fr:link> - just a curiosity, only definable in a theory with unrestricted fixed points</fr:li>
-    <fr:li><html:mark
-xmlns:html="http://www.w3.org/1999/xhtml">TODO: Update</html:mark></fr:li>
-    <fr:li><html:mark
-xmlns:html="http://www.w3.org/1999/xhtml">TODO: Free</html:mark></fr:li></fr:ul></fr:p><fr:p>Distributive laws:
-  <fr:ul><fr:li><fr:link
-type="local"
-href="lsd-0017.xml"
-addr="lsd-0017"
-title="Representable monad container distribution on the right">Any monad container over a representable one</fr:link></fr:li>
-    <fr:li><fr:link
-type="local"
-href="lsd-0018.xml"
-addr="lsd-0018"
-title="Coproduct monad container distribution on the left">Coproduct over any monad container</fr:link></fr:li>
-    <fr:li><fr:link
-type="local"
-href="lsd-0026.xml"
-addr="lsd-0026"
-title="Monad container distributive law between writers">Writer over writer</fr:link></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree>
-  
-
-  <fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>402</fr:anchor><fr:addr
-type="machine">#244</fr:addr><fr:route>unstable-244.xml</fr:route><fr:title
-text="Quick links">Quick links</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p><fr:ul><fr:li><fr:link
-type="local"
-href="dia-0001.xml"
-addr="dia-0001"
-title="Research diary">Research diary</fr:link></fr:li>
-        <fr:li><fr:link
-type="local"
-href="mee-0000.xml"
-addr="mee-0000"
-title="Meeting notes">Meeting notes</fr:link></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
-
-  <fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>403</fr:anchor><fr:addr
-type="user">abt-0001</fr:addr><fr:route>abt-0001.xml</fr:route><fr:title
-text="About this website">About this website</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>This website uses the <fr:link
-type="external"
-href="https://sr.ht/~jonsterling/forester/">Forester</fr:link> tool developed by
-  <fr:link
-type="local"
-href="jonmsterling.xml"
-addr="jonmsterling"
-title="Jon Sterling">Jon Sterling</fr:link>. See Jon's website for tutorials/information about the tool.</fr:p><fr:p>It is a fantastic way to organise notes and I've been enjoying it a lot! There is even a <fr:link
-type="external"
-href="https://marketplace.visualstudio.com/items?itemName=TreborHuang.vscode-forester">VSCode plugin</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
-
-  <fr:link
-type="external"
-href="https://chrisjpurdy.github.io/">Back to my Github pages</fr:link></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
 text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
@@ -373,7 +148,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>707</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>702</fr:anchor><fr:addr
 type="user">lsd-0022</fr:addr><fr:route>lsd-0022.xml</fr:route><fr:title
 text="Directed container distributive law">Directed container distributive law</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -406,7 +181,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>709</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>704</fr:anchor><fr:addr
 type="user">lsd-0008</fr:addr><fr:route>lsd-0008.xml</fr:route><fr:title
 text="Monad container distributive law">Monad container distributive law</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -441,7 +216,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>711</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>706</fr:anchor><fr:addr
 type="user">lsd-0002</fr:addr><fr:route>lsd-0002.xml</fr:route><fr:title
 text="Monad container">Monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -475,7 +250,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>713</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>708</fr:anchor><fr:addr
 type="user">stefaniadamato</fr:addr><fr:route>stefaniadamato.xml</fr:route><fr:title
 text="Stefania Damato">Stefania Damato</fr:title><fr:taxon>Person</fr:taxon><fr:authors /><fr:meta
 name="external">https://stefaniatadama.com/</fr:meta><fr:meta
@@ -487,7 +262,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>714</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>709</fr:anchor><fr:addr
 type="user">tarmouustalu</fr:addr><fr:route>tarmouustalu.xml</fr:route><fr:title
 text="Tarmo Uustalu">Tarmo Uustalu</fr:title><fr:taxon>Person</fr:taxon><fr:authors /><fr:meta
 name="external">https://cs.ioc.ee/~tarmo/</fr:meta><fr:meta
