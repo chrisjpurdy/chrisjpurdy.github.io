@@ -7,40 +7,113 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>711</fr:anchor><fr:addr
-type="user">dia-0001</fr:addr><fr:route>dia-0001.xml</fr:route><fr:title
-text="Research diary">Research diary</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>I was previously using Obsidian for my research diary, but I found it a little heavyweight for
-  what I was using it for: weekly (or fortnightly) notes on what I've been thinking about.</fr:p><fr:p>Being able to "transclude" trees into other ones is another reason why I'm using Forester for this. Writing definitions once and then including them as many times as needed seems far better than having to jump inbetween files.</fr:p><fr:p>Most recent entry:
-  
-  <fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>263</fr:anchor><fr:addr
-type="user">dia-0004</fr:addr><fr:route>dia-0004.xml</fr:route><fr:title
-text="Diary: Relation between container distributive laws and matching pairs of monoids/Zappa-Szép products">Diary: Relation between container distributive laws and matching pairs of monoids/Zappa-Szép products</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>273</fr:anchor><fr:addr
+type="user">lsd-0022</fr:addr><fr:route>lsd-0022.xml</fr:route><fr:title
+text="Directed container distributive law">Directed container distributive law</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
-title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(S \triangleright  P, \downarrow ^S, o^S, \oplus ^S)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(T \triangleright  Q, \downarrow ^T, o^T, \oplus ^T)]]></fr:tex> be <fr:link
 type="local"
-href="dia-0003.xml"
-addr="dia-0003"
-title="Diary: Monad container algebras">Previous entry</fr:link>, <fr:link
-type="external"
-href="dia-0005">Next entry</fr:link></fr:p>
-  
-  <fr:tree
-toc="true"
-numbered="true"
-show-heading="false"
+href="lsd-0023.xml"
+addr="lsd-0023"
+title="Directed container">directed containers</fr:link>.
+  A directed container distributive law <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="link-reference"><fr:link
+type="local"
+href="ahmanuustalu2013.xml"
+addr="ahmanuustalu2013"
+title="Distributive laws of directed containers">[ahmanuustalu2013]</fr:link></html:span> of <fr:tex
+display="inline"><![CDATA[S \triangleright  P]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[T \triangleright  Q]]></fr:tex> is given by the data:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       &u_2 : \prod _{s : S} \prod _{f : P\ s \to  T} Q\ (f\ o^S) \to  S\\       &v_1 : \prod _{\{s : S\}} \prod _{\{f : P\ s \to  T\}} \prod _{q : Q\ (f\ o^S)} P\ (u_2\ s\ f\ q) \to  P\ s\\       &v_2 : \prod _{\{s : S\}} \prod _{\{f : P\ s \to  T\}} \prod _{q : Q\ (f\ o^S)} \prod _{p : P\ (u_2\ s\ f\ q)} Q\ (f\ (v_1\ q\ p))\\     \end {align*}   ]]></fr:tex>
+  where the following equalities hold:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       u_2\ s\ f\ q \downarrow ^S p &= u_2\ (s \downarrow ^S v_1\ q\ p)\ (\lambda  p' . f\ (v_1\ q\ p \oplus ^S p'))\ (v_2\ q\ p)\\       u_2\ s\ f\ o^T &= s\\       u_2\ s\ f\ (q \oplus ^T q') &= u_2\ (u_2\ s\ f\ q)\ (\lambda  p . f\ (v_1\ q\ p) \downarrow ^T v_2\ q\ p)\ q'\\       v_1\ q\ o^S &= o^S\\       v_1\ q\ (p \oplus ^S p') &= v_1\ q\ p \oplus ^S v_1\ (v_2\ q\ p)\ p'\\       v_1\ o^T\ p &= p\\       v_1\ (q \oplus ^T q')\ p &= v_1\ q\ (v_1\ q'\ p)\\       v_2\ q\ o^S &= q\\       v_2\ q\ (p \oplus ^S p') &= v_2\ (v_2\ q\ p)\ p'\\       v_2\ o^T\ p &= o^T\\       v_2\ (q \oplus ^T q')\ p &= v_2\ q\ (v_1\ q' p) \oplus ^T v_2\ q'\ p     \end {align*}   ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>253</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="References">References</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>275</fr:anchor><fr:addr
+type="user">ahmanuustalu2013</fr:addr><fr:route>ahmanuustalu2013.xml</fr:route><fr:title
+text="Distributive laws of directed containers">Distributive laws of directed containers</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2013</fr:year></fr:date><fr:authors><fr:author>Danel Ahman</fr:author><fr:author><fr:link
+type="local"
+href="tarmouustalu.xml"
+addr="tarmouustalu"
+title="Tarmo Uustalu">Tarmo Uustalu</fr:link></fr:author></fr:authors><fr:meta
+name="bibtex"><![CDATA[   @article{
+      Ahman_Uustalu_2013, 
+      title={Distributive laws of directed containers}, 
+      ISSN={1349-8614},
+      DOI={10.2201/NiiPi.2013.10.2},
+      number={10},
+      journal={Progress in Informatics},
+      author={Ahman, Danel and Uustalu, Tarmo},
+      year={2013}, 
+      month=mar, 
+      pages={3–18} 
+   }]]>
+</fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>278</fr:anchor><fr:addr
+type="user">lsd-0025</fr:addr><fr:route>lsd-0025.xml</fr:route><fr:title
+text="Directed container distributive law between representables">Directed container distributive law between representables</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(1 \triangleright  \lambda  \_ . A, \downarrow ^A, o^A, \oplus ^A)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(1 \triangleright  \lambda  \_ . B, \downarrow ^B, o^B, \oplus ^B)]]></fr:tex> be representable <fr:link
+type="local"
+href="lsd-0023.xml"
+addr="lsd-0023"
+title="Directed container">directed containers</fr:link>. By specialising the equations of a <fr:link
+type="local"
+href="lsd-0022.xml"
+addr="lsd-0022"
+title="Directed container distributive law">directed container distributive law</fr:link> to these, all equations involving <fr:tex
+display="inline"><![CDATA[u_2]]></fr:tex> disappear and we are left with:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       v_1\ b\ o^A &= o^A\\       v_1\ o^B\ a &= a\\       v_1\ b\ (a \oplus ^A a') &= v_1\ b\ a \oplus ^A v_1\ (v_2\ b\ a)\ a'\\       v_1\ (b \oplus ^B b')\ a &= v_1\ b\ (v_1\ b'\ a)\\       v_2\ b\ o^A &= b\\       v_2\ o^B\ a &= o^B\\       v_2\ b\ (a \oplus ^A a') &= v_2\ (v_2\ b\ a)\ a'\\       v_2\ (b \oplus ^B b')\ a &= v_2\ b\ (v_1\ b' a) \oplus ^B v_2\ b'\ a     \end {align*}   ]]></fr:tex>
+  which exhibit <fr:tex
+display="inline"><![CDATA[v_1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[v_2]]></fr:tex> as a matching pair of monoid maps between the monoids <fr:tex
+display="inline"><![CDATA[(A , o^A, \oplus ^A)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(B, o^B, \oplus ^B)]]></fr:tex>. Hence, directed container distributive laws of this type are in bijection with matching pairs of the relevant monoids.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>280</fr:anchor><fr:addr
 type="user">lsd-0024</fr:addr><fr:route>lsd-0024.xml</fr:route><fr:title
 text="Relation between container distributive laws and matching pairs of monoids/Zappa-Szép products">Relation between container distributive laws and matching pairs of monoids/Zappa-Szép products</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -144,135 +217,14 @@ display="block"><![CDATA[     \begin {align*}            \alpha \ \iota ^A\ b &=
 display="inline"><![CDATA[\alpha ]]></fr:tex> and <fr:tex
 display="inline"><![CDATA[\beta ]]></fr:tex> as a matching pair of monoid actions between <fr:tex
 display="inline"><![CDATA[(A, \otimes ^A, \iota ^A)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[(B , \otimes ^B, \iota ^B)]]></fr:tex>. Therefore, monad container distributive laws of this type are in bijection with matching pairs of the relevant monoids.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>As shown, both of these types of distributive law are generalisations of matching pairs of monoid actions, each in a slightly different way. For directed containers the generalisation is "in the direction of the shapes", and for monad containers the generalisation is "in the direction of the positions".</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="References">References</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+display="inline"><![CDATA[(B , \otimes ^B, \iota ^B)]]></fr:tex>. Therefore, monad container distributive laws of this type are in bijection with matching pairs of the relevant monoids.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>As shown, both of these types of distributive law are generalisations of matching pairs of monoid actions, each in a slightly different way. For directed containers the generalisation is "in the direction of the shapes", and for monad containers the generalisation is "in the direction of the positions".</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>712</fr:anchor><fr:addr
-type="user">ahmanuustalu2013</fr:addr><fr:route>ahmanuustalu2013.xml</fr:route><fr:title
-text="Distributive laws of directed containers">Distributive laws of directed containers</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2013</fr:year></fr:date><fr:authors><fr:author>Danel Ahman</fr:author><fr:author><fr:link
-type="local"
-href="tarmouustalu.xml"
-addr="tarmouustalu"
-title="Tarmo Uustalu">Tarmo Uustalu</fr:link></fr:author></fr:authors><fr:meta
-name="bibtex"><![CDATA[   @article{
-      Ahman_Uustalu_2013, 
-      title={Distributive laws of directed containers}, 
-      ISSN={1349-8614},
-      DOI={10.2201/NiiPi.2013.10.2},
-      number={10},
-      journal={Progress in Informatics},
-      author={Ahman, Danel and Uustalu, Tarmo},
-      year={2013}, 
-      month=mar, 
-      pages={3–18} 
-   }]]>
-</fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>715</fr:anchor><fr:addr
-type="user">dia-0002</fr:addr><fr:route>dia-0002.xml</fr:route><fr:title
-text="Diary: UoN research visit, Nov 2024">Diary: UoN research visit, Nov 2024</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="chrisjpurdy.xml"
-addr="chrisjpurdy"
-title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
-type="local"
-href="dia-0001.xml"
-addr="dia-0001"
-title="Research diary">Previous entry</fr:link>, <fr:link
-type="local"
-href="dia-0003.xml"
-addr="dia-0003"
-title="Diary: Monad container algebras">Next entry</fr:link></fr:p><fr:p>Earlier this week <fr:link
-type="local"
-href="stefaniadamato.xml"
-addr="stefaniadamato"
-title="Stefania Damato">Stef</fr:link> and I were working on the monad container distributive law project. We had a very insightful meeting with Dan Marsden who mentioned (among other things) that we should look for applications for our characterisation. Things to try:
-  <fr:ol><fr:li>Find characterisations for tighter classes of monad containers (i.e. <fr:link
-type="local"
-href="lsd-0003.xml"
-addr="lsd-0003"
-title="Commutative monad containers">commutative</fr:link>, <fr:link
-type="local"
-href="lsd-0004.xml"
-addr="lsd-0004"
-title="All affine monad containers are representable">affine</fr:link>, relevant) and see if this simplifies the distributive law. We have already characterised distributive laws for cartesian monad containers for example.</fr:li>
-    <fr:li>Prove more than just mere existence of distributive laws - use the characterisation to find exactly how many there are for a given pair of monad containers.</fr:li>
-    <fr:li>Over-approximate distributive law requirements to have an easier time with the above. For example, we could consider when the position map <fr:tex
-display="inline"><![CDATA[v]]></fr:tex> is just <fr:tex
-display="inline"><![CDATA[\langle  \pi _2 , \pi _1 \rangle ]]></fr:tex>, which often seems to be the case in simpler examples.</fr:li>
-    <fr:li>Find which algebraic theories correspond to container monads, to tie our work to Maaike Zwart and Dan's work on distributive laws for algebraic theories.</fr:li></fr:ol></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>717</fr:anchor><fr:addr
-type="user">index</fr:addr><fr:route>index.xml</fr:route><fr:title
-text="Chris Purdy">Chris Purdy</fr:title><fr:authors /><fr:meta
-name="comments">true</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>I am a PhD student at Royal Holloway, University of London researching programming language semantics via cyclic proof theory, type theory, and category theory.
-
-  
-    <fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>396</fr:anchor><fr:addr
-type="user">mhe-0001</fr:addr><fr:route>mhe-0001.xml</fr:route><fr:title
-text="HOL^{ex}"><fr:tex
-display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
-display="inline"><![CDATA[^{ex}]]></fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="chrisjpurdy.xml"
-addr="chrisjpurdy"
-title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
-type="local"
-href="mhe-0003.xml"
-addr="mhe-0003"
-title="HOL^{ex} encyclopedia"><fr:tex
-display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
-display="inline"><![CDATA[^{ex}]]></fr:tex></fr:link> is a logic and cyclic proof system that I've been developing for part of my PhD project with my supervisor <fr:link
-type="local"
-href="reubensrowe.xml"
-addr="reubensrowe"
-title="Reuben Rowe">Reuben Rowe</fr:link>.</fr:p><fr:p>The goal is to develop a proof system for higher-order logic with fixed-point operators, that allows for induction and coinduction by adding fixed-point "unfolding" rules, and allowing proofs to be cyclic.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
-    <fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>398</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>282</fr:anchor><fr:addr
 type="user">lsd-0001</fr:addr><fr:route>lsd-0001.xml</fr:route><fr:title
 text="Distributive laws of monad containers">Distributive laws of monad containers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -393,49 +345,38 @@ title="Representable monad container distribution on the right">Any monad contai
 type="local"
 href="lsd-0018.xml"
 addr="lsd-0018"
-title="Coproduct monad container distribution on the left">Coproduct over any monad container</fr:link></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree>
-  
-
-  <fr:tree
-toc="true"
-numbered="true"
+title="Coproduct monad container distribution on the left">Coproduct over any monad container</fr:link></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>400</fr:anchor><fr:addr
-type="machine">#244</fr:addr><fr:route>unstable-244.xml</fr:route><fr:title
-text="Quick links">Quick links</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p><fr:ul><fr:li><fr:link
-type="local"
-href="dia-0001.xml"
-addr="dia-0001"
-title="Research diary">Research diary</fr:link></fr:li>
-        <fr:li><fr:link
-type="local"
-href="mee-0000.xml"
-addr="mee-0000"
-title="Meeting notes">Meeting notes</fr:link></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
-
-  <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
-numbered="true"
+numbered="false"
 show-heading="true"
-show-metadata="false"
-expanded="true"
+show-metadata="true"
+expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>401</fr:anchor><fr:addr
-type="user">abt-0001</fr:addr><fr:route>abt-0001.xml</fr:route><fr:title
-text="About this website">About this website</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>This website uses the <fr:link
-type="external"
-href="https://sr.ht/~jonsterling/forester/">Forester</fr:link> tool developed by
-  <fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>286</fr:anchor><fr:addr
+type="user">lsd-0023</fr:addr><fr:route>lsd-0023.xml</fr:route><fr:title
+text="Directed container">Directed container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-href="jonmsterling.xml"
-addr="jonmsterling"
-title="Jon Sterling">Jon Sterling</fr:link>. See Jon's website for tutorials/information about the tool.</fr:p><fr:p>It is a fantastic way to organise notes and I've been enjoying it a lot! There is even a <fr:link
-type="external"
-href="https://marketplace.visualstudio.com/items?itemName=TreborHuang.vscode-forester">VSCode plugin</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
-
-  <fr:link
-type="external"
-href="https://chrisjpurdy.github.io/">Back to my Github pages</fr:link></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S \triangleright  P]]></fr:tex> be a container. A directed container <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="link-reference"><fr:link
+type="local"
+href="ahmanchapmanuustalu2012.xml"
+addr="ahmanchapmanuustalu2012"
+title="When Is a Container a Comonad?">[ahmanchapmanuustalu2012]</fr:link></html:span> on <fr:tex
+display="inline"><![CDATA[S \triangleright  P]]></fr:tex> is given by the following data:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       \downarrow  &: \prod _{s : S} P\ s \to  S\\       o &: \prod _{\{s : S\}} P\ s\\       \oplus  &: \prod _{\{s : S\}} \prod _{p : P\ s} P\ (s \downarrow  p) \to  P\ s     \end {align*}   ]]></fr:tex>
+  satisfying two shape equations and three position equations:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       s \downarrow  o &= s\\       s \downarrow  (p \oplus  p') &= (s \downarrow  p) \downarrow  p'\\       p \oplus  o &= p\\       o \oplus  p &= p\\       (p \oplus  p') \oplus  p'' &= p \oplus  (p' \oplus  p'')     \end {align*}   ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
