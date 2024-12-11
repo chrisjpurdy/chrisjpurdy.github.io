@@ -123,7 +123,7 @@ display="block"><![CDATA[     \begin {align*}            \alpha \ \iota ^A\ b &=
 display="inline"><![CDATA[\alpha ]]></fr:tex> and <fr:tex
 display="inline"><![CDATA[\beta ]]></fr:tex> as a matching pair of monoid actions between <fr:tex
 display="inline"><![CDATA[(A, \otimes ^A, \iota ^A)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[(B , \otimes ^B, \iota ^B)]]></fr:tex>. Therefore, monad container distributive laws of this type are in bijection with matching pairs of the relevant monoids.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+display="inline"><![CDATA[(B , \otimes ^B, \iota ^B)]]></fr:tex>. Therefore, monad container distributive laws of this type are in bijection with matching pairs of actions for the relevant monoids.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"

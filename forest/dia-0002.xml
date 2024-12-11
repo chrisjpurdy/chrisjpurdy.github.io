@@ -385,7 +385,7 @@ display="block"><![CDATA[     \begin {align*}       v_1\ b\ o^A &= o^A\\       v
 display="inline"><![CDATA[v_1]]></fr:tex> and <fr:tex
 display="inline"><![CDATA[v_2]]></fr:tex> as a matching pair of monoid maps between the monoids <fr:tex
 display="inline"><![CDATA[(A , o^A, \oplus ^A)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[(B, o^B, \oplus ^B)]]></fr:tex>. Hence, directed container distributive laws of this type are in bijection with matching pairs of the relevant monoids.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>As it turns out, <fr:link
+display="inline"><![CDATA[(B, o^B, \oplus ^B)]]></fr:tex>. Hence, directed container distributive laws of this type are in bijection with matching pairs of actions for the relevant monoids.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>As it turns out, <fr:link
 type="local"
 href="lsd-0008.xml"
 addr="lsd-0008"
@@ -436,7 +436,7 @@ display="block"><![CDATA[     \begin {align*}            \alpha \ \iota ^A\ b &=
 display="inline"><![CDATA[\alpha ]]></fr:tex> and <fr:tex
 display="inline"><![CDATA[\beta ]]></fr:tex> as a matching pair of monoid actions between <fr:tex
 display="inline"><![CDATA[(A, \otimes ^A, \iota ^A)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[(B , \otimes ^B, \iota ^B)]]></fr:tex>. Therefore, monad container distributive laws of this type are in bijection with matching pairs of the relevant monoids.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>As shown, both of these types of distributive law are generalisations of matching pairs of monoid actions, each in a slightly different way. For directed containers the generalisation is "in the direction of the shapes", and for monad containers the generalisation is "in the direction of the positions".</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+display="inline"><![CDATA[(B , \otimes ^B, \iota ^B)]]></fr:tex>. Therefore, monad container distributive laws of this type are in bijection with matching pairs of actions for the relevant monoids.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>As shown, both of these types of distributive law are generalisations of matching pairs of monoid actions, each in a slightly different way. For directed containers the generalisation is "in the direction of the shapes", and for monad containers the generalisation is "in the direction of the positions".</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
