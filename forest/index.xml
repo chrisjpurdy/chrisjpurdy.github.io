@@ -277,13 +277,12 @@ xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8
 type="user">dia-0001</fr:addr><fr:route>dia-0001.xml</fr:route><fr:title
 text="Research diary">Research diary</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>I was previously using Obsidian for my research diary, but I found it a little heavyweight for
   what I was using it for: weekly (or fortnightly) notes on what I've been thinking about.</fr:p><fr:p>Being able to "transclude" trees into other ones is another reason why I'm using Forester for this. Writing definitions once and then including them as many times as needed seems far better than having to jump inbetween files.</fr:p><fr:p>Most recent entry:
-  
   <fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
-expanded="false"
+expanded="true"
 root="false"
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>263</fr:anchor><fr:addr
 type="user">dia-0004</fr:addr><fr:route>dia-0004.xml</fr:route><fr:title
