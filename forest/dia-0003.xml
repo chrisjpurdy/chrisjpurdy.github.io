@@ -251,8 +251,8 @@ display="inline"><![CDATA[\text {pr}^B]]></fr:tex> are already trivial), and we 
   <fr:tex
 display="block"><![CDATA[     \begin {align*}            u_1\ \iota ^A\ (\lambda  \_ . b) &= b\\     u_1\ a\ (\lambda  \_ . \iota ^B) &= \iota ^B\\     u_1\ (\sigma ^A\ a\ (\lambda  \_ . a'))\ (\lambda  \_ . b) &= u_1\ a\ (\lambda  \_ . u_1\ a'\ (\lambda  \_ . b))\\     u_1\ a\ (\lambda  \_ . \sigma ^B\ b\ (\lambda  \_ . b')) &= \sigma ^B\ (u_1\ a\ (\lambda  \_ . b))\ (\lambda  \_ . u_1\ (u_2\ a\ (\lambda  \_ . b)\ *)\ (\lambda  \_ . b'))\\      u_2\ \iota ^A\ (\lambda  \_ . b)\ * &= \iota ^A\\     u_2\ a\ (\lambda  \_ . \iota ^B)\ * &= a\\     u_2\ (\sigma ^A\ a\ (\lambda  \_ . a'))\ (\lambda  \_ . b)\ * &= \sigma ^A\ (u_2\ a\ (\lambda  \_ . u_1\ a'\ (\lambda  \_ . b))\ *)\ (\lambda  \_ . u_2\ a'\ (\lambda  \_ . b')\ *)\\     u_2\ a\ (\lambda  \_ . \sigma ^B\ b\ (\lambda  \_ . b'))\ * &= u_2\ (u_2\ a\ (\lambda  \_ . b)\ *)\ (\lambda  \_ . b')\ *        \end {align*}   ]]></fr:tex>
 
-  Bear in mind that, since all positions sets are <fr:tex
-display="inline"><![CDATA[1]]></fr:tex>, we do not lose generality by assuming constant the functions in the equations above. By defining:
+  Bear in mind that, since all position sets are <fr:tex
+display="inline"><![CDATA[1]]></fr:tex>, we do not lose generality by assuming constant all of the functions in the equations above. By defining:
   
   <fr:tex
 display="block"><![CDATA[     \begin {align*}            \alpha \ a\ b := u_1\ a\ (\lambda  \_ . b)\\     \beta \ a\ b := u_2\ a\ (\lambda  \_ . b)\ *\\     a \otimes ^A a' := \sigma ^A\ a\ (\lambda  \_ . a')\\     b \otimes ^B b' := \sigma ^B\ b\ (\lambda  \_ . b')        \end {align*}   ]]></fr:tex>
@@ -431,8 +431,8 @@ display="inline"><![CDATA[\text {pr}^B]]></fr:tex> are already trivial), and we 
   <fr:tex
 display="block"><![CDATA[     \begin {align*}            u_1\ \iota ^A\ (\lambda  \_ . b) &= b\\     u_1\ a\ (\lambda  \_ . \iota ^B) &= \iota ^B\\     u_1\ (\sigma ^A\ a\ (\lambda  \_ . a'))\ (\lambda  \_ . b) &= u_1\ a\ (\lambda  \_ . u_1\ a'\ (\lambda  \_ . b))\\     u_1\ a\ (\lambda  \_ . \sigma ^B\ b\ (\lambda  \_ . b')) &= \sigma ^B\ (u_1\ a\ (\lambda  \_ . b))\ (\lambda  \_ . u_1\ (u_2\ a\ (\lambda  \_ . b)\ *)\ (\lambda  \_ . b'))\\      u_2\ \iota ^A\ (\lambda  \_ . b)\ * &= \iota ^A\\     u_2\ a\ (\lambda  \_ . \iota ^B)\ * &= a\\     u_2\ (\sigma ^A\ a\ (\lambda  \_ . a'))\ (\lambda  \_ . b)\ * &= \sigma ^A\ (u_2\ a\ (\lambda  \_ . u_1\ a'\ (\lambda  \_ . b))\ *)\ (\lambda  \_ . u_2\ a'\ (\lambda  \_ . b')\ *)\\     u_2\ a\ (\lambda  \_ . \sigma ^B\ b\ (\lambda  \_ . b'))\ * &= u_2\ (u_2\ a\ (\lambda  \_ . b)\ *)\ (\lambda  \_ . b')\ *        \end {align*}   ]]></fr:tex>
 
-  Bear in mind that, since all positions sets are <fr:tex
-display="inline"><![CDATA[1]]></fr:tex>, we do not lose generality by assuming constant the functions in the equations above. By defining:
+  Bear in mind that, since all position sets are <fr:tex
+display="inline"><![CDATA[1]]></fr:tex>, we do not lose generality by assuming constant all of the functions in the equations above. By defining:
   
   <fr:tex
 display="block"><![CDATA[     \begin {align*}            \alpha \ a\ b := u_1\ a\ (\lambda  \_ . b)\\     \beta \ a\ b := u_2\ a\ (\lambda  \_ . b)\ *\\     a \otimes ^A a' := \sigma ^A\ a\ (\lambda  \_ . a')\\     b \otimes ^B b' := \sigma ^B\ b\ (\lambda  \_ . b')        \end {align*}   ]]></fr:tex>
