@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>732</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>758</fr:anchor><fr:addr
 type="user">lsd-0001</fr:addr><fr:route>lsd-0001.xml</fr:route><fr:title
 text="Distributive laws of monad containers">Distributive laws of monad containers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -29,7 +29,12 @@ title="Monad container">Monad containers</fr:link> were originally characterised
 type="local"
 href="tarmouustalu.xml"
 addr="tarmouustalu"
-title="Tarmo Uustalu">Tarmo Uustalu</fr:link> - these are containers with extra structure such that their interpretation as Set functors are monads.</fr:p><fr:p>This characterisation is useful for enumerating possible distributive laws between two monad containers, which may help in developing no-go theorems for distributive laws between a larger class of monads.</fr:p><fr:p>By combining the work of Ahman and Uustalu on <fr:link
+title="Tarmo Uustalu">Tarmo Uustalu</fr:link> - these are containers with extra structure such that their <fr:link
+type="local"
+href="lsd-0030.xml"
+addr="lsd-0030"
+title="Monad container extension">interpretation</fr:link> as <fr:tex
+display="inline"><![CDATA[\mathbf {Set}]]></fr:tex> functors are monads.</fr:p><fr:p>This characterisation is useful for enumerating possible distributive laws between two monad containers, which may help in developing no-go theorems for distributive laws between a larger class of monads.</fr:p><fr:p>By combining the work of Ahman and Uustalu on <fr:link
 type="local"
 href="lsd-0022.xml"
 addr="lsd-0022"
@@ -48,20 +53,20 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>734</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>760</fr:anchor><fr:addr
 type="user">index</fr:addr><fr:route>index.xml</fr:route><fr:title
 text="Chris Purdy">Chris Purdy</fr:title><fr:authors /><fr:meta
-name="comments">true</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>I am a PhD student at Royal Holloway, University of London researching programming language semantics via cyclic proof theory, type theory, and category theory.
-
-  
-    <fr:tree
+name="comments">true</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>I am a PhD student at Royal Holloway, University of London researching programming language semantics via cyclic proof theory, type theory, and category theory.</fr:p><fr:p><fr:link
+type="external"
+href="https://chrisjpurdy.github.io/">Back to my Github pages</fr:link></fr:p>
+  <fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>421</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>441</fr:anchor><fr:addr
 type="user">mhe-0001</fr:addr><fr:route>mhe-0001.xml</fr:route><fr:title
 text="HOL^{ex}"><fr:tex
 display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
@@ -80,14 +85,14 @@ type="local"
 href="reubensrowe.xml"
 addr="reubensrowe"
 title="Reuben Rowe">Reuben Rowe</fr:link>.</fr:p><fr:p>The goal is to develop a proof system for higher-order logic with fixed-point operators, that allows for induction and coinduction by adding fixed-point "unfolding" rules, and allowing proofs to be cyclic.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
-    <fr:tree
+  <fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>423</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>443</fr:anchor><fr:addr
 type="user">lsd-0001</fr:addr><fr:route>lsd-0001.xml</fr:route><fr:title
 text="Distributive laws of monad containers">Distributive laws of monad containers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -109,46 +114,47 @@ title="Monad container">Monad containers</fr:link> were originally characterised
 type="local"
 href="tarmouustalu.xml"
 addr="tarmouustalu"
-title="Tarmo Uustalu">Tarmo Uustalu</fr:link> - these are containers with extra structure such that their interpretation as Set functors are monads.</fr:p><fr:p>This characterisation is useful for enumerating possible distributive laws between two monad containers, which may help in developing no-go theorems for distributive laws between a larger class of monads.</fr:p><fr:p>By combining the work of Ahman and Uustalu on <fr:link
+title="Tarmo Uustalu">Tarmo Uustalu</fr:link> - these are containers with extra structure such that their <fr:link
+type="local"
+href="lsd-0030.xml"
+addr="lsd-0030"
+title="Monad container extension">interpretation</fr:link> as <fr:tex
+display="inline"><![CDATA[\mathbf {Set}]]></fr:tex> functors are monads.</fr:p><fr:p>This characterisation is useful for enumerating possible distributive laws between two monad containers, which may help in developing no-go theorems for distributive laws between a larger class of monads.</fr:p><fr:p>By combining the work of Ahman and Uustalu on <fr:link
 type="local"
 href="lsd-0022.xml"
 addr="lsd-0022"
 title="Directed container distributive law">distributive laws for directed containers</fr:link> and our work, it is also easy enough to characterise mixed distributive laws.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
-  
-
-  <fr:tree
+<fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>425</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>445</fr:anchor><fr:addr
 type="machine">#244</fr:addr><fr:route>unstable-244.xml</fr:route><fr:title
 text="Quick links">Quick links</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p><fr:ul><fr:li><fr:link
 type="local"
 href="lsd-0010.xml"
 addr="lsd-0010"
 title="Monad container zoo">Monad container zoo</fr:link></fr:li>
-        <fr:li><fr:link
+      <fr:li><fr:link
 type="local"
 href="dia-0001.xml"
 addr="dia-0001"
 title="Research diary">Research diary</fr:link></fr:li>
-        <fr:li><fr:link
+      <fr:li><fr:link
 type="local"
 href="mee-0000.xml"
 addr="mee-0000"
-title="Meeting notes">Meeting notes</fr:link></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
-
-  <fr:tree
+title="Meeting notes">Meeting notes</fr:link></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>426</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>446</fr:anchor><fr:addr
 type="user">abt-0001</fr:addr><fr:route>abt-0001.xml</fr:route><fr:title
 text="About this website">About this website</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>This website uses the <fr:link
 type="external"
@@ -159,11 +165,7 @@ href="jonmsterling.xml"
 addr="jonmsterling"
 title="Jon Sterling">Jon Sterling</fr:link>. See Jon's website for tutorials/information about the tool.</fr:p><fr:p>It is a fantastic way to organise notes and I've been enjoying it a lot! There is even a <fr:link
 type="external"
-href="https://marketplace.visualstudio.com/items?itemName=TreborHuang.vscode-forester">VSCode plugin</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
-
-  <fr:link
-type="external"
-href="https://chrisjpurdy.github.io/">Back to my Github pages</fr:link></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+href="https://marketplace.visualstudio.com/items?itemName=TreborHuang.vscode-forester">VSCode plugin</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -178,7 +180,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>735</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>761</fr:anchor><fr:addr
 type="user">lsd-0022</fr:addr><fr:route>lsd-0022.xml</fr:route><fr:title
 text="Directed container distributive law">Directed container distributive law</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -211,7 +213,45 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>737</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>763</fr:anchor><fr:addr
+type="user">lsd-0030</fr:addr><fr:route>lsd-0030.xml</fr:route><fr:title
+text="Monad container extension">Monad container extension</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
+type="local"
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">monad container</fr:link> <fr:tex
+display="inline"><![CDATA[(S \triangleright  P, \iota , \sigma , \text {pr})]]></fr:tex>, it's <fr:em>extension</fr:em> (see <fr:link
+type="local"
+href="lsd-0029.xml"
+addr="lsd-0029"
+title="Container extension">container extension</fr:link>) is the monad <fr:tex
+display="inline"><![CDATA[(\lbrack \negthinspace \lbrack  S \triangleright  P \rbrack \negthinspace \rbrack , \eta , \mu )]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[\mathbf {Set}]]></fr:tex> where
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            \eta _A\ a &:= (\iota , \lambda  \_ . a)\\     \mu _A\ (s , f) &:= (\sigma \ s\ (\lambda  p . \pi _1\ (f\ p)) , \lambda  p' . \pi _2\ (f\ (\text {pr}_1\ p'))\ (\text {pr}_2\ p'))        \end {align*}   ]]></fr:tex>
+
+  The diagrams for <fr:tex
+display="inline"><![CDATA[\eta ]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex> commute given the equations of a monad container.</fr:p><fr:p>This can be extended to a fully faithful functor from the category of monad containers and monad container maps to the category of <fr:tex
+display="inline"><![CDATA[\mathbf {Set}]]></fr:tex>-monads and monad maps. <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="link-reference"><fr:link
+type="local"
+href="uustalu2017.xml"
+addr="uustalu2017"
+title="Container Combinatorics: Monads and Lax Monoidal Functors">[uustalu2017]</fr:link></html:span></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>765</fr:anchor><fr:addr
 type="user">lsd-0008</fr:addr><fr:route>lsd-0008.xml</fr:route><fr:title
 text="Monad container distributive law">Monad container distributive law</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -239,14 +279,18 @@ display="inline"><![CDATA[\langle  f , g \rangle  := \lambda  x . (f\ x , g\ x)]
 display="inline"><![CDATA[u]]></fr:tex> is defined as <fr:tex
 display="inline"><![CDATA[\langle  u_1 , u_2 \rangle ]]></fr:tex> and <fr:tex
 display="inline"><![CDATA[v]]></fr:tex> is defined as <fr:tex
-display="inline"><![CDATA[\langle  v_1 , v_2 \rangle ]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+display="inline"><![CDATA[\langle  v_1 , v_2 \rangle ]]></fr:tex>.</fr:p><fr:p>Monad container distributive laws allow you to define a notion of <fr:link
+type="local"
+href="lsd-0031.xml"
+addr="lsd-0031"
+title="Monad container composition via distributive law">composition for monad containers</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>739</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>767</fr:anchor><fr:addr
 type="user">lsd-0002</fr:addr><fr:route>lsd-0002.xml</fr:route><fr:title
 text="Monad container">Monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -279,7 +323,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>741</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>769</fr:anchor><fr:addr
 type="user">stefaniadamato</fr:addr><fr:route>stefaniadamato.xml</fr:route><fr:title
 text="Stefania Damato">Stefania Damato</fr:title><fr:taxon>Person</fr:taxon><fr:authors /><fr:meta
 name="external">https://stefaniatadama.com/</fr:meta><fr:meta
@@ -291,7 +335,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>742</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>770</fr:anchor><fr:addr
 type="user">tarmouustalu</fr:addr><fr:route>tarmouustalu.xml</fr:route><fr:title
 text="Tarmo Uustalu">Tarmo Uustalu</fr:title><fr:taxon>Person</fr:taxon><fr:authors /><fr:meta
 name="external">https://cs.ioc.ee/~tarmo/</fr:meta><fr:meta

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>251</fr:anchor><fr:addr
+type="user">lsd-0032</fr:addr><fr:route>lsd-0032.xml</fr:route><fr:title
+text="Containers are closed under composition">Containers are closed under composition</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S \triangleright  P]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[T \triangleright  Q]]></fr:tex> be containers. We define their <fr:em>composite</fr:em> <fr:tex
+display="inline"><![CDATA[S \triangleright  P \circ  T \triangleright  Q]]></fr:tex> as the container
+  <fr:tex
+display="block"><![CDATA[     \sum _{s : S} P\ s \to  T \triangleright  \lambda  (s , f) . \sum _{p : P\ s} Q\ (f\ p)   ]]></fr:tex>
+  This composition commutes with <fr:link
+type="local"
+href="lsd-0029.xml"
+addr="lsd-0029"
+title="Container extension">container extension</fr:link>, which is to say:
+  <fr:tex
+display="block"><![CDATA[     \lbrack \negthinspace \lbrack  S \triangleright  P \circ  T \triangleright  Q \rbrack \negthinspace \rbrack  \cong  \lbrack \negthinspace \lbrack  S \triangleright  P \rbrack \negthinspace \rbrack  \circ  \lbrack \negthinspace \lbrack  T \triangleright  Q \rbrack \negthinspace \rbrack    ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>253</fr:anchor><fr:addr
+type="user">lsd-0031</fr:addr><fr:route>lsd-0031.xml</fr:route><fr:title
+text="Monad container composition via distributive law">Monad container composition via distributive law</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(S \triangleright  P, \iota ^S, \sigma ^S, \text {pr}^S)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(T \triangleright  Q, \iota ^T, \sigma ^T, \text {pr}^T)]]></fr:tex> be <fr:link
+type="local"
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">monad containers</fr:link> and <fr:tex
+display="inline"><![CDATA[(u_1 , u_2 , v_1 , v_2)]]></fr:tex> be a <fr:link
+type="local"
+href="lsd-0008.xml"
+addr="lsd-0008"
+title="Monad container distributive law">monad container distributive law</fr:link> of type <fr:tex
+display="inline"><![CDATA[T \triangleright  Q \circ  S \triangleright  P \Rightarrow  S \triangleright  P \circ  T \triangleright  Q]]></fr:tex>.</fr:p><fr:p>We define the <fr:em>composite monad container</fr:em> (see <fr:link
+type="local"
+href="lsd-0032.xml"
+addr="lsd-0032"
+title="Containers are closed under composition">composite container</fr:link>) <fr:tex
+display="inline"><![CDATA[(S \triangleright  P \circ  T \triangleright  Q, \iota , \sigma , \text {pr})]]></fr:tex> where
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            \iota  &:= (\iota ^S , \lambda  \_ . \iota ^T)\\     \sigma \ (s , f)\ g &:= (\\       &\sigma ^S\ s\ (\lambda  p . u_1\ (f\ p)\ (g_1\ p)) ,\\       &\lambda  p . \sigma ^T\          (u_2\ (f\ (\text {pr}^S_1\ p))\ (g_1\ (\text {pr}^S_1\ p))\ (\text {pr}^S_2\ p))\          (\lambda  q . g_2\ (\text {pr}^S_1\ p)\ (v_1\ (\text {pr}^S_2\ p)\ q)\ (v_2\ (\text {pr}^S_2\ p)\ q))\\     &)\\     \text {pr}\ (p, q) &:= (\\     &(\text {pr}^S_1\ p , v_1\ (\text {pr}^S_2\ p)\ (\text {pr}^T_1\ q)),\\      &(v_2\ (\text {pr}^S_2\ p)\ (\text {pr}^T_1\ q) , \text {pr}^T_2\ q)\\     &)        \end {align*}   ]]></fr:tex>
+
+  where <fr:tex
+display="inline"><![CDATA[g_i := \pi _i \circ  g]]></fr:tex>. The equations for this monad container hold given the equations for the two constituant monad containers and the distributive law.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>255</fr:anchor><fr:addr
+type="user">lsd-0029</fr:addr><fr:route>lsd-0029.xml</fr:route><fr:title
+text="Container extension">Container extension</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a container <fr:tex
+display="inline"><![CDATA[(S \triangleright  P)]]></fr:tex>, it's <fr:em>extension</fr:em> is defined as the <fr:tex
+display="inline"><![CDATA[\mathbf {Set}]]></fr:tex>-functor <fr:tex
+display="inline"><![CDATA[\lbrack \negthinspace \lbrack  S \triangleright  P \rbrack \negthinspace \rbrack ]]></fr:tex> with action on objects
+  <fr:tex
+display="block"><![CDATA[     \lbrack \negthinspace \lbrack  S \triangleright  P \rbrack \negthinspace \rbrack \ A := \sum _{s : S} P\ s \to  A   ]]></fr:tex>
+  and action on morphisms
+  <fr:tex
+display="block"><![CDATA[     (\lbrack \negthinspace \lbrack  S \triangleright  P \rbrack \negthinspace \rbrack \ f)\ (s , g) := (s , f \circ  g)   ]]></fr:tex></fr:p><fr:p>The operation <fr:tex
+display="inline"><![CDATA[\lbrack \negthinspace \lbrack  - \rbrack \negthinspace \rbrack ]]></fr:tex> can be extended to a functor from <fr:tex
+display="inline"><![CDATA[\mathbf {Cont}]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[[\mathbf {Set},\mathbf {Set}]]]></fr:tex> by mapping container morphisms to natural transformations as follows
+  <fr:tex
+display="block"><![CDATA[     \langle \negthinspace \langle  u \triangleright  v \rangle \negthinspace \rangle _A\ (s , f) := (u\ s , f \circ  v)   ]]></fr:tex>
+  The functor given by <fr:tex
+display="inline"><![CDATA[\lbrack \negthinspace \lbrack  - \rbrack \negthinspace \rbrack ]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\langle \negthinspace \langle  - \rangle \negthinspace \rangle ]]></fr:tex> is fully faithful.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

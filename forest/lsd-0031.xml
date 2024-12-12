@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>257</fr:anchor><fr:addr
+type="user">lsd-0031</fr:addr><fr:route>lsd-0031.xml</fr:route><fr:title
+text="Monad container composition via distributive law">Monad container composition via distributive law</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(S \triangleright  P, \iota ^S, \sigma ^S, \text {pr}^S)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(T \triangleright  Q, \iota ^T, \sigma ^T, \text {pr}^T)]]></fr:tex> be <fr:link
+type="local"
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">monad containers</fr:link> and <fr:tex
+display="inline"><![CDATA[(u_1 , u_2 , v_1 , v_2)]]></fr:tex> be a <fr:link
+type="local"
+href="lsd-0008.xml"
+addr="lsd-0008"
+title="Monad container distributive law">monad container distributive law</fr:link> of type <fr:tex
+display="inline"><![CDATA[T \triangleright  Q \circ  S \triangleright  P \Rightarrow  S \triangleright  P \circ  T \triangleright  Q]]></fr:tex>.</fr:p><fr:p>We define the <fr:em>composite monad container</fr:em> (see <fr:link
+type="local"
+href="lsd-0032.xml"
+addr="lsd-0032"
+title="Containers are closed under composition">composite container</fr:link>) <fr:tex
+display="inline"><![CDATA[(S \triangleright  P \circ  T \triangleright  Q, \iota , \sigma , \text {pr})]]></fr:tex> where
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            \iota  &:= (\iota ^S , \lambda  \_ . \iota ^T)\\     \sigma \ (s , f)\ g &:= (\\       &\sigma ^S\ s\ (\lambda  p . u_1\ (f\ p)\ (g_1\ p)) ,\\       &\lambda  p . \sigma ^T\          (u_2\ (f\ (\text {pr}^S_1\ p))\ (g_1\ (\text {pr}^S_1\ p))\ (\text {pr}^S_2\ p))\          (\lambda  q . g_2\ (\text {pr}^S_1\ p)\ (v_1\ (\text {pr}^S_2\ p)\ q)\ (v_2\ (\text {pr}^S_2\ p)\ q))\\     &)\\     \text {pr}\ (p, q) &:= (\\     &(\text {pr}^S_1\ p , v_1\ (\text {pr}^S_2\ p)\ (\text {pr}^T_1\ q)),\\      &(v_2\ (\text {pr}^S_2\ p)\ (\text {pr}^T_1\ q) , \text {pr}^T_2\ q)\\     &)        \end {align*}   ]]></fr:tex>
+
+  where <fr:tex
+display="inline"><![CDATA[g_i := \pi _i \circ  g]]></fr:tex>. The equations for this monad container hold given the equations for the two constituant monad containers and the distributive law.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>259</fr:anchor><fr:addr
+type="user">lsd-0008</fr:addr><fr:route>lsd-0008.xml</fr:route><fr:title
+text="Monad container distributive law">Monad container distributive law</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(S \triangleright  P, \iota ^S, \sigma ^S, \text {pr}^S)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(T \triangleright  Q, \iota ^T, \sigma ^T, \text {pr}^T)]]></fr:tex> be <fr:link
+type="local"
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">monad containers</fr:link>.
+  A distributive law of <fr:tex
+display="inline"><![CDATA[S \triangleright  P]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[T \triangleright  Q]]></fr:tex> is given by the data:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       &u_1 : \prod _{s : S} (P\ s \to  T) \to  T \\       &u_2 : \prod _{s : S} \prod _{f : P\ s \to  T} Q\ (u_1\ s\ f) \to  S \\       &v_1 : \prod _{\{s : S\}} \prod _{\{f : P\ s \to  T\}} \prod _{q : Q\ (u_1\ s\ f)} P\ (u_2\ s\ f\ q) \to  P\ s \\       &v_2 : \prod _{\{s : S\}} \prod _{\{f : P\ s \to  T\}} \prod _{q : Q\ (u_1\ s\ f)} \prod _{p : P\ (u_2\ s\ f\ q)} Q\ (f\ (v_1\ q\ p)) \\     \end {align*}   ]]></fr:tex>
+  where the following equalities hold:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       u\ \iota ^S\ (\lambda  \_ . t) &= (t , \lambda  \_ . \iota ^S)\\       u\ s\ (\lambda  \_. \iota ^T) &= (\iota ^T , \lambda  \_. s)\\       v\ \{\iota ^S\}\ \{\lambda  \_. t\} &= \langle  \pi _2 , \pi _1 \rangle \\       v\ \{s\}\ \{\lambda  \_. \iota ^T\} &= \langle  \pi _2 , \pi _1 \rangle \\       \\        u_1\ (\sigma ^S\ s\ f)\ (g \circ  \text {pr}^S) &= u_1\ s\ (u_1 \circ  \langle  f , g \rangle )\\       u_2\ (\sigma ^S\ s\ f)\ (g \circ  \text {pr}^S)\ q &= \sigma ^S\ (u_2\ s\ (u_1 \circ  \langle  f , g \rangle )\ q)\ (\lambda  p . u_2\ (f\ (v_1\ q\ p))\ (g\ (v_1\ q\ p))\ (v_2\ q\ p))\\         \text {pr}^S_1\ (v_1\ q\ p) &= v_1\ q\ (\text {pr}^S_1\ p)\\       \text {pr}^S_2\ (v_1\ q\ p) &= v_1\ (v_2\ q\ (\text {pr}^S_1\ p))\ (\text {pr}^S_2\ p)\\       v_2\ q\ p &= v_2\ (v_2\ q\ (\text {pr}^S_1\ p))\ (\text {pr}^S_2\ p)\\       \\       u_1\ s\ (\sigma ^T \circ  \langle  f , g \rangle ) &= \sigma ^T\ (u_1\ s\ f)\ (\lambda  q . u_1\ (u_2\ s\ f\ q)\ (\lambda  p . g\ (v_1\ q\ p)\ (v_2\ q\ p)))\\       u_2\ s\ (\sigma ^T \circ  \langle  f , g \rangle )\ q &= u_2\ (u_2\ s\ f\ (\text {pr}^T_1\ q))\ (\lambda  p . g\ (v_1\ q\ p)\ (v_2\ q\ p))\ (\text {pr}^T_2\ q)\\       v_1\ (\text {pr}^T_1\ q)\ (v_1\ (\text {pr}^T_2\ q)\ p) &= v_1\ q\ p\\       v_2\ (\text {pr}^T_1\ q)\ (v_1\ (\text {pr}^T_2\ q)\ p) &= \text {pr}^T_1\ (v_2\ q\ p)\\       v_2\ (\text {pr}^T_2\ q)\ p &= \text {pr}^T_2\ (v_2\ q\ p)     \end {align*}   ]]></fr:tex>
+  We use the notation <fr:tex
+display="inline"><![CDATA[\langle  f , g \rangle  := \lambda  x . (f\ x , g\ x)]]></fr:tex>, with some implicit use of currying and uncurrying where this shorthand is utilised.
+  
+  <fr:tex
+display="inline"><![CDATA[u]]></fr:tex> is defined as <fr:tex
+display="inline"><![CDATA[\langle  u_1 , u_2 \rangle ]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[v]]></fr:tex> is defined as <fr:tex
+display="inline"><![CDATA[\langle  v_1 , v_2 \rangle ]]></fr:tex>.</fr:p><fr:p>Monad container distributive laws allow you to define a notion of <fr:link
+type="local"
+href="lsd-0031.xml"
+addr="lsd-0031"
+title="Monad container composition via distributive law">composition for monad containers</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>261</fr:anchor><fr:addr
+type="user">lsd-0032</fr:addr><fr:route>lsd-0032.xml</fr:route><fr:title
+text="Containers are closed under composition">Containers are closed under composition</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S \triangleright  P]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[T \triangleright  Q]]></fr:tex> be containers. We define their <fr:em>composite</fr:em> <fr:tex
+display="inline"><![CDATA[S \triangleright  P \circ  T \triangleright  Q]]></fr:tex> as the container
+  <fr:tex
+display="block"><![CDATA[     \sum _{s : S} P\ s \to  T \triangleright  \lambda  (s , f) . \sum _{p : P\ s} Q\ (f\ p)   ]]></fr:tex>
+  This composition commutes with <fr:link
+type="local"
+href="lsd-0029.xml"
+addr="lsd-0029"
+title="Container extension">container extension</fr:link>, which is to say:
+  <fr:tex
+display="block"><![CDATA[     \lbrack \negthinspace \lbrack  S \triangleright  P \circ  T \triangleright  Q \rbrack \negthinspace \rbrack  \cong  \lbrack \negthinspace \lbrack  S \triangleright  P \rbrack \negthinspace \rbrack  \circ  \lbrack \negthinspace \lbrack  T \triangleright  Q \rbrack \negthinspace \rbrack    ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>263</fr:anchor><fr:addr
+type="user">lsd-0008</fr:addr><fr:route>lsd-0008.xml</fr:route><fr:title
+text="Monad container distributive law">Monad container distributive law</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(S \triangleright  P, \iota ^S, \sigma ^S, \text {pr}^S)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(T \triangleright  Q, \iota ^T, \sigma ^T, \text {pr}^T)]]></fr:tex> be <fr:link
+type="local"
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">monad containers</fr:link>.
+  A distributive law of <fr:tex
+display="inline"><![CDATA[S \triangleright  P]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[T \triangleright  Q]]></fr:tex> is given by the data:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       &u_1 : \prod _{s : S} (P\ s \to  T) \to  T \\       &u_2 : \prod _{s : S} \prod _{f : P\ s \to  T} Q\ (u_1\ s\ f) \to  S \\       &v_1 : \prod _{\{s : S\}} \prod _{\{f : P\ s \to  T\}} \prod _{q : Q\ (u_1\ s\ f)} P\ (u_2\ s\ f\ q) \to  P\ s \\       &v_2 : \prod _{\{s : S\}} \prod _{\{f : P\ s \to  T\}} \prod _{q : Q\ (u_1\ s\ f)} \prod _{p : P\ (u_2\ s\ f\ q)} Q\ (f\ (v_1\ q\ p)) \\     \end {align*}   ]]></fr:tex>
+  where the following equalities hold:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       u\ \iota ^S\ (\lambda  \_ . t) &= (t , \lambda  \_ . \iota ^S)\\       u\ s\ (\lambda  \_. \iota ^T) &= (\iota ^T , \lambda  \_. s)\\       v\ \{\iota ^S\}\ \{\lambda  \_. t\} &= \langle  \pi _2 , \pi _1 \rangle \\       v\ \{s\}\ \{\lambda  \_. \iota ^T\} &= \langle  \pi _2 , \pi _1 \rangle \\       \\        u_1\ (\sigma ^S\ s\ f)\ (g \circ  \text {pr}^S) &= u_1\ s\ (u_1 \circ  \langle  f , g \rangle )\\       u_2\ (\sigma ^S\ s\ f)\ (g \circ  \text {pr}^S)\ q &= \sigma ^S\ (u_2\ s\ (u_1 \circ  \langle  f , g \rangle )\ q)\ (\lambda  p . u_2\ (f\ (v_1\ q\ p))\ (g\ (v_1\ q\ p))\ (v_2\ q\ p))\\         \text {pr}^S_1\ (v_1\ q\ p) &= v_1\ q\ (\text {pr}^S_1\ p)\\       \text {pr}^S_2\ (v_1\ q\ p) &= v_1\ (v_2\ q\ (\text {pr}^S_1\ p))\ (\text {pr}^S_2\ p)\\       v_2\ q\ p &= v_2\ (v_2\ q\ (\text {pr}^S_1\ p))\ (\text {pr}^S_2\ p)\\       \\       u_1\ s\ (\sigma ^T \circ  \langle  f , g \rangle ) &= \sigma ^T\ (u_1\ s\ f)\ (\lambda  q . u_1\ (u_2\ s\ f\ q)\ (\lambda  p . g\ (v_1\ q\ p)\ (v_2\ q\ p)))\\       u_2\ s\ (\sigma ^T \circ  \langle  f , g \rangle )\ q &= u_2\ (u_2\ s\ f\ (\text {pr}^T_1\ q))\ (\lambda  p . g\ (v_1\ q\ p)\ (v_2\ q\ p))\ (\text {pr}^T_2\ q)\\       v_1\ (\text {pr}^T_1\ q)\ (v_1\ (\text {pr}^T_2\ q)\ p) &= v_1\ q\ p\\       v_2\ (\text {pr}^T_1\ q)\ (v_1\ (\text {pr}^T_2\ q)\ p) &= \text {pr}^T_1\ (v_2\ q\ p)\\       v_2\ (\text {pr}^T_2\ q)\ p &= \text {pr}^T_2\ (v_2\ q\ p)     \end {align*}   ]]></fr:tex>
+  We use the notation <fr:tex
+display="inline"><![CDATA[\langle  f , g \rangle  := \lambda  x . (f\ x , g\ x)]]></fr:tex>, with some implicit use of currying and uncurrying where this shorthand is utilised.
+  
+  <fr:tex
+display="inline"><![CDATA[u]]></fr:tex> is defined as <fr:tex
+display="inline"><![CDATA[\langle  u_1 , u_2 \rangle ]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[v]]></fr:tex> is defined as <fr:tex
+display="inline"><![CDATA[\langle  v_1 , v_2 \rangle ]]></fr:tex>.</fr:p><fr:p>Monad container distributive laws allow you to define a notion of <fr:link
+type="local"
+href="lsd-0031.xml"
+addr="lsd-0031"
+title="Monad container composition via distributive law">composition for monad containers</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>265</fr:anchor><fr:addr
+type="user">lsd-0002</fr:addr><fr:route>lsd-0002.xml</fr:route><fr:title
+text="Monad container">Monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S \triangleright  P]]></fr:tex> be a container. A monad container (or mnd-container) <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="link-reference"><fr:link
+type="local"
+href="uustalu2017.xml"
+addr="uustalu2017"
+title="Container Combinatorics: Monads and Lax Monoidal Functors">[uustalu2017]</fr:link></html:span> on <fr:tex
+display="inline"><![CDATA[S \triangleright  P]]></fr:tex> is given by the following data:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       \iota  &: S\\       \sigma  &: \prod _{s : S} (P\ s \to  S) \to  S\\       \text {pr} &: \prod _{\{s : S\}} \prod _{\{f : P\ s \to  S\}} P\ (\sigma \ s\ f) \to  \sum _{p : P\ s} P\ (f\ p)     \end {align*}   ]]></fr:tex>
+  For which the following laws hold:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       \sigma \ a\ (\lambda  \_ . \iota  ) &= a\\       \text {pr}_1\ p &= p\\       \sigma \ \iota \ (\lambda  \_ . a ) &= a\\       \text {pr}_2\ p &= p\\       \sigma \ (\sigma \ a\ f)\ (\lambda  p . g\ (\text {pr}_1\ p)\ (\text {pr}_2\ p)) &= \sigma \ a\ (\lambda  p . \sigma \ (f\ p)\ (g\ p))\\       \text {pr}_1\ (\text {pr}_1\ p) &= \text {pr}_1\ p\\       \text {pr}_1\ (\text {pr}_2\ p) &= \text {pr}_2\ (\text {pr}_1\ p)\\       \text {pr}_2\ p &= \text {pr}_2\ (\text {pr}_2\ p)     \end {align*}   ]]></fr:tex>
+  We abbreviate <fr:tex
+display="inline"><![CDATA[\pi _1 \circ  \text {pr}]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[\text {pr}_1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\pi _2 \circ  \text {pr}]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[\text {pr}_2]]></fr:tex>. Each set of laws for <fr:tex
+display="inline"><![CDATA[\text {pr}]]></fr:tex> hold up to the laws for <fr:tex
+display="inline"><![CDATA[\sigma ]]></fr:tex> above them.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
