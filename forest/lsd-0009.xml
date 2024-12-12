@@ -141,7 +141,7 @@ display="block"><![CDATA[     \begin {align*}       \lbrack \negthinspace \lbrac
   I'm only considering cartesian monad containers for now, since their algebraic theories were much easier to describe - I'm not exactly sure how to phrase the equations in the non-cartesian case. For example, <fr:tex
 display="inline"><![CDATA[\lbrack \negthinspace \lbrack  \iota  \rbrack \negthinspace \rbrack ]]></fr:tex> is not necessarily unary in that case, and <fr:tex
 display="inline"><![CDATA[\lbrack \negthinspace \lbrack  \sigma \ s\ f \rbrack \negthinspace \rbrack ]]></fr:tex> may have fewer arguments than the sum of the arities of each <fr:tex
-display="inline"><![CDATA[\lbrack \negthinspace \lbrack  f(i) \rbrack \negthinspace \rbrack ]]></fr:tex> - the resulting equations feel rather unnatural.</fr:p><fr:p>I think <html:span
+display="inline"><![CDATA[\lbrack \negthinspace \lbrack  f(i) \rbrack \negthinspace \rbrack ]]></fr:tex> - the resulting equations feel rather unnatural.oplus_</fr:p><fr:p>I think <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="link-reference"><fr:link
 type="local"
@@ -170,7 +170,7 @@ display="inline"><![CDATA[n : \mathbb {N}]]></fr:tex> is given by
 display="block"><![CDATA[     n \mapsto  \sum _{s : S} |\negthinspace | P\ s \cong  n |\negthinspace |   ]]></fr:tex>
   where <fr:tex
 display="inline"><![CDATA[\iota ]]></fr:tex> is the identity operation, and <fr:tex
-display="inline"><![CDATA[\sigma ]]></fr:tex> is composition. All operations have finite arity by the finitary assumption on the monad container.</fr:p><fr:p>That monad containers were generalisations of non-symmetric operads was already noticed by <fr:link
+display="inline"><![CDATA[\sigma ]]></fr:tex> is composition. All operations have finite arity by the finitary assumption on the monad container.</fr:p><fr:p>That monad containers were generalisations of non-symmetric operads (in this way) was already noticed by <fr:link
 type="local"
 href="tarmouustalu.xml"
 addr="tarmouustalu"
