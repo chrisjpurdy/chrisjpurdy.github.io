@@ -250,11 +250,11 @@ href="lsd-0009.xml"
 addr="lsd-0009"
 title="Cartesian monad container">cartesian</fr:link> monad container <fr:tex
 display="inline"><![CDATA[(S \triangleright  P, \iota , \sigma )]]></fr:tex> is the same as that of the algebraic theory consisting of an operation <fr:tex
-display="inline"><![CDATA[\oplus _s]]></fr:tex> with arity <fr:tex
+display="inline"><![CDATA[\lbrack \negthinspace \lbrack  s \rbrack \negthinspace \rbrack ]]></fr:tex> with arity <fr:tex
 display="inline"><![CDATA[n \cong  P\ s]]></fr:tex> for each <fr:tex
 display="inline"><![CDATA[s : S]]></fr:tex>, and the following equations:
   <fr:tex
-display="block"><![CDATA[     \begin {align*}       \oplus _\iota \ (\oplus _s\ \vec {t}) &= \oplus _s\ \vec {t}\\       \oplus _s\ (\oplus _\iota \ t_1)\ \dots \ (\oplus _\iota \ t_n) &= \oplus _s\ t_1\ \dots \ t_n\\       \oplus _s\ (\oplus _{f(1)}\ \vec {t_1})\ \dots \ (\oplus _{f(n)}\ \vec {t_n}) &= \oplus _{(\sigma \ s\ f)}\ \vec {t_1}\ \dots \ \vec {t_n}     \end {align*}   ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+display="block"><![CDATA[     \begin {align*}       \lbrack \negthinspace \lbrack  \iota  \rbrack \negthinspace \rbrack \ (\lbrack \negthinspace \lbrack  s \rbrack \negthinspace \rbrack \ \vec {t}) &= \lbrack \negthinspace \lbrack  s \rbrack \negthinspace \rbrack \ \vec {t}\\       \lbrack \negthinspace \lbrack  s \rbrack \negthinspace \rbrack \ (\lbrack \negthinspace \lbrack  \iota  \rbrack \negthinspace \rbrack \ t_1)\ \dots \ (\lbrack \negthinspace \lbrack  \iota  \rbrack \negthinspace \rbrack \ t_n) &= \lbrack \negthinspace \lbrack  s \rbrack \negthinspace \rbrack \ t_1\ \dots \ t_n\\       \lbrack \negthinspace \lbrack  s \rbrack \negthinspace \rbrack \ (\lbrack \negthinspace \lbrack  f(1) \rbrack \negthinspace \rbrack \ \vec {t_1})\ \dots \ (\lbrack \negthinspace \lbrack  f(n) \rbrack \negthinspace \rbrack \ \vec {t_n}) &= \lbrack \negthinspace \lbrack  \sigma \ s\ f \rbrack \negthinspace \rbrack \ \vec {t_1}\ \dots \ \vec {t_n}\\       \lbrack \negthinspace \lbrack  \sigma \ s\ f \rbrack \negthinspace \rbrack \ (\lbrack \negthinspace \lbrack  g(1)(1) \rbrack \negthinspace \rbrack \ \vec {t_{1,1}})\ \dots \ (\lbrack \negthinspace \lbrack  g(n)(m) \rbrack \negthinspace \rbrack \ \vec {t_{n,m}})& \\       = \lbrack \negthinspace \lbrack  s \rbrack \negthinspace \rbrack \ (\lbrack \negthinspace \lbrack  \sigma \ (f(1))\ (g(1)) \rbrack \negthinspace \rbrack \ &\vec {t_{1,1}}\ \dots \ \vec {t_{1,m}})\ \dots \ (\lbrack \negthinspace \lbrack  \sigma \ (f(n))\ (g(n)) \rbrack \negthinspace \rbrack \ \vec {t_{n,1}}\ \dots \ \vec {t_{n,m}})     \end {align*}   ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
   I'm only considering cartesian monad containers for now, since their algebraic theories were much easier to describe - I'm not exactly sure how to phrase the equations in the non-cartesian case. For example, <fr:tex
 display="inline"><![CDATA[\oplus _\iota ]]></fr:tex> is not necessarily unary in that case, and <fr:tex
 display="inline"><![CDATA[\oplus _{(\sigma \ s\ f)}]]></fr:tex> may have fewer arguments than the sum of the arities of each <fr:tex
@@ -269,7 +269,35 @@ type="external"
 href="https://stacks.math.columbia.edu/tag/04AX">Stacks project</fr:link>.</fr:p><fr:p>An aside: I also found <fr:link
 type="external"
 href="https://www.cmu.edu/dietrich/philosophy/hott/slides/polytutorial.pdf">this presentation</fr:link> by Steve Awodey that describes the link between polynomial functors/monads and models of type theory, which probably links closely to the concept of <fr:tex
-display="inline"><![CDATA[\Sigma ]]></fr:tex>-universes.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+display="inline"><![CDATA[\Sigma ]]></fr:tex>-universes.</fr:p>
+  <html:hr
+xmlns:html="http://www.w3.org/1999/xhtml" />
+<fr:p>EDIT (12/12/24): I realised that I was missing the associativity equation for the definition of the algebraic theory for a <fr:link
+type="local"
+href="lsd-0021.xml"
+addr="lsd-0021"
+title="Finitary container">finitary</fr:link> <fr:link
+type="local"
+href="lsd-0009.xml"
+addr="lsd-0009"
+title="Cartesian monad container">cartesian monad container</fr:link>, and in the process realised that <fr:em>finitary cartesian monad containers are exactly non-symmetric operads</fr:em>!</fr:p><fr:p>To show this, consider <fr:tex
+display="inline"><![CDATA[(S \triangleright  P, \iota , \sigma )]]></fr:tex>. The set (or type) of operations for each <fr:tex
+display="inline"><![CDATA[n : \mathbb {N}]]></fr:tex> is given by
+  <fr:tex
+display="block"><![CDATA[     n \mapsto  \sum _{s : S} |\negthinspace | P\ s \cong  n |\negthinspace |   ]]></fr:tex>
+  where <fr:tex
+display="inline"><![CDATA[\iota ]]></fr:tex> is the identity operation, and <fr:tex
+display="inline"><![CDATA[\sigma ]]></fr:tex> is composition. All operations have finite arity by the finitary assumption on the monad container.</fr:p><fr:p>That monad containers were generalisations of non-symmetric operads was already noticed by <fr:link
+type="local"
+href="tarmouustalu.xml"
+addr="tarmouustalu"
+title="Tarmo Uustalu">Tarmo Uustalu</fr:link> in <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="link-reference"><fr:link
+type="local"
+href="uustalu2017.xml"
+addr="uustalu2017"
+title="Container Combinatorics: Monads and Lax Monoidal Functors">[uustalu2017]</fr:link></html:span>, but an explicit construction showing how they can be recovered was not given.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -352,11 +380,11 @@ href="lsd-0009.xml"
 addr="lsd-0009"
 title="Cartesian monad container">cartesian</fr:link> monad container <fr:tex
 display="inline"><![CDATA[(S \triangleright  P, \iota , \sigma )]]></fr:tex> is the same as that of the algebraic theory consisting of an operation <fr:tex
-display="inline"><![CDATA[\oplus _s]]></fr:tex> with arity <fr:tex
+display="inline"><![CDATA[\lbrack \negthinspace \lbrack  s \rbrack \negthinspace \rbrack ]]></fr:tex> with arity <fr:tex
 display="inline"><![CDATA[n \cong  P\ s]]></fr:tex> for each <fr:tex
 display="inline"><![CDATA[s : S]]></fr:tex>, and the following equations:
   <fr:tex
-display="block"><![CDATA[     \begin {align*}       \oplus _\iota \ (\oplus _s\ \vec {t}) &= \oplus _s\ \vec {t}\\       \oplus _s\ (\oplus _\iota \ t_1)\ \dots \ (\oplus _\iota \ t_n) &= \oplus _s\ t_1\ \dots \ t_n\\       \oplus _s\ (\oplus _{f(1)}\ \vec {t_1})\ \dots \ (\oplus _{f(n)}\ \vec {t_n}) &= \oplus _{(\sigma \ s\ f)}\ \vec {t_1}\ \dots \ \vec {t_n}     \end {align*}   ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+display="block"><![CDATA[     \begin {align*}       \lbrack \negthinspace \lbrack  \iota  \rbrack \negthinspace \rbrack \ (\lbrack \negthinspace \lbrack  s \rbrack \negthinspace \rbrack \ \vec {t}) &= \lbrack \negthinspace \lbrack  s \rbrack \negthinspace \rbrack \ \vec {t}\\       \lbrack \negthinspace \lbrack  s \rbrack \negthinspace \rbrack \ (\lbrack \negthinspace \lbrack  \iota  \rbrack \negthinspace \rbrack \ t_1)\ \dots \ (\lbrack \negthinspace \lbrack  \iota  \rbrack \negthinspace \rbrack \ t_n) &= \lbrack \negthinspace \lbrack  s \rbrack \negthinspace \rbrack \ t_1\ \dots \ t_n\\       \lbrack \negthinspace \lbrack  s \rbrack \negthinspace \rbrack \ (\lbrack \negthinspace \lbrack  f(1) \rbrack \negthinspace \rbrack \ \vec {t_1})\ \dots \ (\lbrack \negthinspace \lbrack  f(n) \rbrack \negthinspace \rbrack \ \vec {t_n}) &= \lbrack \negthinspace \lbrack  \sigma \ s\ f \rbrack \negthinspace \rbrack \ \vec {t_1}\ \dots \ \vec {t_n}\\       \lbrack \negthinspace \lbrack  \sigma \ s\ f \rbrack \negthinspace \rbrack \ (\lbrack \negthinspace \lbrack  g(1)(1) \rbrack \negthinspace \rbrack \ \vec {t_{1,1}})\ \dots \ (\lbrack \negthinspace \lbrack  g(n)(m) \rbrack \negthinspace \rbrack \ \vec {t_{n,m}})& \\       = \lbrack \negthinspace \lbrack  s \rbrack \negthinspace \rbrack \ (\lbrack \negthinspace \lbrack  \sigma \ (f(1))\ (g(1)) \rbrack \negthinspace \rbrack \ &\vec {t_{1,1}}\ \dots \ \vec {t_{1,m}})\ \dots \ (\lbrack \negthinspace \lbrack  \sigma \ (f(n))\ (g(n)) \rbrack \negthinspace \rbrack \ \vec {t_{n,1}}\ \dots \ \vec {t_{n,m}})     \end {align*}   ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
   I'm only considering cartesian monad containers for now, since their algebraic theories were much easier to describe - I'm not exactly sure how to phrase the equations in the non-cartesian case. For example, <fr:tex
 display="inline"><![CDATA[\oplus _\iota ]]></fr:tex> is not necessarily unary in that case, and <fr:tex
 display="inline"><![CDATA[\oplus _{(\sigma \ s\ f)}]]></fr:tex> may have fewer arguments than the sum of the arities of each <fr:tex
@@ -371,4 +399,32 @@ type="external"
 href="https://stacks.math.columbia.edu/tag/04AX">Stacks project</fr:link>.</fr:p><fr:p>An aside: I also found <fr:link
 type="external"
 href="https://www.cmu.edu/dietrich/philosophy/hott/slides/polytutorial.pdf">this presentation</fr:link> by Steve Awodey that describes the link between polynomial functors/monads and models of type theory, which probably links closely to the concept of <fr:tex
-display="inline"><![CDATA[\Sigma ]]></fr:tex>-universes.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+display="inline"><![CDATA[\Sigma ]]></fr:tex>-universes.</fr:p>
+  <html:hr
+xmlns:html="http://www.w3.org/1999/xhtml" />
+<fr:p>EDIT (12/12/24): I realised that I was missing the associativity equation for the definition of the algebraic theory for a <fr:link
+type="local"
+href="lsd-0021.xml"
+addr="lsd-0021"
+title="Finitary container">finitary</fr:link> <fr:link
+type="local"
+href="lsd-0009.xml"
+addr="lsd-0009"
+title="Cartesian monad container">cartesian monad container</fr:link>, and in the process realised that <fr:em>finitary cartesian monad containers are exactly non-symmetric operads</fr:em>!</fr:p><fr:p>To show this, consider <fr:tex
+display="inline"><![CDATA[(S \triangleright  P, \iota , \sigma )]]></fr:tex>. The set (or type) of operations for each <fr:tex
+display="inline"><![CDATA[n : \mathbb {N}]]></fr:tex> is given by
+  <fr:tex
+display="block"><![CDATA[     n \mapsto  \sum _{s : S} |\negthinspace | P\ s \cong  n |\negthinspace |   ]]></fr:tex>
+  where <fr:tex
+display="inline"><![CDATA[\iota ]]></fr:tex> is the identity operation, and <fr:tex
+display="inline"><![CDATA[\sigma ]]></fr:tex> is composition. All operations have finite arity by the finitary assumption on the monad container.</fr:p><fr:p>That monad containers were generalisations of non-symmetric operads was already noticed by <fr:link
+type="local"
+href="tarmouustalu.xml"
+addr="tarmouustalu"
+title="Tarmo Uustalu">Tarmo Uustalu</fr:link> in <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="link-reference"><fr:link
+type="local"
+href="uustalu2017.xml"
+addr="uustalu2017"
+title="Container Combinatorics: Monads and Lax Monoidal Functors">[uustalu2017]</fr:link></html:span>, but an explicit construction showing how they can be recovered was not given.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
