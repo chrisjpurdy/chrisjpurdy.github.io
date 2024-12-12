@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>261</fr:anchor><fr:addr
+type="user">lsd-0034</fr:addr><fr:route>lsd-0034.xml</fr:route><fr:title
+text="Knit composite of lmf-containers">Knit composite of lmf-containers</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(S \triangleright  P, \iota ^S, \otimes ^S, \text {pr}^S)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(T \triangleright  Q, \iota ^T, \otimes ^T, \text {pr}^T)]]></fr:tex> be <fr:link
+type="local"
+href="lsd-0027.xml"
+addr="lsd-0027"
+title="Lmf-container">lmf-containers</fr:link> and <fr:tex
+display="inline"><![CDATA[(u_1 , u_2, v_1, v_2)]]></fr:tex> be a <fr:link
+type="local"
+href="lsd-0028.xml"
+addr="lsd-0028"
+title="Lmf-container distributive law">lmf-container distributive law</fr:link>. We define a <fr:em>knit composite</fr:em> <fr:tex
+display="inline"><![CDATA[(S \triangleright  P \circ  T \triangleright  Q, \iota , \otimes , \text {pr})]]></fr:tex> where
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            \iota  &:= (\iota ^S , \lambda  \_ . \iota ^T)\\     (s , f) \otimes  (s' , f') &:= (\\     &s \otimes ^S (u_1\ s'\ f) ,\\     &\lambda  p . u_2\ s'\ f\ (pr^S_2\ p) \otimes ^T f'\ (v_1\ (pr^S_2\ p))\ \\     &)\\             \end {align*}   ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>263</fr:anchor><fr:addr
+type="user">lsd-0027</fr:addr><fr:route>lsd-0027.xml</fr:route><fr:title
+text="Lmf-container">Lmf-container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S \triangleright  P]]></fr:tex> be a container. A <fr:em>lmf-container</fr:em> (lax-monoidal-functor-container) <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="link-reference"><fr:link
+type="local"
+href="uustalu2017.xml"
+addr="uustalu2017"
+title="Container Combinatorics: Monads and Lax Monoidal Functors">[uustalu2017]</fr:link></html:span> on <fr:tex
+display="inline"><![CDATA[S \triangleright  P]]></fr:tex> is given by the following data:
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            \iota  &: S\\     \otimes  &: S \to  S \to  S\\     \text {pr} &: \prod _{\{s : S\}} \prod _{\{s' : S\}} P\ (s \otimes  s') \to  P\ s \times  P\ s'        \end {align*}   ]]></fr:tex>
+
+  satisfying the equations:
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            s \otimes  \iota  &= s\\     \text {pr}_1\ p &= p\\     \iota  \otimes  s &= s\\     \text {pr}_2\ p &= p\\     (s \otimes  s') \otimes  s'' &= s \otimes  (s' \otimes  s'')\\     \text {pr}_1\ (\text {pr}_1\ p) &= \text {pr}_1\ p\\     \text {pr}_1\ (\text {pr}_2\ p) &= \text {pr}_2\ (\text {pr}_1\ p)\\     \text {pr}_2\ p &= \text {pr}_2\ (\text {pr}_2\ p)        \end {align*}   ]]></fr:tex>
+
+  We abbreviate <fr:tex
+display="inline"><![CDATA[\pi _1 \circ  \text {pr}]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[\text {pr}_1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\pi _2 \circ  \text {pr}]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[\text {pr}_2]]></fr:tex>. Each set of laws for <fr:tex
+display="inline"><![CDATA[\text {pr}]]></fr:tex> hold up to the laws for <fr:tex
+display="inline"><![CDATA[\oplus ]]></fr:tex> above them.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>265</fr:anchor><fr:addr
+type="user">lsd-0028</fr:addr><fr:route>lsd-0028.xml</fr:route><fr:title
+text="Lmf-container distributive law">Lmf-container distributive law</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(S \triangleright  P, \iota ^S, \otimes ^S, \text {pr}^S)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(T \triangleright  Q, \iota ^T, \otimes ^T, \text {pr}^T)]]></fr:tex> be <fr:link
+type="local"
+href="lsd-0027.xml"
+addr="lsd-0027"
+title="Lmf-container">lmf-containers</fr:link>.
+  A distributive law of <fr:tex
+display="inline"><![CDATA[S \triangleright  P]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[T \triangleright  Q]]></fr:tex> is given by the data:
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            &u_1 : \prod _{s : S} (P\ s \to  T) \to  T \\     &u_2 : \prod _{s : S} \prod _{f : P\ s \to  T} Q\ (u_1\ s\ f) \to  S \\     &v_1 : \prod _{\{s : S\}} \prod _{\{f : P\ s \to  T\}} \prod _{q : Q\ (u_1\ s\ f)} P\ (u_2\ s\ f\ q) \to  P\ s \\     &v_2 : \prod _{\{s : S\}} \prod _{\{f : P\ s \to  T\}} \prod _{q : Q\ (u_1\ s\ f)} \prod _{p : P\ (u_2\ s\ f\ q)} Q\ (f\ (v_1\ q\ p)) \\        \end {align*}   ]]></fr:tex>
+
+  where the following equalities hold:
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            u\ \iota ^S\ (\lambda  \_ . t) &= (t , \lambda  \_ . \iota ^S)\\     u\ s\ (\lambda  \_. \iota ^T) &= (\iota ^T , \lambda  \_. s)\\     v\ \{\iota ^S\}\ \{\lambda  \_. t\} &= \langle  \pi _2 , \pi _1 \rangle \\     v\ \{s\}\ \{\lambda  \_. \iota ^T\} &= \langle  \pi _2 , \pi _1 \rangle \\     \\      u_1\ (s \otimes ^S s')\ (f \circ  \text {pr}^S) &= u_1\ s\ (\lambda  p . u_1\ s'\ (f\ p))\\     u_2\ (s \otimes ^S s')\ (f \circ  \text {pr}^S)\ q &= (u_2\ s\ (\lambda  p . u_1\ s'\ (f\ p))\ q) \otimes ^S (\lambda  p . u_2\ s'\ (f\ (v_1\ q\ p))\ (v_2\ q\ p))\\       \text {pr}^S_1\ (v_1\ q\ p) &= v_1\ q\ (\text {pr}^S_1\ p)\\     \text {pr}^S_2\ (v_1\ q\ p) &= v_1\ (v_2\ q\ (\text {pr}^S_1\ p))\ (\text {pr}^S_2\ p)\\     v_2\ q\ p &= v_2\ (v_2\ q\ (\text {pr}^S_1\ p))\ (\text {pr}^S_2\ p)\\     \\     u_1\ s\ (\lambda  p . f\ p \otimes ^T g\ p) &= (u_1\ s\ f) \otimes ^T (\lambda  q . u_1\ (u_2\ s\ f\ q)\ (\lambda  p . g\ (v_1\ q\ p)))\\     u_2\ s\ (\lambda  p . f\ p \otimes ^T g\ p)\ q &= u_2\ (u_2\ s\ f\ (\text {pr}^T_1\ q))\ (\lambda  p . g\ (v_1\ q\ p))\ (\text {pr}^T_2\ q)\\     v_1\ (\text {pr}^T_1\ q)\ (v_1\ (\text {pr}^T_2\ q)\ p) &= v_1\ q\ p\\     v_2\ (\text {pr}^T_1\ q)\ (v_1\ (\text {pr}^T_2\ q)\ p) &= \text {pr}^T_1\ (v_2\ q\ p)\\     v_2\ (\text {pr}^T_2\ q)\ p &= \text {pr}^T_2\ (v_2\ q\ p)        \end {align*}   ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

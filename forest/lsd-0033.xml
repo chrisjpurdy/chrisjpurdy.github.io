@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>257</fr:anchor><fr:addr
+type="user">lsd-0033</fr:addr><fr:route>lsd-0033.xml</fr:route><fr:title
+text="Direct composite of lmf-containers">Direct composite of lmf-containers</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(S \triangleright  P, \iota ^S, \otimes ^S, \text {pr}^S)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(T \triangleright  Q, \iota ^T, \otimes ^T, \text {pr}^T)]]></fr:tex> be <fr:link
+type="local"
+href="lsd-0027.xml"
+addr="lsd-0027"
+title="Lmf-container">lmf-containers</fr:link>. We define their <fr:em>direct composite</fr:em> as the lmf-container <fr:tex
+display="inline"><![CDATA[(S \triangleright  P \circ  T \triangleright  Q, \iota , \otimes , \text {pr})]]></fr:tex> where
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            \iota  &:= (\iota ^S , \lambda  \_ . \iota ^T)\\     (s , f) \otimes  (s' , f') &:= (s \otimes ^S s' , \lambda  p . f\ (\text {pr}^S_1\ p) \otimes ^T f'\ (\text {pr}^S_2\ p))\\     \text {pr}\ (p , q) &:= ((\text {pr}^S_1\ p , \text {pr}^T_1\ q) , (\text {pr}^S_2\ p , \text {pr}^T_2\ q))        \end {align*}   ]]></fr:tex>
+
+  This is a generalisation of the direct product of monoids.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>259</fr:anchor><fr:addr
+type="user">lsd-0027</fr:addr><fr:route>lsd-0027.xml</fr:route><fr:title
+text="Lmf-container">Lmf-container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S \triangleright  P]]></fr:tex> be a container. A <fr:em>lmf-container</fr:em> (lax-monoidal-functor-container) <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="link-reference"><fr:link
+type="local"
+href="uustalu2017.xml"
+addr="uustalu2017"
+title="Container Combinatorics: Monads and Lax Monoidal Functors">[uustalu2017]</fr:link></html:span> on <fr:tex
+display="inline"><![CDATA[S \triangleright  P]]></fr:tex> is given by the following data:
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            \iota  &: S\\     \otimes  &: S \to  S \to  S\\     \text {pr} &: \prod _{\{s : S\}} \prod _{\{s' : S\}} P\ (s \otimes  s') \to  P\ s \times  P\ s'        \end {align*}   ]]></fr:tex>
+
+  satisfying the equations:
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            s \otimes  \iota  &= s\\     \text {pr}_1\ p &= p\\     \iota  \otimes  s &= s\\     \text {pr}_2\ p &= p\\     (s \otimes  s') \otimes  s'' &= s \otimes  (s' \otimes  s'')\\     \text {pr}_1\ (\text {pr}_1\ p) &= \text {pr}_1\ p\\     \text {pr}_1\ (\text {pr}_2\ p) &= \text {pr}_2\ (\text {pr}_1\ p)\\     \text {pr}_2\ p &= \text {pr}_2\ (\text {pr}_2\ p)        \end {align*}   ]]></fr:tex>
+
+  We abbreviate <fr:tex
+display="inline"><![CDATA[\pi _1 \circ  \text {pr}]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[\text {pr}_1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\pi _2 \circ  \text {pr}]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[\text {pr}_2]]></fr:tex>. Each set of laws for <fr:tex
+display="inline"><![CDATA[\text {pr}]]></fr:tex> hold up to the laws for <fr:tex
+display="inline"><![CDATA[\oplus ]]></fr:tex> above them.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
