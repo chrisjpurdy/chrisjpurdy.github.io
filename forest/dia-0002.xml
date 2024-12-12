@@ -290,8 +290,8 @@ addr="lsd-0002"
 title="Monad container">monad container</fr:link>. We call the monad container
   commutative when the following laws hold:
   <fr:tex
-display="block"><![CDATA[     \begin {align*}       \sigma \ a\ (\lambda  \_ . b) &= \sigma \ b\ (\lambda  \_ . a)\\       \text {pr}_1\ p &= \text {pr}_2\ p\\       \end {align*}   ]]></fr:tex>
-  The equation for <fr:tex
+display="block"><![CDATA[     \begin {align*}       \sigma \ a\ (\lambda  \_ . b) &= \sigma \ b\ (\lambda  \_ . a)\\       \text {pr}_1\ p &= \text {pr}_2\ p\\       \text {pr}_2\ p &= \text {pr}_1\ p \end {align*}   ]]></fr:tex>
+  The equations for <fr:tex
 display="inline"><![CDATA[\text {pr}]]></fr:tex> holds given the first equation. Commutative monad containers interpret exactly
   the commutative monads (w.r.t. cartesian product) for container functors. <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
