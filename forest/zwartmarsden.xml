@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>786</fr:anchor><fr:addr
+type="user">zwartmarsden</fr:addr><fr:route>zwartmarsden.xml</fr:route><fr:title
+text="No-Go Theorems for Distributive Laws">No-Go Theorems for Distributive Laws</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2022</fr:year></fr:date><fr:authors><fr:author>Maaike Zwart</fr:author><fr:author>Dan Marsden</fr:author></fr:authors><fr:meta
+name="bibtex"><![CDATA[  @article{
+    Zwart_Marsden_2022,
+    title={No-Go Theorems for Distributive Laws}, 
+    volume={Volume 18, Issue 1}, 
+    rights={https://creativecommons.org/licenses/by/4.0}, 
+    ISSN={1860-5974}, 
+    DOI={10.46298/lmcs-18(1:13)2022}, 
+    journal={Logical Methods in Computer Science}, 
+    author={Zwart, Maaike and Marsden, Dan}, 
+    year={2022}, 
+    month=jan, 
+    pages={6253}, 
+    language={en} 
+  }]]></fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree>
