@@ -372,7 +372,7 @@ display="block"><![CDATA[     \begin {align*}              \lfloor  x \rfloor  &
 
     We have that <fr:tex
 display="inline"><![CDATA[t_1 \longrightarrow _\beta  t_2]]></fr:tex> implies <fr:tex
-display="inline"><![CDATA[\lfloor  t_1 \rfloor  \longrightarrow _\beta  \lfloor  t_2 \rfloor ]]></fr:tex>, so we are done by contradiction: if <fr:tex
+display="inline"><![CDATA[\lfloor  t_1 \rfloor  \longrightarrow _\beta  \lfloor  t_2 \rfloor ]]></fr:tex>, so we are done by contradiction; if <fr:tex
 display="inline"><![CDATA[\beta ]]></fr:tex>-reduction of <fr:tex
 display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
 display="inline"><![CDATA[^{ex}]]></fr:tex> terms was <fr:em>not</fr:em> strongly normalising, then typed <fr:tex
@@ -2085,7 +2085,7 @@ display="block"><![CDATA[     \begin {align*}              \lfloor  x \rfloor  &
 
     We have that <fr:tex
 display="inline"><![CDATA[t_1 \longrightarrow _\beta  t_2]]></fr:tex> implies <fr:tex
-display="inline"><![CDATA[\lfloor  t_1 \rfloor  \longrightarrow _\beta  \lfloor  t_2 \rfloor ]]></fr:tex>, so we are done by contradiction: if <fr:tex
+display="inline"><![CDATA[\lfloor  t_1 \rfloor  \longrightarrow _\beta  \lfloor  t_2 \rfloor ]]></fr:tex>, so we are done by contradiction; if <fr:tex
 display="inline"><![CDATA[\beta ]]></fr:tex>-reduction of <fr:tex
 display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
 display="inline"><![CDATA[^{ex}]]></fr:tex> terms was <fr:em>not</fr:em> strongly normalising, then typed <fr:tex
