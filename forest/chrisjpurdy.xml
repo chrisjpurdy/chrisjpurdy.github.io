@@ -375,7 +375,7 @@ display="inline"><![CDATA[t_1 \longrightarrow _\beta  t_2]]></fr:tex> implies <f
 display="inline"><![CDATA[\lfloor  t_1 \rfloor  \longrightarrow _\beta  \lfloor  t_2 \rfloor ]]></fr:tex>, so we are done by contradiction; if <fr:tex
 display="inline"><![CDATA[\beta ]]></fr:tex>-reduction of <fr:tex
 display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
-display="inline"><![CDATA[^{ex}]]></fr:tex> terms was <fr:em>not</fr:em> strongly normalising, then typed <fr:tex
+display="inline"><![CDATA[^{ex}]]></fr:tex> terms were <fr:em>not</fr:em> strongly normalising, then typed <fr:tex
 display="inline"><![CDATA[\lambda ]]></fr:tex>-calculus would not be.
   </fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
@@ -2088,7 +2088,7 @@ display="inline"><![CDATA[t_1 \longrightarrow _\beta  t_2]]></fr:tex> implies <f
 display="inline"><![CDATA[\lfloor  t_1 \rfloor  \longrightarrow _\beta  \lfloor  t_2 \rfloor ]]></fr:tex>, so we are done by contradiction; if <fr:tex
 display="inline"><![CDATA[\beta ]]></fr:tex>-reduction of <fr:tex
 display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
-display="inline"><![CDATA[^{ex}]]></fr:tex> terms was <fr:em>not</fr:em> strongly normalising, then typed <fr:tex
+display="inline"><![CDATA[^{ex}]]></fr:tex> terms were <fr:em>not</fr:em> strongly normalising, then typed <fr:tex
 display="inline"><![CDATA[\lambda ]]></fr:tex>-calculus would not be.
   </fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
