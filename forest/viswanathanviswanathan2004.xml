@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>794</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>833</fr:anchor><fr:addr
 type="user">viswanathanviswanathan2004</fr:addr><fr:route>viswanathanviswanathan2004.xml</fr:route><fr:title
 text="A Higher Order Modal Fixed Point Logic">A Higher Order Modal Fixed Point Logic</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2017</fr:year></fr:date><fr:authors><fr:author>Mahesh Viswanathan</fr:author><fr:author>Ramesh Viswanathan</fr:author></fr:authors><fr:meta
 name="bibtex"><![CDATA[ @inproceedings{
@@ -38,7 +38,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>797</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>836</fr:anchor><fr:addr
 type="user">mhe-0004</fr:addr><fr:route>mhe-0004.xml</fr:route><fr:title
 text="HOL^{ex} formula syntax"><fr:tex
 display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
@@ -67,4 +67,9 @@ href="mhe-0005.xml"
 addr="mhe-0005"
 title="HOL^{ex} domain syntax">predicate and non-predicate domains</fr:link> respectively.
   <fr:tex
-display="block"><![CDATA[     t ::=\ x\ |\ \forall  (x : T).t\ |\ t \Rightarrow  t^\prime \ |\ \lambda (x^v : T).t\ |\ t\ t^\prime \ |\ \mu ^\alpha (x:P).t\ |\ \exists \alpha .t\ |\ \beta  < \alpha    ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+display="block"><![CDATA[     t ::=\ x\ |\ \forall  (x : T).t\ |\ t \Rightarrow  t^\prime \ |\ \lambda (x^v : T).t\ |\ t\ t^\prime \ |\ \mu ^\alpha (x:P).t\ |\ \exists \alpha .t\ |\ \beta  < \alpha    ]]></fr:tex>
+  We adopt standard notions of free and bound variables, with <fr:tex
+display="inline"><![CDATA[\forall , \lambda , \mu ]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\exists ]]></fr:tex> acting as binders. We use <fr:tex
+display="inline"><![CDATA[\text {fv}(t)]]></fr:tex> to denote the set of free (expression and ordinal) variables of <fr:tex
+display="inline"><![CDATA[t]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

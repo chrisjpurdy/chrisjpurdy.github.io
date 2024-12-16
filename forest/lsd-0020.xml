@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>394</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>462</fr:anchor><fr:addr
 type="user">lsd-0020</fr:addr><fr:route>lsd-0020.xml</fr:route><fr:title
 text="Algebraic theories for cartesian monad containers">Algebraic theories for cartesian monad containers</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -29,7 +29,7 @@ display="inline"><![CDATA[s : S]]></fr:tex>, and the following equations:
   
   <fr:tex
 display="block"><![CDATA[     \begin {align*}            \lbrack \negthinspace \lbrack  \sigma \ \iota \ (\lambda  \_ . s) \rbrack \negthinspace \rbrack \ \vec {t} &= \lbrack \negthinspace \lbrack  s \rbrack \negthinspace \rbrack \ \vec {t}\\     \lbrack \negthinspace \lbrack  \sigma \ s\ (\lambda  \_ . \iota ) \rbrack \negthinspace \rbrack \ \vec {t} &= \lbrack \negthinspace \lbrack  s \rbrack \negthinspace \rbrack \ \vec {t}\\     \lbrack \negthinspace \lbrack  \sigma \ (\sigma \ s\ f)\ g \rbrack \negthinspace \rbrack \ \vec {t} &= \lbrack \negthinspace \lbrack  \sigma \ s\ (\lambda  i . \sigma \ (f\ i)\ (g\ i)) \rbrack \negthinspace \rbrack \ \vec {t}        \end {align*}   ]]></fr:tex></fr:p><fr:p>We could alternatively present this by denoting uses of <fr:tex
-display="inline"><![CDATA[\sigma ]]></fr:tex> with nested application, as follows:
+display="inline"><![CDATA[\sigma ]]></fr:tex> implicitly with nested application, as follows:
   
   <fr:tex
 display="block"><![CDATA[     \begin {align*}            \lbrack \negthinspace \lbrack  \iota  \rbrack \negthinspace \rbrack \ (\lbrack \negthinspace \lbrack  s \rbrack \negthinspace \rbrack \ \vec {t}) &= \lbrack \negthinspace \lbrack  s \rbrack \negthinspace \rbrack \ \vec {t}\\     \lbrack \negthinspace \lbrack  s \rbrack \negthinspace \rbrack \ (\lbrack \negthinspace \lbrack  \iota  \rbrack \negthinspace \rbrack \ t_1)\ \dots \ (\lbrack \negthinspace \lbrack  \iota  \rbrack \negthinspace \rbrack \ t_n) &= \lbrack \negthinspace \lbrack  s \rbrack \negthinspace \rbrack \ t_1\ \dots \ t_n\\        \end {align*}   ]]></fr:tex>
@@ -49,7 +49,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>396</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>464</fr:anchor><fr:addr
 type="user">dia-0003</fr:addr><fr:route>dia-0003.xml</fr:route><fr:title
 text="Diary: Monad container algebras">Diary: Monad container algebras</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -77,7 +77,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>295</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>363</fr:anchor><fr:addr
 type="user">lsd-0019</fr:addr><fr:route>lsd-0019.xml</fr:route><fr:title
 text="Monad container algebras">Monad container algebras</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -101,7 +101,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>297</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>365</fr:anchor><fr:addr
 type="user">lsd-0020</fr:addr><fr:route>lsd-0020.xml</fr:route><fr:title
 text="Algebraic theories for cartesian monad containers">Algebraic theories for cartesian monad containers</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -123,7 +123,7 @@ display="inline"><![CDATA[s : S]]></fr:tex>, and the following equations:
   
   <fr:tex
 display="block"><![CDATA[     \begin {align*}            \lbrack \negthinspace \lbrack  \sigma \ \iota \ (\lambda  \_ . s) \rbrack \negthinspace \rbrack \ \vec {t} &= \lbrack \negthinspace \lbrack  s \rbrack \negthinspace \rbrack \ \vec {t}\\     \lbrack \negthinspace \lbrack  \sigma \ s\ (\lambda  \_ . \iota ) \rbrack \negthinspace \rbrack \ \vec {t} &= \lbrack \negthinspace \lbrack  s \rbrack \negthinspace \rbrack \ \vec {t}\\     \lbrack \negthinspace \lbrack  \sigma \ (\sigma \ s\ f)\ g \rbrack \negthinspace \rbrack \ \vec {t} &= \lbrack \negthinspace \lbrack  \sigma \ s\ (\lambda  i . \sigma \ (f\ i)\ (g\ i)) \rbrack \negthinspace \rbrack \ \vec {t}        \end {align*}   ]]></fr:tex></fr:p><fr:p>We could alternatively present this by denoting uses of <fr:tex
-display="inline"><![CDATA[\sigma ]]></fr:tex> with nested application, as follows:
+display="inline"><![CDATA[\sigma ]]></fr:tex> implicitly with nested application, as follows:
   
   <fr:tex
 display="block"><![CDATA[     \begin {align*}            \lbrack \negthinspace \lbrack  \iota  \rbrack \negthinspace \rbrack \ (\lbrack \negthinspace \lbrack  s \rbrack \negthinspace \rbrack \ \vec {t}) &= \lbrack \negthinspace \lbrack  s \rbrack \negthinspace \rbrack \ \vec {t}\\     \lbrack \negthinspace \lbrack  s \rbrack \negthinspace \rbrack \ (\lbrack \negthinspace \lbrack  \iota  \rbrack \negthinspace \rbrack \ t_1)\ \dots \ (\lbrack \negthinspace \lbrack  \iota  \rbrack \negthinspace \rbrack \ t_n) &= \lbrack \negthinspace \lbrack  s \rbrack \negthinspace \rbrack \ t_1\ \dots \ t_n\\        \end {align*}   ]]></fr:tex>
@@ -186,7 +186,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>398</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>466</fr:anchor><fr:addr
 type="user">lsd-0021</fr:addr><fr:route>lsd-0021.xml</fr:route><fr:title
 text="Finitary container">Finitary container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -201,8 +201,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>392</fr:anchor><fr:addr
-type="machine">#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>460</fr:anchor><fr:addr
+type="machine">#246</fr:addr><fr:route>unstable-246.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
@@ -217,7 +217,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>400</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>468</fr:anchor><fr:addr
 type="user">lsd-0009</fr:addr><fr:route>lsd-0009.xml</fr:route><fr:title
 text="Cartesian monad container">Cartesian monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"

@@ -7,16 +7,36 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>388</fr:anchor><fr:addr
-type="machine">#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>291</fr:anchor><fr:addr
+type="machine">#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
-title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A container is finitary if and only if for all <fr:tex
-display="inline"><![CDATA[s : S]]></fr:tex>, the set <fr:tex
-display="inline"><![CDATA[P\ s]]></fr:tex> is isomorphic to some finite cardinal. 
-      <html:mark
-xmlns:html="http://www.w3.org/1999/xhtml">TODO: reference Kock here</html:mark></fr:p></fr:mainmatter><fr:backmatter><fr:tree
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    We show this by reduction to the typed <fr:tex
+display="inline"><![CDATA[\lambda ]]></fr:tex>-calculus. Domains are translated by removing the variance annotation from arrow domains:
+    
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}              \lfloor  D \rfloor  &= D\\       \lfloor  \text {Prop} \rfloor  &= \text {Prop}\\       \lfloor  S \to ^v T \rfloor  &= \lfloor  S \rfloor  \to  \lfloor  T \rfloor           \end {align*}   ]]></fr:tex>
+
+    <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
+display="inline"><![CDATA[^{ex}]]></fr:tex> expressions are translated to <fr:tex
+display="inline"><![CDATA[\lambda ]]></fr:tex>-expressions inductively as follows, where <fr:tex
+display="inline"><![CDATA[i : \text {Prop} \to  \text {Prop} \to  \text {Prop}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[l : \text {Prop}]]></fr:tex> are constants.
+    
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}              \lfloor  x \rfloor  &= x\\       \lfloor  \alpha  < \beta  \rfloor  &= l\\       \lfloor  t_1\ t_2 \rfloor  &= \lfloor  t_1 \rfloor \ \lfloor  t_2 \rfloor \\       \lfloor  t_1 \Rightarrow  t_2 \rfloor  &= i\ \lfloor  t_1 \rfloor \ \lfloor  t_2 \rfloor \\       \lfloor  \lambda (x^v : T).t \rfloor  &= \lambda (x : \lfloor  T \rfloor ).\lfloor  t \rfloor \\       \lfloor  \forall (x : T).t \rfloor  &= \lfloor  t \rfloor \\       \lfloor  \mu ^\alpha (x : T).t \rfloor  &= \lfloor  t \rfloor \\       \lfloor  \exists \alpha .t \rfloor  &= \lfloor  t \rfloor           \end {align*}   ]]></fr:tex>
+
+    We have that <fr:tex
+display="inline"><![CDATA[t_1 \longrightarrow _\beta  t_2]]></fr:tex> implies <fr:tex
+display="inline"><![CDATA[\lfloor  t_1 \rfloor  \longrightarrow _\beta  \lfloor  t_2 \rfloor ]]></fr:tex>, so we are done by contradiction: if <fr:tex
+display="inline"><![CDATA[\beta ]]></fr:tex>-reduction of <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
+display="inline"><![CDATA[^{ex}]]></fr:tex> terms was <fr:em>not</fr:em> strongly normalising, then typed <fr:tex
+display="inline"><![CDATA[\lambda ]]></fr:tex>-calculus would not be.
+  </fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -31,28 +51,53 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>390</fr:anchor><fr:addr
-type="user">lsd-0021</fr:addr><fr:route>lsd-0021.xml</fr:route><fr:title
-text="Finitary container">Finitary container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>293</fr:anchor><fr:addr
+type="user">mhe-0014</fr:addr><fr:route>mhe-0014.xml</fr:route><fr:title
+text="Strong normalisation">Strong normalisation</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
-title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A container <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> is finitary when its extension functor is finitary (preserves filtered colimits). A monad container is finitary when the underlying container is.
-  <fr:tree
-toc="true"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[\beta ]]></fr:tex>-reduction of <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
+display="inline"><![CDATA[^{ex}]]></fr:tex> expressions is strongly normalising.
+  
+ 
+   
+   <fr:tree
+toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>392</fr:anchor><fr:addr
-type="machine">#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>283</fr:anchor><fr:addr
+type="machine">#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
-title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A container is finitary if and only if for all <fr:tex
-display="inline"><![CDATA[s : S]]></fr:tex>, the set <fr:tex
-display="inline"><![CDATA[P\ s]]></fr:tex> is isomorphic to some finite cardinal. 
-      <html:mark
-xmlns:html="http://www.w3.org/1999/xhtml">TODO: reference Kock here</html:mark></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    We show this by reduction to the typed <fr:tex
+display="inline"><![CDATA[\lambda ]]></fr:tex>-calculus. Domains are translated by removing the variance annotation from arrow domains:
+    
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}              \lfloor  D \rfloor  &= D\\       \lfloor  \text {Prop} \rfloor  &= \text {Prop}\\       \lfloor  S \to ^v T \rfloor  &= \lfloor  S \rfloor  \to  \lfloor  T \rfloor           \end {align*}   ]]></fr:tex>
+
+    <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
+display="inline"><![CDATA[^{ex}]]></fr:tex> expressions are translated to <fr:tex
+display="inline"><![CDATA[\lambda ]]></fr:tex>-expressions inductively as follows, where <fr:tex
+display="inline"><![CDATA[i : \text {Prop} \to  \text {Prop} \to  \text {Prop}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[l : \text {Prop}]]></fr:tex> are constants.
+    
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}              \lfloor  x \rfloor  &= x\\       \lfloor  \alpha  < \beta  \rfloor  &= l\\       \lfloor  t_1\ t_2 \rfloor  &= \lfloor  t_1 \rfloor \ \lfloor  t_2 \rfloor \\       \lfloor  t_1 \Rightarrow  t_2 \rfloor  &= i\ \lfloor  t_1 \rfloor \ \lfloor  t_2 \rfloor \\       \lfloor  \lambda (x^v : T).t \rfloor  &= \lambda (x : \lfloor  T \rfloor ).\lfloor  t \rfloor \\       \lfloor  \forall (x : T).t \rfloor  &= \lfloor  t \rfloor \\       \lfloor  \mu ^\alpha (x : T).t \rfloor  &= \lfloor  t \rfloor \\       \lfloor  \exists \alpha .t \rfloor  &= \lfloor  t \rfloor           \end {align*}   ]]></fr:tex>
+
+    We have that <fr:tex
+display="inline"><![CDATA[t_1 \longrightarrow _\beta  t_2]]></fr:tex> implies <fr:tex
+display="inline"><![CDATA[\lfloor  t_1 \rfloor  \longrightarrow _\beta  \lfloor  t_2 \rfloor ]]></fr:tex>, so we are done by contradiction: if <fr:tex
+display="inline"><![CDATA[\beta ]]></fr:tex>-reduction of <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
+display="inline"><![CDATA[^{ex}]]></fr:tex> terms was <fr:em>not</fr:em> strongly normalising, then typed <fr:tex
+display="inline"><![CDATA[\lambda ]]></fr:tex>-calculus would not be.
+  </fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
