@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1081</fr:anchor><fr:addr
+type="user">brotherston2005</fr:addr><fr:route>brotherston2005.xml</fr:route><fr:title
+text="Cyclic Proofs for First-Order Logic with Inductive Definitions">Cyclic Proofs for First-Order Logic with Inductive Definitions</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2005</fr:year></fr:date><fr:authors><fr:author>James Brotherston</fr:author></fr:authors><fr:meta
+name="bibtex"><![CDATA[  @inproceedings{
+    Brotherston_2005, 
+    address={Berlin, Heidelberg}, 
+    title={Cyclic Proofs for First-Order Logic with Inductive Definitions}, 
+    ISBN={978-3-540-31822-4}, 
+    DOI={10.1007/11554554_8},
+    booktitle={Automated Reasoning with Analytic Tableaux and Related Methods}, 
+    publisher={Springer}, 
+    author={Brotherston, James}, 
+    editor={Beckert, Bernhard}, 
+    year={2005}, 
+    pages={78–92}, 
+    language={en} 
+  }]]></fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1083</fr:anchor><fr:addr
+type="user">not-0005</fr:addr><fr:route>not-0005.xml</fr:route><fr:title
+text="Brotherston's notion of (un)folding">Brotherston's notion of (un)folding</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Brotherston in <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="link-reference"><fr:link
+type="local"
+href="brotherston2005.xml"
+addr="brotherston2005"
+title="Cyclic Proofs for First-Order Logic with Inductive Definitions">[brotherston2005]</fr:link></html:span> uses the idea of "folding up" the infinite representation of a cyclic proof to obtain equivalent cyclic proofs in cyclic normal form. The folding process essentially annotates a rule graph (that is a "subtree" of the infinte unfolding) with some cycles.</fr:p><fr:p>The notion of <fr:em>root-preserving surjective rule graph homomorphism</fr:em> is used to describe mappings between rule graphs that describe the same infinite proofs.</fr:p><fr:p>One problem with this (for our use-case) is that this notion <fr:em>does not consider cycles</fr:em> since they are not part of the rule graph data. Also as far as I can tell, the fact that this kind of homomorphism <fr:em>does not only operate at the level of cyclic tree structure</fr:em>, and deals with strict equality of sequents and rules (call these "tree labels") means that it is not generalisable to systems where cycles may be formed up-to other conditions, e.g. substitution or weakening. The equitable partition approach looks like it would generalise the "equality of tree labels" requirement of the homomorphism nicely.</fr:p><fr:p>In our use-case, we care about studying the unfoldings of a cyclic proof that are generated "bottom up", i.e. from an existing cyclic proof to a "larger" unfolding. This is in contrast to the "top down" approach - taking the unique infinite unfolding and folding it up to a smaller, finitely-presented proof in some way.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

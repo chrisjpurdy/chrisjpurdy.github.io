@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1085</fr:anchor><fr:addr
+type="user">sprengerdam2003</fr:addr><fr:route>sprengerdam2003.xml</fr:route><fr:title
+text="On the Structure of Inductive Reasoning: Circular and Tree-Shaped Proofs in the μ-Calculus">On the Structure of Inductive Reasoning: Circular and Tree-Shaped Proofs in the μ-Calculus</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2003</fr:year></fr:date><fr:authors><fr:author>Christoph Sprenger</fr:author><fr:author>Mads Dam</fr:author></fr:authors><fr:meta
+name="bibtex"><![CDATA[  @inproceedings{
+    Sprenger_Dam_2003, 
+    address={Berlin, Heidelberg}, 
+    title={On the Structure of Inductive Reasoning: Circular and Tree-Shaped Proofs in the μCalculus}, 
+    ISBN={978-3-540-36576-1}, 
+    DOI={10.1007/3-540-36576-1_27}, 
+    booktitle={Foundations of Software Science and Computation Structures}, publisher={Springer}, 
+    author={Sprenger, Christoph and Dam, Mads}, 
+    editor={Gordon, Andrew D.}, 
+    year={2003}, 
+    pages={425–440}, 
+    language={en} 
+  }]]></fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1088</fr:anchor><fr:addr
+type="user">not-0006</fr:addr><fr:route>not-0006.xml</fr:route><fr:title
+text="Sprenger and Dam's notion of unfolding">Sprenger and Dam's notion of unfolding</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Sprenger and Dam's unfolding algorithm in <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="link-reference"><fr:link
+type="local"
+href="sprengerdam2003.xml"
+addr="sprengerdam2003"
+title="On the Structure of Inductive Reasoning: Circular and Tree-Shaped Proofs in the μ-Calculus">[sprengerdam2003]</fr:link></html:span> was developed to find a <fr:em>tree-dischargeable</fr:em> version of a given cyclic proof.</fr:p><fr:p><html:mark
+xmlns:html="http://www.w3.org/1999/xhtml">TODO: Needs discussing: Intuitively, a tree-dischargeable proof <fr:tex
+display="inline"><![CDATA[\mathcal  P]]></fr:tex> is one where the structural dependancy ordering <fr:tex
+display="inline"><![CDATA[\leq _{\mathcal  P}]]></fr:tex> of cycles can be mapped monotonically into a given tree-like partial order <fr:tex
+display="inline"><![CDATA[\preccurlyeq ]]></fr:tex>.</html:mark></fr:p><fr:p>The algorithm operates in the "bottom up" direction, taking an existing (injective) cyclic proof <fr:tex
+display="inline"><![CDATA[\mathcal {P}_0]]></fr:tex> and unfolding it iteratively. It also does not refer to the sequents or rules associated with nodes in the cyclic proof, instead operating solely at the level of cyclic trees and keeping track of repeated nodes by tagging them with a <fr:em>copy number</fr:em>. Importantly, the algorithm assumes that an induction order discharging <fr:tex
+display="inline"><![CDATA[\mathcal {P}_0]]></fr:tex> is given to deal with how new cycles are defined during unfolding.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

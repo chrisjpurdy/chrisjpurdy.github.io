@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>990</fr:anchor><fr:addr
+type="user">zwartmarsden2022 copy</fr:addr><fr:route>zwartmarsden2022 copy.xml</fr:route><fr:title
+text="Cyclic Proofs for First-Order Logic with Inductive Definitions">Cyclic Proofs for First-Order Logic with Inductive Definitions</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2005</fr:year></fr:date><fr:authors><fr:author>James Brotherston</fr:author></fr:authors><fr:meta
+name="bibtex"><![CDATA[  @inproceedings{
+    Brotherston_2005, 
+    address={Berlin, Heidelberg}, 
+    title={Cyclic Proofs for First-Order Logic with Inductive Definitions}, 
+    ISBN={978-3-540-31822-4}, 
+    DOI={10.1007/11554554_8},
+    booktitle={Automated Reasoning with Analytic Tableaux and Related Methods}, 
+    publisher={Springer}, 
+    author={Brotherston, James}, 
+    editor={Beckert, Bernhard}, 
+    year={2005}, 
+    pages={78–92}, 
+    language={en} 
+  }]]></fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree>

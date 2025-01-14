@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>817</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>940</fr:anchor><fr:addr
 type="user">dia-0002</fr:addr><fr:route>dia-0002.xml</fr:route><fr:title
 text="Diary: UoN research visit, Nov 2024">Diary: UoN research visit, Nov 2024</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -54,7 +54,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>819</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>942</fr:anchor><fr:addr
 type="user">dia-0003</fr:addr><fr:route>dia-0003.xml</fr:route><fr:title
 text="Diary: Monad container algebras">Diary: Monad container algebras</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -82,7 +82,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>428</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>550</fr:anchor><fr:addr
 type="user">lsd-0019</fr:addr><fr:route>lsd-0019.xml</fr:route><fr:title
 text="Monad container algebras">Monad container algebras</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -106,7 +106,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>430</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>552</fr:anchor><fr:addr
 type="user">lsd-0020</fr:addr><fr:route>lsd-0020.xml</fr:route><fr:title
 text="Algebraic theories for cartesian monad containers">Algebraic theories for cartesian monad containers</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -191,7 +191,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>821</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>944</fr:anchor><fr:addr
 type="user">dia-0003</fr:addr><fr:route>dia-0003.xml</fr:route><fr:title
 text="Diary: Monad container algebras">Diary: Monad container algebras</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -219,7 +219,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>428</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>550</fr:anchor><fr:addr
 type="user">lsd-0019</fr:addr><fr:route>lsd-0019.xml</fr:route><fr:title
 text="Monad container algebras">Monad container algebras</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -243,7 +243,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>430</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>552</fr:anchor><fr:addr
 type="user">lsd-0020</fr:addr><fr:route>lsd-0020.xml</fr:route><fr:title
 text="Algebraic theories for cartesian monad containers">Algebraic theories for cartesian monad containers</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -320,7 +320,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>823</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>946</fr:anchor><fr:addr
 type="user">lsd-0004</fr:addr><fr:route>lsd-0004.xml</fr:route><fr:title
 text="All affine monad containers are representable">All affine monad containers are representable</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -346,7 +346,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>825</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>948</fr:anchor><fr:addr
 type="user">lsd-0003</fr:addr><fr:route>lsd-0003.xml</fr:route><fr:title
 text="Commutative monad containers">Commutative monad containers</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -376,7 +376,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>827</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>950</fr:anchor><fr:addr
 type="user">dia-0001</fr:addr><fr:route>dia-0001.xml</fr:route><fr:title
 text="Research diary">Research diary</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>I was previously using Obsidian for my research diary, but I found it a little heavyweight for
   what I was using it for: weekly (or fortnightly) notes on what I've been thinking about.</fr:p><fr:p>Being able to "transclude" trees into other ones is another reason why I'm using Forester for this. Writing definitions once and then including them as many times as needed seems far better than having to jump inbetween files.</fr:p><fr:tree
@@ -386,7 +386,389 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>828</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>951</fr:anchor><fr:addr
+type="user">dia-0006</fr:addr><fr:route>dia-0006.xml</fr:route><fr:title
+text="Diary: Cyclic tree opfibrations">Diary: Cyclic tree opfibrations</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+type="local"
+href="dia-0005.xml"
+addr="dia-0005"
+title="Diary: Natural deduction-style unfold rule for -formulae">Previous entry</fr:link>, <fr:link
+type="external"
+href="dia-0007">Next entry</fr:link></fr:p><fr:p><html:mark
+xmlns:html="http://www.w3.org/1999/xhtml">TODO: In Progress</html:mark></fr:p><fr:p>I'm compiling some ideas I had in October/November last year about different notions of maps between cyclic trees.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>278</fr:anchor><fr:addr
+type="user">cyt-0001</fr:addr><fr:route>cyt-0001.xml</fr:route><fr:title
+text="Cyclic tree">Cyclic tree</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A cyclic tree is a tuple <fr:tex
+display="inline"><![CDATA[(T , \delta )]]></fr:tex> of a tree <fr:tex
+display="inline"><![CDATA[T]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> (a finite non-empty prefix-closed subset of <fr:tex
+display="inline"><![CDATA[X^*]]></fr:tex>) and a partial function <fr:tex
+display="inline"><![CDATA[\delta  : \text {Leaf}(T) \rightharpoonup  T]]></fr:tex>. We often call <fr:tex
+display="inline"><![CDATA[\delta ]]></fr:tex> the cycle map.</fr:p><fr:p><fr:tex
+display="inline"><![CDATA[\text {Leaf}(T)]]></fr:tex> is the set of elements in <fr:tex
+display="inline"><![CDATA[T]]></fr:tex> which do not occur as a strict prefix of any other element in <fr:tex
+display="inline"><![CDATA[T]]></fr:tex>. <fr:tex
+display="inline"><![CDATA[\text {Inner}(T)]]></fr:tex> is the complement of this set with respect to <fr:tex
+display="inline"><![CDATA[T]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>Our goal here is to work out what the correct notion of an "unfolding" of a cyclic tree is, in order to have a notion of unfolding cyclic proofs that is applicable to many different cyclic proof systems.</fr:p><fr:p>It is easy enough to define some kind of naive homomorphism for cyclic trees:</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>280</fr:anchor><fr:addr
+type="user">cyt-0002</fr:addr><fr:route>cyt-0002.xml</fr:route><fr:title
+text="Cyclic tree homomorphism">Cyclic tree homomorphism</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given two <fr:link
+type="local"
+href="cyt-0001.xml"
+addr="cyt-0001"
+title="Cyclic tree">cyclic trees</fr:link> <fr:tex
+display="inline"><![CDATA[(T \subseteq  X^*, \delta )]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(T' \subseteq  Y^*, \delta ')]]></fr:tex>, a map <fr:tex
+display="inline"><![CDATA[f : X^* \to  Y^*]]></fr:tex> is a cyclic tree homomorphism when it satisfies:
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            &f(\epsilon ) = \epsilon \\     &f(xt) = f(x)f(t)\\     &t \in  T \implies  f(t) \in  T'\\     &(t , t') \in  \delta  \implies  (f(t) , f(t')) \in  \delta '        \end {align*}   ]]></fr:tex>
+
+  This essentially says that <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is a free monoid homomorphism which additionally preserves the cyclic tree and cycle map.</fr:p><fr:p>A corollary of this definition is that buds are mapped to buds: If <fr:tex
+display="inline"><![CDATA[b]]></fr:tex> is a bud then there is some <fr:tex
+display="inline"><![CDATA[c]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[(b, c) \in  \delta ]]></fr:tex>, hence <fr:tex
+display="inline"><![CDATA[(f(b),f(c)) \in  \delta ']]></fr:tex> which makes <fr:tex
+display="inline"><![CDATA[f(b)]]></fr:tex> a bud. The same argument can be made for companions being mapped to companions.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>However these are too strict:</fr:p>
+  <html:center
+xmlns:html="http://www.w3.org/1999/xhtml"><fr:resource
+hash="7c5f100e079c4aced1526d28a57c356c"><fr:resource-content><fr:img
+src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBUaGlzIGZpbGUgd2FzIGdlbmVyYXRlZCBieSBkdmlzdmdtIDMuMi4yIC0tPgo8c3ZnIHZlcnNpb249JzEuMScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzIzNS41NTk2NzFwdCcgaGVpZ2h0PScxMTkuNTAwODEycHQnIHZpZXdCb3g9Jy03MiAtNzIgMTU3LjAzOTc4MSA3OS42NjcyMDgnPgo8c3R5bGUgdHlwZT0ndGV4dC9jc3MnPgo8IVtDREFUQVtAZm9udC1mYWNle2ZvbnQtZmFtaWx5OmNtc3kxMDtzcmM6dXJsKGRhdGE6YXBwbGljYXRpb24veC1mb250LXdvZmY7YmFzZTY0LGQwOUdSZ0FCQUFBQUFBTUFBQW9BQUFBQUEyQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCUFV5OHlBQUFBOUFBQUFFc0FBQUJncUM0UjJHTnRZWEFBQUFGQUFBQUFLZ0FBQURRQURDQjFaMng1WmdBQUFXd0FBQUEwQUFBQU5JWFd3NlJvWldGa0FBQUJvQUFBQUMwQUFBQTJLWGdvSm1ob1pXRUFBQUhRQUFBQUhnQUFBQ1FGR3YrQmFHMTBlQUFBQWZBQUFBQUlBQUFBQ0FVY0FEaHNiMk5oQUFBQitBQUFBQVlBQUFBR0FCb0FBRzFoZUhBQUFBSUFBQUFBRndBQUFDQUFCQUFOYm1GdFpRQUFBaGdBQUFEVkFBQUJQcTgzZGVOd2IzTjBBQUFDOEFBQUFCQUFBQUFnQUFNQUFYamFZMkJtNm1PY3dNREt3TUEwaStuc1B4R0dmaEROK0lieERZTXhJeWNERUxBeFFFQURBeXBJS1M1TFoyQlRVRkpRWXBiNm84bkF3Q3pGZkIwb3pJaFE4ZjgvQXdNQURLWU90QUI0Mm1OZ1lHQmlZR0JnQm1JUklNa0lwbGtZRklBMEN4QUMrUXBLLy85RHlQdjN3ZklNQUZMTUJwNEFBQUFCQURnQU9RSEhBY2NBQ3dBQUFRNEJCeTRCSno0Qk54NEJBY2NDY2xOVmNRSUNjVlZUY2dFQVZIRUNBbkZVVTNJQ0FuRjQybU5nWkdCZ0FPTG05Q0xwZUg2YnJ3ek1MQXdnOEhqUnA0M0lOTE1NNDNFZ3hjSEFCT0lCQUNsL0NtRUFBQUI0Mm1OZ1pHQmdsdnFqQ1NSbEdDd1lMQm1QTXdCRlVBQVRBRUdsQXA4QUFBTWNBQUFDQUFBNEFBQUFBQUFhQUFCNDJtTmdaR0JnWUdMZ1lRRFJERkFTQ1FBQUFja0FFZ0I0MmsyT3NXckRNQlJGajZsanFCdm9sQXdkaXFhTXhuYnlBWVVNbWJKbUxDU1JDQzVZRHBKajhGTDZBZm5vUENzYStvUWVSL2ZlOXhDUTgwdkNWQW52b1UrVmtzbnJ5VFBlV0VUTzVLaklPUitzZUNGSlgwWDU1Q3R5eXB6dnlET1cvRVRPUlArTG5MUGh2dTNhNjYwM1R1MDdiWnc5dDM2c3lvTnh2dW1zcW9yeUtleU1OZTdZRzYxT285SkQ0NGRMcTlaRlhkUnM2V2k1Y3FQSDRPUm5lMUYwWU10WlBNOUlSY2toYUo1R2ZDdTVpa0xVLzRtZEpHeElIY00yTGFtVGVFcG9rRGt2L1NKNXhWcG02K2srQUFuZk1SVUFBQUI0Mm1OZ1prQUdqQXhvQUFBQWpnQUYpIGZvcm1hdCgnd29mZicpO30KdGV4dC5mMCB7Zm9udC1mYW1pbHk6Y21zeTEwO2ZvbnQtc2l6ZTo5Ljk2MjY0cHh9Cl1dPgo8L3N0eWxlPgo8ZyBpZD0ncGFnZTEnPgo8ZyBzdHJva2UtbWl0ZXJsaW1pdD0nMTAnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC00Ni4wNjI2NjIsMi4xMzI3NjQpc2NhbGUoMC45OTYyNjQsLTAuOTk2MjY0KSc+CjxnIGZpbGw9JyMwMDAnIHN0cm9rZT0nIzAwMCc+CjxnIHN0cm9rZS13aWR0aD0nMC40Jz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTIuNSwtMi4yMjIyMSknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoLTQ2LjA2MjY2MiwyLjEzMjc2NClzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjMDAwJz4KPGcgc3Ryb2tlPSdub25lJz4KPHRleHQgY2xhc3M9J2YwJyB4PSctNDYuMDYyNjYyJyB5PScyLjEzMjc2NCc+4oCiPC90ZXh0Pgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC0yLjUsMjYuMjMwNTMpJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKC00Ni4wNjI2NjIsMi4xMzI3NjQpc2NhbGUoLTEsLTEpJz4KPGcgZmlsbD0nIzAwMCc+CjxnIHN0cm9rZT0nbm9uZSc+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nLTQ2LjA2MjY2MicgeT0nMi4xMzI3NjQnPuKAojwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtMjIuNzAxNjMsNDYuNDMyMTYpJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKC00Ni4wNjI2NjIsMi4xMzI3NjQpc2NhbGUoLTEsLTEpJz4KPGcgZmlsbD0nIzAwMCc+CjxnIHN0cm9rZT0nbm9uZSc+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nLTQ2LjA2MjY2MicgeT0nMi4xMzI3NjQnPuKAojwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgxNy43MDE2Myw0Ni40MzIxNiknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoLTQ2LjA2MjY2MiwyLjEzMjc2NClzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjMDAwJz4KPGcgc3Ryb2tlPSdub25lJz4KPHRleHQgY2xhc3M9J2YwJyB4PSctNDYuMDYyNjYyJyB5PScyLjEzMjc2NCc+4oCiPC90ZXh0Pgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxwYXRoIGQ9J00wIDUuNzU1MTlWMjIuNjk3NTYnIGZpbGw9J25vbmUnLz4KPHBhdGggZD0nTS01Ljc1NDU2IDM0LjIwNzkzTC0xNC40NDY2MiA0Mi44OTkxOScgZmlsbD0nbm9uZScvPgo8ZyBmaWxsPScjZjAwJyBzdHJva2U9JyNmMDAnPgo8cGF0aCBkPSdNNS43NTQ1NiAzNC4yMDc5M0wxNC40NDY2MiA0Mi44OTkxOScgZmlsbD0nbm9uZScvPgo8L2c+CjxwYXRoIGQ9J00tMjAuOTUzOTUgNDIuODk5MTlDLTIzLjM4MzAxIDI3LjAzMzMzLTE4LjU1ODY1IDE0LjY1NzcxLTYuMzkxOTIgNC45MDg3MicgZmlsbD0nbm9uZScvPgo8ZyB0cmFuc2Zvcm09J21hdHJpeCgwLjc4MDM1LC0wLjYyNTI2LDAuNjI1MjYsMC43ODAzNSwtNi4zOTE5Miw0LjkwODcyKSc+CjxnIHN0cm9rZS13aWR0aD0nMC4zMTk5OSc+CiA8ZyBzdHJva2UtZGFzaGFycmF5PSdub25lJyBzdHJva2UtZGFzaG9mZnNldD0nMC4wJz4KIDxnIHN0cm9rZS1saW5lY2FwPSdyb3VuZCc+CiA8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KIDxwYXRoIGQ9J00tMS4xOTk5OCAxLjU5OTk4Qy0xLjA5OTk4IC45OTk5OCAwIC4wOTk5OSAuMjk5OTkgMEMwLS4wOTk5OS0xLjA5OTk4LS45OTk5OC0xLjE5OTk4LTEuNTk5OTgnIGZpbGw9J25vbmUnLz4KIDwvZz4KIDwvZz4KIDwvZz4KIDwvZz4KPC9nPgo8cGF0aCBkPSdNMjEuNzQzMTYgNDIuODk5MTlDMjQuMTEzODMgMzQuNDI4MzkgMTQuNTU0MjEgMjQuNjU0NDMgNi40Nzg1NiAyNi43MjI3JyBmaWxsPSdub25lJy8+CjxnIHRyYW5zZm9ybT0nbWF0cml4KC0wLjk2ODY5LDAuMjQ4MDgsLTAuMjQ4MDgsLTAuOTY4NjksNi40Nzg1NiwyNi43MjI2OSknPgo8ZyBzdHJva2Utd2lkdGg9JzAuMzE5OTknPgogPGcgc3Ryb2tlLWRhc2hhcnJheT0nbm9uZScgc3Ryb2tlLWRhc2hvZmZzZXQ9JzAuMCc+CiA8ZyBzdHJva2UtbGluZWNhcD0ncm91bmQnPgogPGcgc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCc+CiA8cGF0aCBkPSdNLTEuMTk5OTggMS41OTk5OEMtMS4wOTk5OCAuOTk5OTggMCAuMDk5OTkgLjI5OTk5IDBDMC0uMDk5OTktMS4wOTk5OC0uOTk5OTgtMS4xOTk5OC0xLjU5OTk4JyBmaWxsPSdub25lJy8+CiA8L2c+CiA8L2c+CiA8L2c+CiA8L2c+CjwvZz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoODIuODU4MjYsLTIuMjIyMjEpJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKC00Ni4wNjI2NjIsMi4xMzI3NjQpc2NhbGUoLTEsLTEpJz4KPGcgZmlsbD0nIzAwMCc+CjxnIHN0cm9rZT0nbm9uZSc+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nLTQ2LjA2MjY2MicgeT0nMi4xMzI3NjQnPuKAojwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSg4Mi44NTgyNiwyNi4yMzA1MyknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoLTQ2LjA2MjY2MiwyLjEzMjc2NClzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjMDAwJz4KPGcgc3Ryb2tlPSdub25lJz4KPHRleHQgY2xhc3M9J2YwJyB4PSctNDYuMDYyNjYyJyB5PScyLjEzMjc2NCc+4oCiPC90ZXh0Pgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDYyLjY1NjYzLDQ2LjQzMjE2KSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgtNDYuMDYyNjYyLDIuMTMyNzY0KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjAnIHg9Jy00Ni4wNjI2NjInIHk9JzIuMTMyNzY0Jz7igKI8L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoMTAzLjA1OTg5LDQ2LjQzMjE2KSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgtNDYuMDYyNjYyLDIuMTMyNzY0KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjAnIHg9Jy00Ni4wNjI2NjInIHk9JzIuMTMyNzY0Jz7igKI8L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoMTIzLjI2MTEsNjYuNjMzMzYpJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKC00Ni4wNjI2NjIsMi4xMzI3NjQpc2NhbGUoLTEsLTEpJz4KPGcgZmlsbD0nIzAwMCc+CjxnIHN0cm9rZT0nbm9uZSc+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nLTQ2LjA2MjY2MicgeT0nMi4xMzI3NjQnPuKAojwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8cGF0aCBkPSdNODUuMzU4MjYgNS43NTUxOVYyMi42OTc1NicgZmlsbD0nbm9uZScvPgo8cGF0aCBkPSdNNzkuNjAzNyAzNC4yMDc5M0w3MC45MTE2NCA0Mi44OTkxOScgZmlsbD0nbm9uZScvPgo8ZyBmaWxsPScjZjAwJyBzdHJva2U9JyNmMDAnPgo8cGF0aCBkPSdNOTEuMTEyODIgMzQuMjA3OTNMOTkuODA0ODkgNDIuODk5MTknIGZpbGw9J25vbmUnLz4KPC9nPgo8ZyBmaWxsPScjZjAwJyBzdHJva2U9JyNmMDAnPgo8cGF0aCBkPSdNMTExLjMxNDM2IDU0LjQwOTU2TDEyMC4wMDYyNyA2My4xMDAzOScgZmlsbD0nbm9uZScvPgo8L2c+CjxwYXRoIGQ9J002NC40MDQzMSA0Mi44OTkxOUM2MS45NzUyNSAyNy4wMzMzMyA2Ni43OTk2IDE0LjY1NzcxIDc4Ljk2NjM0IDQuOTA4NzInIGZpbGw9J25vbmUnLz4KPGcgdHJhbnNmb3JtPSdtYXRyaXgoMC43ODAzNSwtMC42MjUyNiwwLjYyNTI2LDAuNzgwMzUsNzguOTY2MzQsNC45MDg3MiknPgo8ZyBzdHJva2Utd2lkdGg9JzAuMzE5OTknPgogPGcgc3Ryb2tlLWRhc2hhcnJheT0nbm9uZScgc3Ryb2tlLWRhc2hvZmZzZXQ9JzAuMCc+CiA8ZyBzdHJva2UtbGluZWNhcD0ncm91bmQnPgogPGcgc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCc+CiA8cGF0aCBkPSdNLTEuMTk5OTggMS41OTk5OEMtMS4wOTk5OCAuOTk5OTggMCAuMDk5OTkgLjI5OTk5IDBDMC0uMDk5OTktMS4wOTk5OC0uOTk5OTgtMS4xOTk5OC0xLjU5OTk4JyBmaWxsPSdub25lJy8+CiA8L2c+CiA8L2c+CiA8L2c+CiA8L2c+CjwvZz4KPHBhdGggZD0nTTEyNy4zMDI1NCA2My4xMDAzOUMxMjkuNjczMTEgNTQuNjI5ODcgMTIwLjExMzgzIDQ0Ljg1NjI1IDExMi4wMzg0NSA0Ni45MjQ0MicgZmlsbD0nbm9uZScvPgo8ZyB0cmFuc2Zvcm09J21hdHJpeCgtMC45Njg2OSwwLjI0ODA4LC0wLjI0ODA4LC0wLjk2ODY5LDExMi4wMzg0NSw0Ni45MjQ0MSknPgo8ZyBzdHJva2Utd2lkdGg9JzAuMzE5OTknPgogPGcgc3Ryb2tlLWRhc2hhcnJheT0nbm9uZScgc3Ryb2tlLWRhc2hvZmZzZXQ9JzAuMCc+CiA8ZyBzdHJva2UtbGluZWNhcD0ncm91bmQnPgogPGcgc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCc+CiA8cGF0aCBkPSdNLTEuMTk5OTggMS41OTk5OEMtMS4wOTk5OCAuOTk5OTggMCAuMDk5OTkgLjI5OTk5IDBDMC0uMDk5OTktMS4wOTk5OC0uOTk5OTgtMS4xOTk5OC0xLjU5OTk4JyBmaWxsPSdub25lJy8+CiA8L2c+CiA8L2c+CiA8L2c+CiA8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L3N2Zz4=" /></fr:resource-content><fr:resource-source
+type="latex"
+part="preamble"><![CDATA[
+    \usepackage {tikz, amsopn, amssymb, mathrsfs, amsmath}
+  ]]></fr:resource-source><fr:resource-source
+type="latex"
+part="body"><![CDATA[
+  \begin {tikzpicture}[node distance=2cm,auto]
+    \begin {scope}
+      \node  (A) at (0,0) {$\bullet $} ;
+      \node  (B) at (0,1) {$\bullet $} ;
+      \node  (C) at (-0.71,1.71) {$\bullet $} ;
+      \node  (D) at (0.71,1.71) {$\bullet $} ;
+
+      \path  [-] (A) edge (B) ;
+      \path  [-] (B) edge (C) ;
+      \path  [-] (B) edge[red] (D) ;
+      \path  [->] (C) edge[bend right=30] (A); 
+      \path  [->] (D) edge[bend left=60] (B);
+    \end {scope}
+    \begin {scope}[xshift=3cm]
+      \node  (A) at (0,0) {$\bullet $} ;
+      \node  (B) at (0,1) {$\bullet $} ;
+      \node  (C) at (-0.71,1.71) {$\bullet $} ;
+      \node  (D) at (0.71,1.71) {$\bullet $} ;
+      \node  (E) at (1.42,2.42) {$\bullet $} ;
+
+      \path  [-] (A) edge (B) ;
+      \path  [-] (B) edge (C) ;
+      \path  [-] (B) edge[red] (D) ;
+      \path  [-] (D) edge[red] (E) ;
+      \path  [->] (C) edge[bend right=30] (A); 
+      \path  [->] (E) edge[bend left=60] (D);
+    \end {scope}
+  \end {tikzpicture}
+]]></fr:resource-source></fr:resource></html:center>
+<fr:p>After a bit of thought, you can hopefully convince yourself that you cannot define a cyclic tree homomorphism in either direction here. Either the cycle, prefix or root preservations requirements get in the way. The game becomes tweaking the definition to allow homomorphisms between cyclic trees that "infinitely unfold" into the same tree, and disallow them otherwise.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>282</fr:anchor><fr:addr
+type="machine">#254</fr:addr><fr:route>unstable-254.xml</fr:route><fr:title
+text="Unfoldings in the literature">Unfoldings in the literature</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Unfoldings have already been defined in a few different ways in the cyclic proof theory literature.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>284</fr:anchor><fr:addr
+type="user">not-0005</fr:addr><fr:route>not-0005.xml</fr:route><fr:title
+text="Brotherston's notion of (un)folding">Brotherston's notion of (un)folding</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Brotherston in <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="link-reference"><fr:link
+type="local"
+href="brotherston2005.xml"
+addr="brotherston2005"
+title="Cyclic Proofs for First-Order Logic with Inductive Definitions">[brotherston2005]</fr:link></html:span> uses the idea of "folding up" the infinite representation of a cyclic proof to obtain equivalent cyclic proofs in cyclic normal form. The folding process essentially annotates a rule graph (that is a "subtree" of the infinte unfolding) with some cycles.</fr:p><fr:p>The notion of <fr:em>root-preserving surjective rule graph homomorphism</fr:em> is used to describe mappings between rule graphs that describe the same infinite proofs.</fr:p><fr:p>One problem with this (for our use-case) is that this notion <fr:em>does not consider cycles</fr:em> since they are not part of the rule graph data. Also as far as I can tell, the fact that this kind of homomorphism <fr:em>does not only operate at the level of cyclic tree structure</fr:em>, and deals with strict equality of sequents and rules (call these "tree labels") means that it is not generalisable to systems where cycles may be formed up-to other conditions, e.g. substitution or weakening. The equitable partition approach looks like it would generalise the "equality of tree labels" requirement of the homomorphism nicely.</fr:p><fr:p>In our use-case, we care about studying the unfoldings of a cyclic proof that are generated "bottom up", i.e. from an existing cyclic proof to a "larger" unfolding. This is in contrast to the "top down" approach - taking the unique infinite unfolding and folding it up to a smaller, finitely-presented proof in some way.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>286</fr:anchor><fr:addr
+type="user">not-0006</fr:addr><fr:route>not-0006.xml</fr:route><fr:title
+text="Sprenger and Dam's notion of unfolding">Sprenger and Dam's notion of unfolding</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Sprenger and Dam's unfolding algorithm in <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="link-reference"><fr:link
+type="local"
+href="sprengerdam2003.xml"
+addr="sprengerdam2003"
+title="On the Structure of Inductive Reasoning: Circular and Tree-Shaped Proofs in the μ-Calculus">[sprengerdam2003]</fr:link></html:span> was developed to find a <fr:em>tree-dischargeable</fr:em> version of a given cyclic proof.</fr:p><fr:p><html:mark
+xmlns:html="http://www.w3.org/1999/xhtml">TODO: Needs discussing: Intuitively, a tree-dischargeable proof <fr:tex
+display="inline"><![CDATA[\mathcal  P]]></fr:tex> is one where the structural dependancy ordering <fr:tex
+display="inline"><![CDATA[\leq _{\mathcal  P}]]></fr:tex> of cycles can be mapped monotonically into a given tree-like partial order <fr:tex
+display="inline"><![CDATA[\preccurlyeq ]]></fr:tex>.</html:mark></fr:p><fr:p>The algorithm operates in the "bottom up" direction, taking an existing (injective) cyclic proof <fr:tex
+display="inline"><![CDATA[\mathcal {P}_0]]></fr:tex> and unfolding it iteratively. It also does not refer to the sequents or rules associated with nodes in the cyclic proof, instead operating solely at the level of cyclic trees and keeping track of repeated nodes by tagging them with a <fr:em>copy number</fr:em>. Importantly, the algorithm assumes that an induction order discharging <fr:tex
+display="inline"><![CDATA[\mathcal {P}_0]]></fr:tex> is given to deal with how new cycles are defined during unfolding.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>288</fr:anchor><fr:addr
+type="user">not-0007</fr:addr><fr:route>not-0007.xml</fr:route><fr:title
+text="Leigh and Wehr's notion of unfolding">Leigh and Wehr's notion of unfolding</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Leigh and Wehr in <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="link-reference"><fr:link
+type="local"
+href="leighwehr2023.xml"
+addr="leighwehr2023"
+title="From GTC to Reset: Generating Reset Proof Systems from Cyclic Proof Systems">[leighwehr2023]</fr:link></html:span> define unfolding at the level of labelled cyclic trees. By disregarding the tree labels (sequents and rules) their definition also works for cyclic trees.</fr:p><fr:p>Their unfolding definition covers the "basic" unfoldings that we have considered i.e. those where you unfold a single cycle, and you link the new bud back to either the old companion or the old bud.</fr:p><fr:p>As far as I can tell, this definition does not properly extend the cycle map <fr:tex
+display="inline"><![CDATA[\beta ]]></fr:tex> with cycles created by unfolding, apart from that of the one bud that is being unfolded. There is not just one obvious way to do this, so there is definitely something missing in the definition here: a natural way is for newly created buds to link back to the companions for the buds they are copies of.</fr:p><fr:p>I think that this notion of unfolding is the closest to what we want to define.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>We want to encompass all of these notions in a few, easy to intuit set of definitions.
+  To tackle the problem of defining cyclic tree unfolding in a natural way, we first look to graph theory for a general notion of unfolding for graphs, and then lift this notion to cyclic trees by essentially viewing them as special kinds of graph.</fr:p><fr:p>A starting point for this investigation is Boldi and Vigna's work on graph fibrations <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="link-reference"><fr:link
+type="local"
+href="boldivigna2002.xml"
+addr="boldivigna2002"
+title="Fibrations of graphs">[boldivigna2002]</fr:link></html:span>. Fibrations and opfibrations are the directed analogues of <fr:em>graph coverings</fr:em>, which are an existing and well-studied notion of unfolding <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="link-reference"><fr:link
+type="local"
+href="courcelle2023.xml"
+addr="courcelle2023"
+title="Unfoldings and Coverings of Weighted Graphs">[courcelle2023]</fr:link></html:span> for (undirected) graphs. These are all essentially <fr:em>surjective neighbourhood preserving maps</fr:em> between graphs. For example:</fr:p>
+  <html:center
+xmlns:html="http://www.w3.org/1999/xhtml"><fr:resource
+hash="f12e0d0b892834efb99ba74092af3685"><fr:resource-content><fr:img
+src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBUaGlzIGZpbGUgd2FzIGdlbmVyYXRlZCBieSBkdmlzdmdtIDMuMi4yIC0tPgo8c3ZnIHZlcnNpb249JzEuMScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzMzOS44NTk1NDdwdCcgaGVpZ2h0PScxMTMuMzA3MDc4cHQnIHZpZXdCb3g9Jy03MiAtNzIgMjI2LjU3MzAzMSA3NS41MzgwNTInPgo8c3R5bGUgdHlwZT0ndGV4dC9jc3MnPgo8IVtDREFUQVtAZm9udC1mYWNle2ZvbnQtZmFtaWx5OmNtcjEwO3NyYzp1cmwoZGF0YTphcHBsaWNhdGlvbi94LWZvbnQtd29mZjtiYXNlNjQsZDA5R1JnQUJBQUFBQUFSNEFBb0FBQUFBQlBRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJQVXk4eUFBQUE5QUFBQUVRQUFBQmdoVngwOW1OdFlYQUFBQUU0QUFBQUxBQUFBRFFBREFDV1oyeDVaZ0FBQVdRQUFBR3hBQUFCeEVGSjV3Qm9aV0ZrQUFBREdBQUFBQzhBQUFBMktUc2syR2hvWldFQUFBTklBQUFBSFFBQUFDUUdBUUluYUcxMGVBQUFBMmdBQUFBUUFBQUFFQXM0QUg5c2IyTmhBQUFEZUFBQUFBb0FBQUFLQVNJQWptMWhlSEFBQUFPRUFBQUFHQUFBQUNBQUNBQTBibUZ0WlFBQUE1d0FBQUROQUFBQk9JTGpLcWx3YjNOMEFBQUViQUFBQUF3QUFBQWdBQU1BQUhqYVkyQm1Pc2M0Z1lHVmdZRnBGdFBaZnlJTS9TQ2E4UTNqR3daalJrNEdJR0JqZ0FOR0JpU1FVbHlXRHBSMFpIQm1admdQNURORHBKSFUvQWNLQXdEd0dBMUNlTnBqWUdCZ1ltQmdZQVppRVNESkNLWlpHQlNBTkFzUWd2ak8vLzhEU2NmLy8vOGZBUE1aQUZLNUJwOTQyaDJRVDJnVFFSU0gzNXZKN3BpMkpObHVkaWFOTVNiWk9BditXOGwyWjl3b3NaWldTNnkybDdwZUxLVWF5RVdMQlExQ2xWN014WnNnQ05XVFYyOGVQWG4wcmtkN0VZUmVlNVd1am4zZjZmMTQ4UHQ0UUtBSlFQYkpQdmdnQWRDdG80NDhlUTVaekpVTzBXZTJWK2JDQzFqY1VkcFZvc01aamZEZFQrWmZtSjVmdUxVa3JsQ3FqMElTeUdmRHM5M0NkNnM4bVkrMmY1TnZSN3N6RGpZb2JXQ2VGOStQMlFtdmZyeWVDc2pBdzRrWDJXY3dRK0dNNmQ4algyQVMyaEFDdUZFUFl5VURYOXJDeUlnQ3NtWWNkVlRnS0dNVk40OGoyc05aYytMWVhQOTZ1N2FDMS9vdmZRY1AwMGNFZDRiWlZpV3BFbEpOS2pnYTdCQzgvL3JPNnNMeVYzUjhITkdOMmZQck9aeXVaSCttTmhmN2oybWpYQ08xazk1cE1yalJUYk9QZE9QSk1KY2RHSFBqaHBEOFBTQ2Z5QS9vR0MrbC8yUHF0UktLZWR4dXllQWlCcExaQmk0TXVvZGFjbVlYMFdZeVJKblF1NDY3T1Y2NlY0dW1yQUpGUzFqb1BGOXJ6eVdYbEhsYTJKMXJwNi95V0tkNHRiejRkUHlnbGVMNm00ZXVrMUp5dWI1Y3BGZzlMT1haeFBZdWtvcTQzdit3MTUvbk13UkhXeVVzcGJmNVRTdVh0Z1lBL3dEWG8xUXlBQUFBZU5wallHUmdZQURpMmRwNm5QSDhObDhabUZrWVFPRHhvZzlkQ1ByL1M2WjdUUGVBWEE0R0pwQW9BRFdYREZZQWVOcGpZR1JnWUdiNHp3QWlHUlFabEpqdU1RQkZVQUFMQURWUEFpOEFBQUFDZ0FBQUF3QUFJUUxWQUNVQzR3QTVBQUFBQUFCQUFJNEE0Z0FBZU5wallHUmdZR0JoTUdaZ1pnQUJSZ1kwQUFBRi9BQTllTnBGakQyTHdrQVFocDlnSWhnTEc3R3d1TnZDT2lUUitob0xLMXVyYTlSZEpVVTJzb2tCUVN6dmR6dFpGMjVnaCtmOW1BVlNYa1FNRXpIemU1aVlSTlNIRTZiTUE0OUZmUWRPV2JKaVJCUlB4UG5pSjNBc3lXL2doQVdYd0dQeG40RlROdnh0bS9wMjc0eFQrMFliWjgrMUsvS0RjVzNWV0ZWa3VkYzdZNDA3ZGthcjAwUHB2bXI3YTYzV1dabVZiR21vdVhHbncrQlE3TVhSbmkxbnlSd0ZPUWZ2dEZTU1dta1ZaT0wrNXp2SnJlOGMvVTlhT2ljZXNqVzlYTFd5cjlKV3JPV3lITjRiWThjdkVRQUFBSGphWTJCbXdBc0FBSDBBQkE9PSkgZm9ybWF0KCd3b2ZmJyk7fQp0ZXh0LmYwIHtmb250LWZhbWlseTpjbXIxMDtmb250LXNpemU6OS45NjI2NHB4fQpdXT4KPC9zdHlsZT4KPGcgaWQ9J3BhZ2UxJz4KPGcgc3Ryb2tlLW1pdGVybGltaXQ9JzEwJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtNjQuOTQzNDg5LC0zMS41MzI4MTQpc2NhbGUoMC45OTYyNjQsLTAuOTk2MjY0KSc+CjxnIGZpbGw9JyMwMDAnIHN0cm9rZT0nIzAwMCc+CjxnIHN0cm9rZS13aWR0aD0nMC40Jz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTMuNzUsLTMuNDE2NjYpJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKC02NC45NDM0ODksLTMxLjUzMjgxNClzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjMDAwJz4KPGcgc3Ryb2tlPSdub25lJz4KPHRleHQgY2xhc3M9J2YwJyB4PSctNjQuOTQzNDg5JyB5PSctMzEuNTMyODE0Jz5BPC90ZXh0Pgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDI0LjkxMTA3LC0zLjQxNjY2KSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgtNjQuOTQzNDg5LC0zMS41MzI4MTQpc2NhbGUoLTEsLTEpJz4KPGcgZmlsbD0nIzAwMCc+CjxnIHN0cm9rZT0nbm9uZSc+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nLTY0Ljk0MzQ4OScgeT0nLTMxLjUzMjgxNCc+QjwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSg1My4yOTQzNywtMy40MTY2NiknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoLTY0Ljk0MzQ4OSwtMzEuNTMyODE0KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjAnIHg9Jy02NC45NDM0ODknIHk9Jy0zMS41MzI4MTQnPkM8L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPHBhdGggZD0nTTcuMjgyOTcgMEgyMS4zNzgxJyBmaWxsPSdub25lJy8+CjxwYXRoIGQ9J00zNS41MjczOSAwSDQ5Ljc2MTQnIGZpbGw9J25vbmUnLz4KPHBhdGggZD0nTTM0LjI4MjY1IDYuOTQ5NjNDMzguNDkyMTMgMTEuOTY2MiA0Ni44NjYxIDExLjk2NjIgNTEuMDc1NTggNi45NDk2MycgZmlsbD0nbm9uZScvPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSg5NS44MzQ2NCwtMzEuODY5NCknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoLTY0Ljk0MzQ4OSwtMzEuNTMyODE0KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjAnIHg9Jy02NC45NDM0ODknIHk9Jy0zMS41MzI4MTQnPkE8L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoMTI0LjQ5NTcxLC0zMS44Njk0KSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgtNjQuOTQzNDg5LC0zMS41MzI4MTQpc2NhbGUoLTEsLTEpJz4KPGcgZmlsbD0nIzAwMCc+CjxnIHN0cm9rZT0nbm9uZSc+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nLTY0Ljk0MzQ4OScgeT0nLTMxLjUzMjgxNCc+QjwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgxNTIuODc5MDEsLTMxLjg2OTQpJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKC02NC45NDM0ODksLTMxLjUzMjgxNClzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjMDAwJz4KPGcgc3Ryb2tlPSdub25lJz4KPHRleHQgY2xhc3M9J2YwJyB4PSctNjQuOTQzNDg5JyB5PSctMzEuNTMyODE0Jz5DPC90ZXh0Pgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDE4MS40MDEyLC0zMS44Njk0KSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgtNjQuOTQzNDg5LC0zMS41MzI4MTQpc2NhbGUoLTEsLTEpJz4KPGcgZmlsbD0nIzAwMCc+CjxnIHN0cm9rZT0nbm9uZSc+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nLTY0Ljk0MzQ4OScgeT0nLTMxLjUzMjgxNCc+QjwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgyMDkuNzg0NSwtMzEuODY5NCknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoLTY0Ljk0MzQ4OSwtMzEuNTMyODE0KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjAnIHg9Jy02NC45NDM0ODknIHk9Jy0zMS41MzI4MTQnPkM8L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPHBhdGggZD0nTTEwNi44Njc2MS0yOC40NTI3NEgxMjAuOTYyNzQnIGZpbGw9J25vbmUnLz4KPHBhdGggZD0nTTEzNS4xMTIwMy0yOC40NTI3NEgxNDkuMzQ2MDQnIGZpbGw9J25vbmUnLz4KPHBhdGggZD0nTTE2My42MzQyMi0yOC40NTI3NEgxNzcuODY4MjMnIGZpbGw9J25vbmUnLz4KPHBhdGggZD0nTTE5Mi4wMTc1Mi0yOC40NTI3NEgyMDYuMjUxNTMnIGZpbGw9J25vbmUnLz4KPHBhdGggZD0nTTEzMy44NjczLTIxLjUwMzExQzE1Mi4zNDEyOCAuNTEyOTcgMTg5LjA5MTcyIC41MTI5NyAyMDcuNTY1Ny0yMS41MDMxMScgZmlsbD0nbm9uZScvPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSg5NS44MzQ2NCwyNS4wMzYwOSknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoLTY0Ljk0MzQ4OSwtMzEuNTMyODE0KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjAnIHg9Jy02NC45NDM0ODknIHk9Jy0zMS41MzI4MTQnPkE8L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoMTI0LjQ5NTcxLDI1LjAzNjA5KSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgtNjQuOTQzNDg5LC0zMS41MzI4MTQpc2NhbGUoLTEsLTEpJz4KPGcgZmlsbD0nIzAwMCc+CjxnIHN0cm9rZT0nbm9uZSc+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nLTY0Ljk0MzQ4OScgeT0nLTMxLjUzMjgxNCc+QjwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgxNTIuODc5MDEsMjUuMDM2MDkpJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKC02NC45NDM0ODksLTMxLjUzMjgxNClzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjMDAwJz4KPGcgc3Ryb2tlPSdub25lJz4KPHRleHQgY2xhc3M9J2YwJyB4PSctNjQuOTQzNDg5JyB5PSctMzEuNTMyODE0Jz5DPC90ZXh0Pgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDE4MS40MDEyLDI1LjAzNjA5KSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgtNjQuOTQzNDg5LC0zMS41MzI4MTQpc2NhbGUoLTEsLTEpJz4KPGcgZmlsbD0nIzAwMCc+CjxnIHN0cm9rZT0nbm9uZSc+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nLTY0Ljk0MzQ4OScgeT0nLTMxLjUzMjgxNCc+QjwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgyMDkuNzg0NSwyNS4wMzYwOSknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoLTY0Ljk0MzQ4OSwtMzEuNTMyODE0KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjAnIHg9Jy02NC45NDM0ODknIHk9Jy0zMS41MzI4MTQnPkM8L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPHBhdGggZD0nTTEwNi44Njc2MSAyOC40NTI3NEgxMjAuOTYyNzQnIGZpbGw9J25vbmUnLz4KPHBhdGggZD0nTTEzNS4xMTIwMyAyOC40NTI3NEgxNDkuMzQ2MDQnIGZpbGw9J25vbmUnLz4KPHBhdGggZD0nTTE2My42MzQyMiAyOC40NTI3NEgxNzcuODY4MjMnIGZpbGw9J25vbmUnLz4KPHBhdGggZD0nTTE5Mi4wMTc1MiAyOC40NTI3NEgyMDYuMjUxNTMnIGZpbGw9J25vbmUnLz4KPHBhdGggZD0nTTE5MC43NzI3OCAzNS40MDIzN0MxOTQuOTgyMjUgNDAuNDE4OTUgMjAzLjM1NjIzIDQwLjQxODk1IDIwNy41NjU3IDM1LjQwMjM3JyBmaWxsPSdub25lJy8+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9zdmc+" /></fr:resource-content><fr:resource-source
+type="latex"
+part="preamble"><![CDATA[
+    \usepackage {tikz, amsopn, amssymb, mathrsfs, amsmath}
+  ]]></fr:resource-source><fr:resource-source
+type="latex"
+part="body"><![CDATA[
+  \begin {tikzpicture}[node distance=2cm,auto]
+    \begin {scope}
+      \node  (A) at (0,0) {A} ;
+      \node  (B) at (1,0) {B} ;
+      \node  (C) at (2,0) {C} ;
+
+      \path  [-] (A) edge (B) ;
+      \path  [-] (B) edge (C) ;
+      \path  [-] (B) edge[bend left=50] (C) ;
+    \end {scope}
+    \begin {scope}[xshift=3.5cm, yshift=-1cm]
+      \node  (A) at (0,0) {A} ;
+      \node  (B) at (1,0) {B} ;
+      \node  (C) at (2,0) {C} ;
+      \node  (D) at (3,0) {B} ;
+      \node  (E) at (4,0) {C} ;
+
+      \path  [-] (A) edge (B) ;
+      \path  [-] (B) edge (C) ;
+      \path  [-] (C) edge (D) ;
+      \path  [-] (D) edge (E) ;
+      \path  [-] (B) edge[bend left=50] (E) ;
+    \end {scope}
+    \begin {scope}[xshift=3.5cm, yshift=1cm]
+      \node  (A) at (0,0) {A} ;
+      \node  (B) at (1,0) {B} ;
+      \node  (C) at (2,0) {C} ;
+      \node  (D) at (3,0) {B} ;
+      \node  (E) at (4,0) {C} ;
+
+      \path  [-] (A) edge (B) ;
+      \path  [-] (B) edge (C) ;
+      \path  [-] (C) edge (D) ;
+      \path  [-] (D) edge (E) ;
+      \path  [-] (D) edge[bend left=50] (E) ;
+    \end {scope}
+  \end {tikzpicture}
+]]></fr:resource-source></fr:resource></html:center>
+<fr:p>The two graphs on the right are coverings of the one on the left, the covering map indicated by letters (i.e. <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is mapped to <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, etc.).</fr:p><fr:p>To extend these ideas to cyclic trees we need a first need a nice notion of cyclic tree homomorphism.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>290</fr:anchor><fr:addr
+type="user">cyt-0003</fr:addr><fr:route>cyt-0003.xml</fr:route><fr:title
+text="Considering cyclic trees as graphs">Considering cyclic trees as graphs</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We can transform a cyclic tree into a rooted multi directed graph by "quotienting by the cycle map". This essentially means that we identify nodes that a connected by a cycle. For example:</fr:p>
+  <html:center
+xmlns:html="http://www.w3.org/1999/xhtml"><fr:resource
+hash="004e16a8597e52523c3a9a8bbc00b245"><fr:resource-content><fr:img
+src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBUaGlzIGZpbGUgd2FzIGdlbmVyYXRlZCBieSBkdmlzdmdtIDMuMi4yIC0tPgo8c3ZnIHZlcnNpb249JzEuMScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzI0Ny45ODE0MDVwdCcgaGVpZ2h0PScxMTkuNTAwODEycHQnIHZpZXdCb3g9Jy03MiAtNzIgMTY1LjMyMDkzNiA3OS42NjcyMDgnPgo8c3R5bGUgdHlwZT0ndGV4dC9jc3MnPgo8IVtDREFUQVtAZm9udC1mYWNle2ZvbnQtZmFtaWx5OmNtcjEwO3NyYzp1cmwoZGF0YTphcHBsaWNhdGlvbi94LWZvbnQtd29mZjtiYXNlNjQsZDA5R1JnQUJBQUFBQUFYNEFBb0FBQUFBQnlnQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJQVXk4eUFBQUE5QUFBQUVNQUFBQmdoWHgwaEdOdFlYQUFBQUU0QUFBQVFRQUFBRXdCQ3dFNFoyeDVaZ0FBQVh3QUFBTU1BQUFEMEk3L1YvaG9aV0ZrQUFBRWlBQUFBQzhBQUFBMktaNHlNR2hvWldFQUFBUzRBQUFBSGdBQUFDUUdWZ0prYUcxMGVBQUFCTmdBQUFBY0FBQUFIQTh0QUxkc2IyTmhBQUFFOUFBQUFCQUFBQUFRQXhRRCtHMWhlSEFBQUFVRUFBQUFHQUFBQUNBQUNnQkdibUZ0WlFBQUJSd0FBQUROQUFBQk9JTGpLcWx3YjNOMEFBQUY3QUFBQUF3QUFBQWdBQU1BQUhqYVkyQm0wbWFjd01ES3dNQTBpK25zUHhHR2ZoRE4rSWJ4RFlNeEl5Y0RFTEF4d0FFakF4SklLUzVMQjBvbU1wUXdNL3dIOHBraDBraHEvZ09GQWI1T0RQQUFlTnBqWUdCZ1ltQmdZQVppRVNESkNLWlpHQ3lBTkJjREIxQ09pU0dSSVplaGdLSGsvMytnR0lpZHoxRDgvLy8vQmYrbi9wL3lmeEpZQnhRQUFGL1FEam9BQUFCNDJuVlR6Mi9iVkJ4L24rL3o3RFkvN0taTzdEUk43Q1loZnMzU05DT3VuU1paODZOWm9SdHFDOW9LQTdRT1VhWmR1TEJVU0VoSVU3YkRKRTVJdS9GWGpNTnUyMjFvU0Z1UG5EaUF4cDBMY09EUzhwd0t3V1dXOWZUOGZWLzUrL24xR0xIenAzL2lieHl6TjFtSHNZcE93aE5lMk9xaEZheWlYRkkxQjVxcWVVSVdRbHZ1TTZwbFcyRXI4RE02eENxRUR0dWhzSVY5ZmV0MkdDcG9yRGNQbDJtMHZERElGTk9nZWsyaDY0T2RRUzVCTUxLeEhISzhaNzVSalgzOU1jZmF6aDdmcmZpVXpXNlV0M04yRXQ2bGZucVJTdkdhL0kwL0FIWHpHKzZ4ZXA3RHJyWGJGd1hCLzNIbVlGVTBxUGMya3c5WWtURSt4SE4yaVRFejlMU2dsWWxnV3JaY0hVelJPbWhsaEJaWW9RaENUMGc2RXYvcksxK1FzL2F0ZGJudDdTY1QyNE9WTUdiRkFiRThQbXE2Z05Qdzl3bHVjM3prTzBDaHNYYjJOWTdPUHFsWWNCT2ZYK2lDdk9IU0prYzJtZHNjUHJObXNjVDVFdlRpNy9VUlhYdjNTVkYvYllFeFlvWFR2L0FLTDFnOFlsYlJvVW1CcDF4NHMwZEN3dlVpUjZUazBnU0o0UldmM0x4eGo5UGRUMjlPZmhXOWtnYk1tQ3ZiUzMwck5TTzM4OWJHejRjVG9ydTNEci9oL01ISmNmV3RLM2wzdDdSWktwWGZjZlB2bGN1bDZjdzJXZmlCRmRpS1ZQRk11YlBKL3hNbU5WWFhURXZ2ZmRraUR5V09SOFpXOTZPdkZPWCtRV2VnU0NtTzdrZ3BwSUlQdVJKZjZYZmY1M3luczd4bFkySTJpTzU5ZG10Q1BEQWUvOGNZdjhpRXVJbVRSMGJTNkdOODhPR1lhbUxxcXlzemVRY3YyWWl4YU5ZMGtkTFdWdGhIcUdXc0Jqd1JSa3NVdm45ZlM5VlVUeGhRaGRvS1BEc0txOHhCNE1tK240S3VYUU8yYnlSQ0p4VlROSjN6T1ZVRmpGbjc4dEFIN2RXTG5WeGMycmg3ZmY1aU9XMHFQT3BJa0Q0Y2ROZVZpaXFleDFMcFVsRGZJOHhtNW1JRTVHNHZFa2hkcU00SmpndUZXbEZUMDluWlJyVjlsYUM3MlpRQ0xEeFlCT1pIdTBBZ0FwUFBSN3pNMHo5d2piNWtybFE2cGJxdzdPYjBLcVVsOW9oUHFoeElvckxnWjc2bm1YUEplbDRnMXdnTHRibXE4c0VWcDdEd0VOK2QvR1lJdzFNNjdmV096Q09ac2Z4VkxGcGFyemQ2NnJKL0FFOU1sMjE0Mm1OZ1pHQmdBT0lQRHVJTDQvbHR2akl3c3pDQXdPTkYzdzhoNlArV3pJNU1aVUF1QndNVFNCUUFVczhNQ3dCNDJtTmdaR0JnWnZqUEFDUkRHWVFaMkprZEdZQWlLSUFkQUM2VEFjSUFBQUtBQUFBQ0FBQXFBMVVBSVFJQUFCMENPQUFkQVpNQUh3R05BQk1BQUFBQUFGNEF4Z0VBQVVvQnRnSG9lTnBqWUdSZ1lHQm5jR1ZnWWdBQlJnWTBBQUFIK0FCUmVOcEZqRDJMd2tBUWhwOWdJaGdMRzdHd3VOdkNPaVRSK2hvTEsxdXJhOVJkSlVVMnNva0JRU3p2ZHp0WkYyNWdoK2Y5bUFWU1hrUU1Fekh6ZTVpWVJOU0hFNmJNQTQ5RmZRZE9XYkppUkJSUHhQbmlKM0FzeVcvZ2hBV1h3R1B4bjRGVE52eHRtL3AyNzR4VCswWWJaOCsxSy9LRGNXM1ZXRlZrdWRjN1k0MDdka2FyMDBQcHZtcjdhNjNXV1ptVmJHbW91WEdudytCUTdNWFJuaTFueVJ3Rk9RZnZ0RlNTV21rVlpPTCs1enZKcmU4Yy9VOWFPaWNlc2pXOVhMV3lyOUpXck9XeUhONGJZOGN2RVFBQUFIamFZMkJtd0FzQUFIMEFCQT09KSBmb3JtYXQoJ3dvZmYnKTt9CkBmb250LWZhY2V7Zm9udC1mYW1pbHk6Y21zeTEwO3NyYzp1cmwoZGF0YTphcHBsaWNhdGlvbi94LWZvbnQtd29mZjtiYXNlNjQsZDA5R1JnQUJBQUFBQUFNQUFBb0FBQUFBQTJBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJQVXk4eUFBQUE5QUFBQUVzQUFBQmdxQzRSMkdOdFlYQUFBQUZBQUFBQUtnQUFBRFFBRENCMVoyeDVaZ0FBQVd3QUFBQTBBQUFBTklYV3c2Um9aV0ZrQUFBQm9BQUFBQzBBQUFBMktYZ3lTR2hvWldFQUFBSFFBQUFBSGdBQUFDUUZHditCYUcxMGVBQUFBZkFBQUFBSUFBQUFDQVVjQURoc2IyTmhBQUFCK0FBQUFBWUFBQUFHQUJvQUFHMWhlSEFBQUFJQUFBQUFGd0FBQUNBQUJBQU5ibUZ0WlFBQUFoZ0FBQURWQUFBQlBxODNkZU53YjNOMEFBQUM4QUFBQUJBQUFBQWdBQU1BQVhqYVkyQm02bU9jd01ES3dNQTBpK25zUHhHR2ZoRE4rSWJ4RFlNeEl5Y0RFTEF4UUVBREF5cElLUzVMWjJCVFVGSlFZcGI2bzhuQXdDekZmQjBvekloUThmOC9Bd01BREtZT3RBQjQybU5nWUdCaVlHQmdCbUlSSU1rSXBsa1lGSUEwQ3hBQytRcEsvLzlEeVB2M3dmSU1BRkxNQnA0QUFBQUJBRGdBT1FISEFjY0FDd0FBQVE0QkJ5NEJKejRCTng0QkFjY0NjbE5WY1FJQ2NWVlRjZ0VBVkhFQ0FuRlVVM0lDQW5GNDJtTmdaR0JnQU9MbTlOanI4ZncyWHhtWVdSaEE0UEdpNzRlUWFXWVp4dU5BaW9PQkNjUURBRWwxQ3pRQUFBQjQybU5nWkdCZ2x2cWpDU1JsR0N3WUxCbVBNd0JGVUFBVEFFR2xBcDhBQUFNY0FBQUNBQUE0QUFBQUFBQWFBQUI0Mm1OZ1pHQmdZR0xnWVFEUkRGQVNDUUFBQWNrQUVnQjQyazJPc1dyRE1CUkZqNmxqcUJ2b2xBd2RpcWFNeG5ieUFZVU1tYkptTENTUkNDNVlEcEpqOEZMNkFmbm9QQ3NhK29RZVIvZmU5eENRODB2Q1ZBbnZvVStWa3NucnlUUGVXRVRPNUtqSU9SK3NlQ0ZKWDBYNTVDdHl5cHp2eURPVy9FVE9SUCtMbkxQaHZ1M2E2NjAzVHUwN2Jadzl0MzZzeW9OeHZ1bXNxb3J5S2V5TU5lN1lHNjFPbzlKRDQ0ZExxOVpGWGRSczZXaTVjcVBINE9SbmUxRjBZTXRaUE05SVJja2hhSjVHZkN1NWlrTFUvNG1kSkd4SUhjTTJMYW1UZUVwb2tEa3YvU0o1eFZwbTYraytBQW5mTVJVQUFBQjQybU5nWmtBR2pBeG9BQUFBamdBRikgZm9ybWF0KCd3b2ZmJyk7fQp0ZXh0LmYwIHtmb250LWZhbWlseTpjbXN5MTA7Zm9udC1zaXplOjkuOTYyNjRweH0KdGV4dC5mMSB7Zm9udC1mYW1pbHk6Y21yMTA7Zm9udC1zaXplOjkuOTYyNjRweH0KXV0+Cjwvc3R5bGU+CjxnIGlkPSdwYWdlMSc+CjxnIHN0cm9rZS1taXRlcmxpbWl0PScxMCcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTQ2LjA2MjY2MiwyLjEzMjc2NClzY2FsZSgwLjk5NjI2NCwtMC45OTYyNjQpJz4KPGcgZmlsbD0nIzAwMCcgc3Ryb2tlPScjMDAwJz4KPGcgc3Ryb2tlLXdpZHRoPScwLjQnPgo8ZyBmaWxsPScjZjAwJyBzdHJva2U9JyNmMDAnPgo8ZyBmaWxsPScjZjAwJyBzdHJva2U9JyNmMDAnPgo8L2c+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC0yLjUsLTIuMjIyMjEpJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKC00Ni4wNjI2NjIsMi4xMzI3NjQpc2NhbGUoLTEsLTEpJz4KPGcgZmlsbD0nI2YwMCc+CjxnIHN0cm9rZT0nbm9uZSc+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nLTQ2LjA2MjY2MicgeT0nMi4xMzI3NjQnPjx0c3BhbiBmaWxsPScjZjAwJz7igKI8L3RzcGFuPjwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC0yLjUsMjYuMjMwNTMpJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKC00Ni4wNjI2NjIsMi4xMzI3NjQpc2NhbGUoLTEsLTEpJz4KPGcgZmlsbD0nIzAwMCc+CjxnIHN0cm9rZT0nbm9uZSc+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nLTQ2LjA2MjY2MicgeT0nMi4xMzI3NjQnPuKAojwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtMjIuNzAxNjMsNDYuNDMyMTYpJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKC00Ni4wNjI2NjIsMi4xMzI3NjQpc2NhbGUoLTEsLTEpJz4KPGcgZmlsbD0nIzAwMCc+CjxnIHN0cm9rZT0nbm9uZSc+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nLTQ2LjA2MjY2MicgeT0nMi4xMzI3NjQnPuKAojwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgxNy43MDE2Myw0Ni40MzIxNiknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoLTQ2LjA2MjY2MiwyLjEzMjc2NClzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjMDAwJz4KPGcgc3Ryb2tlPSdub25lJz4KPHRleHQgY2xhc3M9J2YwJyB4PSctNDYuMDYyNjYyJyB5PScyLjEzMjc2NCc+4oCiPC90ZXh0Pgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDM3LjkwMjgzLDY2LjYzMzM2KSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgtNDYuMDYyNjYyLDIuMTMyNzY0KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjAnIHg9Jy00Ni4wNjI2NjInIHk9JzIuMTMyNzY0Jz7igKI8L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPHBhdGggZD0nTTAgNS43NTUxOVYyMi42OTc1NicgZmlsbD0nbm9uZScvPgo8cGF0aCBkPSdNLTUuNzU0NTYgMzQuMjA3OTNMLTE0LjQ0NjYyIDQyLjg5OTE5JyBmaWxsPSdub25lJy8+CjxwYXRoIGQ9J001Ljc1NDU2IDM0LjIwNzkzTDE0LjQ0NjYyIDQyLjg5OTE5JyBmaWxsPSdub25lJy8+CjxwYXRoIGQ9J00yNS45NTYxIDU0LjQwOTU2TDM0LjY0ODAxIDYzLjEwMDM5JyBmaWxsPSdub25lJy8+CjxwYXRoIGQ9J00tMjAuOTUzOTUgNDIuODk5MTlDLTIzLjM4MzAxIDI3LjAzMzMzLTE4LjU1ODY1IDE0LjY1NzcxLTYuMzkxOTIgNC45MDg3MicgZmlsbD0nbm9uZScvPgo8ZyB0cmFuc2Zvcm09J21hdHJpeCgwLjc4MDM1LC0wLjYyNTI2LDAuNjI1MjYsMC43ODAzNSwtNi4zOTE5Miw0LjkwODcyKSc+CjxnIHN0cm9rZS13aWR0aD0nMC4zMTk5OSc+CiA8ZyBzdHJva2UtZGFzaGFycmF5PSdub25lJyBzdHJva2UtZGFzaG9mZnNldD0nMC4wJz4KIDxnIHN0cm9rZS1saW5lY2FwPSdyb3VuZCc+CiA8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KIDxwYXRoIGQ9J00tMS4xOTk5OCAxLjU5OTk4Qy0xLjA5OTk4IC45OTk5OCAwIC4wOTk5OSAuMjk5OTkgMEMwLS4wOTk5OS0xLjA5OTk4LS45OTk5OC0xLjE5OTk4LTEuNTk5OTgnIGZpbGw9J25vbmUnLz4KIDwvZz4KIDwvZz4KIDwvZz4KIDwvZz4KPC9nPgo8cGF0aCBkPSdNNDEuOTQ0MjcgNjMuMTAwMzlDNDQuMzE0ODUgNTQuNjI5ODcgMzQuNzU1NTcgNDQuODU2MjUgMjYuNjgwMTkgNDYuOTI0NDInIGZpbGw9J25vbmUnLz4KPGcgdHJhbnNmb3JtPSdtYXRyaXgoLTAuOTY4NjksMC4yNDgwOCwtMC4yNDgwOCwtMC45Njg2OSwyNi42ODAxOSw0Ni45MjQ0MSknPgo8ZyBzdHJva2Utd2lkdGg9JzAuMzE5OTknPgogPGcgc3Ryb2tlLWRhc2hhcnJheT0nbm9uZScgc3Ryb2tlLWRhc2hvZmZzZXQ9JzAuMCc+CiA8ZyBzdHJva2UtbGluZWNhcD0ncm91bmQnPgogPGcgc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCc+CiA8cGF0aCBkPSdNLTEuMTk5OTggMS41OTk5OEMtMS4wOTk5OCAuOTk5OTggMCAuMDk5OTkgLjI5OTk5IDBDMC0uMDk5OTktMS4wOTk5OC0uOTk5OTgtMS4xOTk5OC0xLjU5OTk4JyBmaWxsPSdub25lJy8+CiA8L2c+CiA8L2c+CiA8L2c+CiA8L2c+CjwvZz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoNTEuMjE1MDYsMzIuMDQwMDIpJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKC00Ni4wNjI2NjIsMi4xMzI3NjQpc2NhbGUoLTEsLTEpJz4KPGcgZmlsbD0nIzAwMCc+CjxnIHN0cm9rZT0nbm9uZSc+Cjx0ZXh0IGNsYXNzPSdmMScgeD0nLTQ2LjA2MjY2MicgeT0nMi4xMzI3NjQnPm1hcHM8dHNwYW4geD0nLTE5Ljk5NDAzOCc+dG88L3RzcGFuPjwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8ZyBmaWxsPScjZjAwJyBzdHJva2U9JyNmMDAnPgo8ZyBmaWxsPScjZjAwJyBzdHJva2U9JyNmMDAnPgo8L2c+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDExMS4zMTEwMiwtMi4yMjIyMSknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoLTQ2LjA2MjY2MiwyLjEzMjc2NClzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjZjAwJz4KPGcgc3Ryb2tlPSdub25lJz4KPHRleHQgY2xhc3M9J2YwJyB4PSctNDYuMDYyNjYyJyB5PScyLjEzMjc2NCc+PHRzcGFuIGZpbGw9JyNmMDAnPuKAojwvdHNwYW4+PC90ZXh0Pgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoMTExLjMxMTAyLDI2LjIzMDUzKSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgtNDYuMDYyNjYyLDIuMTMyNzY0KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjAnIHg9Jy00Ni4wNjI2NjInIHk9JzIuMTMyNzY0Jz7igKI8L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoMTMxLjUxMjY1LDQ2LjQzMjE2KSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgtNDYuMDYyNjYyLDIuMTMyNzY0KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjAnIHg9Jy00Ni4wNjI2NjInIHk9JzIuMTMyNzY0Jz7igKI8L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPHBhdGggZD0nTTEwOC45ODMxMSA1Ljc1NTE5QzEwNC43MzYyMiAxMC44MTYzNSAxMDQuNzM2MjIgMTcuNjM2NCAxMDguNjg3NDQgMjIuMzQ1MicgZmlsbD0nbm9uZScvPgo8ZyB0cmFuc2Zvcm09J21hdHJpeCgwLjY0Mjc5LDAuNzY2MDQsLTAuNzY2MDQsMC42NDI3OSwxMDguNjg3NDIsMjIuMzQ1MTgpJz4KPGcgc3Ryb2tlLXdpZHRoPScwLjMxOTk5Jz4KIDxnIHN0cm9rZS1kYXNoYXJyYXk9J25vbmUnIHN0cm9rZS1kYXNob2Zmc2V0PScwLjAnPgogPGcgc3Ryb2tlLWxpbmVjYXA9J3JvdW5kJz4KIDxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgogPHBhdGggZD0nTS0xLjE5OTk4IDEuNTk5OThDLTEuMDk5OTggLjk5OTk4IDAgLjA5OTk5IC4yOTk5OSAwQzAtLjA5OTk5LTEuMDk5OTgtLjk5OTk4LTEuMTk5OTgtMS41OTk5OCcgZmlsbD0nbm9uZScvPgogPC9nPgogPC9nPgogPC9nPgogPC9nPgo8L2c+CjxwYXRoIGQ9J00xMTguNjM4OTMgMjIuNjk3NTZDMTIyLjg4NTgyIDE3LjYzNjQgMTIyLjg4NTgyIDEwLjgxNjM1IDExOC45MzQ2IDYuMTA3NTQnIGZpbGw9J25vbmUnLz4KPGcgdHJhbnNmb3JtPSdtYXRyaXgoLTAuNjQyNzksLTAuNzY2MDQsMC43NjYwNCwtMC42NDI3OSwxMTguOTM0NjIsNi4xMDc1NiknPgo8ZyBzdHJva2Utd2lkdGg9JzAuMzE5OTknPgogPGcgc3Ryb2tlLWRhc2hhcnJheT0nbm9uZScgc3Ryb2tlLWRhc2hvZmZzZXQ9JzAuMCc+CiA8ZyBzdHJva2UtbGluZWNhcD0ncm91bmQnPgogPGcgc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCc+CiA8cGF0aCBkPSdNLTEuMTk5OTggMS41OTk5OEMtMS4wOTk5OCAuOTk5OTggMCAuMDk5OTkgLjI5OTk5IDBDMC0uMDk5OTktMS4wOTk5OC0uOTk5OTgtMS4xOTk5OC0xLjU5OTk4JyBmaWxsPSdub25lJy8+CiA8L2c+CiA8L2c+CiA8L2c+CiA8L2c+CjwvZz4KPHBhdGggZD0nTTExOS41NjU1OCAzNC4yMDc5M0wxMjcuOTMyMzkgNDIuNTczOTQnIGZpbGw9J25vbmUnLz4KPGcgdHJhbnNmb3JtPSdtYXRyaXgoMC43MDcxMiwwLjcwNzA2LC0wLjcwNzA2LDAuNzA3MTIsMTI3LjkzMjM3LDQyLjU3Mzk0KSc+CjxnIHN0cm9rZS13aWR0aD0nMC4zMTk5OSc+CiA8ZyBzdHJva2UtZGFzaGFycmF5PSdub25lJyBzdHJva2UtZGFzaG9mZnNldD0nMC4wJz4KIDxnIHN0cm9rZS1saW5lY2FwPSdyb3VuZCc+CiA8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KIDxwYXRoIGQ9J00tMS4xOTk5OCAxLjU5OTk4Qy0xLjA5OTk4IC45OTk5OCAwIC4wOTk5OSAuMjk5OTkgMEMwLS4wOTk5OS0xLjA5OTk4LS45OTk5OC0xLjE5OTk4LTEuNTk5OTgnIGZpbGw9J25vbmUnLz4KIDwvZz4KIDwvZz4KIDwvZz4KIDwvZz4KPC9nPgo8cGF0aCBkPSdNMTMyLjQ3MDc2IDU0LjQwOTU2QzEyOC43ODgzNiA2OC4xNTExOCAxMzkuMjM2OTQgNjguMTUxMTggMTM1LjkzMjQgNTUuODE5NzgnIGZpbGw9J25vbmUnLz4KPGcgdHJhbnNmb3JtPSdtYXRyaXgoLTAuMjU4ODIsLTAuOTY1OTEsMC45NjU5MSwtMC4yNTg4MiwxMzUuOTMyNCw1NS44MTk4KSc+CjxnIHN0cm9rZS13aWR0aD0nMC4zMTk5OSc+CiA8ZyBzdHJva2UtZGFzaGFycmF5PSdub25lJyBzdHJva2UtZGFzaG9mZnNldD0nMC4wJz4KIDxnIHN0cm9rZS1saW5lY2FwPSdyb3VuZCc+CiA8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KIDxwYXRoIGQ9J00tMS4xOTk5OCAxLjU5OTk4Qy0xLjA5OTk4IC45OTk5OCAwIC4wOTk5OSAuMjk5OTkgMEMwLS4wOTk5OS0xLjA5OTk4LS45OTk5OC0xLjE5OTk4LTEuNTk5OTgnIGZpbGw9J25vbmUnLz4KIDwvZz4KIDwvZz4KIDwvZz4KIDwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+Cjwvc3ZnPg==" /></fr:resource-content><fr:resource-source
+type="latex"
+part="preamble"><![CDATA[
+    \usepackage {tikz, amsopn, amssymb, mathrsfs, amsmath}
+  ]]></fr:resource-source><fr:resource-source
+type="latex"
+part="body"><![CDATA[
+  \begin {tikzpicture}
+    \begin {scope}
+      \node [red] (A) at (0,0) {$\bullet $} ;
+      \node  (B) at (0,1) {$\bullet $} ;
+      \node  (C) at (-0.71,1.71) {$\bullet $} ;
+      \node  (D) at (0.71,1.71) {$\bullet $} ;
+      \node  (E) at (1.42,2.42) {$\bullet $} ;
+
+      \path  [-] (A) edge (B) ;
+      \path  [-] (B) edge (C) ;
+      \path  [-] (B) edge (D) ;
+      \path  [-] (D) edge (E) ;
+      
+      \path  [->] (C) edge[bend right=30] (A); 
+      \path  [->] (E) edge[bend left=60] (D);
+    \end {scope}
+    \begin {scope}[xshift=3.3cm]
+      \node [text width=3cm] at (0,1.2) {maps to} ;
+    \end {scope}
+    \begin {scope}[xshift=4cm]
+      \node [red] (A) at (0,0) {$\bullet $} ;
+      \node  (B) at (0,1) {$\bullet $} ;
+      \node  (D) at (0.71,1.71) {$\bullet $} ;
+
+      \path  [->] (A) edge[bend left=40] (B) ;
+      \path  [->] (B) edge[bend left=40] (A) ;
+      \path  [->] (B) edge (D) ;
+      \path  [->] (D) edge[loop above] (D) ;
+    \end {scope}
+  \end {tikzpicture}
+]]></fr:resource-source></fr:resource></html:center>
+<fr:p>The root is coloured red, and the cycles are "collapsed" along their arrows to produce the graph on the right. For a cyclic tree <fr:tex
+display="inline"><![CDATA[(T, \delta )]]></fr:tex> we call the graph resulting from this transformation <fr:tex
+display="inline"><![CDATA[T/_\delta ]]></fr:tex>, or the <fr:em>cycle-quotient</fr:em> of <fr:tex
+display="inline"><![CDATA[T]]></fr:tex>.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>262</fr:anchor><fr:addr
+type="user">cyt-0005</fr:addr><fr:route>cyt-0005.xml</fr:route><fr:title
+text="Cycle-quotient of a cyclic tree">Cycle-quotient of a cyclic tree</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(T, \delta )]]></fr:tex> be a <fr:link
+type="local"
+href="cyt-0001.xml"
+addr="cyt-0001"
+title="Cyclic tree">cyclic tree</fr:link>, and let <fr:tex
+display="inline"><![CDATA[(V, A, \delta , r, s, t)]]></fr:tex> be its graph representation (<html:mark
+xmlns:html="http://www.w3.org/1999/xhtml">TODO: define this</html:mark>). The cycle-quotient of <fr:tex
+display="inline"><![CDATA[(T, \delta )]]></fr:tex>, denoted <fr:tex
+display="inline"><![CDATA[T/_\delta ]]></fr:tex> is the graph <fr:tex
+display="inline"><![CDATA[(V/_\delta , A/_\delta , r, s/_\delta , t/_\delta )]]></fr:tex> where:
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            V/_\delta  &:= V/_{\sim ^*_\delta }\\     A/_\delta  &:= A\\     s/_\delta (a) &:= [s(a)]_{\sim ^*_\delta }\\     t/_\delta (a) &:= [t(a)]_{\sim ^*_\delta }        \end {align*}   ]]></fr:tex>
+
+  where <fr:tex
+display="inline"><![CDATA[\sim ^*_\delta ]]></fr:tex> is the reflexive-transitive-symmetric closure of <fr:tex
+display="inline"><![CDATA[\sim _\delta ]]></fr:tex>:
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            x \sim _\delta  y \iff  \delta (x) = y        \end {align*}   ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>We can form an inverse to this map - from (rooted multi directed) graphs to cyclic trees. We do this by calculating the "spanning cyclic tree" of the graph.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>264</fr:anchor><fr:addr
+type="user">cyt-0004</fr:addr><fr:route>cyt-0004.xml</fr:route><fr:title
+text="Spanning cyclic tree of a graph">Spanning cyclic tree of a graph</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a rooted (directed multi) graph <fr:tex
+display="inline"><![CDATA[(V,A,r)]]></fr:tex>, we calculate the "spanning cyclic tree" <fr:tex
+display="inline"><![CDATA[\text {SCT}(V,A,r)]]></fr:tex> using a graph traversal as follows.
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            \text {SCT}(V,A,r) := \bigcup _{v \in  A(r)} \text {SCT}^\prime  (\epsilon , v, \emptyset , (\{\epsilon \}, \emptyset ))        \end {align*}   ]]></fr:tex>
+
+  where
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            \text {SCT}^\prime  (p , v , C , (T , \delta ))\ &|\ v = r := (T \cup  \{pv\} , \delta  \cup  \{(pv , \epsilon )\})\\     &|\ qv \in  C := (T \cup  \{pv\} , \delta  \cup  \{(pv , qv)\})\\     &|\ A(v) = \emptyset  := (T \cup  \{pv\} , \delta )\\     &|\ \text {otherwise} := \bigcup _{v^\prime  \in  A(v)} \text {SCT}^\prime  (pv, v^\prime , C \cup  \{pv\}, (T \cup  \{pv\}, \delta ))        \end {align*}   ]]></fr:tex>
+
+  where <fr:tex
+display="inline"><![CDATA[v]]></fr:tex> is the current vertex, <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is the path from the root <fr:tex
+display="inline"><![CDATA[r]]></fr:tex> to the current vertex and <fr:tex
+display="inline"><![CDATA[C \subset  V^*]]></fr:tex> is the set of "previously visited" vertices.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>These maps together have a nice property: all cyclic trees in the image of <fr:tex
+display="inline"><![CDATA[\text {SCT}]]></fr:tex> are in cycle normal form, and we can compose these two maps to form a "normalisation" map for cyclic trees: given a cyclic tree <fr:tex
+display="inline"><![CDATA[(T , \delta )]]></fr:tex>, the cyclic tree <fr:tex
+display="inline"><![CDATA[\text {SCT}(T/_\delta )]]></fr:tex> is the cycle normal form of <fr:tex
+display="inline"><![CDATA[(T , \delta )]]></fr:tex>! We will prove this proposition later, by developing the notion of cyclic tree (op)fibrations and showing that there exists an opfibration from <fr:tex
+display="inline"><![CDATA[\text {SCT}(T/_\delta )]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[(T , \delta )]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>953</fr:anchor><fr:addr
 type="user">dia-0005</fr:addr><fr:route>dia-0005.xml</fr:route><fr:title
 text="Diary: Natural deduction-style unfold rule for -formulae">Diary: Natural deduction-style unfold rule for <fr:tex
 display="inline"><![CDATA[\mu ]]></fr:tex>-formulae</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -398,8 +780,10 @@ type="local"
 href="dia-0004.xml"
 addr="dia-0004"
 title="Diary: Relation between container distributive laws and matching pairs of monoids/Zappa-Szép products">Previous entry</fr:link>, <fr:link
-type="external"
-href="dia-0006">Next entry</fr:link></fr:p>
+type="local"
+href="dia-0006.xml"
+addr="dia-0006"
+title="Diary: Cyclic tree opfibrations">Next entry</fr:link></fr:p>
 
 <fr:tree
 toc="true"
@@ -408,7 +792,7 @@ show-heading="false"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>265</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>321</fr:anchor><fr:addr
 type="user">not-0003</fr:addr><fr:route>not-0003.xml</fr:route><fr:title
 text="Natural deduction-style unfold rule">Natural deduction-style unfold rule</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -484,7 +868,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>261</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>323</fr:anchor><fr:addr
 type="machine">#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:title
 text="Cyclic permutations example">Cyclic permutations example</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -635,7 +1019,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>830</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>955</fr:anchor><fr:addr
 type="user">dia-0004</fr:addr><fr:route>dia-0004.xml</fr:route><fr:title
 text="Diary: Relation between container distributive laws and matching pairs of monoids/Zappa-Szép products">Diary: Relation between container distributive laws and matching pairs of monoids/Zappa-Szép products</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -658,7 +1042,7 @@ show-heading="false"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>269</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>368</fr:anchor><fr:addr
 type="user">lsd-0024</fr:addr><fr:route>lsd-0024.xml</fr:route><fr:title
 text="Relation between container distributive laws and matching pairs of monoids/Zappa-Szép products">Relation between container distributive laws and matching pairs of monoids/Zappa-Szép products</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -687,7 +1071,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>271</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>370</fr:anchor><fr:addr
 type="user">lsd-0025</fr:addr><fr:route>lsd-0025.xml</fr:route><fr:title
 text="Directed container distributive law between representables">Directed container distributive law between representables</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -722,7 +1106,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>273</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>372</fr:anchor><fr:addr
 type="user">lsd-0026</fr:addr><fr:route>lsd-0026.xml</fr:route><fr:title
 text="Monad container distributive law between writers">Monad container distributive law between writers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -770,7 +1154,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>832</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>957</fr:anchor><fr:addr
 type="user">dia-0003</fr:addr><fr:route>dia-0003.xml</fr:route><fr:title
 text="Diary: Monad container algebras">Diary: Monad container algebras</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -798,7 +1182,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>428</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>550</fr:anchor><fr:addr
 type="user">lsd-0019</fr:addr><fr:route>lsd-0019.xml</fr:route><fr:title
 text="Monad container algebras">Monad container algebras</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -822,7 +1206,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>430</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>552</fr:anchor><fr:addr
 type="user">lsd-0020</fr:addr><fr:route>lsd-0020.xml</fr:route><fr:title
 text="Algebraic theories for cartesian monad containers">Algebraic theories for cartesian monad containers</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -899,7 +1283,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>834</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>959</fr:anchor><fr:addr
 type="user">dia-0002</fr:addr><fr:route>dia-0002.xml</fr:route><fr:title
 text="Diary: UoN research visit, Nov 2024">Diary: UoN research visit, Nov 2024</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -938,7 +1322,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>836</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>961</fr:anchor><fr:addr
 type="user">stefaniadamato</fr:addr><fr:route>stefaniadamato.xml</fr:route><fr:title
 text="Stefania Damato">Stefania Damato</fr:title><fr:taxon>Person</fr:taxon><fr:authors /><fr:meta
 name="external">https://stefaniatadama.com/</fr:meta><fr:meta

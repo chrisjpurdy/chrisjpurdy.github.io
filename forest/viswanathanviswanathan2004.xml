@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>908</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1042</fr:anchor><fr:addr
 type="user">viswanathanviswanathan2004</fr:addr><fr:route>viswanathanviswanathan2004.xml</fr:route><fr:title
 text="A Higher Order Modal Fixed Point Logic">A Higher Order Modal Fixed Point Logic</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2017</fr:year></fr:date><fr:authors><fr:author>Mahesh Viswanathan</fr:author><fr:author>Ramesh Viswanathan</fr:author></fr:authors><fr:meta
 name="bibtex"><![CDATA[ @inproceedings{
@@ -38,7 +38,34 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>911</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1045</fr:anchor><fr:addr
+type="user">not-0004</fr:addr><fr:route>not-0004.xml</fr:route><fr:title
+text="Ideas for cyclic proof theory research">Ideas for cyclic proof theory research</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Since it seems hard to imbue our cyclic proof system with a well-behaved notion of computation (specifically one that works nicely alongside <fr:tex
+display="inline"><![CDATA[\forall ]]></fr:tex> reductions), maybe a change of perspective is required. We could instead work with a reset proof system analogue of <fr:tex
+display="inline"><![CDATA[\mu HOL^{ex}]]></fr:tex> and try to add a notion of computation to reset proofs.</fr:p><fr:p>I first need to understand reset proof systems to see if they are suitable for tackling this problem.</fr:p><fr:p>Things working up to this and related things I would like to try:
+  <fr:ul><fr:li>Do an "Abstract cyclic proofs" treatment of reset proof systems and try to show that the abstractions are related somehow</fr:li>
+    <fr:li>Look at a reset proof system version of a simpler proof system, i.e. Viswanathan and Viswanathan's HO fixed-point logic <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="link-reference"><fr:link
+type="local"
+href="viswanathanviswanathan2004.xml"
+addr="viswanathanviswanathan2004"
+title="A Higher Order Modal Fixed Point Logic">[viswanathanviswanathan2004]</fr:link></html:span></fr:li>
+    <fr:li>A literature review on reset proof systems (currently I only know about Dominik Wehr's licentiate thesis, but this should link to other papers)</fr:li>
+    <fr:li>See if the <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
+display="inline"><![CDATA[^{ex}]]></fr:tex> trace condition can be represented as an activation algebra. If not, perhaps there is some other class of trace category that encompasses trace conditions like ours?</fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1047</fr:anchor><fr:addr
 type="user">mhe-0004</fr:addr><fr:route>mhe-0004.xml</fr:route><fr:title
 text="HOL^{ex} formula syntax"><fr:tex
 display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
