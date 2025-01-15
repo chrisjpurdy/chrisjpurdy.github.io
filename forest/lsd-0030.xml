@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>610</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>638</fr:anchor><fr:addr
 type="user">lsd-0030</fr:addr><fr:route>lsd-0030.xml</fr:route><fr:title
 text="Monad container extension">Monad container extension</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -53,7 +53,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>612</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>640</fr:anchor><fr:addr
 type="user">uustalu2017</fr:addr><fr:route>uustalu2017.xml</fr:route><fr:title
 text="Container Combinatorics: Monads and Lax Monoidal Functors">Container Combinatorics: Monads and Lax Monoidal Functors</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2017</fr:year></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -87,7 +87,82 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>614</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>642</fr:anchor><fr:addr
+type="user">lsd-0034</fr:addr><fr:route>lsd-0034.xml</fr:route><fr:title
+text="Compatible composition of monad containers">Compatible composition of monad containers</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(S \triangleright  P, \iota ^S, \sigma ^S, \text {pr}^S)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(T \triangleright  Q, \iota ^T, \sigma ^T, \text {pr}^T)]]></fr:tex> be <fr:link
+type="local"
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">monad containers</fr:link>. A <fr:em>compatible composition</fr:em> of these is a pair of maps:
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            \sigma  &: \prod _{s : \lbrack \negthinspace \lbrack  T \triangleright  Q \rbrack \negthinspace \rbrack \ S} (\Diamond ^{Q}_{P}\ s \to  \lbrack \negthinspace \lbrack  T \triangleright  Q \rbrack \negthinspace \rbrack \ S) \to  \lbrack \negthinspace \lbrack  T \triangleright  Q \rbrack \negthinspace \rbrack \ S\\     \text {pr} &: \prod _{\{s : \lbrack \negthinspace \lbrack  T \triangleright  Q \rbrack \negthinspace \rbrack \ S\}}\ \prod _{\{f : \Diamond ^{Q}_{P}\ s \to  \lbrack \negthinspace \lbrack  T \triangleright  Q \rbrack \negthinspace \rbrack \ S\}} \Diamond ^{Q}_{P}\ (\sigma \ s\ f) \to  \sum _{p : \Diamond ^{Q}_{P}\ s} \Diamond ^{Q}_{P}\ (f\ p)        \end {align*}   ]]></fr:tex>
+
+  where:
+  <fr:ul><fr:li><fr:tex
+display="inline"><![CDATA[(T \triangleright  Q \circ  S \triangleright  P, (\iota ^T, \lambda  \_ . \iota ^T), \sigma , \text {pr})]]></fr:tex> is a monad container.</fr:li>
+    <fr:li>The container morphisms <fr:tex
+display="inline"><![CDATA[\lambda \ t . (t , \lambda  \_ . \iota ^S) \triangleright  \pi _1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\lambda \ s . (\iota ^T , \lambda  \_ . s) \triangleright  \pi _2]]></fr:tex> are both <fr:link
+type="local"
+href="lsd-0035.xml"
+addr="lsd-0035"
+title="Monad container morphism">monad container morphisms</fr:link>.</fr:li>
+    <fr:li>The <fr:em>middle unitary laws</fr:em> hold:
+      
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}                (t , f) &= \sigma \ (t , \lambda  \_ . \iota ^S)\ (\lambda \ p . (\iota ^T , \lambda  \_ . f\ (\pi _1\ p)))\\         (q , p) &= (\pi _1\ (\text {pr}_1\ (q , p)) , \pi _2\ (\text {pr}_2\ (q , p)))            \end {align*}   ]]></fr:tex>
+
+      where <fr:tex
+display="inline"><![CDATA[(q , p) : \Diamond ^{Q}_{P}\ (t , f)]]></fr:tex>, and the second equality holds given the first one.</fr:li></fr:ul></fr:p><fr:p>These are in bijection with the compatible compositions of the <fr:link
+type="local"
+href="lsd-0030.xml"
+addr="lsd-0030"
+title="Monad container extension">monad container extensions</fr:link> of the relevent monad containers, and thus are also in bijection with the relevent types of <fr:link
+type="local"
+href="lsd-0008.xml"
+addr="lsd-0008"
+title="Monad container distributive law">monad container distributive law</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>644</fr:anchor><fr:addr
+type="user">lsd-0035</fr:addr><fr:route>lsd-0035.xml</fr:route><fr:title
+text="Monad container morphism">Monad container morphism</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(S \triangleright  P, \iota ^S, \sigma ^S, \text {pr}^S)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(T \triangleright  Q, \iota ^T, \sigma ^T, \text {pr}^T)]]></fr:tex> be <fr:link
+type="local"
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">monad containers</fr:link>. A <fr:em>monad container morphism</fr:em> is a container morphism <fr:tex
+display="inline"><![CDATA[u \triangleright  v : S \triangleright  P \to  T \triangleright  Q]]></fr:tex> such that:
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            u\ \iota ^S &= \iota ^T\\     u\ (\sigma ^S\ s\ f) &= \sigma ^T\ (u\ s)\ (u \circ  f \circ  v)\\     \text {pr}^S_1\ (v\ q) &= v\ (\text {pr}^T_1\ q)\\     \text {pr}^S_2\ (v\ q) &= v\ (\text {pr}^T_2\ q)        \end {align*}   ]]></fr:tex></fr:p><fr:p>These are in bijection with monad maps between the <fr:link
+type="local"
+href="lsd-0030.xml"
+addr="lsd-0030"
+title="Monad container extension">monad container extensions</fr:link> of the relevant monad containers.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>646</fr:anchor><fr:addr
 type="user">lsd-0001</fr:addr><fr:route>lsd-0001.xml</fr:route><fr:title
 text="Distributive laws of monad containers">Distributive laws of monad containers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -133,7 +208,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>616</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>648</fr:anchor><fr:addr
 type="user">lsd-0029</fr:addr><fr:route>lsd-0029.xml</fr:route><fr:title
 text="Container extension">Container extension</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -162,7 +237,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>618</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>650</fr:anchor><fr:addr
 type="user">lsd-0002</fr:addr><fr:route>lsd-0002.xml</fr:route><fr:title
 text="Monad container">Monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"

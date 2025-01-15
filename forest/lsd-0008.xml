@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>836</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>868</fr:anchor><fr:addr
 type="user">lsd-0008</fr:addr><fr:route>lsd-0008.xml</fr:route><fr:title
 text="Monad container distributive law">Monad container distributive law</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -23,11 +23,15 @@ title="Monad container">monad containers</fr:link>.
   A distributive law of <fr:tex
 display="inline"><![CDATA[S \triangleright  P]]></fr:tex> over <fr:tex
 display="inline"><![CDATA[T \triangleright  Q]]></fr:tex> is given by the data:
+  
   <fr:tex
-display="block"><![CDATA[     \begin {align*}       &u_1 : \prod _{s : S} (P\ s \to  T) \to  T \\       &u_2 : \prod _{s : S} \prod _{f : P\ s \to  T} Q\ (u_1\ s\ f) \to  S \\       &v_1 : \prod _{\{s : S\}} \prod _{\{f : P\ s \to  T\}} \prod _{q : Q\ (u_1\ s\ f)} P\ (u_2\ s\ f\ q) \to  P\ s \\       &v_2 : \prod _{\{s : S\}} \prod _{\{f : P\ s \to  T\}} \prod _{q : Q\ (u_1\ s\ f)} \prod _{p : P\ (u_2\ s\ f\ q)} Q\ (f\ (v_1\ q\ p)) \\     \end {align*}   ]]></fr:tex>
+display="block"><![CDATA[     \begin {align*}            &u_1 : \prod _{s : S} (P\ s \to  T) \to  T \\     &u_2 : \prod _{s : S} \prod _{f : P\ s \to  T} Q\ (u_1\ s\ f) \to  S \\     &v_1 : \prod _{\{s : S\}} \prod _{\{f : P\ s \to  T\}} \prod _{q : Q\ (u_1\ s\ f)} P\ (u_2\ s\ f\ q) \to  P\ s \\     &v_2 : \prod _{\{s : S\}} \prod _{\{f : P\ s \to  T\}} \prod _{q : Q\ (u_1\ s\ f)} \prod _{p : P\ (u_2\ s\ f\ q)} Q\ (f\ (v_1\ q\ p)) \\        \end {align*}   ]]></fr:tex>
+
   where the following equalities hold:
+  
   <fr:tex
-display="block"><![CDATA[     \begin {align*}       u\ \iota ^S\ (\lambda  \_ . t) &= (t , \lambda  \_ . \iota ^S)\\       u\ s\ (\lambda  \_. \iota ^T) &= (\iota ^T , \lambda  \_. s)\\       v\ \{\iota ^S\}\ \{\lambda  \_. t\} &= \langle  \pi _2 , \pi _1 \rangle \\       v\ \{s\}\ \{\lambda  \_. \iota ^T\} &= \langle  \pi _2 , \pi _1 \rangle \\       \\        u_1\ (\sigma ^S\ s\ f)\ (g \circ  \text {pr}^S) &= u_1\ s\ (u_1 \circ  \langle  f , g \rangle )\\       u_2\ (\sigma ^S\ s\ f)\ (g \circ  \text {pr}^S)\ q &= \sigma ^S\ (u_2\ s\ (u_1 \circ  \langle  f , g \rangle )\ q)\ (\lambda  p . u_2\ (f\ (v_1\ q\ p))\ (g\ (v_1\ q\ p))\ (v_2\ q\ p))\\         \text {pr}^S_1\ (v_1\ q\ p) &= v_1\ q\ (\text {pr}^S_1\ p)\\       \text {pr}^S_2\ (v_1\ q\ p) &= v_1\ (v_2\ q\ (\text {pr}^S_1\ p))\ (\text {pr}^S_2\ p)\\       v_2\ q\ p &= v_2\ (v_2\ q\ (\text {pr}^S_1\ p))\ (\text {pr}^S_2\ p)\\       \\       u_1\ s\ (\sigma ^T \circ  \langle  f , g \rangle ) &= \sigma ^T\ (u_1\ s\ f)\ (\lambda  q . u_1\ (u_2\ s\ f\ q)\ (\lambda  p . g\ (v_1\ q\ p)\ (v_2\ q\ p)))\\       u_2\ s\ (\sigma ^T \circ  \langle  f , g \rangle )\ q &= u_2\ (u_2\ s\ f\ (\text {pr}^T_1\ q))\ (\lambda  p . g\ (v_1\ q\ p)\ (v_2\ q\ p))\ (\text {pr}^T_2\ q)\\       v_1\ (\text {pr}^T_1\ q)\ (v_1\ (\text {pr}^T_2\ q)\ p) &= v_1\ q\ p\\       v_2\ (\text {pr}^T_1\ q)\ (v_1\ (\text {pr}^T_2\ q)\ p) &= \text {pr}^T_1\ (v_2\ q\ p)\\       v_2\ (\text {pr}^T_2\ q)\ p &= \text {pr}^T_2\ (v_2\ q\ p)     \end {align*}   ]]></fr:tex>
+display="block"><![CDATA[     \begin {align*}            u\ \iota ^S\ (\lambda  \_ . t) &= (t , \lambda  \_ . \iota ^S)\\     u\ s\ (\lambda  \_. \iota ^T) &= (\iota ^T , \lambda  \_. s)\\     v\ \{\iota ^S\}\ \{\lambda  \_. t\} &= \langle  \pi _2 , \pi _1 \rangle \\     v\ \{s\}\ \{\lambda  \_. \iota ^T\} &= \langle  \pi _2 , \pi _1 \rangle \\     \\      u_1\ (\sigma ^S\ s\ f)\ (g \circ  \text {pr}^S) &= u_1\ s\ (u_1 \circ  \langle  f , g \rangle )\\     u_2\ (\sigma ^S\ s\ f)\ (g \circ  \text {pr}^S)\ q &= \sigma ^S\ (u_2\ s\ (u_1 \circ  \langle  f , g \rangle )\ q)\ (\lambda  p . u_2\ (f\ (v_1\ q\ p))\ (g\ (v_1\ q\ p))\ (v_2\ q\ p))\\       \text {pr}^S_1\ (v_1\ q\ p) &= v_1\ q\ (\text {pr}^S_1\ p)\\     \text {pr}^S_2\ (v_1\ q\ p) &= v_1\ (v_2\ q\ (\text {pr}^S_1\ p))\ (\text {pr}^S_2\ p)\\     v_2\ q\ p &= v_2\ (v_2\ q\ (\text {pr}^S_1\ p))\ (\text {pr}^S_2\ p)\\     \\     u_1\ s\ (\sigma ^T \circ  \langle  f , g \rangle ) &= \sigma ^T\ (u_1\ s\ f)\ (\lambda  q . u_1\ (u_2\ s\ f\ q)\ (\lambda  p . g\ (v_1\ q\ p)\ (v_2\ q\ p)))\\     u_2\ s\ (\sigma ^T \circ  \langle  f , g \rangle )\ q &= u_2\ (u_2\ s\ f\ (\text {pr}^T_1\ q))\ (\lambda  p . g\ (v_1\ q\ p)\ (v_2\ q\ p))\ (\text {pr}^T_2\ q)\\     v_1\ (\text {pr}^T_1\ q)\ (v_1\ (\text {pr}^T_2\ q)\ p) &= v_1\ q\ p\\     v_2\ (\text {pr}^T_1\ q)\ (v_1\ (\text {pr}^T_2\ q)\ p) &= \text {pr}^T_1\ (v_2\ q\ p)\\     v_2\ (\text {pr}^T_2\ q)\ p &= \text {pr}^T_2\ (v_2\ q\ p)        \end {align*}   ]]></fr:tex>
+
   We use the notation <fr:tex
 display="inline"><![CDATA[\langle  f , g \rangle  := \lambda  x . (f\ x , g\ x)]]></fr:tex>, with some implicit use of currying and uncurrying where this shorthand is utilised.
   
@@ -39,7 +43,11 @@ display="inline"><![CDATA[\langle  v_1 , v_2 \rangle ]]></fr:tex>.</fr:p><fr:p>M
 type="local"
 href="lsd-0031.xml"
 addr="lsd-0031"
-title="Monad container composition via distributive law">composition for monad containers</fr:link>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+title="Monad container composition via distributive law">composition for monad containers</fr:link>. They are in bijection with <fr:link
+type="local"
+href="lsd-0034.xml"
+addr="lsd-0034"
+title="Compatible composition of monad containers">compatible compositions of monad containers</fr:link>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -54,7 +62,87 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>838</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>870</fr:anchor><fr:addr
+type="user">not-0008</fr:addr><fr:route>not-0008.xml</fr:route><fr:title
+text="&quot;Flip&quot; monad container distributive laws">"Flip" monad container distributive laws</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Following an idea <fr:link
+type="local"
+href="dia-0002.xml"
+addr="dia-0002"
+title="Diary: UoN research visit, Nov 2024">Stef and I had</fr:link> a couple months ago, I'm going to specialse <fr:link
+type="local"
+href="lsd-0008.xml"
+addr="lsd-0008"
+title="Monad container distributive law">monad container distributive laws</fr:link> to the case where <fr:tex
+display="inline"><![CDATA[v = \langle  \pi _2 , \pi _1 \rangle ]]></fr:tex>, which often seems to be the case in simple examples.</fr:p><fr:p>The data for these specialised distributive laws now becomes:
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            &u_1 : \prod _{s : S} (P\ s \to  T) \to  T \\     &u_2 : \prod _{s : S} \prod _{f : P\ s \to  T} Q\ (u_1\ s\ f) \to  S \\        \end {align*}   ]]></fr:tex>
+
+  where the following equalities hold:
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            u\ \iota ^S\ (\lambda  \_ . t) &= (t , \lambda  \_ . \iota ^S)\\     u\ s\ (\lambda  \_. \iota ^T) &= (\iota ^T , \lambda  \_. s)\\     \\      u_1\ (\sigma ^S\ s\ f)\ (g \circ  \text {pr}^S) &= u_1\ s\ (u_1 \circ  \langle  f , g \rangle )\\     u_2\ (\sigma ^S\ s\ f)\ (g \circ  \text {pr}^S)\ q &= \sigma ^S\ (u_2\ s\ (u_1 \circ  \langle  f , g \rangle )\ q)\ (\lambda  p . u_2\ (f\ p)\ (g\ p)\ q)\\       \\     u_1\ s\ (\sigma ^T \circ  \langle  f , g \rangle ) &= \sigma ^T\ (u_1\ s\ f)\ (\lambda  q . u_1\ (u_2\ s\ f\ q)\ (\lambda  p . g\ p\ q))\\     u_2\ s\ (\sigma ^T \circ  \langle  f , g \rangle )\ q &= u_2\ (u_2\ s\ f\ (\text {pr}^T_1\ q))\ (\lambda  p . g\ p\ q)\ (\text {pr}^T_2\ q)        \end {align*}   ]]></fr:tex></fr:p><fr:p>Essentially by adopting <fr:tex
+display="inline"><![CDATA[v = \langle  \pi _2 , \pi _1 \rangle ]]></fr:tex>, all of the position equalities become trivial, and we are just left with shape equalities (with no mention of <fr:tex
+display="inline"><![CDATA[v]]></fr:tex>). Hopefully I'll be easier to prove things in this simpler case!</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>872</fr:anchor><fr:addr
+type="user">lsd-0034</fr:addr><fr:route>lsd-0034.xml</fr:route><fr:title
+text="Compatible composition of monad containers">Compatible composition of monad containers</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(S \triangleright  P, \iota ^S, \sigma ^S, \text {pr}^S)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(T \triangleright  Q, \iota ^T, \sigma ^T, \text {pr}^T)]]></fr:tex> be <fr:link
+type="local"
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">monad containers</fr:link>. A <fr:em>compatible composition</fr:em> of these is a pair of maps:
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            \sigma  &: \prod _{s : \lbrack \negthinspace \lbrack  T \triangleright  Q \rbrack \negthinspace \rbrack \ S} (\Diamond ^{Q}_{P}\ s \to  \lbrack \negthinspace \lbrack  T \triangleright  Q \rbrack \negthinspace \rbrack \ S) \to  \lbrack \negthinspace \lbrack  T \triangleright  Q \rbrack \negthinspace \rbrack \ S\\     \text {pr} &: \prod _{\{s : \lbrack \negthinspace \lbrack  T \triangleright  Q \rbrack \negthinspace \rbrack \ S\}}\ \prod _{\{f : \Diamond ^{Q}_{P}\ s \to  \lbrack \negthinspace \lbrack  T \triangleright  Q \rbrack \negthinspace \rbrack \ S\}} \Diamond ^{Q}_{P}\ (\sigma \ s\ f) \to  \sum _{p : \Diamond ^{Q}_{P}\ s} \Diamond ^{Q}_{P}\ (f\ p)        \end {align*}   ]]></fr:tex>
+
+  where:
+  <fr:ul><fr:li><fr:tex
+display="inline"><![CDATA[(T \triangleright  Q \circ  S \triangleright  P, (\iota ^T, \lambda  \_ . \iota ^T), \sigma , \text {pr})]]></fr:tex> is a monad container.</fr:li>
+    <fr:li>The container morphisms <fr:tex
+display="inline"><![CDATA[\lambda \ t . (t , \lambda  \_ . \iota ^S) \triangleright  \pi _1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\lambda \ s . (\iota ^T , \lambda  \_ . s) \triangleright  \pi _2]]></fr:tex> are both <fr:link
+type="local"
+href="lsd-0035.xml"
+addr="lsd-0035"
+title="Monad container morphism">monad container morphisms</fr:link>.</fr:li>
+    <fr:li>The <fr:em>middle unitary laws</fr:em> hold:
+      
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}                (t , f) &= \sigma \ (t , \lambda  \_ . \iota ^S)\ (\lambda \ p . (\iota ^T , \lambda  \_ . f\ (\pi _1\ p)))\\         (q , p) &= (\pi _1\ (\text {pr}_1\ (q , p)) , \pi _2\ (\text {pr}_2\ (q , p)))            \end {align*}   ]]></fr:tex>
+
+      where <fr:tex
+display="inline"><![CDATA[(q , p) : \Diamond ^{Q}_{P}\ (t , f)]]></fr:tex>, and the second equality holds given the first one.</fr:li></fr:ul></fr:p><fr:p>These are in bijection with the compatible compositions of the <fr:link
+type="local"
+href="lsd-0030.xml"
+addr="lsd-0030"
+title="Monad container extension">monad container extensions</fr:link> of the relevent monad containers, and thus are also in bijection with the relevent types of <fr:link
+type="local"
+href="lsd-0008.xml"
+addr="lsd-0008"
+title="Monad container distributive law">monad container distributive law</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>874</fr:anchor><fr:addr
 type="user">lsd-0031</fr:addr><fr:route>lsd-0031.xml</fr:route><fr:title
 text="Monad container composition via distributive law">Monad container composition via distributive law</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -90,7 +178,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>840</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>876</fr:anchor><fr:addr
 type="user">lsd-0026</fr:addr><fr:route>lsd-0026.xml</fr:route><fr:title
 text="Monad container distributive law between writers">Monad container distributive law between writers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -137,7 +225,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>842</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>878</fr:anchor><fr:addr
 type="user">lsd-0024</fr:addr><fr:route>lsd-0024.xml</fr:route><fr:title
 text="Relation between container distributive laws and matching pairs of monoids/Zappa-Szép products">Relation between container distributive laws and matching pairs of monoids/Zappa-Szép products</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -166,7 +254,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>370</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>396</fr:anchor><fr:addr
 type="user">lsd-0025</fr:addr><fr:route>lsd-0025.xml</fr:route><fr:title
 text="Directed container distributive law between representables">Directed container distributive law between representables</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -201,7 +289,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>372</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>398</fr:anchor><fr:addr
 type="user">lsd-0026</fr:addr><fr:route>lsd-0026.xml</fr:route><fr:title
 text="Monad container distributive law between writers">Monad container distributive law between writers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -248,7 +336,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>844</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>880</fr:anchor><fr:addr
 type="user">lsd-0018</fr:addr><fr:route>lsd-0018.xml</fr:route><fr:title
 text="Coproduct monad container distribution on the left">Coproduct monad container distribution on the left</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -271,7 +359,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>637</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>669</fr:anchor><fr:addr
 type="machine">#252</fr:addr><fr:route>unstable-252.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="chrisjpurdy.xml"
@@ -296,7 +384,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>846</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>882</fr:anchor><fr:addr
 type="user">lsd-0017</fr:addr><fr:route>lsd-0017.xml</fr:route><fr:title
 text="Representable monad container distribution on the right">Representable monad container distribution on the right</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -315,7 +403,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>697</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>729</fr:anchor><fr:addr
 type="machine">#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="chrisjpurdy.xml"
@@ -342,7 +430,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>848</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>884</fr:anchor><fr:addr
 type="user">lsd-0010</fr:addr><fr:route>lsd-0010.xml</fr:route><fr:title
 text="Monad container zoo">Monad container zoo</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -442,7 +530,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>850</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>886</fr:anchor><fr:addr
 type="user">lsd-0005</fr:addr><fr:route>lsd-0005.xml</fr:route><fr:title
 text="Idempotent monad containers are almost trivial">Idempotent monad containers are almost trivial</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -472,7 +560,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>852</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>888</fr:anchor><fr:addr
 type="user">lsd-0001</fr:addr><fr:route>lsd-0001.xml</fr:route><fr:title
 text="Distributive laws of monad containers">Distributive laws of monad containers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -518,7 +606,55 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>854</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>890</fr:anchor><fr:addr
+type="user">lsd-0034</fr:addr><fr:route>lsd-0034.xml</fr:route><fr:title
+text="Compatible composition of monad containers">Compatible composition of monad containers</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(S \triangleright  P, \iota ^S, \sigma ^S, \text {pr}^S)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(T \triangleright  Q, \iota ^T, \sigma ^T, \text {pr}^T)]]></fr:tex> be <fr:link
+type="local"
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">monad containers</fr:link>. A <fr:em>compatible composition</fr:em> of these is a pair of maps:
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            \sigma  &: \prod _{s : \lbrack \negthinspace \lbrack  T \triangleright  Q \rbrack \negthinspace \rbrack \ S} (\Diamond ^{Q}_{P}\ s \to  \lbrack \negthinspace \lbrack  T \triangleright  Q \rbrack \negthinspace \rbrack \ S) \to  \lbrack \negthinspace \lbrack  T \triangleright  Q \rbrack \negthinspace \rbrack \ S\\     \text {pr} &: \prod _{\{s : \lbrack \negthinspace \lbrack  T \triangleright  Q \rbrack \negthinspace \rbrack \ S\}}\ \prod _{\{f : \Diamond ^{Q}_{P}\ s \to  \lbrack \negthinspace \lbrack  T \triangleright  Q \rbrack \negthinspace \rbrack \ S\}} \Diamond ^{Q}_{P}\ (\sigma \ s\ f) \to  \sum _{p : \Diamond ^{Q}_{P}\ s} \Diamond ^{Q}_{P}\ (f\ p)        \end {align*}   ]]></fr:tex>
+
+  where:
+  <fr:ul><fr:li><fr:tex
+display="inline"><![CDATA[(T \triangleright  Q \circ  S \triangleright  P, (\iota ^T, \lambda  \_ . \iota ^T), \sigma , \text {pr})]]></fr:tex> is a monad container.</fr:li>
+    <fr:li>The container morphisms <fr:tex
+display="inline"><![CDATA[\lambda \ t . (t , \lambda  \_ . \iota ^S) \triangleright  \pi _1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\lambda \ s . (\iota ^T , \lambda  \_ . s) \triangleright  \pi _2]]></fr:tex> are both <fr:link
+type="local"
+href="lsd-0035.xml"
+addr="lsd-0035"
+title="Monad container morphism">monad container morphisms</fr:link>.</fr:li>
+    <fr:li>The <fr:em>middle unitary laws</fr:em> hold:
+      
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}                (t , f) &= \sigma \ (t , \lambda  \_ . \iota ^S)\ (\lambda \ p . (\iota ^T , \lambda  \_ . f\ (\pi _1\ p)))\\         (q , p) &= (\pi _1\ (\text {pr}_1\ (q , p)) , \pi _2\ (\text {pr}_2\ (q , p)))            \end {align*}   ]]></fr:tex>
+
+      where <fr:tex
+display="inline"><![CDATA[(q , p) : \Diamond ^{Q}_{P}\ (t , f)]]></fr:tex>, and the second equality holds given the first one.</fr:li></fr:ul></fr:p><fr:p>These are in bijection with the compatible compositions of the <fr:link
+type="local"
+href="lsd-0030.xml"
+addr="lsd-0030"
+title="Monad container extension">monad container extensions</fr:link> of the relevent monad containers, and thus are also in bijection with the relevent types of <fr:link
+type="local"
+href="lsd-0008.xml"
+addr="lsd-0008"
+title="Monad container distributive law">monad container distributive law</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>892</fr:anchor><fr:addr
 type="user">lsd-0031</fr:addr><fr:route>lsd-0031.xml</fr:route><fr:title
 text="Monad container composition via distributive law">Monad container composition via distributive law</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -554,7 +690,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>856</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>894</fr:anchor><fr:addr
 type="user">lsd-0002</fr:addr><fr:route>lsd-0002.xml</fr:route><fr:title
 text="Monad container">Monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
