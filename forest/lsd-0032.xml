@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>538</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>554</fr:anchor><fr:addr
 type="user">lsd-0032</fr:addr><fr:route>lsd-0032.xml</fr:route><fr:title
 text="Containers are closed under composition">Containers are closed under composition</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -40,9 +40,9 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>540</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>556</fr:anchor><fr:addr
 type="user">lsd-0031</fr:addr><fr:route>lsd-0031.xml</fr:route><fr:title
-text="Monad container composition via distributive law">Monad container composition via distributive law</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+text="Monad container composition">Monad container composition</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
@@ -69,7 +69,11 @@ display="inline"><![CDATA[(S \triangleright  P \circ  T \triangleright  Q, \iota
 display="block"><![CDATA[     \begin {align*}            \iota  &:= (\iota ^S , \lambda  \_ . \iota ^T)\\     \sigma \ (s , f)\ g &:= (\\       &\sigma ^S\ s\ (\lambda  p . u_1\ (f\ p)\ (g_1\ p)) ,\\       &\lambda  p . \sigma ^T\          (u_2\ (f\ (\text {pr}^S_1\ p))\ (g_1\ (\text {pr}^S_1\ p))\ (\text {pr}^S_2\ p))\          (\lambda  q . g_2\ (\text {pr}^S_1\ p)\ (v_1\ (\text {pr}^S_2\ p)\ q)\ (v_2\ (\text {pr}^S_2\ p)\ q))\\     &)\\     \text {pr}\ (p, q) &:= (\\     &(\text {pr}^S_1\ p , v_1\ (\text {pr}^S_2\ p)\ (\text {pr}^T_1\ q)),\\      &(v_2\ (\text {pr}^S_2\ p)\ (\text {pr}^T_1\ q) , \text {pr}^T_2\ q)\\     &)        \end {align*}   ]]></fr:tex>
 
   where <fr:tex
-display="inline"><![CDATA[g_i := \pi _i \circ  g]]></fr:tex>. The equations for this monad container hold given the equations for the two constituant monad containers and the distributive law.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+display="inline"><![CDATA[g_i := \pi _i \circ  g]]></fr:tex>. The equations for this monad container hold given the equations for the two constituant monad containers and the distributive law. This is also a <fr:link
+type="local"
+href="lsd-0034.xml"
+addr="lsd-0034"
+title="Compatible composition of monad containers">compatible composite</fr:link> of the two monad containers in question.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -84,7 +88,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>542</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>558</fr:anchor><fr:addr
 type="user">lsd-0029</fr:addr><fr:route>lsd-0029.xml</fr:route><fr:title
 text="Container extension">Container extension</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
