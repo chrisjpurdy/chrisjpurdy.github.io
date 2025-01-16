@@ -48,14 +48,14 @@ type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> be a container. A <fr:em>lmf-container</fr:em> (lax-monoidal-functor-container) <html:span
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> be a container. A <fr:em>lmf-container</fr:em> (lax-monoidal-functor-container) <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="link-reference"><fr:link
 type="local"
 href="uustalu2017.xml"
 addr="uustalu2017"
 title="Container Combinatorics: Monads and Lax Monoidal Functors">[uustalu2017]</fr:link></html:span> on <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> is given by the following data:
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> is given by the following data:
   
   <fr:tex
 display="block"><![CDATA[     \begin {align*}            \iota  &: S\\     \otimes  &: S \to  S \to  S\\     \text {pr} &: \prod _{\{s : S\}} \prod _{\{s' : S\}} P\ (s \otimes  s') \to  P\ s \times  P\ s'        \end {align*}   ]]></fr:tex>
@@ -89,12 +89,12 @@ type="local"
 href="lsd-0002.xml"
 addr="lsd-0002"
 title="Monad container">monad container</fr:link> <fr:tex
-display="inline"><![CDATA[(S \triangleright  P, \iota , \sigma , \text {pr})]]></fr:tex>, it's <fr:em>extension</fr:em> (see <fr:link
+display="inline"><![CDATA[(S \triangleleft  P, \iota , \sigma , \text {pr})]]></fr:tex>, it's <fr:em>extension</fr:em> (see <fr:link
 type="local"
 href="lsd-0029.xml"
 addr="lsd-0029"
 title="Container extension">container extension</fr:link>) is the monad <fr:tex
-display="inline"><![CDATA[(\lbrack \negthinspace \lbrack  S \triangleright  P \rbrack \negthinspace \rbrack , \eta , \mu )]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[(\lbrack \negthinspace \lbrack  S \triangleleft  P \rbrack \negthinspace \rbrack , \eta , \mu )]]></fr:tex> on <fr:tex
 display="inline"><![CDATA[\mathbf {Set}]]></fr:tex> where
   
   <fr:tex
@@ -155,7 +155,7 @@ type="local"
 href="lsd-0002.xml"
 addr="lsd-0002"
 title="Monad container">monad container</fr:link> <fr:tex
-display="inline"><![CDATA[(S \triangleright  P, \iota , \sigma , \text {pr})]]></fr:tex> is a pair <fr:tex
+display="inline"><![CDATA[(S \triangleleft  P, \iota , \sigma , \text {pr})]]></fr:tex> is a pair <fr:tex
 display="inline"><![CDATA[(A, \alpha )]]></fr:tex> of a set <fr:tex
 display="inline"><![CDATA[A]]></fr:tex> and a map <fr:tex
 display="inline"><![CDATA[\alpha  : \prod _{s : S} (P\ s \to  A) \to  A]]></fr:tex>, satisfying:
@@ -183,7 +183,7 @@ type="local"
 href="lsd-0009.xml"
 addr="lsd-0009"
 title="Cartesian monad container">cartesian</fr:link> monad container <fr:tex
-display="inline"><![CDATA[(S \triangleright  P, \iota , \sigma )]]></fr:tex> is the same as that of the algebraic theory consisting of an operation <fr:tex
+display="inline"><![CDATA[(S \triangleleft  P, \iota , \sigma )]]></fr:tex> is the same as that of the algebraic theory consisting of an operation <fr:tex
 display="inline"><![CDATA[\lbrack \negthinspace \lbrack  s \rbrack \negthinspace \rbrack ]]></fr:tex> with arity <fr:tex
 display="inline"><![CDATA[n \cong  P\ s]]></fr:tex> for each <fr:tex
 display="inline"><![CDATA[s : S]]></fr:tex>, and the following equations:
@@ -222,7 +222,7 @@ type="local"
 href="lsd-0009.xml"
 addr="lsd-0009"
 title="Cartesian monad container">cartesian monad container</fr:link>, and in the process realised that <fr:em>finitary cartesian monad containers are exactly non-symmetric operads</fr:em>!</fr:p><fr:p>To show this, consider <fr:tex
-display="inline"><![CDATA[(S \triangleright  P, \iota , \sigma )]]></fr:tex>. The set (or type) of operations for each <fr:tex
+display="inline"><![CDATA[(S \triangleleft  P, \iota , \sigma )]]></fr:tex>. The set (or type) of operations for each <fr:tex
 display="inline"><![CDATA[n : \mathbb {N}]]></fr:tex> is given by
   <fr:tex
 display="block"><![CDATA[     n \mapsto  \sum _{s : S} |\negthinspace | P\ s \cong  n |\negthinspace |   ]]></fr:tex>
@@ -257,14 +257,14 @@ href="lsd-0002.xml"
 addr="lsd-0002"
 title="Monad container">monad container</fr:link> for a set <fr:tex
 display="inline"><![CDATA[E]]></fr:tex> is given by the data <fr:tex
-display="inline"><![CDATA[1 + E \triangleright  T]]></fr:tex> where
+display="inline"><![CDATA[1 + E \triangleleft  T]]></fr:tex> where
   <fr:tex
 display="inline"><![CDATA[T\ (\text {inl}\ *) := 1]]></fr:tex>, <fr:tex
 display="inline"><![CDATA[T\ (\text {inr}\ \_) := 0]]></fr:tex> and:
   <fr:tex
 display="block"><![CDATA[     \begin {align*}       \iota  &:= \text {inl}\ *\\       \sigma \ (\text {inl}\ *)\ f &:= f\ *\\       \sigma \ (\text {inr}\ e)\ f &:= \text {inr}\ e\\       \text {pr}\ * &:= (* , *)     \end {align*}   ]]></fr:tex>
   This is the unique monad container structure that you can give the container <fr:tex
-display="inline"><![CDATA[1 + E \triangleright  T]]></fr:tex> <html:span
+display="inline"><![CDATA[1 + E \triangleleft  T]]></fr:tex> <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="link-reference"><fr:link
 type="local"
@@ -285,7 +285,7 @@ type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(S \triangleright  P, \iota , \sigma , \text {pr})]]></fr:tex> be a <fr:link
+display="inline"><![CDATA[(S \triangleleft  P, \iota , \sigma , \text {pr})]]></fr:tex> be a <fr:link
 type="local"
 href="lsd-0002.xml"
 addr="lsd-0002"
@@ -315,14 +315,14 @@ type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> be a container. A monad container (or mnd-container) <html:span
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> be a container. A monad container (or mnd-container) <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="link-reference"><fr:link
 type="local"
 href="uustalu2017.xml"
 addr="uustalu2017"
 title="Container Combinatorics: Monads and Lax Monoidal Functors">[uustalu2017]</fr:link></html:span> on <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> is given by the following data:
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> is given by the following data:
   <fr:tex
 display="block"><![CDATA[     \begin {align*}       \iota  &: S\\       \sigma  &: \prod _{s : S} (P\ s \to  S) \to  S\\       \text {pr} &: \prod _{\{s : S\}} \prod _{\{f : P\ s \to  S\}} P\ (\sigma \ s\ f) \to  \sum _{p : P\ s} P\ (f\ p)     \end {align*}   ]]></fr:tex>
   For which the following laws hold:

@@ -19,14 +19,14 @@ href="lsd-0002.xml"
 addr="lsd-0002"
 title="Monad container">monad container</fr:link> for a set <fr:tex
 display="inline"><![CDATA[E]]></fr:tex> is given by the data <fr:tex
-display="inline"><![CDATA[1 + E \triangleright  T]]></fr:tex> where
+display="inline"><![CDATA[1 + E \triangleleft  T]]></fr:tex> where
   <fr:tex
 display="inline"><![CDATA[T\ (\text {inl}\ *) := 1]]></fr:tex>, <fr:tex
 display="inline"><![CDATA[T\ (\text {inr}\ \_) := 0]]></fr:tex> and:
   <fr:tex
 display="block"><![CDATA[     \begin {align*}       \iota  &:= \text {inl}\ *\\       \sigma \ (\text {inl}\ *)\ f &:= f\ *\\       \sigma \ (\text {inr}\ e)\ f &:= \text {inr}\ e\\       \text {pr}\ * &:= (* , *)     \end {align*}   ]]></fr:tex>
   This is the unique monad container structure that you can give the container <fr:tex
-display="inline"><![CDATA[1 + E \triangleright  T]]></fr:tex> <html:span
+display="inline"><![CDATA[1 + E \triangleleft  T]]></fr:tex> <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="link-reference"><fr:link
 type="local"
@@ -93,7 +93,7 @@ type="local"
 href="lsd-0002.xml"
 addr="lsd-0002"
 title="Monad container">monad container</fr:link> <fr:tex
-display="inline"><![CDATA[2 \triangleright  T]]></fr:tex> where
+display="inline"><![CDATA[2 \triangleleft  T]]></fr:tex> where
   <fr:tex
 display="inline"><![CDATA[T\ \text {true} := 1]]></fr:tex>, <fr:tex
 display="inline"><![CDATA[T\ \text {false} := 0]]></fr:tex> and:
@@ -225,14 +225,14 @@ type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> be a container. A monad container (or mnd-container) <html:span
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> be a container. A monad container (or mnd-container) <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="link-reference"><fr:link
 type="local"
 href="uustalu2017.xml"
 addr="uustalu2017"
 title="Container Combinatorics: Monads and Lax Monoidal Functors">[uustalu2017]</fr:link></html:span> on <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> is given by the following data:
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> is given by the following data:
   <fr:tex
 display="block"><![CDATA[     \begin {align*}       \iota  &: S\\       \sigma  &: \prod _{s : S} (P\ s \to  S) \to  S\\       \text {pr} &: \prod _{\{s : S\}} \prod _{\{f : P\ s \to  S\}} P\ (\sigma \ s\ f) \to  \sum _{p : P\ s} P\ (f\ p)     \end {align*}   ]]></fr:tex>
   For which the following laws hold:

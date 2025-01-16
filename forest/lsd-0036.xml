@@ -14,8 +14,8 @@ type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(S \triangleright  P, \iota ^S, \sigma ^S, \text {pr}^S)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[(T \triangleright  Q, \iota ^T, \sigma ^T, \text {pr}^T)]]></fr:tex> be <fr:link
+display="inline"><![CDATA[(S \triangleleft  P, \iota ^S, \sigma ^S, \text {pr}^S)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(T \triangleleft  Q, \iota ^T, \sigma ^T, \text {pr}^T)]]></fr:tex> be <fr:link
 type="local"
 href="lsd-0002.xml"
 addr="lsd-0002"
@@ -25,12 +25,12 @@ type="local"
 href="lsd-0034.xml"
 addr="lsd-0034"
 title="Compatible composition of monad containers">compatible composite</fr:link> of  these monad containers (of type <fr:tex
-display="inline"><![CDATA[T \triangleright  Q \circ  S \triangleright  P]]></fr:tex>). We can define a <fr:link
+display="inline"><![CDATA[T \triangleleft  Q \circ  S \triangleleft  P]]></fr:tex>). We can define a <fr:link
 type="local"
 href="lsd-0008.xml"
 addr="lsd-0008"
 title="Monad container distributive law">monad container distributive law</fr:link> (of type <fr:tex
-display="inline"><![CDATA[S \triangleright  P \circ  T \triangleright  Q \Rightarrow  T \triangleright  Q \circ  S \triangleright  P]]></fr:tex>) as follows:
+display="inline"><![CDATA[S \triangleleft  P \circ  T \triangleleft  Q \Rightarrow  T \triangleleft  Q \circ  S \triangleleft  P]]></fr:tex>) as follows:
   
   <fr:tex
 display="block"><![CDATA[     \begin {align*}            u\ s\ f &:= \sigma \ (\iota ^T, \lambda  \_ . s)\ (\lambda  p . (f\ (\pi _2\ p), \lambda  \_ . \iota ^S))\\     v\ q\ p &:= (\pi _2\ (\text {pr}_1\ (q , p)) , \pi _1\ (\text {pr}_2\ (q , p)))        \end {align*}   ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter><fr:tree
@@ -104,22 +104,22 @@ type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(S \triangleright  P, \iota ^S, \sigma ^S, \text {pr}^S)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[(T \triangleright  Q, \iota ^T, \sigma ^T, \text {pr}^T)]]></fr:tex> be <fr:link
+display="inline"><![CDATA[(S \triangleleft  P, \iota ^S, \sigma ^S, \text {pr}^S)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(T \triangleleft  Q, \iota ^T, \sigma ^T, \text {pr}^T)]]></fr:tex> be <fr:link
 type="local"
 href="lsd-0002.xml"
 addr="lsd-0002"
 title="Monad container">monad containers</fr:link>. A <fr:em>compatible composition</fr:em> of these is a pair of maps:
   
   <fr:tex
-display="block"><![CDATA[     \begin {align*}            \sigma  &: \prod _{s : \lbrack \negthinspace \lbrack  T \triangleright  Q \rbrack \negthinspace \rbrack \ S} (\Diamond ^{Q}_{P}\ s \to  \lbrack \negthinspace \lbrack  T \triangleright  Q \rbrack \negthinspace \rbrack \ S) \to  \lbrack \negthinspace \lbrack  T \triangleright  Q \rbrack \negthinspace \rbrack \ S\\     \text {pr} &: \prod _{\{s : \lbrack \negthinspace \lbrack  T \triangleright  Q \rbrack \negthinspace \rbrack \ S\}}\ \prod _{\{f : \Diamond ^{Q}_{P}\ s \to  \lbrack \negthinspace \lbrack  T \triangleright  Q \rbrack \negthinspace \rbrack \ S\}} \Diamond ^{Q}_{P}\ (\sigma \ s\ f) \to  \sum _{p : \Diamond ^{Q}_{P}\ s} \Diamond ^{Q}_{P}\ (f\ p)        \end {align*}   ]]></fr:tex>
+display="block"><![CDATA[     \begin {align*}            \sigma  &: \prod _{s : \lbrack \negthinspace \lbrack  T \triangleleft  Q \rbrack \negthinspace \rbrack \ S} (\Diamond ^{Q}_{P}\ s \to  \lbrack \negthinspace \lbrack  T \triangleleft  Q \rbrack \negthinspace \rbrack \ S) \to  \lbrack \negthinspace \lbrack  T \triangleleft  Q \rbrack \negthinspace \rbrack \ S\\     \text {pr} &: \prod _{\{s : \lbrack \negthinspace \lbrack  T \triangleleft  Q \rbrack \negthinspace \rbrack \ S\}}\ \prod _{\{f : \Diamond ^{Q}_{P}\ s \to  \lbrack \negthinspace \lbrack  T \triangleleft  Q \rbrack \negthinspace \rbrack \ S\}} \Diamond ^{Q}_{P}\ (\sigma \ s\ f) \to  \sum _{p : \Diamond ^{Q}_{P}\ s} \Diamond ^{Q}_{P}\ (f\ p)        \end {align*}   ]]></fr:tex>
 
   where:
   <fr:ul><fr:li><fr:tex
-display="inline"><![CDATA[(T \triangleright  Q \circ  S \triangleright  P, (\iota ^T, \lambda  \_ . \iota ^T), \sigma , \text {pr})]]></fr:tex> is a monad container.</fr:li>
+display="inline"><![CDATA[(T \triangleleft  Q \circ  S \triangleleft  P, (\iota ^T, \lambda  \_ . \iota ^T), \sigma , \text {pr})]]></fr:tex> is a monad container.</fr:li>
     <fr:li>The container morphisms <fr:tex
-display="inline"><![CDATA[\lambda \ t . (t , \lambda  \_ . \iota ^S) \triangleright  \pi _1]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\lambda \ s . (\iota ^T , \lambda  \_ . s) \triangleright  \pi _2]]></fr:tex> are both <fr:link
+display="inline"><![CDATA[\lambda \ t . (t , \lambda  \_ . \iota ^S) \triangleleft  \pi _1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\lambda \ s . (\iota ^T , \lambda  \_ . s) \triangleleft  \pi _2]]></fr:tex> are both <fr:link
 type="local"
 href="lsd-0035.xml"
 addr="lsd-0035"
@@ -152,15 +152,15 @@ type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(S \triangleright  P, \iota ^S, \sigma ^S, \text {pr}^S)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[(T \triangleright  Q, \iota ^T, \sigma ^T, \text {pr}^T)]]></fr:tex> be <fr:link
+display="inline"><![CDATA[(S \triangleleft  P, \iota ^S, \sigma ^S, \text {pr}^S)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(T \triangleleft  Q, \iota ^T, \sigma ^T, \text {pr}^T)]]></fr:tex> be <fr:link
 type="local"
 href="lsd-0002.xml"
 addr="lsd-0002"
 title="Monad container">monad containers</fr:link>.
   A distributive law of <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[T \triangleright  Q]]></fr:tex> is given by the data:
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[T \triangleleft  Q]]></fr:tex> is given by the data:
   
   <fr:tex
 display="block"><![CDATA[     \begin {align*}            &u_1 : \prod _{s : S} (P\ s \to  T) \to  T \\     &u_2 : \prod _{s : S} \prod _{f : P\ s \to  T} Q\ (u_1\ s\ f) \to  S \\     &v_1 : \prod _{\{s : S\}} \prod _{\{f : P\ s \to  T\}} \prod _{q : Q\ (u_1\ s\ f)} P\ (u_2\ s\ f\ q) \to  P\ s \\     &v_2 : \prod _{\{s : S\}} \prod _{\{f : P\ s \to  T\}} \prod _{q : Q\ (u_1\ s\ f)} \prod _{p : P\ (u_2\ s\ f\ q)} Q\ (f\ (v_1\ q\ p)) \\        \end {align*}   ]]></fr:tex>
@@ -199,14 +199,14 @@ type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> be a container. A monad container (or mnd-container) <html:span
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> be a container. A monad container (or mnd-container) <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="link-reference"><fr:link
 type="local"
 href="uustalu2017.xml"
 addr="uustalu2017"
 title="Container Combinatorics: Monads and Lax Monoidal Functors">[uustalu2017]</fr:link></html:span> on <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> is given by the following data:
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> is given by the following data:
   <fr:tex
 display="block"><![CDATA[     \begin {align*}       \iota  &: S\\       \sigma  &: \prod _{s : S} (P\ s \to  S) \to  S\\       \text {pr} &: \prod _{\{s : S\}} \prod _{\{f : P\ s \to  S\}} P\ (\sigma \ s\ f) \to  \sum _{p : P\ s} P\ (f\ p)     \end {align*}   ]]></fr:tex>
   For which the following laws hold:

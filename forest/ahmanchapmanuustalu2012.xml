@@ -48,14 +48,14 @@ type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> be a container. A directed container <html:span
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> be a container. A directed container <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="link-reference"><fr:link
 type="local"
 href="ahmanchapmanuustalu2012.xml"
 addr="ahmanchapmanuustalu2012"
 title="When Is a Container a Comonad?">[ahmanchapmanuustalu2012]</fr:link></html:span> on <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> is given by the following data:
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> is given by the following data:
   <fr:tex
 display="block"><![CDATA[     \begin {align*}       \downarrow  &: \prod _{s : S} P\ s \to  S\\       o &: \prod _{\{s : S\}} P\ s\\       \oplus  &: \prod _{\{s : S\}} \prod _{p : P\ s} P\ (s \downarrow  p) \to  P\ s     \end {align*}   ]]></fr:tex>
   satisfying two shape equations and three position equations:

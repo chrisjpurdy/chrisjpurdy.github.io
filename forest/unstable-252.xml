@@ -24,7 +24,7 @@ display="inline"><![CDATA[u]]></fr:tex>, and therefore <fr:tex
 display="inline"><![CDATA[v]]></fr:tex> also. Since the other distributive law equalities hold, <fr:tex
 display="inline"><![CDATA[u]]></fr:tex> and <fr:tex
 display="inline"><![CDATA[v]]></fr:tex> specify the unique distributive law <fr:tex
-display="inline"><![CDATA[(1 + E \triangleright  T) \circ  (S \triangleright  P) \Rightarrow  (S \triangleright  P) \circ  (1 + E \triangleright  T)]]></fr:tex>.
+display="inline"><![CDATA[(1 + E \triangleleft  T) \circ  (S \triangleleft  P) \Rightarrow  (S \triangleleft  P) \circ  (1 + E \triangleleft  T)]]></fr:tex>.
   </fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
@@ -47,12 +47,12 @@ type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The coproduct monad container <fr:tex
-display="inline"><![CDATA[1 + E \triangleright  T]]></fr:tex> <fr:link
+display="inline"><![CDATA[1 + E \triangleleft  T]]></fr:tex> <fr:link
 type="local"
 href="lsd-0008.xml"
 addr="lsd-0008"
 title="Monad container distributive law">distributes</fr:link> over any monad container <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> in exactly one way.
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> in exactly one way.
   
  
    
@@ -80,5 +80,5 @@ display="inline"><![CDATA[u]]></fr:tex>, and therefore <fr:tex
 display="inline"><![CDATA[v]]></fr:tex> also. Since the other distributive law equalities hold, <fr:tex
 display="inline"><![CDATA[u]]></fr:tex> and <fr:tex
 display="inline"><![CDATA[v]]></fr:tex> specify the unique distributive law <fr:tex
-display="inline"><![CDATA[(1 + E \triangleright  T) \circ  (S \triangleright  P) \Rightarrow  (S \triangleright  P) \circ  (1 + E \triangleright  T)]]></fr:tex>.
+display="inline"><![CDATA[(1 + E \triangleleft  T) \circ  (S \triangleleft  P) \Rightarrow  (S \triangleleft  P) \circ  (1 + E \triangleleft  T)]]></fr:tex>.
   </fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

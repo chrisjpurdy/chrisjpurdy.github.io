@@ -254,8 +254,8 @@ type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(A \triangleright  \lambda  \_ . 1, \iota ^A, \sigma ^A, \text {pr}^A)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[(B \triangleright  \lambda  \_ . 1, \iota ^B, \sigma ^B, \text {pr}^B)]]></fr:tex> be <fr:link
+display="inline"><![CDATA[(A \triangleleft  \lambda  \_ . 1, \iota ^A, \sigma ^A, \text {pr}^A)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(B \triangleleft  \lambda  \_ . 1, \iota ^B, \sigma ^B, \text {pr}^B)]]></fr:tex> be <fr:link
 type="local"
 href="lsd-0002.xml"
 addr="lsd-0002"
@@ -301,12 +301,12 @@ type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The coproduct monad container <fr:tex
-display="inline"><![CDATA[1 + E \triangleright  T]]></fr:tex> <fr:link
+display="inline"><![CDATA[1 + E \triangleleft  T]]></fr:tex> <fr:link
 type="local"
 href="lsd-0008.xml"
 addr="lsd-0008"
 title="Monad container distributive law">distributes</fr:link> over any monad container <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> in exactly one way.
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> in exactly one way.
   
  
    
@@ -334,7 +334,7 @@ display="inline"><![CDATA[u]]></fr:tex>, and therefore <fr:tex
 display="inline"><![CDATA[v]]></fr:tex> also. Since the other distributive law equalities hold, <fr:tex
 display="inline"><![CDATA[u]]></fr:tex> and <fr:tex
 display="inline"><![CDATA[v]]></fr:tex> specify the unique distributive law <fr:tex
-display="inline"><![CDATA[(1 + E \triangleright  T) \circ  (S \triangleright  P) \Rightarrow  (S \triangleright  P) \circ  (1 + E \triangleright  T)]]></fr:tex>.
+display="inline"><![CDATA[(1 + E \triangleleft  T) \circ  (S \triangleleft  P) \Rightarrow  (S \triangleleft  P) \circ  (1 + E \triangleleft  T)]]></fr:tex>.
   </fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
@@ -349,7 +349,7 @@ type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A container <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> is finitary when its extension functor is finitary (preserves filtered colimits). A monad container is finitary when the underlying container is.
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> is finitary when its extension functor is finitary (preserves filtered colimits). A monad container is finitary when the underlying container is.
   <fr:tree
 toc="true"
 numbered="true"
@@ -380,8 +380,8 @@ type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Any monad container <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> distributes over a representable monad container <fr:tex
-display="inline"><![CDATA[1 \triangleright  \lambda  \_ . A]]></fr:tex> in exactly one way.
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> distributes over a representable monad container <fr:tex
+display="inline"><![CDATA[1 \triangleleft  \lambda  \_ . A]]></fr:tex> in exactly one way.
   
  
    
@@ -410,8 +410,8 @@ display="block"><![CDATA[       \begin {align*}         u\ s\ \_ &:= (* , \lambd
     <fr:tex
 display="inline"><![CDATA[u]]></fr:tex> and <fr:tex
 display="inline"><![CDATA[v]]></fr:tex> are entirely specified by the "unit" equalities, and the rest of the equalities hold. Hence this is the unique monad distributive law of <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[1 \triangleright  \lambda  \_ . A]]></fr:tex>.
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[1 \triangleleft  \lambda  \_ . A]]></fr:tex>.
   </fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
@@ -431,14 +431,14 @@ href="lsd-0002.xml"
 addr="lsd-0002"
 title="Monad container">monad container</fr:link> for a set <fr:tex
 display="inline"><![CDATA[E]]></fr:tex> is given by the data <fr:tex
-display="inline"><![CDATA[1 + E \triangleright  T]]></fr:tex> where
+display="inline"><![CDATA[1 + E \triangleleft  T]]></fr:tex> where
   <fr:tex
 display="inline"><![CDATA[T\ (\text {inl}\ *) := 1]]></fr:tex>, <fr:tex
 display="inline"><![CDATA[T\ (\text {inr}\ \_) := 0]]></fr:tex> and:
   <fr:tex
 display="block"><![CDATA[     \begin {align*}       \iota  &:= \text {inl}\ *\\       \sigma \ (\text {inl}\ *)\ f &:= f\ *\\       \sigma \ (\text {inr}\ e)\ f &:= \text {inr}\ e\\       \text {pr}\ * &:= (* , *)     \end {align*}   ]]></fr:tex>
   This is the unique monad container structure that you can give the container <fr:tex
-display="inline"><![CDATA[1 + E \triangleright  T]]></fr:tex> <html:span
+display="inline"><![CDATA[1 + E \triangleleft  T]]></fr:tex> <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="link-reference"><fr:link
 type="local"
@@ -463,7 +463,7 @@ type="local"
 href="lsd-0002.xml"
 addr="lsd-0002"
 title="Monad container">monad container</fr:link> is given by the data <fr:tex
-display="inline"><![CDATA[\mathbb {N} \triangleright  \text {Fin}]]></fr:tex> and:
+display="inline"><![CDATA[\mathbb {N} \triangleleft  \text {Fin}]]></fr:tex> and:
   <fr:tex
 display="block"><![CDATA[     \begin {align*}       \iota  &:= 1\\       \sigma \ n\ f &:= \sum _{i = 0}^n f\ i\\        \text {pr}_1\ \{n\}\ \{f\}\ m &:= \text {greatest } i \in  \lbrack  0 .. n \rparen  \text { where } \sum _{j = 0}^i f\ j \leq  m \\       \text {pr}_2\ \{n\}\ \{f\}\ m &:= m - (\sum _{j = 0}^{\text {pr}_1\ \{n\}\ \{f\}\ m} f\ j)     \end {align*}   ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
@@ -483,7 +483,7 @@ type="local"
 href="lsd-0002.xml"
 addr="lsd-0002"
 title="Monad container">monad container</fr:link> <fr:tex
-display="inline"><![CDATA[2 \triangleright  T]]></fr:tex> where
+display="inline"><![CDATA[2 \triangleleft  T]]></fr:tex> where
   <fr:tex
 display="inline"><![CDATA[T\ \text {true} := 1]]></fr:tex>, <fr:tex
 display="inline"><![CDATA[T\ \text {false} := 0]]></fr:tex> and:
@@ -512,7 +512,7 @@ type="local"
 href="lsd-0002.xml"
 addr="lsd-0002"
 title="Monad container">monad container</fr:link> <fr:tex
-display="inline"><![CDATA[S \to  S \triangleright  \lambda  \_ . S]]></fr:tex> with the data:
+display="inline"><![CDATA[S \to  S \triangleleft  \lambda  \_ . S]]></fr:tex> with the data:
   <fr:tex
 display="block"><![CDATA[     \begin {align*}       \iota  &:= \lambda  x . x\\       \sigma \ f\ g &:= \lambda  s . f\ (\pi _2\ (g^\circlearrowright \ s))\\       \text {pr}\ \{f\}\ \{g\}\ s &:= (\pi _2\ (g^\circlearrowright \ s) , s)     \end {align*}   ]]></fr:tex>
   Where we use the notation:
@@ -548,7 +548,7 @@ href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The State functor for some set of states <fr:tex
 display="inline"><![CDATA[S]]></fr:tex> can be represented by the container <fr:tex
-display="inline"><![CDATA[S \to  S \triangleright  \lambda  \_ . S]]></fr:tex>, which can be extended to a <fr:link
+display="inline"><![CDATA[S \to  S \triangleleft  \lambda  \_ . S]]></fr:tex>, which can be extended to a <fr:link
 type="local"
 href="lsd-0002.xml"
 addr="lsd-0002"
@@ -577,7 +577,7 @@ href="lsd-0002.xml"
 addr="lsd-0002"
 title="Monad container">monad container</fr:link> for a monoid <fr:tex
 display="inline"><![CDATA[(A, \otimes , e)]]></fr:tex> is given by the data <fr:tex
-display="inline"><![CDATA[A \triangleright  \lambda  \_ . 1]]></fr:tex> and:
+display="inline"><![CDATA[A \triangleleft  \lambda  \_ . 1]]></fr:tex> and:
   <fr:tex
 display="block"><![CDATA[     \begin {align*}       \iota  &:= e\\       \sigma \ a\ b\ &:= a \otimes  (b\ *)\\       \text {pr}\ * &:= (*, *)     \end {align*}   ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
@@ -593,7 +593,7 @@ type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(S \triangleright  P, \iota , \sigma , \text {pr})]]></fr:tex> be a <fr:link
+display="inline"><![CDATA[(S \triangleleft  P, \iota , \sigma , \text {pr})]]></fr:tex> be a <fr:link
 type="local"
 href="lsd-0002.xml"
 addr="lsd-0002"
@@ -616,15 +616,15 @@ type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(S \triangleright  P, \iota ^S, \sigma ^S, \text {pr}^S)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[(T \triangleright  Q, \iota ^T, \sigma ^T, \text {pr}^T)]]></fr:tex> be <fr:link
+display="inline"><![CDATA[(S \triangleleft  P, \iota ^S, \sigma ^S, \text {pr}^S)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(T \triangleleft  Q, \iota ^T, \sigma ^T, \text {pr}^T)]]></fr:tex> be <fr:link
 type="local"
 href="lsd-0002.xml"
 addr="lsd-0002"
 title="Monad container">monad containers</fr:link>.
   A distributive law of <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[T \triangleright  Q]]></fr:tex> is given by the data:
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[T \triangleleft  Q]]></fr:tex> is given by the data:
   
   <fr:tex
 display="block"><![CDATA[     \begin {align*}            &u_1 : \prod _{s : S} (P\ s \to  T) \to  T \\     &u_2 : \prod _{s : S} \prod _{f : P\ s \to  T} Q\ (u_1\ s\ f) \to  S \\     &v_1 : \prod _{\{s : S\}} \prod _{\{f : P\ s \to  T\}} \prod _{q : Q\ (u_1\ s\ f)} P\ (u_2\ s\ f\ q) \to  P\ s \\     &v_2 : \prod _{\{s : S\}} \prod _{\{f : P\ s \to  T\}} \prod _{q : Q\ (u_1\ s\ f)} \prod _{p : P\ (u_2\ s\ f\ q)} Q\ (f\ (v_1\ q\ p)) \\        \end {align*}   ]]></fr:tex>
@@ -693,7 +693,7 @@ type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given the container <fr:tex
-display="inline"><![CDATA[1 \triangleright  \lambda  \_ . A]]></fr:tex>, we look at the required data for a <fr:link
+display="inline"><![CDATA[1 \triangleleft  \lambda  \_ . A]]></fr:tex>, we look at the required data for a <fr:link
 type="local"
 href="lsd-0002.xml"
 addr="lsd-0002"
@@ -717,7 +717,7 @@ type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(S \triangleright  P, \iota , \sigma , \text {pr})]]></fr:tex> be a <fr:link
+display="inline"><![CDATA[(S \triangleleft  P, \iota , \sigma , \text {pr})]]></fr:tex> be a <fr:link
 type="local"
 href="lsd-0003.xml"
 addr="lsd-0003"
@@ -728,8 +728,8 @@ display="block"><![CDATA[     \sigma \ a\ (\lambda  \_ . b) = a   ]]></fr:tex>
   Since we have a point <fr:tex
 display="inline"><![CDATA[\iota  : S]]></fr:tex>, we can conclude that <fr:tex
 display="inline"><![CDATA[S]]></fr:tex> is contractible. Hence we have that <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> is <fr:tex
-display="inline"><![CDATA[1 \triangleright  \lambda  \_ . P\ \iota ]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[1 \triangleleft  \lambda  \_ . P\ \iota ]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
@@ -743,7 +743,7 @@ type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(S \triangleright  P, \iota , \sigma , \text {pr})]]></fr:tex> be a <fr:link
+display="inline"><![CDATA[(S \triangleleft  P, \iota , \sigma , \text {pr})]]></fr:tex> be a <fr:link
 type="local"
 href="lsd-0002.xml"
 addr="lsd-0002"
@@ -773,14 +773,14 @@ type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> be a container. A monad container (or mnd-container) <html:span
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> be a container. A monad container (or mnd-container) <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="link-reference"><fr:link
 type="local"
 href="uustalu2017.xml"
 addr="uustalu2017"
 title="Container Combinatorics: Monads and Lax Monoidal Functors">[uustalu2017]</fr:link></html:span> on <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> is given by the following data:
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> is given by the following data:
   <fr:tex
 display="block"><![CDATA[     \begin {align*}       \iota  &: S\\       \sigma  &: \prod _{s : S} (P\ s \to  S) \to  S\\       \text {pr} &: \prod _{\{s : S\}} \prod _{\{f : P\ s \to  S\}} P\ (\sigma \ s\ f) \to  \sum _{p : P\ s} P\ (f\ p)     \end {align*}   ]]></fr:tex>
   For which the following laws hold:

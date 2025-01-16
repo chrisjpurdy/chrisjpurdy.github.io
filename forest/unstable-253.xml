@@ -25,8 +25,8 @@ display="block"><![CDATA[       \begin {align*}         u\ s\ \_ &:= (* , \lambd
     <fr:tex
 display="inline"><![CDATA[u]]></fr:tex> and <fr:tex
 display="inline"><![CDATA[v]]></fr:tex> are entirely specified by the "unit" equalities, and the rest of the equalities hold. Hence this is the unique monad distributive law of <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[1 \triangleright  \lambda  \_ . A]]></fr:tex>.
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[1 \triangleleft  \lambda  \_ . A]]></fr:tex>.
   </fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
@@ -49,8 +49,8 @@ type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Any monad container <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> distributes over a representable monad container <fr:tex
-display="inline"><![CDATA[1 \triangleright  \lambda  \_ . A]]></fr:tex> in exactly one way.
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> distributes over a representable monad container <fr:tex
+display="inline"><![CDATA[1 \triangleleft  \lambda  \_ . A]]></fr:tex> in exactly one way.
   
  
    
@@ -79,6 +79,6 @@ display="block"><![CDATA[       \begin {align*}         u\ s\ \_ &:= (* , \lambd
     <fr:tex
 display="inline"><![CDATA[u]]></fr:tex> and <fr:tex
 display="inline"><![CDATA[v]]></fr:tex> are entirely specified by the "unit" equalities, and the rest of the equalities hold. Hence this is the unique monad distributive law of <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[1 \triangleright  \lambda  \_ . A]]></fr:tex>.
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[1 \triangleleft  \lambda  \_ . A]]></fr:tex>.
   </fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

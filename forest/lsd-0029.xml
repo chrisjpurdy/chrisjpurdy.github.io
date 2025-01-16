@@ -14,14 +14,14 @@ type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a container <fr:tex
-display="inline"><![CDATA[(S \triangleright  P)]]></fr:tex>, it's <fr:em>extension</fr:em> is defined as the <fr:tex
+display="inline"><![CDATA[(S \triangleleft  P)]]></fr:tex>, it's <fr:em>extension</fr:em> is defined as the <fr:tex
 display="inline"><![CDATA[\mathbf {Set}]]></fr:tex>-functor <fr:tex
-display="inline"><![CDATA[\lbrack \negthinspace \lbrack  S \triangleright  P \rbrack \negthinspace \rbrack ]]></fr:tex> with action on objects
+display="inline"><![CDATA[\lbrack \negthinspace \lbrack  S \triangleleft  P \rbrack \negthinspace \rbrack ]]></fr:tex> with action on objects
   <fr:tex
-display="block"><![CDATA[     \lbrack \negthinspace \lbrack  S \triangleright  P \rbrack \negthinspace \rbrack \ A := \sum _{s : S} P\ s \to  A   ]]></fr:tex>
+display="block"><![CDATA[     \lbrack \negthinspace \lbrack  S \triangleleft  P \rbrack \negthinspace \rbrack \ A := \sum _{s : S} P\ s \to  A   ]]></fr:tex>
   and action on morphisms
   <fr:tex
-display="block"><![CDATA[     (\lbrack \negthinspace \lbrack  S \triangleright  P \rbrack \negthinspace \rbrack \ f)\ (s , g) := (s , f \circ  g)   ]]></fr:tex></fr:p><fr:p>The operation <fr:tex
+display="block"><![CDATA[     (\lbrack \negthinspace \lbrack  S \triangleleft  P \rbrack \negthinspace \rbrack \ f)\ (s , g) := (s , f \circ  g)   ]]></fr:tex></fr:p><fr:p>The operation <fr:tex
 display="inline"><![CDATA[\lbrack \negthinspace \lbrack  - \rbrack \negthinspace \rbrack ]]></fr:tex> can be extended to a functor from <fr:tex
 display="inline"><![CDATA[\mathbf {Cont}]]></fr:tex> to <fr:tex
 display="inline"><![CDATA[[\mathbf {Set},\mathbf {Set}]]]></fr:tex> by mapping container morphisms to natural transformations as follows
@@ -51,18 +51,18 @@ type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[T \triangleright  Q]]></fr:tex> be containers. We define their <fr:em>composite</fr:em> <fr:tex
-display="inline"><![CDATA[S \triangleright  P \circ  T \triangleright  Q]]></fr:tex> as the container
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[T \triangleleft  Q]]></fr:tex> be containers. We define their <fr:em>composite</fr:em> <fr:tex
+display="inline"><![CDATA[S \triangleleft  P \circ  T \triangleleft  Q]]></fr:tex> as the container
   <fr:tex
-display="block"><![CDATA[     \sum _{s : S} P\ s \to  T \triangleright  \lambda  (s , f) . \sum _{p : P\ s} Q\ (f\ p)   ]]></fr:tex>
+display="block"><![CDATA[     \sum _{s : S} P\ s \to  T \triangleleft  \lambda  (s , f) . \sum _{p : P\ s} Q\ (f\ p)   ]]></fr:tex>
   This composition commutes with <fr:link
 type="local"
 href="lsd-0029.xml"
 addr="lsd-0029"
 title="Container extension">container extension</fr:link>, which is to say:
   <fr:tex
-display="block"><![CDATA[     \lbrack \negthinspace \lbrack  S \triangleright  P \circ  T \triangleright  Q \rbrack \negthinspace \rbrack  \cong  \lbrack \negthinspace \lbrack  S \triangleright  P \rbrack \negthinspace \rbrack  \circ  \lbrack \negthinspace \lbrack  T \triangleright  Q \rbrack \negthinspace \rbrack    ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+display="block"><![CDATA[     \lbrack \negthinspace \lbrack  S \triangleleft  P \circ  T \triangleleft  Q \rbrack \negthinspace \rbrack  \cong  \lbrack \negthinspace \lbrack  S \triangleleft  P \rbrack \negthinspace \rbrack  \circ  \lbrack \negthinspace \lbrack  T \triangleleft  Q \rbrack \negthinspace \rbrack    ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
@@ -80,12 +80,12 @@ type="local"
 href="lsd-0002.xml"
 addr="lsd-0002"
 title="Monad container">monad container</fr:link> <fr:tex
-display="inline"><![CDATA[(S \triangleright  P, \iota , \sigma , \text {pr})]]></fr:tex>, it's <fr:em>extension</fr:em> (see <fr:link
+display="inline"><![CDATA[(S \triangleleft  P, \iota , \sigma , \text {pr})]]></fr:tex>, it's <fr:em>extension</fr:em> (see <fr:link
 type="local"
 href="lsd-0029.xml"
 addr="lsd-0029"
 title="Container extension">container extension</fr:link>) is the monad <fr:tex
-display="inline"><![CDATA[(\lbrack \negthinspace \lbrack  S \triangleright  P \rbrack \negthinspace \rbrack , \eta , \mu )]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[(\lbrack \negthinspace \lbrack  S \triangleleft  P \rbrack \negthinspace \rbrack , \eta , \mu )]]></fr:tex> on <fr:tex
 display="inline"><![CDATA[\mathbf {Set}]]></fr:tex> where
   
   <fr:tex

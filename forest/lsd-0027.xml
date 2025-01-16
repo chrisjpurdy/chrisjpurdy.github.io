@@ -14,14 +14,14 @@ type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> be a container. A <fr:em>lmf-container</fr:em> (lax-monoidal-functor-container) <html:span
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> be a container. A <fr:em>lmf-container</fr:em> (lax-monoidal-functor-container) <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="link-reference"><fr:link
 type="local"
 href="uustalu2017.xml"
 addr="uustalu2017"
 title="Container Combinatorics: Monads and Lax Monoidal Functors">[uustalu2017]</fr:link></html:span> on <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> is given by the following data:
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> is given by the following data:
   
   <fr:tex
 display="block"><![CDATA[     \begin {align*}            \iota  &: S\\     \otimes  &: S \to  S \to  S\\     \text {pr} &: \prod _{\{s : S\}} \prod _{\{s' : S\}} P\ (s \otimes  s') \to  P\ s \times  P\ s'        \end {align*}   ]]></fr:tex>
@@ -93,13 +93,13 @@ type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(S \triangleright  P, \iota ^S, \otimes ^S, \text {pr}^S)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[(T \triangleright  Q, \iota ^T, \otimes ^T, \text {pr}^T)]]></fr:tex> be <fr:link
+display="inline"><![CDATA[(S \triangleleft  P, \iota ^S, \otimes ^S, \text {pr}^S)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(T \triangleleft  Q, \iota ^T, \otimes ^T, \text {pr}^T)]]></fr:tex> be <fr:link
 type="local"
 href="lsd-0027.xml"
 addr="lsd-0027"
 title="Lmf-container">lmf-containers</fr:link>. We define their <fr:em>direct composite</fr:em> as the lmf-container <fr:tex
-display="inline"><![CDATA[(S \triangleright  P \circ  T \triangleright  Q, \iota , \otimes , \text {pr})]]></fr:tex> where
+display="inline"><![CDATA[(S \triangleleft  P \circ  T \triangleleft  Q, \iota , \otimes , \text {pr})]]></fr:tex> where
   
   <fr:tex
 display="block"><![CDATA[     \begin {align*}            \iota  &:= (\iota ^S , \lambda  \_ . \iota ^T)\\     (s , f) \otimes  (s' , f') &:= (s \otimes ^S s' , \lambda  p . f\ (\text {pr}^S_1\ p) \otimes ^T f'\ (\text {pr}^S_2\ p))\\     \text {pr}\ (p , q) &:= ((\text {pr}^S_1\ p , \text {pr}^T_1\ q) , (\text {pr}^S_2\ p , \text {pr}^T_2\ q))        \end {align*}   ]]></fr:tex>

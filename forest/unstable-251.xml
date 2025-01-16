@@ -38,7 +38,7 @@ type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A container <fr:tex
-display="inline"><![CDATA[S \triangleright  P]]></fr:tex> is finitary when its extension functor is finitary (preserves filtered colimits). A monad container is finitary when the underlying container is.
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> is finitary when its extension functor is finitary (preserves filtered colimits). A monad container is finitary when the underlying container is.
   <fr:tree
 toc="true"
 numbered="true"
