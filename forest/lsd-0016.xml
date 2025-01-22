@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>770</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>838</fr:anchor><fr:addr
 type="user">lsd-0016</fr:addr><fr:route>lsd-0016.xml</fr:route><fr:title
 text="Coproduct monad container">Coproduct monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -48,7 +48,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>772</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>840</fr:anchor><fr:addr
 type="user">uustalu2017</fr:addr><fr:route>uustalu2017.xml</fr:route><fr:title
 text="Container Combinatorics: Monads and Lax Monoidal Functors">Container Combinatorics: Monads and Lax Monoidal Functors</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2017</fr:year></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -82,7 +82,106 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>774</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>842</fr:anchor><fr:addr
+type="user">not-0009</fr:addr><fr:route>not-0009.xml</fr:route><fr:title
+text="Possible extra conditions for monad containers">Possible extra conditions for monad containers</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>These are mostly inspired by Zwart and Marsden's research into no-go theorems for distributive laws between algebraic theories <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="link-reference"><fr:link
+type="local"
+href="zwartmarsden2022.xml"
+addr="zwartmarsden2022"
+title="No-Go Theorems for Distributive Laws">[zwartmarsden2022]</fr:link></html:span>.</fr:p><fr:p>I've been roughly translating properties of algebraic theories into the language of <fr:link
+type="local"
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">monad containers</fr:link> <fr:tex
+display="inline"><![CDATA[(S \triangleleft  P, \iota , \sigma , \text {pr})]]></fr:tex>, by considering: 
+  <fr:ul><fr:li>Shapes <fr:tex
+display="inline"><![CDATA[s : S]]></fr:tex> as "terms"</fr:li>
+    <fr:li>Positions <fr:tex
+display="inline"><![CDATA[p : P\ s]]></fr:tex> as "free variables in the term <fr:tex
+display="inline"><![CDATA[s]]></fr:tex>"</fr:li>
+    <fr:li><fr:tex
+display="inline"><![CDATA[\iota ]]></fr:tex> as a "generic variable placeholder"</fr:li>
+    <fr:li><fr:tex
+display="inline"><![CDATA[\sigma ]]></fr:tex> as a "generalised substitution"</fr:li>
+    <fr:li><fr:tex
+display="inline"><![CDATA[\text {pr}]]></fr:tex> as a "reindexing" of positions after a "substitution"</fr:li></fr:ul>
+  This is <fr:em>not</fr:em> meant to be an exact translation; the idea is to get inspiration for properties of monad containers we might want to consider when proving things about <fr:link
+type="local"
+href="lsd-0008.xml"
+addr="lsd-0008"
+title="Monad container distributive law">monad container distributive laws</fr:link>.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>297</fr:anchor><fr:addr
+type="machine">#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:title
+text="Disjoint substitution condition">Disjoint substitution condition</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A property of algebraic theories that is used in <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="link-reference"><fr:link
+type="local"
+href="zwartmarsden2022.xml"
+addr="zwartmarsden2022"
+title="No-Go Theorems for Distributive Laws">[zwartmarsden2022]</fr:link></html:span> is commutativity of disjoint substitutions, i.e. given terms <fr:tex
+display="inline"><![CDATA[s, s_0]]></fr:tex> and a substitution <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> where for all <fr:tex
+display="inline"><![CDATA[y]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x \notin  \text {var}(f(y))]]></fr:tex> we always have that:
+    <fr:tex
+display="block"><![CDATA[       s[s_0/x][f(y) / y \neq  x] = s[f(y) / y \neq  x][s_0/x]     ]]></fr:tex></fr:p><fr:p>In monad container language: <fr:tex
+display="inline"><![CDATA[(S \triangleleft  P, \iota , \sigma , \text {pr})]]></fr:tex> satisfies the <fr:em>"disjoint substitution condition"</fr:em> if for all shapes <fr:tex
+display="inline"><![CDATA[s, s_0 : S]]></fr:tex>, positions <fr:tex
+display="inline"><![CDATA[p : P\ s]]></fr:tex>, functions <fr:tex
+display="inline"><![CDATA[f : P\ s \to  S]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[f\ p = \iota ]]></fr:tex>, and functions <fr:tex
+display="inline"><![CDATA[g : P\ s \to  S]]></fr:tex> where:
+    
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}              g\ p  &:= s_0\\       g\ p' &:= \iota \ \ \ \ \ \ \ \text {if } p' \neq  p          \end {align*}   ]]></fr:tex>
+
+    then we have:
+    <fr:tex
+display="block"><![CDATA[       \sigma \ (\sigma \ s\ g)\ (f \circ  \text {pr}_1) = \sigma \ (\sigma \ s\ f)\ (g \circ  \text {pr}_1)     ]]></fr:tex></fr:p><fr:p>The <fr:link
+type="local"
+href="lsd-0014.xml"
+addr="lsd-0014"
+title="List monad container">List monad container</fr:link> <fr:tex
+display="inline"><![CDATA[\mathbb {N} \triangleleft  \text {Fin}]]></fr:tex> satisfies this, which makes sense since it can also be represented by an algebraic theory. This also holds for <fr:link
+type="local"
+href="lsd-0016.xml"
+addr="lsd-0016"
+title="Coproduct monad container">coproduct</fr:link>, <fr:link
+type="local"
+href="lsd-0007.xml"
+addr="lsd-0007"
+title="There is only one representable monad container">reader</fr:link> (trivially), <fr:link
+type="local"
+href="lsd-0012.xml"
+addr="lsd-0012"
+title="State monad container">state</fr:link>, <fr:link
+type="local"
+href="lsd-0015.xml"
+addr="lsd-0015"
+title="Writer monad container">writer</fr:link>, and probably many others!</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>844</fr:anchor><fr:addr
 type="user">lsd-0011</fr:addr><fr:route>lsd-0011.xml</fr:route><fr:title
 text="Maybe monad container">Maybe monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -110,7 +209,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>776</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>846</fr:anchor><fr:addr
 type="user">lsd-0010</fr:addr><fr:route>lsd-0010.xml</fr:route><fr:title
 text="Monad container zoo">Monad container zoo</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -218,7 +317,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>778</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>848</fr:anchor><fr:addr
 type="user">lsd-0002</fr:addr><fr:route>lsd-0002.xml</fr:route><fr:title
 text="Monad container">Monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"

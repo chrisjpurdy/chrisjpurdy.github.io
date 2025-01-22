@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>581</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>647</fr:anchor><fr:addr
 type="user">lsd-0029</fr:addr><fr:route>lsd-0029.xml</fr:route><fr:title
 text="Container extension">Container extension</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -26,9 +26,9 @@ display="inline"><![CDATA[\lbrack \negthinspace \lbrack  - \rbrack \negthinspace
 display="inline"><![CDATA[\mathbf {Cont}]]></fr:tex> to <fr:tex
 display="inline"><![CDATA[[\mathbf {Set},\mathbf {Set}]]]></fr:tex> by mapping container morphisms to natural transformations as follows
   <fr:tex
-display="block"><![CDATA[     \langle \negthinspace \langle  u \triangleright  v \rangle \negthinspace \rangle _A\ (s , f) := (u\ s , f \circ  v)   ]]></fr:tex>
-  The functor given by <fr:tex
-display="inline"><![CDATA[\lbrack \negthinspace \lbrack  - \rbrack \negthinspace \rbrack ]]></fr:tex> and <fr:tex
+display="block"><![CDATA[     \langle \negthinspace \langle  u \triangleleft  v \rangle \negthinspace \rangle _A\ (s , f) := (u\ s , f \circ  v)   ]]></fr:tex>
+  The functor given by action on objects <fr:tex
+display="inline"><![CDATA[\lbrack \negthinspace \lbrack  - \rbrack \negthinspace \rbrack ]]></fr:tex> and action on morphisms <fr:tex
 display="inline"><![CDATA[\langle \negthinspace \langle  - \rangle \negthinspace \rangle ]]></fr:tex> is fully faithful.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
@@ -44,7 +44,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>583</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>649</fr:anchor><fr:addr
 type="user">lsd-0032</fr:addr><fr:route>lsd-0032.xml</fr:route><fr:title
 text="Containers are closed under composition">Containers are closed under composition</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -69,7 +69,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>585</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>651</fr:anchor><fr:addr
 type="user">lsd-0030</fr:addr><fr:route>lsd-0030.xml</fr:route><fr:title
 text="Monad container extension">Monad container extension</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"

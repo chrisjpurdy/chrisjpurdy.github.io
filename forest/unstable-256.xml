@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>749</fr:anchor><fr:addr
+type="machine">#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    We have given the first 4 equations for a monad container distributive law and the isomorphisms
+    <fr:tex
+display="inline"><![CDATA[T\ (\text {inl}\ *) \to  S \cong  S]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[T\ (\text {inr}\ e) \to  S \cong  1]]></fr:tex> that:
+    <fr:tex
+display="block"><![CDATA[       \begin {align*}         &u\ (\text {inl}\ *)\ (\lambda  \_ . s) = (s , \lambda  \_ . \text {inl}\ *)\\          &u\ (\text {inr}\ e)\ f = u\ (\text {inr}\ e)\ (\lambda  \_ . \iota ^S) = (\iota ^S , \lambda  \_ . \text {inr}\ e)\\         &v\ \{\text {inl}\ *\}\ \{\lambda  \_ . s\}\ (p , *) = (* , p)       \end {align*}     ]]></fr:tex>
+    These constraints entirely define <fr:tex
+display="inline"><![CDATA[u]]></fr:tex>, and therefore <fr:tex
+display="inline"><![CDATA[v]]></fr:tex> also. Since the other distributive law equalities hold, <fr:tex
+display="inline"><![CDATA[u]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[v]]></fr:tex> specify the unique distributive law <fr:tex
+display="inline"><![CDATA[(1 + E \triangleleft  T) \circ  (S \triangleleft  P) \Rightarrow  (S \triangleleft  P) \circ  (1 + E \triangleleft  T)]]></fr:tex>.
+  </fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>751</fr:anchor><fr:addr
+type="user">lsd-0018</fr:addr><fr:route>lsd-0018.xml</fr:route><fr:title
+text="Coproduct monad container distribution on the left">Coproduct monad container distribution on the left</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The coproduct monad container <fr:tex
+display="inline"><![CDATA[1 + E \triangleleft  T]]></fr:tex> <fr:link
+type="local"
+href="lsd-0008.xml"
+addr="lsd-0008"
+title="Monad container distributive law">distributes</fr:link> over any monad container <fr:tex
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> in exactly one way.
+  
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>753</fr:anchor><fr:addr
+type="machine">#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    We have given the first 4 equations for a monad container distributive law and the isomorphisms
+    <fr:tex
+display="inline"><![CDATA[T\ (\text {inl}\ *) \to  S \cong  S]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[T\ (\text {inr}\ e) \to  S \cong  1]]></fr:tex> that:
+    <fr:tex
+display="block"><![CDATA[       \begin {align*}         &u\ (\text {inl}\ *)\ (\lambda  \_ . s) = (s , \lambda  \_ . \text {inl}\ *)\\          &u\ (\text {inr}\ e)\ f = u\ (\text {inr}\ e)\ (\lambda  \_ . \iota ^S) = (\iota ^S , \lambda  \_ . \text {inr}\ e)\\         &v\ \{\text {inl}\ *\}\ \{\lambda  \_ . s\}\ (p , *) = (* , p)       \end {align*}     ]]></fr:tex>
+    These constraints entirely define <fr:tex
+display="inline"><![CDATA[u]]></fr:tex>, and therefore <fr:tex
+display="inline"><![CDATA[v]]></fr:tex> also. Since the other distributive law equalities hold, <fr:tex
+display="inline"><![CDATA[u]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[v]]></fr:tex> specify the unique distributive law <fr:tex
+display="inline"><![CDATA[(1 + E \triangleleft  T) \circ  (S \triangleleft  P) \Rightarrow  (S \triangleleft  P) \circ  (1 + E \triangleleft  T)]]></fr:tex>.
+  </fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
