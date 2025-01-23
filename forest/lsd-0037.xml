@@ -7,23 +7,43 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>347</fr:anchor><fr:addr
-type="machine">#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:title
-text="Possible extra conditions for monad containers › Singleton property"><fr:link
-type="local"
-href="not-0009.xml"
-addr="not-0009"
-title="Possible extra conditions for monad containers">Possible extra conditions for monad containers</fr:link> › Singleton property</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>265</fr:anchor><fr:addr
+type="user">lsd-0037</fr:addr><fr:route>lsd-0037.xml</fr:route><fr:title
+text="Multiple zeros">Multiple zeros</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
-title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
-display="inline"><![CDATA[(S \triangleleft  P, \iota , \sigma , \text {pr})]]></fr:tex> satisfies the <fr:em>singleton property</fr:em> if <fr:tex
-display="inline"><![CDATA[P\ \iota  \cong  1]]></fr:tex>. All <fr:link
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(S \triangleleft  P, \iota ^S, \sigma ^S, \text {pr}^S)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(T \triangleleft  Q, \iota ^T, \sigma ^T, \text {pr}^T)]]></fr:tex> be <fr:link
 type="local"
-href="lsd-0009.xml"
-addr="lsd-0009"
-title="Cartesian monad container">cartesian monad containers</fr:link> have this property by definition.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">monad containers</fr:link>, where <fr:tex
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> satisfies S3 (for <fr:tex
+display="inline"><![CDATA[s]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[f]]></fr:tex>) and the singleton <fr:link
+type="local"
+href="not-0009.xml"
+addr="not-0009"
+title="Possible extra conditions for monad containers">properties</fr:link>, and <fr:tex
+display="inline"><![CDATA[T \triangleleft  Q]]></fr:tex> has a constant <fr:tex
+display="inline"><![CDATA[t_0]]></fr:tex>. We have:
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            &u_1\ s\ (\lambda  p' . \begin {cases}       t_0 & \text {if } p' = p\\       \iota ^T & \text {otherwise}     \end {cases})\\     &= u_1\ s\ (\lambda  p' . \begin {cases}       u_1\ \iota ^S\ (\lambda  \_ . t_0) & \text {if } p' = p\\       u_1\ (f\ p')\ (\lambda  \_ . \iota ^T) & \text {otherwise}     \end {cases})\\     &= u_1\ s\ (\lambda  p' . u_1\ (\begin {cases}       \iota ^S & \text {if } p' = p\\       (f\ p') & \text {otherwise}     \end {cases})\ (\lambda  \_ . \begin {cases}       t_0 & \text {if } p' = p\\       \iota ^T & \text {otherwise}     \end {cases}))\\     &= u_1\ (\sigma ^S\ s\ (\lambda  p' . \begin {cases}       \iota ^S & \text {if } p' = p\\       (f\ p') & \text {otherwise}     \end {cases}))\ (\lambda  p'' . \begin {cases}       t_0 & \text {if } \text {pr}^S_1\ p'' = p\\       \iota ^T & \text {otherwise}     \end {cases})\\     &= u_1\ \iota ^S\ (\lambda  \_ . \begin {cases}       t_0 & \text {if } * = *\\       \iota ^T & \text {otherwise}     \end {cases})\\     &= t_0        \end {align*}   ]]></fr:tex>
+
+  This lets us prove that:
+  <fr:tex
+display="block"><![CDATA[     \sigma \ (\iota ^T , \lambda  \_ . s)\ (\lambda  p' . \begin {cases}       (t_0 , \lambda  \_ . \iota ^S) & \text {if } \pi _2\ p' = p\\       \iota  & \text {otherwise}     \end {cases}) = (t_0 , \lambda  \_ . \iota ^S)   ]]></fr:tex>
+  for any <fr:link
+type="local"
+href="lsd-0034.xml"
+addr="lsd-0034"
+title="Compatible composition of monad containers">compatible composite</fr:link> of type <fr:tex
+display="inline"><![CDATA[T \triangleleft  Q \circ  S \triangleleft  P]]></fr:tex>.</fr:p><fr:p><html:mark
+xmlns:html="http://www.w3.org/1999/xhtml">TODO: Use disjoint subst for <fr:tex
+display="inline"><![CDATA[T \triangleleft  Q]]></fr:tex> to prove multiple zeros theorem</html:mark></fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -31,14 +51,14 @@ show-metadata="false"
 expanded="true"
 root="false"
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>349</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>267</fr:anchor><fr:addr
 type="user">not-0009</fr:addr><fr:route>not-0009.xml</fr:route><fr:title
 text="Possible extra conditions for monad containers">Possible extra conditions for monad containers</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -211,4 +231,85 @@ href="lsd-0012.xml"
 addr="lsd-0012"
 title="State monad container">state</fr:link>, by taking <fr:tex
 display="inline"><![CDATA[s = \text {id}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[f = \lambda  \_ . \text {id}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+display="inline"><![CDATA[f = \lambda  \_ . \text {id}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>277</fr:anchor><fr:addr
+type="user">lsd-0034</fr:addr><fr:route>lsd-0034.xml</fr:route><fr:title
+text="Compatible composition of monad containers">Compatible composition of monad containers</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(S \triangleleft  P, \iota ^S, \sigma ^S, \text {pr}^S)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(T \triangleleft  Q, \iota ^T, \sigma ^T, \text {pr}^T)]]></fr:tex> be <fr:link
+type="local"
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">monad containers</fr:link>. A <fr:em>compatible composition</fr:em> of these is a pair of maps:
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            \sigma  &: \prod _{s : \lbrack \negthinspace \lbrack  T \triangleleft  Q \rbrack \negthinspace \rbrack \ S} (\Diamond ^{Q}_{P}\ s \to  \lbrack \negthinspace \lbrack  T \triangleleft  Q \rbrack \negthinspace \rbrack \ S) \to  \lbrack \negthinspace \lbrack  T \triangleleft  Q \rbrack \negthinspace \rbrack \ S\\     \text {pr} &: \prod _{\{s : \lbrack \negthinspace \lbrack  T \triangleleft  Q \rbrack \negthinspace \rbrack \ S\}}\ \prod _{\{f : \Diamond ^{Q}_{P}\ s \to  \lbrack \negthinspace \lbrack  T \triangleleft  Q \rbrack \negthinspace \rbrack \ S\}} \Diamond ^{Q}_{P}\ (\sigma \ s\ f) \to  \sum _{p : \Diamond ^{Q}_{P}\ s} \Diamond ^{Q}_{P}\ (f\ p)        \end {align*}   ]]></fr:tex>
+
+  where:
+  <fr:ul><fr:li><fr:tex
+display="inline"><![CDATA[(T \triangleleft  Q \circ  S \triangleleft  P, (\iota ^T, \lambda  \_ . \iota ^T), \sigma , \text {pr})]]></fr:tex> is a monad container.</fr:li>
+    <fr:li>The container morphisms <fr:tex
+display="inline"><![CDATA[\lambda \ t . (t , \lambda  \_ . \iota ^S) \triangleleft  \pi _1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\lambda \ s . (\iota ^T , \lambda  \_ . s) \triangleleft  \pi _2]]></fr:tex> are both <fr:link
+type="local"
+href="lsd-0035.xml"
+addr="lsd-0035"
+title="Monad container morphism">monad container morphisms</fr:link>.</fr:li>
+    <fr:li>The <fr:em>middle unitary laws</fr:em> hold:
+      
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}                (t , f) &= \sigma \ (t , \lambda  \_ . \iota ^S)\ (\lambda \ p . (\iota ^T , \lambda  \_ . f\ (\pi _1\ p)))\\         (q , p) &= (\pi _1\ (\text {pr}_1\ (q , p)) , \pi _2\ (\text {pr}_2\ (q , p)))            \end {align*}   ]]></fr:tex>
+
+      where <fr:tex
+display="inline"><![CDATA[(q , p) : \Diamond ^{Q}_{P}\ (t , f)]]></fr:tex>, and the second equality holds given the first one.</fr:li></fr:ul></fr:p><fr:p>These are in bijection with the compatible compositions of the <fr:link
+type="local"
+href="lsd-0030.xml"
+addr="lsd-0030"
+title="Monad container extension">monad container extensions</fr:link> of the relevent monad containers, and thus are also in bijection with the relevent types of <fr:link
+type="local"
+href="lsd-0008.xml"
+addr="lsd-0008"
+title="Monad container distributive law">monad container distributive law</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>279</fr:anchor><fr:addr
+type="user">lsd-0002</fr:addr><fr:route>lsd-0002.xml</fr:route><fr:title
+text="Monad container">Monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> be a container. A monad container (or mnd-container) <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="link-reference"><fr:link
+type="local"
+href="uustalu2017.xml"
+addr="uustalu2017"
+title="Container Combinatorics: Monads and Lax Monoidal Functors">[uustalu2017]</fr:link></html:span> on <fr:tex
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> is given by the following data:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       \iota  &: S\\       \sigma  &: \prod _{s : S} (P\ s \to  S) \to  S\\       \text {pr} &: \prod _{\{s : S\}} \prod _{\{f : P\ s \to  S\}} P\ (\sigma \ s\ f) \to  \sum _{p : P\ s} P\ (f\ p)     \end {align*}   ]]></fr:tex>
+  For which the following laws hold:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       \sigma \ a\ (\lambda  \_ . \iota  ) &= a\\       \text {pr}_1\ p &= p\\       \sigma \ \iota \ (\lambda  \_ . a ) &= a\\       \text {pr}_2\ p &= p\\       \sigma \ (\sigma \ a\ f)\ (\lambda  p . g\ (\text {pr}_1\ p)\ (\text {pr}_2\ p)) &= \sigma \ a\ (\lambda  p . \sigma \ (f\ p)\ (g\ p))\\       \text {pr}_1\ (\text {pr}_1\ p) &= \text {pr}_1\ p\\       \text {pr}_1\ (\text {pr}_2\ p) &= \text {pr}_2\ (\text {pr}_1\ p)\\       \text {pr}_2\ p &= \text {pr}_2\ (\text {pr}_2\ p)     \end {align*}   ]]></fr:tex>
+  We abbreviate <fr:tex
+display="inline"><![CDATA[\pi _1 \circ  \text {pr}]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[\text {pr}_1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\pi _2 \circ  \text {pr}]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[\text {pr}_2]]></fr:tex>. Each set of laws for <fr:tex
+display="inline"><![CDATA[\text {pr}]]></fr:tex> hold up to the laws for <fr:tex
+display="inline"><![CDATA[\sigma ]]></fr:tex> above them.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
