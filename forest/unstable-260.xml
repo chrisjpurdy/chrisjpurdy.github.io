@@ -7,27 +7,51 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>844</fr:anchor><fr:addr
-type="machine">#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>326</fr:anchor><fr:addr
+type="machine">#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:title
+text="Multiple zeros › Multiple zeros"><fr:link
+type="local"
+href="lsd-0037.xml"
+addr="lsd-0037"
+title="Multiple zeros">Multiple zeros</fr:link> › Multiple zeros</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a shape <fr:tex
+display="inline"><![CDATA[s : S]]></fr:tex> and function <fr:tex
+display="inline"><![CDATA[f : P\ s \to  S]]></fr:tex> that satisfy S3, where <fr:tex
+display="inline"><![CDATA[s]]></fr:tex> has at least two positions <fr:tex
+display="inline"><![CDATA[p, p' : P\ s]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[T]]></fr:tex> <fr:em>cannot have more than one distinct constant shape</fr:em>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>295</fr:anchor><fr:addr
+type="machine">#261</fr:addr><fr:route>unstable-261.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
-    By considering the data for a <fr:link
-type="local"
-href="lsd-0008.xml"
-addr="lsd-0008"
-title="Monad container distributive law">monad container distributive law</fr:link>, we get by the first four equalities, and for all <fr:tex
-display="inline"><![CDATA[s : S]]></fr:tex> the isomorphism <fr:tex
-display="inline"><![CDATA[P\ s \to  1 \cong  1]]></fr:tex>, that:
+    Assume <fr:em>two</fr:em> distinct constants <fr:tex
+display="inline"><![CDATA[t_0, t_1 : T]]></fr:tex>. We have the equality:
+    
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}              &t_0\\       &= \sigma ^T\ t_0\ (\lambda  \_ . \iota ^T)\\       &= \sigma ^T\ (u_1\ s\ t^p_0)\ (\lambda  y . u_1\ (u_2\ s\ t^p_0\ y)\ (\lambda  z . t^{p'}_1\ (v_1\ y\ z)))\\       &= u_1\ s\ (\lambda  y . \sigma ^T\ (t^p_0\ y)\ (\lambda  \_ . t^{p'}_1\ y))\\       &= u_1\ s\ (\lambda  y . \begin {cases}         \sigma ^T\ t_0\ (\lambda  \_ . \iota ^T) & \text {if } y = p\\         \sigma ^T\ \iota ^T\ (\lambda  \_ . t_1) & \text {if } y = p'\\         \iota ^T & \text {otherwise}       \end {cases})\\       &= u_1\ s\ (\lambda  y . \begin {cases}         t_0 & \text {if } y = p\\         t_1 & \text {if } y = p'\\         \iota ^T & \text {otherwise}       \end {cases})\\          \end {align*}   ]]></fr:tex>
+
+    and using the same steps, we can derive:
     <fr:tex
-display="block"><![CDATA[       \begin {align*}         u\ s\ \_ &:= (* , \lambda  \_ . s)\\         v\ p\ a &:= (a , p)       \end {align*}     ]]></fr:tex>
-    <fr:tex
-display="inline"><![CDATA[u]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[v]]></fr:tex> are entirely specified by the "unit" equalities, and the rest of the equalities hold. Hence this is the unique monad distributive law of <fr:tex
-display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[1 \triangleleft  \lambda  \_ . A]]></fr:tex>.
-  </fr:mainmatter><fr:backmatter><fr:tree
+display="block"><![CDATA[       t_1 = u_1\ s\ (\lambda  y . \begin {cases}         t_0 & \text {if } y = p\\         t_1 & \text {if } y = p'\\         \iota ^T & \text {otherwise}       \end {cases})     ]]></fr:tex>
+    Composing these two equalities, we get <fr:tex
+display="inline"><![CDATA[t_0 = t_1]]></fr:tex>, which is a contradiction.
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -42,16 +66,58 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>846</fr:anchor><fr:addr
-type="user">lsd-0017</fr:addr><fr:route>lsd-0017.xml</fr:route><fr:title
-text="Representable monad container distribution on the right">Representable monad container distribution on the right</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>328</fr:anchor><fr:addr
+type="user">lsd-0037</fr:addr><fr:route>lsd-0037.xml</fr:route><fr:title
+text="Multiple zeros">Multiple zeros</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
-title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Any monad container <fr:tex
-display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> distributes over a representable monad container <fr:tex
-display="inline"><![CDATA[1 \triangleleft  \lambda  \_ . A]]></fr:tex> in exactly one way.
-  
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(S \triangleleft  P, \iota ^S, \sigma ^S, \text {pr}^S)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(T \triangleleft  Q, \iota ^T, \sigma ^T, \text {pr}^T)]]></fr:tex> be <fr:link
+type="local"
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">monad containers</fr:link>, where <fr:tex
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> satisfies S3 (for <fr:tex
+display="inline"><![CDATA[s]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[f]]></fr:tex>) and the singleton <fr:link
+type="local"
+href="not-0009.xml"
+addr="not-0009"
+title="Possible extra conditions for monad containers">properties</fr:link>, and <fr:tex
+display="inline"><![CDATA[T \triangleleft  Q]]></fr:tex> has a constant <fr:tex
+display="inline"><![CDATA[t_0]]></fr:tex>.</fr:p><fr:p>We start by assuming a <fr:link
+type="local"
+href="lsd-0008.xml"
+addr="lsd-0008"
+title="Monad container distributive law">monad container distributive law</fr:link> of type <fr:tex
+display="inline"><![CDATA[S \triangleleft  P \circ  T \triangleleft  Q \Rightarrow  T \triangleleft  Q \circ  S \triangleleft  P]]></fr:tex> .</fr:p><fr:p>In the following we use the notion <fr:tex
+display="inline"><![CDATA[t^p]]></fr:tex> for a shape <fr:tex
+display="inline"><![CDATA[t]]></fr:tex> and some position <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>, defined as:
+  <fr:tex
+display="block"><![CDATA[     t^p := \lambda  y . \begin {cases}       t     & \text {if } y = p\\       \iota  & \text {otherwise}     \end {cases}   ]]></fr:tex>
+  the types of the shapes and position will be clear from their context.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>289</fr:anchor><fr:addr
+type="machine">#258</fr:addr><fr:route>unstable-258.xml</fr:route><fr:title
+text="Composite zero">Composite zero</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For a shape <fr:tex
+display="inline"><![CDATA[s : S]]></fr:tex> and function <fr:tex
+display="inline"><![CDATA[f : P\ s \to  S]]></fr:tex> that satisfy S3, and a constant <fr:tex
+display="inline"><![CDATA[t_0 : T]]></fr:tex>, we have for any <fr:tex
+display="inline"><![CDATA[p : P\ s]]></fr:tex> the equality:
+    <fr:tex
+display="block"><![CDATA[       u_1\ s\ t_0^p = t_0     ]]></fr:tex></fr:p>
  
    
    <fr:tree
@@ -61,24 +127,74 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>848</fr:anchor><fr:addr
-type="machine">#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>291</fr:anchor><fr:addr
+type="machine">#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="chrisjpurdy.xml"
 addr="chrisjpurdy"
 title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
-    By considering the data for a <fr:link
+    By the chain of equalities: 
+    
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}              &u_1\ s\ t_0^p\\       &= u_1\ s\ (\lambda  p' . \begin {cases}         u_1\ \iota ^S\ (\lambda  \_ . t_0) & \text {if } p' = p\\         u_1\ (f\ p')\ (\lambda  \_ . \iota ^T) & \text {otherwise}       \end {cases})\\       &= u_1\ s\ (\lambda  p' . u_1\ (\begin {cases}         \iota ^S & \text {if } p' = p\\         f\ p' & \text {otherwise}       \end {cases})\ (\lambda  \_ . \begin {cases}         t_0 & \text {if } p' = p\\         \iota ^T & \text {otherwise}       \end {cases}))\\       &= u_1\ (\sigma ^S\ s\ (\lambda  p' . \begin {cases}         \iota ^S & \text {if } p' = p\\         f\ p' & \text {otherwise}       \end {cases}))\ (\lambda  p'' . \begin {cases}         t_0 & \text {if } \text {pr}^S_1\ p'' = p\\         \iota ^T & \text {otherwise}       \end {cases})\\       &\overset {(S3)}{=} u_1\ \iota ^S\ (\lambda  \_ . \begin {cases}         t_0 & \text {if } * = *\\         \iota ^T & \text {otherwise}       \end {cases})\\       &= t_0          \end {align*}   ]]></fr:tex>
+
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>293</fr:anchor><fr:addr
+type="machine">#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:title
+text="Multiple zeros">Multiple zeros</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-href="lsd-0008.xml"
-addr="lsd-0008"
-title="Monad container distributive law">monad container distributive law</fr:link>, we get by the first four equalities, and for all <fr:tex
-display="inline"><![CDATA[s : S]]></fr:tex> the isomorphism <fr:tex
-display="inline"><![CDATA[P\ s \to  1 \cong  1]]></fr:tex>, that:
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a shape <fr:tex
+display="inline"><![CDATA[s : S]]></fr:tex> and function <fr:tex
+display="inline"><![CDATA[f : P\ s \to  S]]></fr:tex> that satisfy S3, where <fr:tex
+display="inline"><![CDATA[s]]></fr:tex> has at least two positions <fr:tex
+display="inline"><![CDATA[p, p' : P\ s]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[T]]></fr:tex> <fr:em>cannot have more than one distinct constant shape</fr:em>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>295</fr:anchor><fr:addr
+type="machine">#261</fr:addr><fr:route>unstable-261.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    Assume <fr:em>two</fr:em> distinct constants <fr:tex
+display="inline"><![CDATA[t_0, t_1 : T]]></fr:tex>. We have the equality:
+    
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}              &t_0\\       &= \sigma ^T\ t_0\ (\lambda  \_ . \iota ^T)\\       &= \sigma ^T\ (u_1\ s\ t^p_0)\ (\lambda  y . u_1\ (u_2\ s\ t^p_0\ y)\ (\lambda  z . t^{p'}_1\ (v_1\ y\ z)))\\       &= u_1\ s\ (\lambda  y . \sigma ^T\ (t^p_0\ y)\ (\lambda  \_ . t^{p'}_1\ y))\\       &= u_1\ s\ (\lambda  y . \begin {cases}         \sigma ^T\ t_0\ (\lambda  \_ . \iota ^T) & \text {if } y = p\\         \sigma ^T\ \iota ^T\ (\lambda  \_ . t_1) & \text {if } y = p'\\         \iota ^T & \text {otherwise}       \end {cases})\\       &= u_1\ s\ (\lambda  y . \begin {cases}         t_0 & \text {if } y = p\\         t_1 & \text {if } y = p'\\         \iota ^T & \text {otherwise}       \end {cases})\\          \end {align*}   ]]></fr:tex>
+
+    and using the same steps, we can derive:
     <fr:tex
-display="block"><![CDATA[       \begin {align*}         u\ s\ \_ &:= (* , \lambda  \_ . s)\\         v\ p\ a &:= (a , p)       \end {align*}     ]]></fr:tex>
-    <fr:tex
-display="inline"><![CDATA[u]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[v]]></fr:tex> are entirely specified by the "unit" equalities, and the rest of the equalities hold. Hence this is the unique monad distributive law of <fr:tex
-display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[1 \triangleleft  \lambda  \_ . A]]></fr:tex>.
-  </fr:mainmatter><fr:backmatter /></fr:tree></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+display="block"><![CDATA[       t_1 = u_1\ s\ (\lambda  y . \begin {cases}         t_0 & \text {if } y = p\\         t_1 & \text {if } y = p'\\         \iota ^T & \text {otherwise}       \end {cases})     ]]></fr:tex>
+    Composing these two equalities, we get <fr:tex
+display="inline"><![CDATA[t_0 = t_1]]></fr:tex>, which is a contradiction.
+  </fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:p>This gives us a family of no-go theorems for distributive laws between monad containers. This theorem and proof is morally the same as the one in <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="link-reference"><fr:link
+type="local"
+href="zwartmarsden2022.xml"
+addr="zwartmarsden2022"
+title="No-Go Theorems for Distributive Laws">[zwartmarsden2022]</fr:link></html:span> of the same name, but it applies to a different class of monads (ones isomorphic to the <fr:link
+type="local"
+href="lsd-0030.xml"
+addr="lsd-0030"
+title="Monad container extension">extension of a monad container</fr:link>).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
