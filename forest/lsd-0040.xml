@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>285</fr:anchor><fr:addr
+type="user">lsd-0040</fr:addr><fr:route>lsd-0040.xml</fr:route><fr:title
+text="Comonad-monad container distributive laws">Comonad-monad container distributive laws</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
+type="local"
+href="lsd-0023.xml"
+addr="lsd-0023"
+title="Directed container">directed container</fr:link> <fr:tex
+display="inline"><![CDATA[(S \triangleleft  P, o, \downarrow , \oplus )]]></fr:tex>, and a <fr:link
+type="local"
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">monad container</fr:link> <fr:tex
+display="inline"><![CDATA[(T \triangleleft  Q, \iota , \sigma , \text {pr})]]></fr:tex> we define a <fr:em>comonad-monad container distributive law</fr:em> as given by the data:
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            &u_2 : \prod _{s : S} \prod _{f : P\ s \to  T} Q\ (f\ (o\ \{s\})) \to  S \\     &v_1 : \prod _{\{s : S\}} \prod _{\{f : P\ s \to  T\}} \prod _{q : Q\ (f\ (o\ \{s\}))} P\ (u_2\ s\ f\ q) \to  P\ s \\     &v_2 : \prod _{\{s : S\}} \prod _{\{f : P\ s \to  T\}} \prod _{q : Q\ (f\ (o\ \{s\}))} \prod _{p : P\ (u_2\ s\ f\ q)} Q\ (f\ (v_1\ q\ p)) \\        \end {align*}   ]]></fr:tex>
+
+  where the following equalities hold:
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            u_2\ s\ f\ q \downarrow  p &= u_2\ (s \downarrow  v_1\ q\ p)\ (\lambda  p' . f\ (v_1\ q\ p \oplus  p'))\ (v_2\ q\ p)\\     v_1\ q\ o &= o\\     v_1\ q\ (p \oplus  p') &= v_1\ q\ p \oplus  v_1\ (v_2\ q\ p)\ p'\\     v_2\ q\ o &= q\\     v_2\ q\ (p \oplus  p') &= v_2\ (v_2\ q\ p)\ p'\\     \\     u_2\ s\ (\lambda  \_ . \iota )\ p &= s\\     v\ \{s\}\ \{\lambda  \_ . \iota \} &= \langle  \pi _2 , \pi _1 \rangle \\     u_2\ s\ (\sigma  \circ  \langle  f , g \rangle )\ q &= u_2\ (u_2\ s\ f\ (\text {pr}_1\ q))\ (\lambda  p . g\ (v_1\ q\ p)\ (v_2\ q\ p))\ (\text {pr}_2\ q)\\     v_1\ (\text {pr}_1\ q)\ (v_1\ (\text {pr}_2\ q)\ p) &= v_1\ q\ p\\     v_2\ (\text {pr}_1\ q)\ (v_1\ (\text {pr}_2\ q)\ p) &= \text {pr}_1\ (v_2\ q\ p)\\     v_2\ (\text {pr}_2\ q)\ p &= \text {pr}_2\ (v_2\ q\ p)        \end {align*}   ]]></fr:tex></fr:p><fr:p>Note: the <fr:tex
+display="inline"><![CDATA[u_1]]></fr:tex> map doesn't need to be included in the data, because the laws require that <fr:tex
+display="inline"><![CDATA[u_1\ s\ f = f\ (o\ \{s\})]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>287</fr:anchor><fr:addr
+type="user">lsd-0023</fr:addr><fr:route>lsd-0023.xml</fr:route><fr:title
+text="Directed container">Directed container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> be a container. A directed container <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="link-reference"><fr:link
+type="local"
+href="ahmanchapmanuustalu2012.xml"
+addr="ahmanchapmanuustalu2012"
+title="When Is a Container a Comonad?">[ahmanchapmanuustalu2012]</fr:link></html:span> on <fr:tex
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> is given by the following data:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       \downarrow  &: \prod _{s : S} P\ s \to  S\\       o &: \prod _{\{s : S\}} P\ s\\       \oplus  &: \prod _{\{s : S\}} \prod _{p : P\ s} P\ (s \downarrow  p) \to  P\ s     \end {align*}   ]]></fr:tex>
+  satisfying two shape equations and three position equations:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       s \downarrow  o &= s\\       s \downarrow  (p \oplus  p') &= (s \downarrow  p) \downarrow  p'\\       p \oplus  o &= p\\       o \oplus  p &= p\\       (p \oplus  p') \oplus  p'' &= p \oplus  (p' \oplus  p'')     \end {align*}   ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>289</fr:anchor><fr:addr
+type="user">lsd-0002</fr:addr><fr:route>lsd-0002.xml</fr:route><fr:title
+text="Monad container">Monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> be a container. A monad container (or mnd-container) <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="link-reference"><fr:link
+type="local"
+href="uustalu2017.xml"
+addr="uustalu2017"
+title="Container Combinatorics: Monads and Lax Monoidal Functors">[uustalu2017]</fr:link></html:span> on <fr:tex
+display="inline"><![CDATA[S \triangleleft  P]]></fr:tex> is given by the following data:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       \iota  &: S\\       \sigma  &: \prod _{s : S} (P\ s \to  S) \to  S\\       \text {pr} &: \prod _{\{s : S\}} \prod _{\{f : P\ s \to  S\}} P\ (\sigma \ s\ f) \to  \sum _{p : P\ s} P\ (f\ p)     \end {align*}   ]]></fr:tex>
+  For which the following laws hold:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       \sigma \ a\ (\lambda  \_ . \iota  ) &= a\\       \text {pr}_1\ p &= p\\       \sigma \ \iota \ (\lambda  \_ . a ) &= a\\       \text {pr}_2\ p &= p\\       \sigma \ (\sigma \ a\ f)\ (\lambda  p . g\ (\text {pr}_1\ p)\ (\text {pr}_2\ p)) &= \sigma \ a\ (\lambda  p . \sigma \ (f\ p)\ (g\ p))\\       \text {pr}_1\ (\text {pr}_1\ p) &= \text {pr}_1\ p\\       \text {pr}_1\ (\text {pr}_2\ p) &= \text {pr}_2\ (\text {pr}_1\ p)\\       \text {pr}_2\ p &= \text {pr}_2\ (\text {pr}_2\ p)     \end {align*}   ]]></fr:tex>
+  We abbreviate <fr:tex
+display="inline"><![CDATA[\pi _1 \circ  \text {pr}]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[\text {pr}_1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\pi _2 \circ  \text {pr}]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[\text {pr}_2]]></fr:tex>. Each set of laws for <fr:tex
+display="inline"><![CDATA[\text {pr}]]></fr:tex> hold up to the laws for <fr:tex
+display="inline"><![CDATA[\sigma ]]></fr:tex> above them.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
