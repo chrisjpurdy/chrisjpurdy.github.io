@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1343</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1383</fr:anchor><fr:addr
 type="user">ahmanuustalu2013</fr:addr><fr:route>ahmanuustalu2013.xml</fr:route><fr:title
 text="Distributive laws of directed containers">Distributive laws of directed containers</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2013</fr:year></fr:date><fr:authors><fr:author>Danel Ahman</fr:author><fr:author><fr:link
 type="local"
@@ -41,7 +41,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1346</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1386</fr:anchor><fr:addr
 type="user">lsd-0022</fr:addr><fr:route>lsd-0022.xml</fr:route><fr:title
 text="Directed container distributive law">Directed container distributive law</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -76,7 +76,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1348</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1388</fr:anchor><fr:addr
 type="user">lsd-0024</fr:addr><fr:route>lsd-0024.xml</fr:route><fr:title
 text="Relation between container distributive laws and matching pairs of monoids/Zappa-Szép products">Relation between container distributive laws and matching pairs of monoids/Zappa-Szép products</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -187,7 +187,7 @@ xmlns:html="http://www.w3.org/1999/xhtml" />
 type="local"
 href="lsd-0039.xml"
 addr="lsd-0039"
-title="Monad-comonad container distributive laws">(monad-comonad) mixed container distributive laws</fr:link> correspond to matching pairs of monoid actions:</fr:p><fr:tree
+title="Monad-comonad container distributive laws">(monad-comonad) mixed container distributive laws</fr:link> correspond to matching pairs of monoid actions when specialised to a particular pair of containers:</fr:p><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
@@ -218,9 +218,56 @@ title="Monad-comonad container distributive laws">monad-comonad container distri
 display="inline"><![CDATA[u_1]]></fr:tex> and <fr:tex
 display="inline"><![CDATA[v_1]]></fr:tex> disappear and we are left with:
   <fr:tex
-display="block"><![CDATA[     \begin {align*}       u_2\ \iota ^A\ (\lambda  \_ . *)\ b &= \iota ^A\\       v_2\ \{\iota ^A\}\ b\ * &= b\\       u_2\ (a \otimes ^A a')\ (\lambda  \_ . *)\ b &= u_2\ a\ b \otimes ^A (u_2\ a'\ (\lambda  \_ . *)\ (v_2\ \{a\}\ b\ *))\\       v_2\ (a \otimes ^A a')\ (\lambda  \_ . *)\ b &= v_2\ a\ (v_2\ a'\ b)\\       u_2\ a\ (\lambda  \_ . *)\ o^B &= a\\       v_2\ \{a\}\ o^B\ * &= o^B\\       u_2\ a\ (\lambda  \_ . *)\ (b \oplus ^B b') &= u_2\ (u_2\ a\ b')\ b\\       v_2\ \{a\}\ (b \oplus ^B b')\ * &= (v_2\ \{u_2\ a\ b'\}\ b\ *) \oplus ^B (v_2\ \{a\}\ b'\ *)     \end {align*}   ]]></fr:tex>
+display="block"><![CDATA[     \begin {align*}       u_2\ \iota ^A\ (\lambda  \_ . *)\ b &= \iota ^A\\       v_2\ \{\iota ^A\}\ b\ * &= b\\       u_2\ (a \otimes ^A a')\ (\lambda  \_ . *)\ b &= u_2\ a\ b \otimes ^A (u_2\ a'\ (\lambda  \_ . *)\ (v_2\ \{a\}\ b\ *))\\       v_2\ (a \otimes ^A a')\ (\lambda  \_ . *)\ b &= v_2\ a\ (v_2\ a'\ b)\\       u_2\ a\ (\lambda  \_ . *)\ o^B &= a\\       v_2\ \{a\}\ o^B\ * &= o^B\\       u_2\ a\ (\lambda  \_ . *)\ (b \oplus ^B b') &= u_2\ (u_2\ a\ (\lambda  \_ . *)\ b')\ b\\       v_2\ \{a\}\ (b \oplus ^B b')\ * &= (v_2\ \{u_2\ a\ (\lambda  \_ . *)\ b'\}\ b\ *) \oplus ^B (v_2\ \{a\}\ b'\ *)     \end {align*}   ]]></fr:tex>
   which (up to ignoring trivial arguments) exhibit <fr:tex
 display="inline"><![CDATA[u_2]]></fr:tex> and <fr:tex
 display="inline"><![CDATA[v_2]]></fr:tex> as a matching pair of monoid maps between the monoids <fr:tex
 display="inline"><![CDATA[(A , \iota ^A, \otimes ^A)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[(B, o^B, \oplus ^B)]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>Strangely, ... (talk about comonad-monad laws...)</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+display="inline"><![CDATA[(B, o^B, \oplus ^B)]]></fr:tex>.</fr:p><fr:p>It should be possible to use this to define some kind of monoid bimodules (bialgebras), given that monad-comonad distributive laws are used in the literature <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="link-reference"><fr:link
+type="local"
+href="livernetetal2015.xml"
+addr="livernetetal2015"
+title="Generalised bialgebras and entwined monads and comonads">[livernetetal2015]</fr:link></html:span> to define a "bi-Eilenberg-Moore" category.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>Strangely, <fr:link
+type="local"
+href="lsd-0040.xml"
+addr="lsd-0040"
+title="Comonad-monad container distributive laws">comonad-monad container distributive laws</fr:link> seem to break this pattern, and <fr:em>do not</fr:em> give us matching pairs of monoid maps when specialising them to particular containers:</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>279</fr:anchor><fr:addr
+type="user">lsd-0042</fr:addr><fr:route>lsd-0042.xml</fr:route><fr:title
+text="Comonad-monad container distributive law between coreader comonad and writer monad">Comonad-monad container distributive law between coreader comonad and writer monad</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>30</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(1 \triangleleft  \lambda  \_ . A, \downarrow ^A, o^A, \oplus ^A)]]></fr:tex> be a representable <fr:link
+type="local"
+href="lsd-0023.xml"
+addr="lsd-0023"
+title="Directed container">directed containers</fr:link> and <fr:tex
+display="inline"><![CDATA[(B \triangleleft  \lambda  \_ . 1, \iota ^B, \otimes ^B, \text {pr}^B)]]></fr:tex> be a <fr:link
+type="local"
+href="lsd-0015.xml"
+addr="lsd-0015"
+title="Writer monad container">writer monad container</fr:link>. By specialising <fr:link
+type="local"
+href="lsd-0040.xml"
+addr="lsd-0040"
+title="Comonad-monad container distributive laws">comonad-monad container distributive laws</fr:link> to these, <fr:tex
+display="inline"><![CDATA[u_2]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[v_2]]></fr:tex> trivialise and we are left with:
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            \alpha \ f\ o^A &= o^A\\     \alpha \ f\ (a \oplus ^A a') &= \alpha \ f\ a \oplus ^A (\alpha \ (\lambda  a''. f\ (\alpha \ f\ a \oplus ^A a''))\ a')\\     \alpha \ (\lambda  \_ . \iota ^B)\ a &= a\\     \alpha \ (\lambda  a' . f\ a' \otimes ^B g\ a')\ a &= \alpha \ f\ (\alpha \ g\ a)        \end {align*}   ]]></fr:tex>
+
+  where we take:
+  <fr:tex
+display="block"><![CDATA[     \alpha \ f\ a := v_1\ \{*\}\ \{f\}\ *\ a   ]]></fr:tex></fr:p><fr:p>This doesn't seem to correspond to anything that I've heard of, and certainly doesn't look like a matching pair of monoid actions, in particular since the first argument of <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> is a function.</fr:p><fr:p>We should be able to define something that looks like a two sided Kleisli category with this.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

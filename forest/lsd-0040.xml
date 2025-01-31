@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>285</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>301</fr:anchor><fr:addr
 type="user">lsd-0040</fr:addr><fr:route>lsd-0040.xml</fr:route><fr:title
 text="Comonad-monad container distributive laws">Comonad-monad container distributive laws</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -32,8 +32,254 @@ display="block"><![CDATA[     \begin {align*}            &u_2 : \prod _{s : S} \
   
   <fr:tex
 display="block"><![CDATA[     \begin {align*}            u_2\ s\ f\ q \downarrow  p &= u_2\ (s \downarrow  v_1\ q\ p)\ (\lambda  p' . f\ (v_1\ q\ p \oplus  p'))\ (v_2\ q\ p)\\     v_1\ q\ o &= o\\     v_1\ q\ (p \oplus  p') &= v_1\ q\ p \oplus  v_1\ (v_2\ q\ p)\ p'\\     v_2\ q\ o &= q\\     v_2\ q\ (p \oplus  p') &= v_2\ (v_2\ q\ p)\ p'\\     \\     u_2\ s\ (\lambda  \_ . \iota )\ p &= s\\     v\ \{s\}\ \{\lambda  \_ . \iota \} &= \langle  \pi _2 , \pi _1 \rangle \\     u_2\ s\ (\sigma  \circ  \langle  f , g \rangle )\ q &= u_2\ (u_2\ s\ f\ (\text {pr}_1\ q))\ (\lambda  p . g\ (v_1\ q\ p)\ (v_2\ q\ p))\ (\text {pr}_2\ q)\\     v_1\ (\text {pr}_1\ q)\ (v_1\ (\text {pr}_2\ q)\ p) &= v_1\ q\ p\\     v_2\ (\text {pr}_1\ q)\ (v_1\ (\text {pr}_2\ q)\ p) &= \text {pr}_1\ (v_2\ q\ p)\\     v_2\ (\text {pr}_2\ q)\ p &= \text {pr}_2\ (v_2\ q\ p)        \end {align*}   ]]></fr:tex></fr:p><fr:p>Note: the <fr:tex
-display="inline"><![CDATA[u_1]]></fr:tex> map doesn't need to be included in the data, because the laws require that <fr:tex
+display="inline"><![CDATA[u_1]]></fr:tex> map doesn't need to be included in the data, because the laws (for directed containers) require that <fr:tex
 display="inline"><![CDATA[u_1\ s\ f = f\ (o\ \{s\})]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>303</fr:anchor><fr:addr
+type="user">lsd-0042</fr:addr><fr:route>lsd-0042.xml</fr:route><fr:title
+text="Comonad-monad container distributive law between coreader comonad and writer monad">Comonad-monad container distributive law between coreader comonad and writer monad</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>30</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(1 \triangleleft  \lambda  \_ . A, \downarrow ^A, o^A, \oplus ^A)]]></fr:tex> be a representable <fr:link
+type="local"
+href="lsd-0023.xml"
+addr="lsd-0023"
+title="Directed container">directed containers</fr:link> and <fr:tex
+display="inline"><![CDATA[(B \triangleleft  \lambda  \_ . 1, \iota ^B, \otimes ^B, \text {pr}^B)]]></fr:tex> be a <fr:link
+type="local"
+href="lsd-0015.xml"
+addr="lsd-0015"
+title="Writer monad container">writer monad container</fr:link>. By specialising <fr:link
+type="local"
+href="lsd-0040.xml"
+addr="lsd-0040"
+title="Comonad-monad container distributive laws">comonad-monad container distributive laws</fr:link> to these, <fr:tex
+display="inline"><![CDATA[u_2]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[v_2]]></fr:tex> trivialise and we are left with:
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            \alpha \ f\ o^A &= o^A\\     \alpha \ f\ (a \oplus ^A a') &= \alpha \ f\ a \oplus ^A (\alpha \ (\lambda  a''. f\ (\alpha \ f\ a \oplus ^A a''))\ a')\\     \alpha \ (\lambda  \_ . \iota ^B)\ a &= a\\     \alpha \ (\lambda  a' . f\ a' \otimes ^B g\ a')\ a &= \alpha \ f\ (\alpha \ g\ a)        \end {align*}   ]]></fr:tex>
+
+  where we take:
+  <fr:tex
+display="block"><![CDATA[     \alpha \ f\ a := v_1\ \{*\}\ \{f\}\ *\ a   ]]></fr:tex></fr:p><fr:p>This doesn't seem to correspond to anything that I've heard of, and certainly doesn't look like a matching pair of monoid actions, in particular since the first argument of <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> is a function.</fr:p><fr:p>We should be able to define something that looks like a two sided Kleisli category with this.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>305</fr:anchor><fr:addr
+type="user">lsd-0024</fr:addr><fr:route>lsd-0024.xml</fr:route><fr:title
+text="Relation between container distributive laws and matching pairs of monoids/Zappa-Szép products">Relation between container distributive laws and matching pairs of monoids/Zappa-Szép products</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>As mentioned in <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="link-reference"><fr:link
+type="local"
+href="ahmanuustalu2013.xml"
+addr="ahmanuustalu2013"
+title="Distributive laws of directed containers">[ahmanuustalu2013]</fr:link></html:span>, <fr:link
+type="local"
+href="lsd-0022.xml"
+addr="lsd-0022"
+title="Directed container distributive law">directed container distributive laws</fr:link> are generalisations of <fr:em>matching pairs of monoid actions</fr:em>. Further, composition of directed containers via a distributive law is a generalisation of the <fr:link
+type="external"
+href="https://en.wikipedia.org/wiki/Zappa%E2%80%93Sz%C3%A9p_product">Zappa-Szép product</fr:link> of two monoids. As mentioned in the paper, you can actually recover the definition of a matching pair by looking at distributive laws between representable <fr:link
+type="local"
+href="lsd-0023.xml"
+addr="lsd-0023"
+title="Directed container">directed containers</fr:link>.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>273</fr:anchor><fr:addr
+type="user">lsd-0025</fr:addr><fr:route>lsd-0025.xml</fr:route><fr:title
+text="Directed container distributive law between representables">Directed container distributive law between representables</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(1 \triangleleft  \lambda  \_ . A, \downarrow ^A, o^A, \oplus ^A)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(1 \triangleleft  \lambda  \_ . B, \downarrow ^B, o^B, \oplus ^B)]]></fr:tex> be representable <fr:link
+type="local"
+href="lsd-0023.xml"
+addr="lsd-0023"
+title="Directed container">directed containers</fr:link>. By specialising the equations of a <fr:link
+type="local"
+href="lsd-0022.xml"
+addr="lsd-0022"
+title="Directed container distributive law">directed container distributive law</fr:link> to these, all equations involving <fr:tex
+display="inline"><![CDATA[u_2]]></fr:tex> disappear and we are left with:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       v_1\ b\ o^A &= o^A\\       v_1\ o^B\ a &= a\\       v_1\ b\ (a \oplus ^A a') &= v_1\ b\ a \oplus ^A v_1\ (v_2\ b\ a)\ a'\\       v_1\ (b \oplus ^B b')\ a &= v_1\ b\ (v_1\ b'\ a)\\       v_2\ b\ o^A &= b\\       v_2\ o^B\ a &= o^B\\       v_2\ b\ (a \oplus ^A a') &= v_2\ (v_2\ b\ a)\ a'\\       v_2\ (b \oplus ^B b')\ a &= v_2\ b\ (v_1\ b' a) \oplus ^B v_2\ b'\ a     \end {align*}   ]]></fr:tex>
+  which exhibit <fr:tex
+display="inline"><![CDATA[v_1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[v_2]]></fr:tex> as a matching pair of monoid maps between the monoids <fr:tex
+display="inline"><![CDATA[(A , o^A, \oplus ^A)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(B, o^B, \oplus ^B)]]></fr:tex>. Hence, directed container distributive laws of this type are in bijection with matching pairs of actions for the relevant monoids.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>As it turns out, <fr:link
+type="local"
+href="lsd-0008.xml"
+addr="lsd-0008"
+title="Monad container distributive law">monad container distributive laws</fr:link> are <fr:em>also</fr:em> a generalisation of matching pairs of monoid actions. This is a bit harder to see than in the directed container case, but as before we can recover the data and equations for a matching pair by specialising the distributive law to a particular type of monad container.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>275</fr:anchor><fr:addr
+type="user">lsd-0026</fr:addr><fr:route>lsd-0026.xml</fr:route><fr:title
+text="Monad container distributive law between writers">Monad container distributive law between writers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(A \triangleleft  \lambda  \_ . 1, \iota ^A, \sigma ^A, \text {pr}^A)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(B \triangleleft  \lambda  \_ . 1, \iota ^B, \sigma ^B, \text {pr}^B)]]></fr:tex> be <fr:link
+type="local"
+href="lsd-0002.xml"
+addr="lsd-0002"
+title="Monad container">monad containers</fr:link>. By specialising the data and equations for a <fr:link
+type="local"
+href="lsd-0008.xml"
+addr="lsd-0008"
+title="Monad container distributive law">monad container distributive law</fr:link> to these, <fr:tex
+display="inline"><![CDATA[v_1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[v_2]]></fr:tex> become trivial (<fr:tex
+display="inline"><![CDATA[\text {pr}^A]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\text {pr}^B]]></fr:tex> are already trivial), and we are left with:
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            u_1\ \iota ^A\ (\lambda  \_ . b) &= b\\     u_1\ a\ (\lambda  \_ . \iota ^B) &= \iota ^B\\     u_1\ (\sigma ^A\ a\ (\lambda  \_ . a'))\ (\lambda  \_ . b) &= u_1\ a\ (\lambda  \_ . u_1\ a'\ (\lambda  \_ . b))\\     u_1\ a\ (\lambda  \_ . \sigma ^B\ b\ (\lambda  \_ . b')) &= \sigma ^B\ (u_1\ a\ (\lambda  \_ . b))\ (\lambda  \_ . u_1\ (u_2\ a\ (\lambda  \_ . b)\ *)\ (\lambda  \_ . b'))\\      u_2\ \iota ^A\ (\lambda  \_ . b)\ * &= \iota ^A\\     u_2\ a\ (\lambda  \_ . \iota ^B)\ * &= a\\     u_2\ (\sigma ^A\ a\ (\lambda  \_ . a'))\ (\lambda  \_ . b)\ * &= \sigma ^A\ (u_2\ a\ (\lambda  \_ . u_1\ a'\ (\lambda  \_ . b))\ *)\ (\lambda  \_ . u_2\ a'\ (\lambda  \_ . b')\ *)\\     u_2\ a\ (\lambda  \_ . \sigma ^B\ b\ (\lambda  \_ . b'))\ * &= u_2\ (u_2\ a\ (\lambda  \_ . b)\ *)\ (\lambda  \_ . b')\ *        \end {align*}   ]]></fr:tex>
+
+  Bear in mind that, since all position sets are <fr:tex
+display="inline"><![CDATA[1]]></fr:tex>, we do not lose generality by assuming constant all of the functions in the equations above. By defining:
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            \alpha \ a\ b := u_1\ a\ (\lambda  \_ . b)\\     \beta \ a\ b := u_2\ a\ (\lambda  \_ . b)\ *\\     a \otimes ^A a' := \sigma ^A\ a\ (\lambda  \_ . a')\\     b \otimes ^B b' := \sigma ^B\ b\ (\lambda  \_ . b')        \end {align*}   ]]></fr:tex>
+
+  we can rewrite these equations as:
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            \alpha \ \iota ^A\ b &= b\\     \alpha \ a\ \iota ^B &= \iota ^B\\     \alpha \ (a \otimes ^A a')\ b &= \alpha \ a\ (\alpha \ a'\ b)\\     \alpha \ a\ (b \otimes ^B b') &= (\alpha \ a\ b) \otimes ^B (\alpha \ (\beta \ a\ b)\ b')\\      \beta \ \iota ^A\ b &= \iota ^A\\     \beta \ a\ \iota ^B &= a\\     \beta \ (a \otimes ^A a')\ b &= (\beta \ a\ (\alpha \ a'\ b)) \otimes ^A (\beta \ a'\ b')\\     \beta \ a\ (b \otimes ^B b') &= \beta \ (\beta \ a\ b)\ b'        \end {align*}   ]]></fr:tex>
+
+  These are exactly the equations exhibiting <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\beta ]]></fr:tex> as a matching pair of monoid actions between <fr:tex
+display="inline"><![CDATA[(A, \otimes ^A, \iota ^A)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(B , \otimes ^B, \iota ^B)]]></fr:tex>. Therefore, monad container distributive laws of this type are in bijection with matching pairs of actions for the relevant monoids.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>As shown, both of these types of distributive law are generalisations of matching pairs of monoid actions, each in a slightly different way. For directed containers the generalisation is "in the direction of the shapes", and for monad containers the generalisation is "in the direction of the positions".</fr:p>
+  <html:hr
+xmlns:html="http://www.w3.org/1999/xhtml" />
+<fr:p>Edit (29/01/25): we also get that <fr:link
+type="local"
+href="lsd-0039.xml"
+addr="lsd-0039"
+title="Monad-comonad container distributive laws">(monad-comonad) mixed container distributive laws</fr:link> correspond to matching pairs of monoid actions when specialised to a particular pair of containers:</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>277</fr:anchor><fr:addr
+type="user">lsd-0041</fr:addr><fr:route>lsd-0041.xml</fr:route><fr:title
+text="Monad-comonad container distributive law between writer monad and coreader comonad">Monad-comonad container distributive law between writer monad and coreader comonad</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(A \triangleleft  \lambda  \_ . 1, \iota ^A, \otimes ^A, \text {pr}^A)]]></fr:tex> be a <fr:link
+type="local"
+href="lsd-0015.xml"
+addr="lsd-0015"
+title="Writer monad container">writer monad container</fr:link> and <fr:tex
+display="inline"><![CDATA[(1 \triangleleft  \lambda  \_ . B, \downarrow ^B, o^B, \oplus ^B)]]></fr:tex> be a representable <fr:link
+type="local"
+href="lsd-0023.xml"
+addr="lsd-0023"
+title="Directed container">directed containers</fr:link>. By specialising the equations of a <fr:link
+type="local"
+href="lsd-0039.xml"
+addr="lsd-0039"
+title="Monad-comonad container distributive laws">monad-comonad container distributive law</fr:link> to these, all equations involving <fr:tex
+display="inline"><![CDATA[u_1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[v_1]]></fr:tex> disappear and we are left with:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       u_2\ \iota ^A\ (\lambda  \_ . *)\ b &= \iota ^A\\       v_2\ \{\iota ^A\}\ b\ * &= b\\       u_2\ (a \otimes ^A a')\ (\lambda  \_ . *)\ b &= u_2\ a\ b \otimes ^A (u_2\ a'\ (\lambda  \_ . *)\ (v_2\ \{a\}\ b\ *))\\       v_2\ (a \otimes ^A a')\ (\lambda  \_ . *)\ b &= v_2\ a\ (v_2\ a'\ b)\\       u_2\ a\ (\lambda  \_ . *)\ o^B &= a\\       v_2\ \{a\}\ o^B\ * &= o^B\\       u_2\ a\ (\lambda  \_ . *)\ (b \oplus ^B b') &= u_2\ (u_2\ a\ (\lambda  \_ . *)\ b')\ b\\       v_2\ \{a\}\ (b \oplus ^B b')\ * &= (v_2\ \{u_2\ a\ (\lambda  \_ . *)\ b'\}\ b\ *) \oplus ^B (v_2\ \{a\}\ b'\ *)     \end {align*}   ]]></fr:tex>
+  which (up to ignoring trivial arguments) exhibit <fr:tex
+display="inline"><![CDATA[u_2]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[v_2]]></fr:tex> as a matching pair of monoid maps between the monoids <fr:tex
+display="inline"><![CDATA[(A , \iota ^A, \otimes ^A)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(B, o^B, \oplus ^B)]]></fr:tex>.</fr:p><fr:p>It should be possible to use this to define some kind of monoid bimodules (bialgebras), given that monad-comonad distributive laws are used in the literature <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="link-reference"><fr:link
+type="local"
+href="livernetetal2015.xml"
+addr="livernetetal2015"
+title="Generalised bialgebras and entwined monads and comonads">[livernetetal2015]</fr:link></html:span> to define a "bi-Eilenberg-Moore" category.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>Strangely, <fr:link
+type="local"
+href="lsd-0040.xml"
+addr="lsd-0040"
+title="Comonad-monad container distributive laws">comonad-monad container distributive laws</fr:link> seem to break this pattern, and <fr:em>do not</fr:em> give us matching pairs of monoid maps when specialising them to particular containers:</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>279</fr:anchor><fr:addr
+type="user">lsd-0042</fr:addr><fr:route>lsd-0042.xml</fr:route><fr:title
+text="Comonad-monad container distributive law between coreader comonad and writer monad">Comonad-monad container distributive law between coreader comonad and writer monad</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>30</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(1 \triangleleft  \lambda  \_ . A, \downarrow ^A, o^A, \oplus ^A)]]></fr:tex> be a representable <fr:link
+type="local"
+href="lsd-0023.xml"
+addr="lsd-0023"
+title="Directed container">directed containers</fr:link> and <fr:tex
+display="inline"><![CDATA[(B \triangleleft  \lambda  \_ . 1, \iota ^B, \otimes ^B, \text {pr}^B)]]></fr:tex> be a <fr:link
+type="local"
+href="lsd-0015.xml"
+addr="lsd-0015"
+title="Writer monad container">writer monad container</fr:link>. By specialising <fr:link
+type="local"
+href="lsd-0040.xml"
+addr="lsd-0040"
+title="Comonad-monad container distributive laws">comonad-monad container distributive laws</fr:link> to these, <fr:tex
+display="inline"><![CDATA[u_2]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[v_2]]></fr:tex> trivialise and we are left with:
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            \alpha \ f\ o^A &= o^A\\     \alpha \ f\ (a \oplus ^A a') &= \alpha \ f\ a \oplus ^A (\alpha \ (\lambda  a''. f\ (\alpha \ f\ a \oplus ^A a''))\ a')\\     \alpha \ (\lambda  \_ . \iota ^B)\ a &= a\\     \alpha \ (\lambda  a' . f\ a' \otimes ^B g\ a')\ a &= \alpha \ f\ (\alpha \ g\ a)        \end {align*}   ]]></fr:tex>
+
+  where we take:
+  <fr:tex
+display="block"><![CDATA[     \alpha \ f\ a := v_1\ \{*\}\ \{f\}\ *\ a   ]]></fr:tex></fr:p><fr:p>This doesn't seem to correspond to anything that I've heard of, and certainly doesn't look like a matching pair of monoid actions, in particular since the first argument of <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> is a function.</fr:p><fr:p>We should be able to define something that looks like a two sided Kleisli category with this.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -48,7 +294,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>287</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>307</fr:anchor><fr:addr
 type="user">lsd-0023</fr:addr><fr:route>lsd-0023.xml</fr:route><fr:title
 text="Directed container">Directed container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -74,7 +320,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>289</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>309</fr:anchor><fr:addr
 type="user">lsd-0002</fr:addr><fr:route>lsd-0002.xml</fr:route><fr:title
 text="Monad container">Monad container</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
