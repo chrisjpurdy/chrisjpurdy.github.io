@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1595</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1619</fr:anchor><fr:addr
 type="user">index</fr:addr><fr:route>index.xml</fr:route><fr:title
 text="Chris Purdy">Chris Purdy</fr:title><fr:authors /><fr:meta
 name="comments">true</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>I am a PhD student at Royal Holloway, University of London researching programming language semantics via cyclic proof theory, type theory, and category theory.</fr:p><fr:p><fr:link
@@ -20,7 +20,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>731</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>747</fr:anchor><fr:addr
 type="user">mhe-0001</fr:addr><fr:route>mhe-0001.xml</fr:route><fr:title
 text="HOL^{ex}"><fr:tex
 display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
@@ -46,7 +46,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>733</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>749</fr:anchor><fr:addr
 type="user">lsd-0001</fr:addr><fr:route>lsd-0001.xml</fr:route><fr:title
 text="Distributive laws of monad containers">Distributive laws of monad containers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -85,7 +85,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>735</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>751</fr:anchor><fr:addr
 type="machine">#244</fr:addr><fr:route>unstable-244.xml</fr:route><fr:title
 text="Quick links">Quick links</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p><fr:ul><fr:li><fr:link
 type="local"
@@ -113,7 +113,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>736</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>752</fr:anchor><fr:addr
 type="user">abt-0001</fr:addr><fr:route>abt-0001.xml</fr:route><fr:title
 text="About this website">About this website</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>This website uses the <fr:link
 type="external"
@@ -139,7 +139,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1596</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1620</fr:anchor><fr:addr
 type="user">not-0000</fr:addr><fr:route>not-0000.xml</fr:route><fr:title
 text="Research notes">Research notes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="false"
@@ -148,7 +148,23 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>710</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>724</fr:anchor><fr:addr
+type="user">not-0011</fr:addr><fr:route>not-0011.xml</fr:route><fr:title
+text="Getting Agda to provide termination checker debug info">Getting Agda to provide termination checker debug info</fr:title><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If you compile Agda with the <fr:code>debug</fr:code> flag, then run it with verbosity level set to 40 (i.e. add command line option <fr:code>--verbose={40}</fr:code> or <fr:code>-v={40}</fr:code>) then it will print out:
+  <fr:ul><fr:li>Call graphs</fr:li>
+    <fr:li>Call matrices</fr:li>
+    <fr:li>Final results of termination checking</fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>726</fr:anchor><fr:addr
 type="user">not-0010</fr:addr><fr:route>not-0010.xml</fr:route><fr:title
 text="Contexts and reduction in natural deduction">Contexts and reduction in natural deduction</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -203,7 +219,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>712</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>728</fr:anchor><fr:addr
 type="user">not-0009</fr:addr><fr:route>not-0009.xml</fr:route><fr:title
 text="Possible extra conditions for monad containers">Possible extra conditions for monad containers</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -243,7 +259,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>364</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>378</fr:anchor><fr:addr
 type="machine">#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:title
 text="Singleton property">Singleton property</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -262,7 +278,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>366</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>380</fr:anchor><fr:addr
 type="machine">#246</fr:addr><fr:route>unstable-246.xml</fr:route><fr:title
 text="Disjoint substitution condition">Disjoint substitution condition</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -323,7 +339,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>368</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>382</fr:anchor><fr:addr
 type="machine">#247</fr:addr><fr:route>unstable-247.xml</fr:route><fr:title
 text="Constant shape">Constant shape</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -344,7 +360,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>370</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>384</fr:anchor><fr:addr
 type="machine">#248</fr:addr><fr:route>unstable-248.xml</fr:route><fr:title
 text="Absorbtion...? (Zwart and Marsden's S3)">Absorbtion...? (Zwart and Marsden's S3)</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -387,7 +403,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>714</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>730</fr:anchor><fr:addr
 type="user">not-0008</fr:addr><fr:route>not-0008.xml</fr:route><fr:title
 text="&quot;Flip&quot; monad container distributive laws">"Flip" monad container distributive laws</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -428,7 +444,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>716</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>732</fr:anchor><fr:addr
 type="user">not-0005</fr:addr><fr:route>not-0005.xml</fr:route><fr:title
 text="Brotherston's notion of (un)folding">Brotherston's notion of (un)folding</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -447,7 +463,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>718</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>734</fr:anchor><fr:addr
 type="user">not-0007</fr:addr><fr:route>not-0007.xml</fr:route><fr:title
 text="Leigh and Wehr's notion of unfolding">Leigh and Wehr's notion of unfolding</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -467,7 +483,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>720</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>736</fr:anchor><fr:addr
 type="user">not-0006</fr:addr><fr:route>not-0006.xml</fr:route><fr:title
 text="Sprenger and Dam's notion of unfolding">Sprenger and Dam's notion of unfolding</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -492,7 +508,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>722</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>738</fr:anchor><fr:addr
 type="user">not-0004</fr:addr><fr:route>not-0004.xml</fr:route><fr:title
 text="Ideas for cyclic proof theory research">Ideas for cyclic proof theory research</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -519,7 +535,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>724</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>740</fr:anchor><fr:addr
 type="user">not-0003</fr:addr><fr:route>not-0003.xml</fr:route><fr:title
 text="Natural deduction-style unfold rule">Natural deduction-style unfold rule</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -595,7 +611,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>555</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>569</fr:anchor><fr:addr
 type="machine">#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:title
 text="Cyclic permutations example">Cyclic permutations example</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -745,7 +761,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>726</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>742</fr:anchor><fr:addr
 type="user">not-0002</fr:addr><fr:route>not-0002.xml</fr:route><fr:title
 text="Ideas for cycle reduction in HOL^{ex}">Ideas for cycle reduction in <fr:tex
 display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
@@ -769,7 +785,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>728</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>744</fr:anchor><fr:addr
 type="user">not-0001</fr:addr><fr:route>not-0001.xml</fr:route><fr:title
 text="Methods of obtaining distributive law results">Methods of obtaining distributive law results</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -799,7 +815,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1597</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1621</fr:anchor><fr:addr
 type="user">mee-0000</fr:addr><fr:route>mee-0000.xml</fr:route><fr:title
 text="Meeting notes">Meeting notes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -816,7 +832,121 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>965</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>981</fr:anchor><fr:addr
+type="user">mee-0006</fr:addr><fr:route>mee-0006.xml</fr:route><fr:title
+text="Meeting notes: Reuben 31/01/25">Meeting notes: Reuben 31/01/25</fr:title><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>This week we discussed specifics of weakening along overlapping cycles, and trade-offs of our two proposed approaches:
+  <fr:ul><fr:li>Defining weakening and unfolding as reductions in their own right.</fr:li>
+    <fr:li>Only do weakening and unfolding as part of a "hereditary" substitution used in <fr:tex
+display="inline"><![CDATA[\Rightarrow ]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\forall ]]></fr:tex> reduction.</fr:li></fr:ul></fr:p><fr:p>Aside from what we <fr:link
+type="local"
+href="mee-0005.xml"
+addr="mee-0005"
+title="Meeting notes: Reuben 24/01/25">discussed last week</fr:link>, there is still an issue with weakening along cycles, specifically nested ones. Consider the following situation:
+  
+  <html:center
+xmlns:html="http://www.w3.org/1999/xhtml"><fr:resource
+hash="0946cc3019c953dc0b8f27b7c5aa564e"><fr:resource-content><fr:img
+src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBUaGlzIGZpbGUgd2FzIGdlbmVyYXRlZCBieSBkdmlzdmdtIDMuMi4yIC0tPgo8c3ZnIHZlcnNpb249JzEuMScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzE1OC45MTczcHQnIGhlaWdodD0nODMuNzYyNTdwdCcgdmlld0JveD0nLTcyIC03MiAxMDUuOTQ0ODY3IDU1Ljg0MTcxNCc+CjxzdHlsZSB0eXBlPSd0ZXh0L2Nzcyc+CjwhW0NEQVRBW0Bmb250LWZhY2V7Zm9udC1mYW1pbHk6Y21taTY7c3JjOnVybChkYXRhOmFwcGxpY2F0aW9uL3gtZm9udC13b2ZmO2Jhc2U2NCxkMDlHUmdBQkFBQUFBQU9zQUFvQUFBQUFCQndBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQlBVeTh5QUFBQTlBQUFBRVFBQUFCZ2haUjFIbU50WVhBQUFBRTRBQUFBS1FBQUFEUUFEQURNWjJ4NVpnQUFBV1FBQUFEdUFBQUErSEo5MFZwb1pXRmtBQUFDVkFBQUFDOEFBQUEyS1lsbkZtaG9aV0VBQUFLRUFBQUFId0FBQUNRRnBBSWVhRzEwZUFBQUFxUUFBQUFJQUFBQUNBV0FBRDFzYjJOaEFBQUNyQUFBQUFZQUFBQUdBSHdBQUcxaGVIQUFBQUswQUFBQUZ3QUFBQ0FBQkFCUmJtRnRaUUFBQXN3QUFBRE9BQUFCT1BOZktxRndiM04wQUFBRG5BQUFBQkFBQUFBZ0FBTUFBWGphWTJCbU9zQTRnWUdWZ1lGcEZ0UFpmeUlNL1NDYThRM2pHd1pqUms0R0lHQmpnQU5HQmlTUVVseVdEcFNzWktoa1p2Z1A1RE5EcEpIVS9BY0tBd0QzNkEyaWVOcGpZR0JnWW1CZ1lBWmlFU0RKQ0taWkdCU0FOQXNRZ3ZpVi8vOUR5UDhkWUQ0REFGY3ZCdFVBQUFCNDJoMktUVTZEUUFCRzV4c1VHTEJBWVlDV1VpeHRaZW9mcEpZeUcwdXJKbzJ1YkpxNDBKMU4zTHIwRGw3QzAzZ0ZyNk9TNXIzRld6d0NzdmdyNkJ1K3lTTWhVQ3hvT1VTTjJWVVFCcXFXUU5aN0xRZzFFMlhWOUx3U21hcXBXaVpMV1RVMEo3ZGhJVlRESU56ZlM2V1NDWHk2MjhWZlQ0dGJJT04yQkhpcE4yWDVqVDJLOWJPbFdUOVR2OGNjbW5SV0hlcHlSR2I3WkRXNXBvcVJka0hOSTVsZUduM3ZZSzZ6VnA4NytQejllSDBIWnRrbzlUaWI2SnlCbnJmRituUm9BZlY5YjNQbkY4NFl0SHl3b0pqdTFIZUx3L3lpeGVMdHk3RTdHQ2lJV0R6bVA4TnVTQkVZNUIvdmJ5QUVBQUI0Mm1OZ1pHQmdBT0lVbXp2VzhmdzJYeG1ZV1JoQTRQRmVvY2tJK3I4KzB3L0dJMEF1QndNVFNCUUFKNFlLNFFCNDJtTmdaR0JnWnZqUHdNREE5SVBCbGtHWktaVUJLSUlDbUFCSENRTElBQUw0QUFBQ2lBQTlBQUFBQUFCOEFBQjQybU5nWkdCZ1lHSUlZQURSREZBU0NRQUFDRzBBVmdCNDJrMk1QVy9DTUJDR240Z0VpVEN3b0E0ZGlvZk9FUVRFMklXQmlaV0pCYkNMTXRoR1RvaUVWSFhzNys3RjlkQ1RmSHJlanpOUThrM0dNQm16dUlmSktVVDljY0dVZWVLeHFFWGlrbGZlR1pIbEUzSGUrRWljUzNKS1hQRENaK0t4K0YrSlN6Yjg3THk5UHpvVDFNRnJFOXpWMm1aN05LRnR2Rk9yYWhuMTNqZ1R6cDNSNnZKVXVtL2EvbWJWdXFxcm1oMGV5NTBISFlhQTRpQ09qdXk0U21acDJIS01UaXZzeFZlc3FGait5L2VTdTlnNXg1KzBkQzQ4Wld0NmFiU3liOUpWck9XeUh0NHZ5bU12OVFBQWVOcGpZR1pBQm93TWFBQUFBSTRBQlE9PSkgZm9ybWF0KCd3b2ZmJyk7fQpAZm9udC1mYWNle2ZvbnQtZmFtaWx5OmNtc3kxMDtzcmM6dXJsKGRhdGE6YXBwbGljYXRpb24veC1mb250LXdvZmY7YmFzZTY0LGQwOUdSZ0FCQUFBQUFBUWdBQW9BQUFBQUJKZ0FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCUFV5OHlBQUFBOUFBQUFFMEFBQUJnaUoxaWdtTnRZWEFBQUFGRUFBQUFNUUFBQUR6QWlTQ05aMng1WmdBQUFYZ0FBQUZGQUFBQllFSXBmZ3hvWldGa0FBQUN3QUFBQUM4QUFBQTJLY1ZvdDJob1pXRUFBQUx3QUFBQUhnQUFBQ1FHWS8rNWFHMTBlQUFBQXhBQUFBQU1BQUFBREFqdUFFdHNiMk5oQUFBREhBQUFBQWdBQUFBSUFJb0FzRzFoZUhBQUFBTWtBQUFBRndBQUFDQUFCUUJiYm1GdFpRQUFBendBQUFEVkFBQUJQcTgzZGVOd2IzTjBBQUFFRkFBQUFBd0FBQUFnQUFNQUFIamFZMkJtK3NVNGdZR1ZnWUZwRnRQWmZ5SU0vU0NhOFEzakd3WmpSazRHSUdCamdBTkdBUVNiSWFXNExCMG82ZkVnZ1ZucWp5WURBN01VODNXUUdxaTBCd1BELy84TURBQThUUS85QUFBQWVOcGpZR0JnWW1CZ1lBWmlFU0RKQ0taWkdEU0FOQnVRWmdUS2VqeEkrUDhmeUFmVC8zZktMd0tyQWdJQXJxZ0o4UUFBQUhqYUpaQzdUc05BRUVWM3hzNXVITnZyMkxIWElZbnpWT3p3Q0JKNTdCWkFMQUVWSXFSQWdLQkdRa0w4QWpVZEpTWGZnRVNKYUNrcDh3a1VmRVRBRnMxSWQrNlpLUTRCNHY5K2FSUDhJRmVFUUVlbU1JT3hEQVdqNkFBTm1qQldNMUF6REgxRzJUWk1aWW8wNmRFc2NPalJSRW5WUytJY0dhZVFIY3M0NGNBNHhqTGZTUkg2R1FwbjRHM3RtVTdmTGlMb0IzT2I2bERuYlY1RXJqeVE2cmJUZ0hLcDFxaDhEMlNCbGhPVDZhWEQ1ckd2QTQ3Q3ZpZ2FtZ2FWMWxIcVZjWk9ZYlRmdjltMXBsckpjT0h5NWRtMVBUVFFlRjM5WE95MHpERFFVR2ZSR2hqUjVvWU9IYUZPSjNjV1BqMWF0Snh4OWZkN1FOM3U0dlZRdHJ0MkMyQTBpQVE2aTJHdEMraXRtK2ZURTVKcElJb0FLdndrbGR5SksyZzNWbTRzUjRLNUhTbDhpdjVxRGl4aThEL2VlQkRBWXJYa29tcmhnMVVWZkxYTW0relZINUtnTDlNQUFBQjQybU5nWkdCZ0FPSzladWZDNC9sdHZqSXdzekNBd09POVFwTVI5UDl6ekNaTXg0QmNEZ1lta0NnQU9FOExJUUI0Mm1OZ1pHQmdsdnFqQ1NRVEdFUVlkSmhOR0lBaUtJQVpBRGs4QWlJQUFBTWNBQUFEWUFBVUFuSUFOd0FBQUFBQWlnQ3dlTnBqWUdSZ1lHQm1pR0lBMFF4UUVna0FBQW1DQUdFQWVOcE5qckZxd3pBVVJZK3BZNmdiNkpRTUhZcW1qTVoyOGdHRkRKbXlaaXdra1FndVdBNlNZL0JTK2dINTZEd3JHdnFFSGtmMzN2Y1FrUE5Md2xRSjc2RlBsWkxKNjhrejNsaEV6dVNveURrZnJIZ2hTVjlGK2VRcmNzcWM3OGd6bHZ4RXprVC9pNXl6NGI3dDJ1dXROMDd0TzIyY1BiZCtyTXFEY2I3cHJLcUs4aW5zakRYdTJCdXRUcVBTUStPSFM2dldSVjNVYk9sb3VYS2p4K0RrWjN0UmRHRExXVHpQU0VYSklXaWVSbndydVlwQzFQK0puU1JzU0IzRE5pMnBrM2hLYUpBNUwvMGllY1ZhWnV2cFBnQUozekVWQUFBQWVOcGpZR2JBQ3dBQWZRQUUpIGZvcm1hdCgnd29mZicpO30KQGZvbnQtZmFjZXtmb250LWZhbWlseTpjbXIxMDtzcmM6dXJsKGRhdGE6YXBwbGljYXRpb24veC1mb250LXdvZmY7YmFzZTY0LGQwOUdSZ0FCQUFBQUFBUllBQW9BQUFBQUJTUUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCUFV5OHlBQUFBOUFBQUFFY0FBQUJnaGNWM01HTnRZWEFBQUFFOEFBQUFQZ0FBQUV3SE4vMS9aMng1WmdBQUFYd0FBQUZ2QUFBQjBKLzlLczlvWldGa0FBQUM3QUFBQUM0QUFBQTJLUkZvWFdob1pXRUFBQU1jQUFBQUhnQUFBQ1FGZUFHSGFHMTBlQUFBQXp3QUFBQVlBQUFBR0Fvb0FXdHNiMk5oQUFBRFZBQUFBQTRBQUFBT0Fib0JHbTFoZUhBQUFBTmtBQUFBR0FBQUFDQUFDUUF3Ym1GdFpRQUFBM3dBQUFETkFBQUJPSUxqS3Fsd2IzTjBBQUFFVEFBQUFBd0FBQUFnQUFNQUFIamFZMkJtM01FNGdZR1ZnWUZwRnRQWmZ5SU0vU0NhOFEzakd3WmpSazRHSUdCamdJTkdCaVNRVWx5V0RwVFVZcDdNelBBZnlHZG1ZQVFKTXlKVS9BY0tBd0FIN0EzbkFIamFZMkJnWUdKZ1lHQUdZaEVneVFpbVdSZ3NnRFFYQXdkUWpvbEJpMEdQd1pwNTh2Ly9RREVRMndyRS9uLzkvNVgvSi84VWdYVkFBUUJGR0EyeEFBQjQybDJRdlU3RE1CU0ZmZXcyTGtsb21qWjFRbEthdHBFU0VLSkkwTVlVUkJuNEd4QVRIZWpJVkNFWUtLL0FYdlVCMk5tWXV6R3g4QllzdkFVL0xxaW93cnEycGV0enYzdDlDTWcrVHZETUNHa1NnaEFhanhQSm01RHhQcEpZdGxJWllnT3BGQzZYWGJoVmxJVUZWM0JIYXlRd2pDd0NqeFhHbm81TU1CcTcxREp6SXlOTGZaVzhLeTFtVEl2NVAybkJhZjYyS3hpOHB3RlZqK2JoZ1ZuUWk4Qmd1T2N5TEQzMUxBMG82b1hGZzBPallOaFpvaFpJWCswWGNrTnloTWc4R25FcjNSUXZDTmRERmFtWW5xSFMwVjhkSmtwbkUxS2FLVXYvU3pDNzc2ZTExZXJud3h6ajRtdUh2UDR3bHVjWVRMUFFoTEtoQ3E3eC9OU1RMbWE4VXQ1Y0NJS0t2K0xRVENNU29QcUc4OGNlTGdDb3I5YVJQZlg3MnhJbTAzY0dhczZHYXRhamsya1h1RkVUUElvMTE5YkVMc3BKeE50Ym0ybGlwL0VhMmxRdSs3bWo2NnZJQmd1UDYrZVBaMTdIcDlUdmVIVHlQcmhVZG5rZmI0R29NVlp6S3RTcmxOVS92Z0VkbXo5bUFIamFZMkJrWUdBQTRndnY1SmpqK1cyK01qQ3pNSURBNDcxQ2t4SDBmeXVtQm1ZUWw0T0JDVVFCQUNKaENkb0FBSGphWTJCa1lHQm0rTS9Bd01EVXdLQUVKRU1ZZ0NJb2dBMEFOTVlDQlFBQUFvQUFBQUlBQUQ4QkhBQlpBUndBV1FFY0FGZ0NWQUFpQUFBQUFBQk9BR0lBaEFDNEFPZ0FBSGphWTJCa1lHQmdZOUJuWUdJQUFVWUdOQUFBQmJjQU9uamFSWXc5aThKQUVJYWZZQ0lZQ3h1eHNMamJ3am9rMGZvYUN5dGJxMnZVWFNWRk5yS0pBVUVzNzNjN1dSZHVZSWZuL1pnRlVsNUVEQk14ODN1WW1FVFVoeE9tekFPUFJYMEhUbG15WWtRVVQ4VDU0aWR3TE1sdjRJUUZsOEJqOForQlV6YjhiWnY2ZHUrTVUvdEdHMmZQdFN2eWczRnQxVmhWWkxuWE8yT05PM1pHcTlORDZiNXErMnV0MWxtWmxXeHBxTGx4cDhQZ1VPekYwWjR0WjhrY0JUa0g3N1JVa2xwcEZXVGkvdWM3eWEzdkhQMVBXam9uSHJJMXZWeTFzcS9TVnF6bHNoemVHMlBITHhFQUFBQjQybU5nWnNBTEFBQjlBQVE9KSBmb3JtYXQoJ3dvZmYnKTt9CkBmb250LWZhY2V7Zm9udC1mYW1pbHk6Y21zeTc7c3JjOnVybChkYXRhOmFwcGxpY2F0aW9uL3gtZm9udC13b2ZmO2Jhc2U2NCxkMDlHUmdBQkFBQUFBQU1FQUFvQUFBQUFBMlFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQlBVeTh5QUFBQTlBQUFBRXNBQUFCZ2FEcGgyV050WVhBQUFBRkFBQUFBS2dBQUFEUUFET0NEWjJ4NVpnQUFBV3dBQUFCQUFBQUFRRWJUbzFob1pXRmtBQUFCckFBQUFDMEFBQUEyS2lGb1gyaG9aV0VBQUFIY0FBQUFIZ0FBQUNRRWgvL2phRzEwZUFBQUFmd0FBQUFJQUFBQUNBVGlBREZzYjJOaEFBQUNCQUFBQUFZQUFBQUdBQ0FBQUcxaGVIQUFBQUlNQUFBQUZ3QUFBQ0FBQkFBUWJtRnRaUUFBQWlRQUFBRFBBQUFCT0JPQktydHdiM04wQUFBQzlBQUFBQkFBQUFBZ0FBTUFBWGphWTJCbUttU2N3TURLd01BMGkrbnNQeEdHZmhETitJYnhEWU14SXljREVMQXhJSUFBRWp1bHVDeWRnZTJCd1FNRFpzVS9SZ3dNeklyTTU0RENqQWdWLy84ek1BQUFIWXNQMFFCNDJtTmdZR0JpWUdCZ0JtSVJJTWtJcGxrWUZJQTBDeEFDK1E4TS92K0hrUElYd2ZJTUFHUnlCMndBQUFBQkFERUFKd0UwQWp3QURnQUFBUU1HTGdFbk54TStBVGNlQVJjV0FTbkJCeEFlQWdXSEJCZ2RHQ01CQWdIai9sZ1VBdzBLRUFHN0RpRUJBUjRaQ0FCNDJtTmdaR0JnQU9JZHY1ZW54dlBiZkdWZ1ptRUFnY2Q3aFNZajA4d1RtV3lBRkFjREU0Z0hBRGg1Q2M0QUFBQjQybU5nWkdCZ1Z2eGpCQ1FuTWhneXlES2FNQUJGVUFBVEFFRWFBbTRBQUFPUkFBQUJVUUF4QUFBQUFBQWdBQUI0Mm1OZ1pHQmdZR0xnWndEUkRGQVNDUUFBQWhRQUZRQjQyazJNUFcvQ01CQ0duNGdFaVRDd1ZCMDZnQWZtQ0VJbHRpNE1US3hNTElBTnloQUgyU0ZTcEtwamYzY3ZyZ2RPOHVsNVA4NUF6ZzhKd3lUTXdoNG1KUlAxenhsVDNpS1BSUzBpNTN5d1pFU1NUc1NaOHhVNWxlUVVPZU9kVytTeCtOK1Jjejc1M1RYMTQ5a2FwdzZOTnM1ZWE5OXZqOGI1cXJGcVhheUMzaHRyM0xrMVdsMTZwYnZLZC9kYWJZcXlLTm5SVVBQZ1NZdkJvVGlJb3dOYnJwSjVlclljZytPcEpMWFNXbE93ZXNuM2t0dlFPWWVmdEhRdWtpaWhUcTY4N0x1MEZSdTVMSWYzQi9RRE1GRUFlTnBqWUdaQUJvd01hQUFBQUk0QUJRPT0pIGZvcm1hdCgnd29mZicpO30KQGZvbnQtZmFjZXtmb250LWZhbWlseTpjbW1pMTA7c3JjOnVybChkYXRhOmFwcGxpY2F0aW9uL3gtZm9udC13b2ZmO2Jhc2U2NCxkMDlHUmdBQkFBQUFBQVZFQUFvQUFBQUFCa2dBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQlBVeTh5QUFBQTlBQUFBRVlBQUFCZ2hjZDN6V050WVhBQUFBRThBQUFBTmdBQUFFUUFqUVJlWjJ4NVpnQUFBWFFBQUFKbUFBQUMvTnNNRFpkb1pXRmtBQUFEM0FBQUFDOEFBQUEyS1J0b0dXaG9aV0VBQUFRTUFBQUFIZ0FBQUNRRnFRR2hhRzEwZUFBQUJDd0FBQUFVQUFBQUZBcWpBTEZzYjJOaEFBQUVRQUFBQUF3QUFBQU1BU1lDR20xaGVIQUFBQVJNQUFBQUZ3QUFBQ0FBQndCUmJtRnRaUUFBQkdRQUFBRFVBQUFCUHBrUmRjZHdiM04wQUFBRk9BQUFBQXdBQUFBZ0FBTUFBSGphWTJCbVVtQ2N3TURLd01BMGkrbnNQeEdHZmhETitJYnhEWU14SXljREVMQXh3RUVqQXhKSUtTNUxCMHJxTUo5Z1p2Z1A1RE16TUlLRUdSRXEvZ09GQWRkQ0RZY0FBSGphWTJCZ1lHSmdZR0FHWWhFZ3lRaW1XUmdNZ0RRSEVJTGtkQmdxbVUvOC93OWxIZi8vLy8vVi81MS9iTUJxd1FBQStERUw2QUFBZU5wMWtzOXUwMEFReGoyempqZDJuSFhyMk40MGllMkNFenNrclpzbXdXNUxhVVQvcUxRVWlvb1E1UUlTYlNXRXhCR2tTaHhSRDd3QkI0NGNRTHdBRDhDQlc5K2pxQWVFa0RqUXNxdWVrR0IzTHpNamZacnYrNjBDeXU3NWduS3NQRmRjUmNrMUN4Z2tjYjRFK1pCcVVRckRMUGVPMVVocmVrQ3NXZ2ZVaWpQaCt4TWplREEwWnNGRVZ0dWR0MVVMSnFkQ1VCVnhRQW5PVS9nSlg1UU5VUkFHVklyd3pPTkNPQUNwTEo1R3RUZ1IybG1lQW8wMXlpQktVc2hsSXdEWEVXTlg4L2dTakVqRys5eUY3M3Y4YUtlMzJITDBPbURDclg2NU9lY0VEYjI3Mkx1RmpaQVJHS2YxM0NNYXBTcllKWHR5THBrdWxvZFFqd2ZYU2VveTI2NFRPRG83ZlBnU1lYWXJCR0RjYnhEZkFtaldyOXh1VHdQa3E1Y1A3b2J0cWdFd3YyNXFnR085V25WR2hWNWtOY0xYYS80UTFWWHI4MDd1UWQyNDhPbWZwN2duZkY2VFBya25ibC9zUC9Db1dEOFZJYzVJOXlMTFNoWWxjU0k3d2hhTmsxaDY1RjRJRlpHdDYrSDlINjFxTFdoWWt4Uk5DN3RUSzhPaXplSVR6VUhDdmhuSTdZbHlwNnBGWlRCMXhNN1U4b0NPbDdzbnhhSko0TjNaNmF2MTY4dXFWMkdvc3o3QnJOYnVIcDc5TWlRWm9LVTdvNlhXUFFKanZvNUFyU0hCcTA2emZRU0ZFa0FKTDFoTjR4djhxbXhMRDE0bTBjaEZKUmtKakVveUNSVy9RaE1XUnBDTlFJNy94MDNXM09FVmtVTEc0ZlJEL2NtS3Y0QlFNMWpnV0Q2QXA3UEZ6Y01neG9LbUZuUTB6QkxSdC9ZUnJNakZmd0JFdlczamk0OEZRa3VJbjM0L0p2Nk40Tm1nMVNrYWtTQVlkbHI3Zkhaeit4SjVhNWJIQ3dEYW9OOGFhNnVyRzhiYW8wRkxncHk3K1JmSTBIbTZhUjR3Zkc4VFpBTGhIM0RRWjBFQUFIamFZMkJrWUdBQVl1dldsUWZqK1cyK01qQ3pNSURBNDcxQ2t4SDBmMTJtTHFhVFFDNEhBeE5JRkFBMVNncnFBSGphWTJCa1lHQm0rTS9Bd01BMG0wRVdTSFl4QUVWUUFDc0FPdmNDVUFBQUFuWUFBQUVjQUZnQjlnQWVBb0FBSFFLYkFCNEFBQUFBQUNnQW5BRCtBWDU0Mm1OZ1pHQmdZR1VJWUFEUkRGQVNDUUFBQ0w0QVdRQjQyazJPc1dyRE1CUkZqNmxqcUZ2SWxBd2RpcWFNeG5iNkFZVU1tYkptTENTUkNDNUlDckpqeUJMNkFmM29QaXNhK29RZVIrZGRDUUVsZHpLbXlwakhQbFZPSWFjSHozaGhrYmlRcFJLWHZMSGlpU3gvRnZQT1orS2NWNzRTejFqeW5iZ1EvNU80NUlQZmpiZVg2MkNDMm5sdGdqdFoyelgxM29TKzgwNDFWZjBRVytOTU9BeEdxK05ONmJIcng3TlY2NnF0V2paNExCZXVEQmlDL0d3blJrZDJuR1JtNldpbzJVZlh5OG5MUkltcnhQNVBiQ1hoWXVvUVg5T1NPbktUcmhrbDAwcy9TMXF4bHJ2dHRQOEE0SUl3dlhqYVkyQm13QXNBQUgwQUJBPT0pIGZvcm1hdCgnd29mZicpO30KQGZvbnQtZmFjZXtmb250LWZhbWlseTpjbXI5O3NyYzp1cmwoZGF0YTphcHBsaWNhdGlvbi94LWZvbnQtd29mZjtiYXNlNjQsZDA5R1JnQUJBQUFBQUFTZ0FBb0FBQUFBQlZBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJQVXk4eUFBQUE5QUFBQUVNQUFBQmdoVU4waW1OdFlYQUFBQUU0QUFBQU5RQUFBRVFBZ0FFTFoyeDVaZ0FBQVhBQUFBSFBBQUFDRUxEdWxENW9aV0ZrQUFBRFFBQUFBQzRBQUFBMktYTm9KR2hvWldFQUFBTndBQUFBSUFBQUFDUUYrQUlRYUcxMGVBQUFBNUFBQUFBVUFBQUFGQXJtQU5Oc2IyTmhBQUFEcEFBQUFBd0FBQUFNQU5JQlpHMWhlSEFBQUFPd0FBQUFGd0FBQUNBQUJ3QThibUZ0WlFBQUE4Z0FBQURKQUFBQk11OE1rZkJ3YjNOMEFBQUVsQUFBQUF3QUFBQWdBQU1BQUhqYVkyQm0wbU9jd01ES3dNQTBpK25zUHhHR2ZoRE4rSWJ4RFlNeEl5Y0RFTEF4d0FFakF4SklLUzVMQjBwcU1KUXpNL3dIOHBraDBraHEvZ09GQWJqVkRMMEFlTnBqWUdCZ1ltQmdZQVppRVNESkNLWlpHQXlBTkFjUWd1UTBHYklaeXYvL0I3STBJS3ovTi8vUCtOOExWZ3NHQU9tRkM0VUFBQUI0MmkxUVMyOFNVUmk5NTE2NEZ4Z1pIdk5pU3NKRlFtZENJcFFabUJuQ1FvaTdObkZqWXQwVXRTR2xwVW10YmxsMVlhSUxOM1hqMXNTZjRDUHhEOWgvWWFJclY2N1VqUWw0b2VaTHZpL25MTTdqSXlDekZUQmhoTmlFcEhrSGZnZEpQN2xOSFZOdzZuRGJzVEZCNVRSb2JXR3ZQYXVBejNjWnZYdVkvYVhoNVBIQnU4R0gxL2VuMEFTZkwvOHVYcTRtT1VJSXlGQnBoa3F6cW9BcGRBZ3ZUdUlSWXQrN25uNVNnMU1EZ3IzMlVWNW42Wk1tcjdOVUw1dU4yNXFlbjRkK0ZmaTRGbVlGUHJ1d0xzNnV6cDN5dEpIVG1UTGRmN3Z4a0lSUWwxNlJMaUVqR2llZUh6bTl4RkplU2ppeHZBS2lNUGI3T3hBV3R4TkwzY2lPL1ZMc2lTajVkRm5NZ0xwUC9lM3c0ZTVsOVphNzAzbGk2M0NuZHlDRDRlQlpJRUZsK09icm9xanBGVWpHSkIyUHZ6UUxxS2ZBNm5yR3FMMFlIRGQwMUttQzBCdlUyTFloYjVCTkxuUDFtMzdIWnpKVWdISGgrUnJXbTNYV0NVYXdQQzY0WTR5dy9vTmlFaFY2UTFVUlIvMy9MVHhPWHkyWVliSDVuSmxtNm5sR05udmQ4MktMUWh3K1lGa2hpa0hRYVkydEpzQ1BINlczYm5idnRVb2g5cGZ2eTVTVklaZmZ5b3lhT0hYemtDcXlSTTZnNXZMUFQrR2FPWU5kVTVwQnk4c2ZJRm05Sk9tNkl5cUUvQVBnYkZVMUFIamFZMkJrWUdBQTRzY0hLcFhqK1cyK01qQ3pNSURBNDcxQ2t4SDBmMGFtUjh3Z0xnY0RFNGdDQURSY0NtTUFBSGphWTJCa1lHQm0rTS9Bd01EMGcwR0VRWWpwRVFOUUJBV3dBZ0JMUHdNT0FwRUFBQUdaQUdZQm1RQTZBaXNBSHdMNEFCUUFBQUFBQUNvQVhBQ29BUWg0Mm1OZ1pHQmdZR1d3WmdEUkRGQVNDUUFBQnJFQVJBQjQyajJNTVF2Q01CQ0Z2MklWcllPRDRPQWd3UjlRdExvSWJnNU9yZzV1MWdUcDBGVFNXblFSZjdyWEVMeVE0N3YzM2gyUThDR2lxNGlKNzEzRjhpYUIrNHlaQmg2SXZnaWNNR2RKanlnZWliSmdIemhteUNWd254bDU0SUhvcjhBSlc3Nkhxbnc4RytQVXFkTEcyVnZwZG1majZxS3lhcDJ1dXZGb3JISFh4bWlWdjVWdWk3cTlsMnFUWm1uR2dZcVNCMDhhREE3RlNSVHQyWElUejdIajdPZWFRandybVRVcHE3OTdGTmY2eE5WZjBaTEllVXZYdExKVFM3OUxWckdSdmF6N1AxeXNMbFVBQUFCNDJtTmdac0FMQUFCOUFBUT0pIGZvcm1hdCgnd29mZicpO30KdGV4dC5mMCB7Zm9udC1mYW1pbHk6Y21taTY7Zm9udC1zaXplOjUuOTc3NTg0cHh9CnRleHQuZjEge2ZvbnQtZmFtaWx5OmNtcjk7Zm9udC1zaXplOjguOTY2Mzc2cHh9CnRleHQuZjIge2ZvbnQtZmFtaWx5OmNtc3kxMDtmb250LXNpemU6OS45NjI2NHB4fQp0ZXh0LmYzIHtmb250LWZhbWlseTpjbXN5Nztmb250LXNpemU6Ni45NzM4NDhweH0KdGV4dC5mNCB7Zm9udC1mYW1pbHk6Y21taTEwO2ZvbnQtc2l6ZTo5Ljk2MjY0cHh9CnRleHQuZjUge2ZvbnQtZmFtaWx5OmNtcjEwO2ZvbnQtc2l6ZTo5Ljk2MjY0cHh9Cl1dPgo8L3N0eWxlPgo8ZyBpZD0ncGFnZTEnPgo8dGV4dCBjbGFzcz0nZjUnIHg9Jy0zMC4wNDQxNjQnIHk9Jy02NC41MTAyNjgnPio8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMicgeD0nLTIxLjc0MTk1JyB5PSctNjQuNTEwMjY4Jz5IPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjUnIHg9Jy0xMy4yMzIxNTgnIHk9Jy02NC41MTAyNjgnPjs8dHNwYW4geD0nLTguODA0MzUnPs6TPC90c3Bhbj48L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMycgeD0nLTIuNTc3NjgxJyB5PSctNjguMTI1NjMyJz7ugLA8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMicgeD0nMi45ODQ3MjcnIHk9Jy02NC41MTAyNjgnPu6BoDwvdGV4dD4KPHRleHQgY2xhc3M9J2Y0JyB4PScxMS44NDAzNTUnIHk9Jy02NC41MTAyNjgnPs+IPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjMnIHg9JzE4LjY4NzM3OCcgeT0nLTY4LjEyNTYzMic+7oCwPC90ZXh0Pgo8cmVjdCB4PSctMzQuMDI5MjInIHk9Jy02MC41ODA1NjInIGhlaWdodD0nLjM5ODUnIHdpZHRoPSc1OS40OTY3MDUnLz4KPHRleHQgY2xhc3M9J2Y1JyB4PSctNS42NjQ1NjQnIHk9Jy01MS4xNjAzNTInPi48dHNwYW4geD0nLTUuNjY0NTY0JyB5PSctNDcuMTc1Mjk2Jz4uPC90c3Bhbj48dHNwYW4geD0nLTUuNjY0NTY0JyB5PSctNDMuMTkwMjQnPi48L3RzcGFuPjwvdGV4dD4KPHJlY3QgeD0nLTMxLjIzNDE0NScgeT0nLTQxLjE5NzcxMicgaGVpZ2h0PScuMzk4NScgd2lkdGg9JzUzLjkwNjU1NCcvPgo8dGV4dCBjbGFzcz0nZjUnIHg9Jy0yNy4yNDkwODknIHk9Jy0zMS4zMzQ3MDQnPio8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMicgeD0nLTE4Ljk0Njg3NCcgeT0nLTMxLjMzNDcwNCc+SDwvdGV4dD4KPHRleHQgY2xhc3M9J2Y1JyB4PSctMTAuNDM3MDgyJyB5PSctMzEuMzM0NzA0Jz47PHRzcGFuIHg9Jy02LjAwOTI3NCc+zpM8L3RzcGFuPjwvdGV4dD4KPHRleHQgY2xhc3M9J2YyJyB4PScyLjk4NDcyNycgeT0nLTMxLjMzNDcwNCc+7oGgPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjQnIHg9JzExLjg0MDM1NScgeT0nLTMxLjMzNDcwNCc+z4g8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMScgeD0nLTY1LjM1ODI1NCcgeT0nLTI0Ljk2NDE1NCc+KHdrPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjAnIHg9Jy01MC4yNTUyNjgnIHk9Jy0yMy45Njc5MDUnPnk8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMScgeD0nLTQ1Ljc1ODI2MicgeT0nLTI0Ljk2NDE1NCc+KTwvdGV4dD4KPHJlY3QgeD0nLTM5LjE4NTcxJyB5PSctMjcuNDA0OTk4JyBoZWlnaHQ9Jy4zOTg1JyB3aWR0aD0nNjkuODA5NzAxJy8+Cjx0ZXh0IGNsYXNzPSdmMicgeD0nLTM1LjIwMDY1NCcgeT0nLTE4LjA5NTQ3Mic+SDwvdGV4dD4KPHRleHQgY2xhc3M9J2Y1JyB4PSctMjYuNjkwODYyJyB5PSctMTguMDk1NDcyJz47PHRzcGFuIHg9Jy0yMi4yNjMwNTQnPs6TPC90c3Bhbj48L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmNCcgeD0nLTE2LjAzNjM4NScgeT0nLTE4LjA5NTQ3Mic+LDx0c3BhbiB4PSctMTEuNjA4NTc3Jz55PC90c3Bhbj48L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmNScgeD0nLTMuNTk5MzAxJyB5PSctMTguMDk1NDcyJz46PC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjQnIHg9JzEuOTM1NDQnIHk9Jy0xOC4wOTU0NzInPs+HPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjInIHg9JzEwLjkzNjMyJyB5PSctMTguMDk1NDcyJz7ugaA8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmNCcgeD0nMTkuNzkxOTQ3JyB5PSctMTguMDk1NDcyJz7PiDwvdGV4dD4KPC9nPgo8L3N2Zz4=" /></fr:resource-content><fr:resource-source
+type="latex"
+part="preamble"><![CDATA[
+    \usepackage {bussproofs, amsopn, amssymb, mathrsfs, amsmath}
+    \newenvironment {bprooftree}
+      {\leavevmode \hbox \bgroup }
+      {\DisplayProof \egroup }
+  ]]></fr:resource-source><fr:resource-source
+type="latex"
+part="body"><![CDATA[
+    \begin {bprooftree}
+      \AxiomC {*\ $\mathcal {H} ; \Gamma ' \vdash  \psi '$}
+      \UnaryInfC {$\vdots $}
+      \UnaryInfC {*\ $\mathcal {H} ; \Gamma  \vdash  \psi $}
+      \LeftLabel {\small  (wk$_y$)}
+      \UnaryInfC {$\mathcal {H} ; \Gamma , y : \chi  \vdash  \psi $}
+    \end {bprooftree}
+  ]]></fr:resource-source></fr:resource></html:center>
+
+  Even if the weakening is "good" with respect to the <fr:tex
+display="inline"><![CDATA[*]]></fr:tex> cycle, it may be that there is another cycle that overlaps <fr:tex
+display="inline"><![CDATA[*]]></fr:tex> which the weakening is "bad" with respect to. This would mean that we cannot just look at the companion above a weakening rule to decide whether we can weaken along the entire proof above that companion. I think that part of this problem stems from unfoldings being "big-step" in some sense, so I proposed that we consider "unrollings" of cyclic proofs instead - a "small-step" kind of cycle unfolding.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>275</fr:anchor><fr:addr
+type="user">mhe-0016</fr:addr><fr:route>mhe-0016.xml</fr:route><fr:title
+text="Cycle unrolling">Cycle unrolling</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a cyclic proof with a cycle <fr:tex
+display="inline"><![CDATA[*]]></fr:tex>, with cycle map <fr:tex
+display="inline"><![CDATA[f \rightsquigarrow  \theta ]]></fr:tex>:  
+  
+  <html:center
+xmlns:html="http://www.w3.org/1999/xhtml"><fr:resource
+hash="5199647a6810017609640cdb192b311a"><fr:resource-content><fr:img
+src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBUaGlzIGZpbGUgd2FzIGdlbmVyYXRlZCBieSBkdmlzdmdtIDMuMi4yIC0tPgo8c3ZnIHZlcnNpb249JzEuMScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzE1NS40Mjc1MTJwdCcgaGVpZ2h0PSc4NC42MTk0MjdwdCcgdmlld0JveD0nLTcyIC03MiAxMDMuNjE4MzQxIDU2LjQxMjk1MSc+CjxzdHlsZSB0eXBlPSd0ZXh0L2Nzcyc+CjwhW0NEQVRBW0Bmb250LWZhY2V7Zm9udC1mYW1pbHk6Y21taTEwO3NyYzp1cmwoZGF0YTphcHBsaWNhdGlvbi94LWZvbnQtd29mZjtiYXNlNjQsZDA5R1JnQUJBQUFBQUFPOEFBb0FBQUFBQkN3QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJQVXk4eUFBQUE5QUFBQUVZQUFBQmdpV0o0TldOdFlYQUFBQUU4QUFBQUtnQUFBRFFBREFRYloyeDVaZ0FBQVdnQUFBRDFBQUFCQU4wYzd0Tm9aV0ZrQUFBQ1lBQUFBQzhBQUFBMktTazFDMmhvWldFQUFBS1FBQUFBSHdBQUFDUUZxZ0d2YUcxMGVBQUFBckFBQUFBSUFBQUFDQVVSQUI1c2IyTmhBQUFDdUFBQUFBWUFBQUFHQUlBQUFHMWhlSEFBQUFMQUFBQUFGd0FBQUNBQUJBQlJibUZ0WlFBQUF0Z0FBQURVQUFBQlBwa1JkY2R3YjNOMEFBQURyQUFBQUJBQUFBQWdBQU1BQVhqYVkyQm02bUNjd01ES3dNQTBpK25zUHhHR2ZoRE4rSWJ4RFlNeEl5Y0RFTEF4d0VFREF4SklLUzVMWjJCalBnR0VEUCtCZkdZR1JwQXdJMExGZjZBd0FCQXFEbzBBQUhqYVkyQmdZR0pnWUdBR1loRWd5UWltV1JnVWdEUUxFQUw1ekNmKy80ZVFmeXpCOGd3QVhld0hKd0FBZU5vVnlsMUt3MEFZaGVFNTN5UXo1c2VraldsU1dwSXFJWmxTYUsxR1pvcUlSVlRRSUhRSENsSkJ2UGZDTGJnREYrQ0Y0a2JjakRzUWJTN1AreHdHbHY5TjZaVysyWW94OEVTYlU1Z1pWSFdralU3U0FGTElBRXFLRUVKVmFnbTlSTXNiM2R4azFXcWhaakJ0eU5GcmR4cW5PMGJYT3NYUHgvRCtQRHNtRE53Z2o4TU1TSnpncEhuSks3S0ZaVHZrK2g1M2J0YUVzT2dSdW5Kb0VpNmt0QkI1MGU1Q1Rja1pSL1Q4YVhQcEVYMzkzdkhzTEgrcXk4bVdXNHlBMGFSY3B3Zk5hbysvK2R0ZEd4RDFZZGtaV3hmWDd1VnRYZlpkWUhIbEMxQm5QdWp2VzVnWG8vaXg4UjhDZW84NEJZeXhmL2xGSWFNQUFBQjQybU5nWkdCZ0FHTGJqbVRSZUg2YnJ3ek1MQXdnOFBqd1R4NEUvVitYcVl2cEpKREx3Y0FFRWdVQUlYc0t5UUI0Mm1OZ1pHQmdadmpQd01EQU5KdEJqa0dRcVlzQktJSUNtQUE4Y0FKZkFBSjJBQUFDbXdBZUFBQUFBQUNBQUFCNDJtTmdaR0JnWUdJSVlBRFJERkFTQ1FBQUNHMEFWZ0I0MmsyT3NXckRNQlJGajZsanFGdklsQXdkaXFhTXhuYjZBWVVNbWJKbUxDU1JDQzVJQ3JKanlCTDZBZjNvUGlzYStvUWVSK2RkQ1FFbGR6S215cGpIUGxWT0lhY0h6M2hoa2JpUXBSS1h2TEhpaVN4L0Z2UE9aK0tjVjc0U3oxanluYmdRLzVPNDVJUGZqYmVYNjJDQzJubHRnanRaMnpYMTNvUys4MDQxVmYwUVcrTk1PQXhHcStOTjZiSHJ4N05WNjZxdFdqWjRMQmV1REJpQy9Hd25Sa2QybkdSbTZXaW8yVWZYeThuTFJJbXJ4UDVQYkNYaFl1b1FYOU9TT25LVHJoa2wwMHMvUzFxeGxydnR0UDhBNElJd3ZYamFZMkJtUUFhTURHZ0FBQUNPQUFVPSkgZm9ybWF0KCd3b2ZmJyk7fQpAZm9udC1mYWNle2ZvbnQtZmFtaWx5OmNtcjEwO3NyYzp1cmwoZGF0YTphcHBsaWNhdGlvbi94LWZvbnQtd29mZjtiYXNlNjQsZDA5R1JnQUJBQUFBQUFTZ0FBb0FBQUFBQlZRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJQVXk4eUFBQUE5QUFBQUVZQUFBQmdoY1YzakdOdFlYQUFBQUU4QUFBQVFBQUFBRlFEM3dTS1oyeDVaZ0FBQVh3QUFBRzRBQUFCK01XODJDQm9aV0ZrQUFBRE5BQUFBQzBBQUFBMktVZzFUMmhvWldFQUFBTmtBQUFBSGdBQUFDUUZ6UUhxYUcxMGVBQUFBNFFBQUFBWUFBQUFHQXZ2QVVwc2IyTmhBQUFEbkFBQUFBNEFBQUFPQWVBQktHMWhlSEFBQUFPc0FBQUFHQUFBQUNBQUNRQXdibUZ0WlFBQUE4UUFBQUROQUFBQk9JTGpLcWx3YjNOMEFBQUVsQUFBQUF3QUFBQWdBQU1BQUhqYVkyQm1ZbUdjd01ES3dNQTBpK25zUHhHR2ZoRE4rSWJ4RFlNeEl5Y0RFTEF4d0VFakF4SklLUzVMQjBwcU1TOW1admdQNURNek1JS0VHUkVxL2dPRkFjaW5EVVFBQUhqYVkyQmdZR0pnWUdBR1loRWd5UWltV1JnY2dEUVBBd2RRam9WQmkwR1B3WnA1TXZQaS8vK0Jva2k4LzlmL1gvbC80ay9obnlTd1BqZ0FBTTB4RUdaNDJqVlB2Mi9UVUJCKzM3M0VMN0VkTzY2VFo5ZE80anFXYkJBaWxmckRMeTBpSFZwZ1FIUnBCem95UlJVTUZJUTZWUXpzVmY4THhOSTVBeEpUSmNRR093TkxOeGFZay9CUzFOUGREWGZmM2ZkOURHd0hUL0NGTXpaZ0RBa01rUmRLREtEeUhSUzUyaWhWZ2xXVVNnWkNqUkQwMEpZdUFpbGFScitBWlZVUmg3eDVFWnFveE9jWEFibDI3ZHlxVXFTSGIveEd4WFo1ZERPV2dwelhJOGtSWG81SkwrMjlYYnRwTGdIams0Y0J4L0xsb1dzQVMyYXpzYnRuTlMydnluU0FIZW02WXE5WWpUSGxvSjl2bEd2eUNzbjlSR2NwRnozUk9HTFA1OXZzR3lZYTEyWE12MFZ5dzhVQTJrSVB3aERPd3M4SXQrZStZOWZqdUJQZGFWR2xuMG1RdWRyQ2g4WFBYbTkyVWdlUTNrMVJmUm9kRFJWc2JtNlB0WmErSmp1a3lZSUZRVGFBeUhJajhBejVBTzBpRTV2cmEyWGhsZms5YkpMcVJyVkhMNDh6RHp4NW5CNThmQlp1UlVUUlZraVQ2L0VMYlRXYy9vcmxDdWNyclE2Rm5YWnk0M2M0bjlJbitzdzZqTldSeWxLdGk5VFFzbjJlbDBINm45R1hnY1RaYkk3NDlKMGRkYWRmbDBHTnYzTllIZzI3VWVQNC9lOGZCZ2o3czUrVi9iTS8zQ0VYYmJ6MUJLNVBEL2pzdTZpUnB2b0hLRXRQUVhqYVkyQmtZR0FBNG5aOWlmWjRmcHV2RE13c0RDRHcrUEJQSGdUOTM0cHBKVE9JeThIQUJLSUFIeU1LUlFBQUFIamFZMkJrWUdCbStNL0F3TUQwbUVFSlNLNWtBSXFnQURZQVJNQUN2UUFBQW9BQUFBSUFBRDhCSEFCWkFSd0FXQUpVQUNJQzR3QTRBQUFBQUFCT0FHSUFsZ0RHQVB3QUFIamFZMkJrWUdCZ1k5Qm5ZR0lBQVVZR05BQUFCYmNBT25qYVJZdzlpOEpBRUlhZllDSVlDeHV4c0xqYndqb2swZm9hQ3l0YnEydlVYU1ZGTnJLSkFVRXM3M2M3V1JkdVlJZm4vWmdGVWw1RURCTXg4M3VZbUVUVWh4T216QU9QUlgwSFRsbXlZa1FVVDhUNTRpZHdMTWx2NElRRmw4Qmo4WitCVXpiOGJadjZkdStNVS90R0cyZlB0U3Z5ZzNGdDFWaFZaTG5YTzJPTk8zWkdxOU5ENmI1cSsydXQxbG1abFd4cHFMbHhwOFBnVU96RjBaNHRaOGtjQlRrSDc3UlVrbHBwRldUaS91Yzd5YTN2SFAxUFdqb25IckkxdlZ5MXNxL1NWcXpsc2h6ZUcyUEhMeEVBQUFCNDJtTmdac0FMQUFCOUFBUT0pIGZvcm1hdCgnd29mZicpO30KQGZvbnQtZmFjZXtmb250LWZhbWlseTpjbXN5NztzcmM6dXJsKGRhdGE6YXBwbGljYXRpb24veC1mb250LXdvZmY7YmFzZTY0LGQwOUdSZ0FCQUFBQUFBTUVBQW9BQUFBQUEyUUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCUFV5OHlBQUFBOUFBQUFFc0FBQUJnYURwaDJXTnRZWEFBQUFGQUFBQUFLZ0FBQURRQURPQ0RaMng1WmdBQUFXd0FBQUJBQUFBQVFFYlRvMWhvWldGa0FBQUJyQUFBQUMwQUFBQTJLaTgxVVdob1pXRUFBQUhjQUFBQUhnQUFBQ1FFaC8vamFHMTBlQUFBQWZ3QUFBQUlBQUFBQ0FUaUFERnNiMk5oQUFBQ0JBQUFBQVlBQUFBR0FDQUFBRzFoZUhBQUFBSU1BQUFBRndBQUFDQUFCQUFRYm1GdFpRQUFBaVFBQUFEUEFBQUJPQk9CS3J0d2IzTjBBQUFDOUFBQUFCQUFBQUFnQUFNQUFYamFZMkJtS21TY3dNREt3TUEwaStuc1B4R0dmaEROK0lieERZTXhJeWNERUxBeElJQUFFanVsdUN5ZGdlMkJ3UU1EWnNVL1Jnd016SXJNNTREQ2pBZ1YvLzh6TUFBQUhZc1AwUUI0Mm1OZ1lHQmlZR0JnQm1JUklNa0lwbGtZRklBMEN4QUMrUThNL3YrSGtQSVh3ZklNQUdSeUIyd0FBQUFCQURFQUp3RTBBandBRGdBQUFRTUdMZ0VuTnhNK0FUY2VBUmNXQVNuQkJ4QWVBZ1dIQkJnZEdDTUJBZ0hqL2xnVUF3MEtFQUc3RGlFQkFSNFpDQUI0Mm1OZ1pHQmdBT0lkRDNnYjQvbHR2akl3c3pDQXdPUERQM21RYWVhSlREWkFpb09CQ2NRREFESXdDZ0VBQUFCNDJtTmdaR0JnVnZ4akJDUW5NaGd5eURLYU1BQkZVQUFUQUVFYUFtNEFBQU9SQUFBQlVRQXhBQUFBQUFBZ0FBQjQybU5nWkdCZ1lHTGdad0RSREZBU0NRQUFBaFFBRlFCNDJrMk1QVy9DTUJDR240Z0VpVEN3VkIwNmdBZm1DRUlsdGk0TVRLeE1MSUFOeWhBSDJTRlNwS3BqZjNjdnJnZE84dWw1UDg1QXpnOEp3eVRNd2g0bUpSUDF6eGxUM2lLUFJTMGk1M3l3WkVTU1RzU1o4eFU1bGVRVU9lT2RXK1N4K04rUmN6NzUzVFgxNDlrYXB3Nk5OczVlYTk5dmo4YjVxckZxWGF5QzNodHIzTGsxV2wxNnBidktkL2RhYllxeUtOblJVUFBnU1l2Qm9UaUlvd05icnBKNWVyWWNnK09wSkxYU1dsT3dlc24za3R2UU9ZZWZ0SFF1a2lpaFRxNjg3THUwRlJ1NUxJZjNCL1FETUZFQWVOcGpZR1pBQm93TWFBQUFBSTRBQlE9PSkgZm9ybWF0KCd3b2ZmJyk7fQpAZm9udC1mYWNle2ZvbnQtZmFtaWx5OmNtc3kxMDtzcmM6dXJsKGRhdGE6YXBwbGljYXRpb24veC1mb250LXdvZmY7YmFzZTY0LGQwOUdSZ0FCQUFBQUFBUWdBQW9BQUFBQUJKZ0FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCUFV5OHlBQUFBOUFBQUFFMEFBQUJnaUoxaWdtTnRZWEFBQUFGRUFBQUFNUUFBQUR6QWlTQ05aMng1WmdBQUFYZ0FBQUZGQUFBQllFSXBmZ3hvWldGa0FBQUN3QUFBQUM4QUFBQTJLZE0xcVdob1pXRUFBQUx3QUFBQUhnQUFBQ1FHWS8rNWFHMTBlQUFBQXhBQUFBQU1BQUFBREFqdUFFdHNiMk5oQUFBREhBQUFBQWdBQUFBSUFJb0FzRzFoZUhBQUFBTWtBQUFBRndBQUFDQUFCUUJiYm1GdFpRQUFBendBQUFEVkFBQUJQcTgzZGVOd2IzTjBBQUFFRkFBQUFBd0FBQUFnQUFNQUFIamFZMkJtK3NVNGdZR1ZnWUZwRnRQWmZ5SU0vU0NhOFEzakd3WmpSazRHSUdCamdBTkdBUVNiSWFXNExCMG82ZkVnZ1ZucWp5WURBN01VODNXUUdxaTBCd1BELy84TURBQThUUS85QUFBQWVOcGpZR0JnWW1CZ1lBWmlFU0RKQ0taWkdEU0FOQnVRWmdUS2VqeEkrUDhmeUFmVC8zZktMd0tyQWdJQXJxZ0o4UUFBQUhqYUpaQzdUc05BRUVWM3hzNXVITnZyMkxIWElZbnpWT3p3Q0JKNTdCWkFMQUVWSXFSQWdLQkdRa0w4QWpVZEpTWGZnRVNKYUNrcDh3a1VmRVRBRnMxSWQrNlpLUTRCNHY5K2FSUDhJRmVFUUVlbU1JT3hEQVdqNkFBTm1qQldNMUF6REgxRzJUWk1aWW8wNmRFc2NPalJSRW5WUytJY0dhZVFIY3M0NGNBNHhqTGZTUkg2R1FwbjRHM3RtVTdmTGlMb0IzT2I2bERuYlY1RXJqeVE2cmJUZ0hLcDFxaDhEMlNCbGhPVDZhWEQ1ckd2QTQ3Q3ZpZ2FtZ2FWMWxIcVZjWk9ZYlRmdjltMXBsckpjT0h5NWRtMVBUVFFlRjM5WE95MHpERFFVR2ZSR2hqUjVvWU9IYUZPSjNjV1BqMWF0Snh4OWZkN1FOM3U0dlZRdHJ0MkMyQTBpQVE2aTJHdEMraXRtK2ZURTVKcElJb0FLdndrbGR5SksyZzNWbTRzUjRLNUhTbDhpdjVxRGl4aThEL2VlQkRBWXJYa29tcmhnMVVWZkxYTW0relZINUtnTDlNQUFBQjQybU5nWkdCZ0FPSzkwaWJGOGZ3Mlh4bVlXUmhBNFBIaG56d0krdjg1WmhPbVkwQXVCd01UU0JRQU1nWUxWQUI0Mm1OZ1pHQmdsdnFqQ1NRVEdFUVlkSmhOR0lBaUtJQVpBRGs4QWlJQUFBTWNBQUFEWUFBVUFuSUFOd0FBQUFBQWlnQ3dlTnBqWUdSZ1lHQm1pR0lBMFF4UUVna0FBQW1DQUdFQWVOcE5qckZxd3pBVVJZK3BZNmdiNkpRTUhZcW1qTVoyOGdHRkRKbXlaaXdra1FndVdBNlNZL0JTK2dINTZEd3JHdnFFSGtmMzN2Y1FrUE5Md2xRSjc2RlBsWkxKNjhrejNsaEV6dVNveURrZnJIZ2hTVjlGK2VRcmNzcWM3OGd6bHZ4RXprVC9pNXl6NGI3dDJ1dXROMDd0TzIyY1BiZCtyTXFEY2I3cHJLcUs4aW5zakRYdTJCdXRUcVBTUStPSFM2dldSVjNVYk9sb3VYS2p4K0RrWjN0UmRHRExXVHpQU0VYSklXaWVSbndydVlwQzFQK0puU1JzU0IzRE5pMnBrM2hLYUpBNUwvMGllY1ZhWnV2cFBnQUozekVWQUFBQWVOcGpZR2JBQ3dBQWZRQUUpIGZvcm1hdCgnd29mZicpO30KdGV4dC5mMCB7Zm9udC1mYW1pbHk6Y21zeTEwO2ZvbnQtc2l6ZTo5Ljk2MjY0cHh9CnRleHQuZjEge2ZvbnQtZmFtaWx5OmNtc3k3O2ZvbnQtc2l6ZTo2Ljk3Mzg0OHB4fQp0ZXh0LmYyIHtmb250LWZhbWlseTpjbW1pMTA7Zm9udC1zaXplOjkuOTYyNjRweH0KdGV4dC5mMyB7Zm9udC1mYW1pbHk6Y21yMTA7Zm9udC1zaXplOjkuOTYyNjRweH0KXV0+Cjwvc3R5bGU+CjxnIGlkPSdwYWdlMSc+Cjx0ZXh0IGNsYXNzPSdmMycgeD0nLTYxLjM3MzE5OCcgeT0nLTY0LjUxMDI2OCc+KjwvdGV4dD4KPHRleHQgY2xhc3M9J2YwJyB4PSctNTMuMDcwOTg0JyB5PSctNjQuNTEwMjY4Jz5IPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjMnIHg9Jy00NC41NjExOTInIHk9Jy02NC41MTAyNjgnPjs8dHNwYW4geD0nLTQwLjEzMzM4NCc+zpM8L3RzcGFuPjwvdGV4dD4KPHRleHQgY2xhc3M9J2YxJyB4PSctMzMuOTA2NzE1JyB5PSctNjguMTI1NjMyJz7ugLDugLA8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nLTI2LjA0NzM2MycgeT0nLTY0LjUxMDI2OCc+7oGgPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjInIHg9Jy0xNy4xOTE3MzYnIHk9Jy02NC41MTAyNjgnPs+IPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjEnIHg9Jy0xMC4zNDQ3MTInIHk9Jy02OC4xMjU2MzInPu6AsO6AsDwvdGV4dD4KPHJlY3QgeD0nLTY1LjM1ODI1NCcgeT0nLTYwLjU4MDU2MicgaGVpZ2h0PScuMzk4NScgd2lkdGg9JzY0LjA5MDU5MycvPgo8dGV4dCBjbGFzcz0nZjMnIHg9Jy0zNC42OTY2NTUnIHk9Jy01MS4xNjAzNTInPi48dHNwYW4geD0nLTM0LjY5NjY1NScgeT0nLTQ3LjE3NTI5Nic+LjwvdHNwYW4+PHRzcGFuIHg9Jy0zNC42OTY2NTUnIHk9Jy00My4xOTAyNCc+LjwvdHNwYW4+PC90ZXh0Pgo8cmVjdCB4PSctNTguOTEwMjA2JyB5PSctNDEuMTk3NzEyJyBoZWlnaHQ9Jy4zOTg1JyB3aWR0aD0nNTEuMTk0NDk1Jy8+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nLTU0LjkyNTE0OScgeT0nLTMxLjMxNjk0OSc+SDwvdGV4dD4KPHRleHQgY2xhc3M9J2YzJyB4PSctNDYuNDE1MzU3JyB5PSctMzEuMzE2OTQ5Jz47PHRzcGFuIHg9Jy00MS45ODc1NDknPs6TPC90c3Bhbj48L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMScgeD0nLTM1Ljc2MDg4JyB5PSctMzQuOTMyMzEzJz7ugLA8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nLTMwLjE5ODQ3MicgeT0nLTMxLjMxNjk0OSc+7oGgPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjInIHg9Jy0yMS4zNDI4NDUnIHk9Jy0zMS4zMTY5NDknPs+IPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjEnIHg9Jy0xNC40OTU4MjEnIHk9Jy0zNC45MzIzMTMnPu6AsDwvdGV4dD4KPHRleHQgY2xhc3M9J2YzJyB4PScxNy4xMTcxNjEnIHk9Jy0zMS4zMTY5NDknPs6jPC90ZXh0Pgo8cmVjdCB4PSctNTguOTEwMjA2JyB5PSctMjcuMzg3MjQyJyBoZWlnaHQ9Jy4zOTg1JyB3aWR0aD0nODcuMjA3NjcnLz4KPHRleHQgY2xhc3M9J2YzJyB4PSctMzguMjc0NTkyJyB5PSctMTcuNTI0MjM1Jz4qPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjAnIHg9Jy0yOS45NzIzNzgnIHk9Jy0xNy41MjQyMzUnPkg8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMycgeD0nLTIxLjQ2MjU4NScgeT0nLTE3LjUyNDIzNSc+Ozx0c3BhbiB4PSctMTcuMDM0Nzc3Jz7OkzwvdHNwYW4+PC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjAnIHg9Jy04LjA0MDc3NicgeT0nLTE3LjUyNDIzNSc+7oGgPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjInIHg9Jy44MTQ4NTInIHk9Jy0xNy41MjQyMzUnPs+IPC90ZXh0Pgo8L2c+Cjwvc3ZnPg==" /></fr:resource-content><fr:resource-source
+type="latex"
+part="preamble"><![CDATA[
+    \usepackage {bussproofs, amsopn, amssymb, mathrsfs, amsmath}
+    \newenvironment {bprooftree}
+      {\leavevmode \hbox \bgroup }
+      {\DisplayProof \egroup }
+  ]]></fr:resource-source><fr:resource-source
+type="latex"
+part="body"><![CDATA[
+    \begin {bprooftree}
+      \AxiomC {*\ $\mathcal {H} ; \Gamma '' \vdash  \psi ''$}
+      \UnaryInfC {$\vdots $}
+      \UnaryInfC {$\mathcal {H} ; \Gamma ' \vdash  \psi '$}
+      \AxiomC {$\Sigma $}
+      \BinaryInfC {*\ $\mathcal {H} ; \Gamma  \vdash  \psi $}
+    \end {bprooftree}
+  ]]></fr:resource-source></fr:resource></html:center>
+
+  we define its unrolling as the cyclic proof:
+  
+  <html:center
+xmlns:html="http://www.w3.org/1999/xhtml"><fr:resource
+hash="2740a9db82751fc3ffca4cdee7f74708"><fr:resource-content><fr:img
+src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBUaGlzIGZpbGUgd2FzIGdlbmVyYXRlZCBieSBkdmlzdmdtIDMuMi4yIC0tPgo8c3ZnIHZlcnNpb249JzEuMScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzI1NC41Mjg0ODhwdCcgaGVpZ2h0PScxMDUuMzM1MTMzcHQnIHZpZXdCb3g9Jy03MiAtNzIgMTY5LjY4NTY1OSA3MC4yMjM0MjInPgo8c3R5bGUgdHlwZT0ndGV4dC9jc3MnPgo8IVtDREFUQVtAZm9udC1mYWNle2ZvbnQtZmFtaWx5OmNtc3k3O3NyYzp1cmwoZGF0YTphcHBsaWNhdGlvbi94LWZvbnQtd29mZjtiYXNlNjQsZDA5R1JnQUJBQUFBQUFNRUFBb0FBQUFBQTJRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJQVXk4eUFBQUE5QUFBQUVzQUFBQmdhRHBoMldOdFlYQUFBQUZBQUFBQUtnQUFBRFFBRE9DRFoyeDVaZ0FBQVd3QUFBQkFBQUFBUUViVG8xaG9aV0ZrQUFBQnJBQUFBQzBBQUFBMktpOUJLV2hvWldFQUFBSGNBQUFBSGdBQUFDUUVoLy9qYUcxMGVBQUFBZndBQUFBSUFBQUFDQVRpQURGc2IyTmhBQUFDQkFBQUFBWUFBQUFHQUNBQUFHMWhlSEFBQUFJTUFBQUFGd0FBQUNBQUJBQVFibUZ0WlFBQUFpUUFBQURQQUFBQk9CT0JLcnR3YjNOMEFBQUM5QUFBQUJBQUFBQWdBQU1BQVhqYVkyQm1LbVNjd01ES3dNQTBpK25zUHhHR2ZoRE4rSWJ4RFlNeEl5Y0RFTEF4SUlBQUVqdWx1Q3lkZ2UyQndRTURac1UvUmd3TXpJck01NERDakFnVi8vOHpNQUFBSFlzUDBRQjQybU5nWUdCaVlHQmdCbUlSSU1rSXBsa1lGSUEwQ3hBQytROE0vditIa1BJWHdmSU1BR1J5QjJ3QUFBQUJBREVBSndFMEFqd0FEZ0FBQVFNR0xnRW5OeE0rQVRjZUFSY1dBU25CQnhBZUFnV0hCQmdkR0NNQkFnSGovbGdVQXcwS0VBRzdEaUVCQVI0WkNBQjQybU5nWkdCZ0FPSWQ5Nzllak9lMytjckF6TUlBQW84UC8vdUJURE5QWkxJQlVod01UQ0FlQUpLckRSb0FBQUI0Mm1OZ1pHQmdWdnhqQkNRbk1oZ3l5REthTUFCRlVBQVRBRUVhQW00QUFBT1JBQUFCVVFBeEFBQUFBQUFnQUFCNDJtTmdaR0JnWUdMZ1p3RFJERkFTQ1FBQUFoUUFGUUI0MmsyTVBXL0NNQkNHbjRnRWlUQ3dWQjA2Z0FmbUNFSWx0aTRNVEt4TUxJQU55aEFIMlNGU3BLcGpmM2N2cmdkTzh1bDVQODVBemc4Snd5VE13aDRtSlJQMXp4bFQzaUtQUlMwaTUzeXdaRVNTVHNTWjh4VTVsZVFVT2VPZFcrU3grTitSY3o3NTNUWDE0OWthcHc2Tk5zNWVhOTl2ajhiNXFyRnFYYXlDM2h0cjNMazFXbDE2cGJ2S2QvZGFiWXF5S05uUlVQUGdTWXZCb1RpSW93TmJycEo1ZXJZY2crT3BKTFhTV2xPd2VzbjNrdHZRT1llZnRIUXVraWloVHE2ODdMdTBGUnU1TElmM0IvUURNRkVBZU5wallHWkFCb3dNYUFBQUFJNEFCUT09KSBmb3JtYXQoJ3dvZmYnKTt9CkBmb250LWZhY2V7Zm9udC1mYW1pbHk6Y21zeTEwO3NyYzp1cmwoZGF0YTphcHBsaWNhdGlvbi94LWZvbnQtd29mZjtiYXNlNjQsZDA5R1JnQUJBQUFBQUFRZ0FBb0FBQUFBQkpnQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJQVXk4eUFBQUE5QUFBQUUwQUFBQmdpSjFpZ21OdFlYQUFBQUZFQUFBQU1RQUFBRHpBaVNDTloyeDVaZ0FBQVhnQUFBRkZBQUFCWUVJcGZneG9aV0ZrQUFBQ3dBQUFBQzhBQUFBMktkTkJnV2hvWldFQUFBTHdBQUFBSGdBQUFDUUdZLys1YUcxMGVBQUFBeEFBQUFBTUFBQUFEQWp1QUV0c2IyTmhBQUFESEFBQUFBZ0FBQUFJQUlvQXNHMWhlSEFBQUFNa0FBQUFGd0FBQUNBQUJRQmJibUZ0WlFBQUF6d0FBQURWQUFBQlBxODNkZU53YjNOMEFBQUVGQUFBQUF3QUFBQWdBQU1BQUhqYVkyQm0rc1U0Z1lHVmdZRnBGdFBaZnlJTS9TQ2E4UTNqR3daalJrNEdJR0JqZ0FOR0FRU2JJYVc0TEIwbzZmRWdnVm5xanlZREE3TVU4M1dRR3FpMEJ3UEQvLzhNREFBOFRRLzlBQUFBZU5wallHQmdZbUJnWUFaaUVTREpDS1paR0RTQU5CdVFaZ1RLZWp4SStQOGZ5QWZULzNmS0x3S3JBZ0lBcnFnSjhRQUFBSGphSlpDN1RzTkFFRVYzeHM1dUhOdnIyTEhYSVluelZPendDQko1N0JaQUxBRVZJcVJBZ0tCR1FrTDhBalVkSlNYZmdFU0phQ2twOHdrVWZFVEFGczFJZCs2WktRNEI0djkrYVJQOElGZUVRRWVtTUlPeERBV2o2QUFObWpCV00xQXpESDFHMlRaTVpZbzA2ZEVzY09qUlJFblZTK0ljR2FlUUhjczQ0Y0E0eGpMZlNSSDZHUXBuNEczdG1VN2ZMaUxvQjNPYjZsRG5iVjVFcmp5UTZyYlRnSEtwMXFoOEQyU0JsaE9UNmFYRDVyR3ZBNDdDdmlnYW1nYVYxbEhxVmNaT1liVGZ2OW0xcGxySmNPSHk1ZG0xUFRUUWVGMzlYT3kwekREUVVHZlJHaGpSNW9ZT0hhRk9KM2NXUGoxYXRKeHg5ZmQ3UU4zdTR2VlF0cnQyQzJBMGlBUTZpMkd0QytpdG0rZlRFNUpwSUlvQUt2d2tsZHlKSzJnM1ZtNHNSNEs1SFNsOGl2NXFEaXhpOEQvZWVCREFZclhrb21yaGcxVVZmTFhNbSt6Vkg1S2dMOU1BQUFCNDJtTmdaR0JnQU9LOTBqS0g0L2x0dmpJd3N6Q0F3T1BELzM0ZzZQL25tRTJZamdHNUhBeE1JRkVBWnE0TmJnQjQybU5nWkdCZ2x2cWpDU1FUR0VRWWRKaE5HSUFpS0lBWkFEazhBaUlBQUFNY0FBQURZQUFVQW5JQU53QUFBQUFBaWdDd2VOcGpZR1JnWUdCbWlHSUEwUXhRRWdrQUFBbUNBR0VBZU5wTmpyRnF3ekFVUlkrcFk2Z2I2SlFNSFlxbWpNWjI4Z0dGREpteVppd2trUWd1V0E2U1kvQlMrZ0g1NkR3ckd2cUVIa2YzM3ZjUWtQTkx3bFFKNzZGUGxaTEo2OGt6M2xoRXp1U295RGtmckhnaFNWOUYrZVFyY3NxYzc4Z3psdnhFemtUL2k1eXo0Yjd0MnV1dE4wN3RPMjJjUGJkK3JNcURjYjdwcktxSzhpbnNqRFh1MkJ1dFRxUFNRK09IUzZ2V1JWM1ViT2xvdVhLangrRGtaM3RSZEdETFdUelBTRVhKSVdpZVJud3J1WXBDMVArSm5TUnNTQjNETmkycGszaEthSkE1TC8waWVjVmFadXZwUGdBSjN6RVZBQUFBZU5wallHYkFDd0FBZlFBRSkgZm9ybWF0KCd3b2ZmJyk7fQpAZm9udC1mYWNle2ZvbnQtZmFtaWx5OmNtcjEwO3NyYzp1cmwoZGF0YTphcHBsaWNhdGlvbi94LWZvbnQtd29mZjtiYXNlNjQsZDA5R1JnQUJBQUFBQUFVMEFBb0FBQUFBQmd3QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJQVXk4eUFBQUE5QUFBQUVjQUFBQmdoY04zYm1OdFlYQUFBQUU4QUFBQVFRQUFBRlFENHdTT1oyeDVaZ0FBQVlBQUFBSTdBQUFDcEdXKzljUm9aV0ZrQUFBRHZBQUFBQzRBQUFBMktVaEE3V2hvWldFQUFBUHNBQUFBSGdBQUFDUUZ6UUhzYUcxMGVBQUFCQXdBQUFBZ0FBQUFJQThKQWVkc2IyTmhBQUFFTEFBQUFCSUFBQUFTQXc0Q0ttMWhlSEFBQUFSQUFBQUFHQUFBQUNBQUN3QXdibUZ0WlFBQUJGZ0FBQUROQUFBQk9JTGpLcWx3YjNOMEFBQUZLQUFBQUF3QUFBQWdBQU1BQUhqYVkyQm1mTVk0Z1lHVmdZRnBGdFBaZnlJTS9TQ2E4UTNqR3daalJrNEdJR0JqZ0lOR0JpU1FVbHlXRHBUVVlGN016UEFmeUdkbVlBUUpNeUpVL0FjS0F3QWFOQTRqQUhqYVkyQmdZR0pnWUdBR1loRWd5UWltV1JnY2dEUVBBd2RRam9WQmkwR1B3WnA1TXZQaS8vK0JvaG9JM3YrYi82LzlQL1duK0U4S1dCOGNBQUROcVJCdUFBQUFlTm8xa010ckUwRWN4K2M3ayt6bXNjbG04NWpkYmg3YkpMRGJJQ1kwVFhhVFNsT3c4WUhhWGhLaFBXanBRMFBSZzFXa2VDZ2VSTHlWL2dzOWlSNTZ6a0h3VkJCdmV2ZmdwVGRCRkR5WnhFbGloNWs1elB6bTgvbDloNERzamdpNmpCQ2RFSCt5WUR0bGVMYnJ0VkJWRVlVdXhTMXdkUGpPZkNrRFpPejVoeHpLL1p1ZzdVMlYvUWx0YjY2L1g3cDZjbmZuZ1JMYit2dm14WEM0cS9tSUdDQk53UzFOdWVDU0hFV2hMcWhPemE3QTl0d3ExM1BBM0lTWWl0eTdSVHQzNGd4SVRUemtQM0Y3OFByazUycmNSeWNld1Z6R0RYd1V6TEpnV3BCazIvSGtjYi9MY0d5djVub1dLbkE5cnN2Q0pQZ3Bya0xuY2xJcU9BaUgvVWdiTEhac2hPQkxIeDNyVkZVQ1IyRS9OY1hoMDBURXA2ak1uQnh6bVVhZnREaURjZHFqNGxKcHJ5aXhVQnpvN1MvcERET25YVlVDNHFGWVpLVWRqb1UxL3pUdmhsaG41REVKRU9LSnNIWk5aRHlEZGRrUzArWGozUkoxbEt5UEZzbG45RVZkbHBERVJTV1RWSlFoSXVRZ2p6OUw1R25oNG5raXFnVFQ2WXc1bDZTK1FwR0RoaXBKdkJvemM3bmhmaEJBdnBTSC83YTUwZkNnc05CaVQvUlNFTEl1N1k4dDBJdGx5RVZiMGpXSlgwSEtLY3IxaGFycmFLNTlDWFhxWmMzQXRVZDdSUTNNdXA3dnZGMDFtaWFsWnRPZy9mUGVsb2hxREw2bitTeGpzOGtNTlRJcGE1SzNNUnJRZC9RRHlSQVNSSjY3M29LY2wwVGJDV2E3ZW41cVRIQ2Q0M0E0UXZyZ3VXSm1CNTltUUNPL1J3aHJ0SkUxSTNzdmYzeVZRTEUyL09aYk8vekZvbFJGQ3M4MEdlY0hIVGI4SWdlb1VQMER6T1p3akFCNDJtTmdaR0JnQUdLN1NYdGo0L2x0dmpJd3N6Q0F3T1BELzM0ZzZQOE1UQ3VaUVZ3T0JpWVFCUUJnckF5Q0FBQjQybU5nWkdCZ1p2alB3TURBOUpoQkNVaXVaQUNLb0FBT0FFVENBcjhBQUFLQUFBQUJqUUJrQVkwQU9RSUFBRDhCSEFCWkFSd0FXQUpVQUNJQzR3QTRBQUFBQUFBc0FGWUFwQUM0QU93QkhBRlNBQUI0Mm1OZ1pHQmc0R0RRWjJCaUFBRkdCalFBQUFYdEFEeDQya1dNUFl2Q1FCQ0duMkFpR0FzYnNiQzQyOEk2Sk5INkdnc3JXNnRyMUYwbFJUYXlpUUZCTE85M08xa1hibUNINS8yWUJWSmVSQXdUTWZON21KaEUxSWNUcHN3RGowVjlCMDVac21KRUZFL0UrZUluY0N6SmIrQ0VCWmZBWS9HZmdWTTIvRzJiK25idmpGUDdSaHRuejdVcjhvTnhiZFZZVldTNTF6dGpqVHQyUnF2VFErbSthdnRycmRaWm1aVnNhYWk1Y2FmRDRGRHN4ZEdlTFdmSkhBVTVCKyswVkpKYWFSVms0djduTzhtdDd4ejlUMW82Sng2eU5iMWN0Ykt2MGxhczViSWMzaHRqeHk4UkFBQUFlTnBqWUdiQUN3QUFmUUFFKSBmb3JtYXQoJ3dvZmYnKTt9CkBmb250LWZhY2V7Zm9udC1mYW1pbHk6Y21taTEwO3NyYzp1cmwoZGF0YTphcHBsaWNhdGlvbi94LWZvbnQtd29mZjtiYXNlNjQsZDA5R1JnQUJBQUFBQUFSZ0FBb0FBQUFBQlFRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJQVXk4eUFBQUE5QUFBQUVZQUFBQmdoZ0Y0QkdOdFlYQUFBQUU4QUFBQU1RQUFBRHdITy8xaFoyeDVaZ0FBQVhBQUFBR1NBQUFCekZ6UWx3bG9aV0ZrQUFBREJBQUFBQzhBQUFBMktTbEE3bWhvWldFQUFBTTBBQUFBSUFBQUFDUUZxd0ZmYUcxMGVBQUFBMVFBQUFBTUFBQUFEQWNHQUZSc2IyTmhBQUFEWUFBQUFBZ0FBQUFJQUdZQTVtMWhlSEFBQUFOb0FBQUFGd0FBQUNBQUJRQlJibUZ0WlFBQUE0QUFBQURVQUFBQlBwa1JkY2R3YjNOMEFBQUVWQUFBQUF3QUFBQWdBQU1BQUhqYVkyQm1DbWVjd01ES3dNQTBpK25zUHhHR2ZoRE4rSWJ4RFlNeEl5Y0RFTEF4d0VFakF4SklLUzVMQjBxbU1aOWdadmdQNURNek1JS0VHUkVxL2dPRkFmSkREZmdBQUhqYVkyQmdZR0pnWUdBR1loRWd5UWltV1JnMGdEUWJrR1lFeXFZeG4vai9IOGdIMC85bi83RUNxd0lDQUtRc0Nab0FBQUI0MmgyUHpXN1RRQlJHL2QyeFp4ckg4YVJPYkljRzIwbW50cU5JRFdsZHhoRXFDWkNDSU9yUGlpMUlxRWlJRlp0SzlCWFlzNEE5Q3hCdndCT3c1emw0QXlnZWx2YzdkM0dPQlV2ZnpPZ3UvYkllV0JhWUJCYyt4RzVSTGxFZFJuSEVSWXA2aWJxbitKR09xeFdXaUp2ZGgycCtDbDNQSUxqZ2tpb2Q4Ukx2bDc0alkvOTRPdEtBQ21VSWlsVTNzY3ZDTzFzblhmbGs0TjQ2SDQ0MVlUZVVFVEFZeWN3ZVMyZkxDNThQMFpYNC9QZkh1bmYvSUh0RWV5b1pCVUduc0RzYzdOMFpQcktFNDNxeW1aUGErMDl5eDVDc1V5eXUyRzBCcTlHMzBwdDkra0EvclF2VEVta2pQa05aSE9sYUcyZGg0c3BHRjd3c3loWDBDZ1kzMUhRVWhxcHlodG9NS1VKengvMjRWK3RLeC9qOWRmaHFuZHdqN0xoKzJwY0pFTFg4NDgxMVdwRERiYWRGcnRkbXJkTkxnbFFoWVZzTTY0aHhJV3dFN1dDMEtQZXBOUW5vNnB2RFJKdm8rNStYTEhtWXZxM3k2WmFyTWlDYjVwZnh3ZVppekQ1NW5XMEg0TlZoM3AzWUo4L2N4eStxZk9BQ2k2Y2VCM1huTzRNN051WXE2Ny9aZUs5OStoSXc4cHY4Zi9DK09xSUFBSGphWTJCa1lHQUFZcU9UREtueC9EWmZHWmhaR0VEZzhlRi9QeEQwZjEybUxxWXJRQzRIQXhOSUZBQlRLd3paQUhqYVkyQmtZR0JtK00vQXdNQTBtMEh1L3dHbUxnYWdDQXBnQmdCZ3RnUU9BbllBQUFIMUFEWUNtd0FlQUFBQUFBQm1BT1o0Mm1OZ1pHQmdZR1lJWUFEUkRGQVNDUUFBQ0lnQVZ3QjQyazJPc1dyRE1CUkZqNmxqcUZ2SWxBd2RpcWFNeG5iNkFZVU1tYkptTENTUkNDNUlDckpqeUJMNkFmM29QaXNhK29RZVIrZGRDUUVsZHpLbXlwakhQbFZPSWFjSHozaGhrYmlRcFJLWHZMSGlpU3gvRnZQT1orS2NWNzRTejFqeW5iZ1EvNU80NUlQZmpiZVg2MkNDMm5sdGdqdFoyelgxM29TKzgwNDFWZjBRVytOTU9BeEdxK05ONmJIcng3TlY2NnF0V2paNExCZXVEQmlDL0d3blJrZDJuR1JtNldpbzJVZlh5OG5MUkltcnhQNVBiQ1hoWXVvUVg5T1NPbktUcmhrbDAwcy9TMXF4bHJ2dHRQOEE0SUl3dlhqYVkyQm13QXNBQUgwQUJBPT0pIGZvcm1hdCgnd29mZicpO30KdGV4dC5mMCB7Zm9udC1mYW1pbHk6Y21zeTEwO2ZvbnQtc2l6ZTo5Ljk2MjY0cHh9CnRleHQuZjEge2ZvbnQtZmFtaWx5OmNtc3k3O2ZvbnQtc2l6ZTo2Ljk3Mzg0OHB4fQp0ZXh0LmYyIHtmb250LWZhbWlseTpjbW1pMTA7Zm9udC1zaXplOjkuOTYyNjRweH0KdGV4dC5mMyB7Zm9udC1mYW1pbHk6Y21yMTA7Zm9udC1zaXplOjkuOTYyNjRweH0KXV0+Cjwvc3R5bGU+CjxnIGlkPSdwYWdlMSc+Cjx0ZXh0IGNsYXNzPSdmMycgeD0nLTYxLjM3MzE5OCcgeT0nLTY0LjUxMDI2OCc+KjwvdGV4dD4KPHRleHQgY2xhc3M9J2YyJyB4PSctNTMuMDcwOTg0JyB5PSctNjQuNTEwMjY4Jz5mPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjMnIHg9Jy00Ny4xMjEwMzcnIHk9Jy02NC41MTAyNjgnPig8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nLTQzLjI0NjY2MycgeT0nLTY0LjUxMDI2OCc+SDwvdGV4dD4KPHRleHQgY2xhc3M9J2YzJyB4PSctMzQuNzM2ODcxJyB5PSctNjQuNTEwMjY4Jz47PHRzcGFuIHg9Jy0zMC4zMDkwNjMnPs6TPC90c3Bhbj48L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMScgeD0nLTI0LjA4MjM5NCcgeT0nLTY4LjEyNTYzMic+7oCwPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjMnIHg9Jy0yMS4yODczMTgnIHk9Jy02NC41MTAyNjgnPik8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nLTE0LjY0NTYxMicgeT0nLTY0LjUxMDI2OCc+7oGgPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjInIHg9Jy01Ljc4OTk4NScgeT0nLTY0LjUxMDI2OCc+ZjwvdGV4dD4KPHRleHQgY2xhc3M9J2YzJyB4PScuMTU5OTYzJyB5PSctNjQuNTEwMjY4Jz4oPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjInIHg9JzQuMDM0MzM2JyB5PSctNjQuNTEwMjY4Jz7PiDwvdGV4dD4KPHRleHQgY2xhc3M9J2YxJyB4PScxMC44ODEzNicgeT0nLTY4LjEyNTYzMic+7oCwPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjMnIHg9JzEzLjY3NjQzNicgeT0nLTY0LjUxMDI2OCc+KTwvdGV4dD4KPHRleHQgY2xhc3M9J2YyJyB4PSczOS45MjA2NTYnIHk9Jy02NC41MTAyNjgnPmY8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMycgeD0nNDUuODcwNjAzJyB5PSctNjQuNTEwMjY4Jz4ozqMpPC90ZXh0Pgo8cmVjdCB4PSctNjUuMzU4MjU0JyB5PSctNjAuMDI3MDgnIGhlaWdodD0nLjM5ODUnIHdpZHRoPScxMzAuMTU3OTA0Jy8+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nLTI0LjE4ODQzOCcgeT0nLTUwLjE0NjMxNyc+SDwvdGV4dD4KPHRleHQgY2xhc3M9J2YzJyB4PSctMTUuNjc4NjQ1JyB5PSctNTAuMTQ2MzE3Jz47PHRzcGFuIHg9Jy0xMS4yNTA4MzcnPs6TPC90c3Bhbj48L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMScgeD0nLTUuMDI0MTY4JyB5PSctNTMuNzYxNjgxJz7ugLDugLA8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nMi44MzUxODQnIHk9Jy01MC4xNDYzMTcnPu6BoDwvdGV4dD4KPHRleHQgY2xhc3M9J2YyJyB4PScxMS42OTA4MTEnIHk9Jy01MC4xNDYzMTcnPs+IPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjEnIHg9JzE4LjUzNzgzNCcgeT0nLTUzLjc2MTY4MSc+7oCw7oCwPC90ZXh0Pgo8cmVjdCB4PSctMjguMTczNDk0JyB5PSctNDYuMjE2NjExJyBoZWlnaHQ9Jy4zOTg1JyB3aWR0aD0nNTUuNzg4MzgzJy8+Cjx0ZXh0IGNsYXNzPSdmMycgeD0nLTEuNjYyOTk5JyB5PSctMzYuNzk2NDAxJz4uPHRzcGFuIHg9Jy0xLjY2Mjk5OScgeT0nLTMyLjgxMTM0NSc+LjwvdHNwYW4+PHRzcGFuIHg9Jy0xLjY2Mjk5OScgeT0nLTI4LjgyNjI4OSc+LjwvdHNwYW4+PC90ZXh0Pgo8cmVjdCB4PSctMzAuMDI3NjU1JyB5PSctMjYuODMzNzYxJyBoZWlnaHQ9Jy4zOTg1JyB3aWR0aD0nNTkuNDk2NzA1Jy8+Cjx0ZXh0IGNsYXNzPSdmMycgeD0nLTI2LjA0MjU5OScgeT0nLTE2Ljk1Mjk5Nyc+KjwvdGV4dD4KPHRleHQgY2xhc3M9J2YwJyB4PSctMTcuNzQwMzg1JyB5PSctMTYuOTUyOTk3Jz5IPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjMnIHg9Jy05LjIzMDU5MycgeT0nLTE2Ljk1Mjk5Nyc+Ozx0c3BhbiB4PSctNC44MDI3ODUnPs6TPC90c3Bhbj48L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMScgeD0nMS40MjM4ODQnIHk9Jy0yMC41NjgzNjEnPu6AsDwvdGV4dD4KPHRleHQgY2xhc3M9J2YwJyB4PSc2Ljk4NjI5MycgeT0nLTE2Ljk1Mjk5Nyc+7oGgPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjInIHg9JzE1Ljg0MTkyJyB5PSctMTYuOTUyOTk3Jz7PiDwvdGV4dD4KPHRleHQgY2xhc3M9J2YxJyB4PScyMi42ODg5NDMnIHk9Jy0yMC41NjgzNjEnPu6AsDwvdGV4dD4KPHRleHQgY2xhc3M9J2YzJyB4PSc4My4xODQ0NzInIHk9Jy0xNi45NTI5OTcnPs6jPC90ZXh0Pgo8cmVjdCB4PSctMzAuMDI3NjU1JyB5PSctMTMuMDIzMjkxJyBoZWlnaHQ9Jy4zOTg1JyB3aWR0aD0nMTI0LjM5MjQzJy8+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nMTMuMzUxNDM3JyB5PSctMy43MTM3NjUnPkg8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMycgeD0nMjEuODYxMjI5JyB5PSctMy43MTM3NjUnPjs8dHNwYW4geD0nMjYuMjg5MDM3Jz7OkzwvdHNwYW4+PC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjAnIHg9JzM1LjI4MzAzOScgeT0nLTMuNzEzNzY1Jz7ugaA8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMicgeD0nNDQuMTM4NjY2JyB5PSctMy43MTM3NjUnPs+IPC90ZXh0Pgo8L2c+Cjwvc3ZnPg==" /></fr:resource-content><fr:resource-source
+type="latex"
+part="preamble"><![CDATA[
+    \usepackage {bussproofs, amsopn, amssymb, mathrsfs, amsmath}
+    \newenvironment {bprooftree}
+      {\leavevmode \hbox \bgroup }
+      {\DisplayProof \egroup }
+  ]]></fr:resource-source><fr:resource-source
+type="latex"
+part="body"><![CDATA[
+    \begin {bprooftree}
+      \AxiomC {*\ $f(\mathcal {H} ; \Gamma ') \vdash  f(\psi ')$}
+      \AxiomC {$f(\Sigma )$}
+      \BinaryInfC {$\mathcal {H} ; \Gamma '' \vdash  \psi ''$}
+      \UnaryInfC {$\vdots $}
+      \UnaryInfC {*\ $\mathcal {H} ; \Gamma ' \vdash  \psi '$}
+      \AxiomC {$\Sigma $}
+      \BinaryInfC {$\mathcal {H} ; \Gamma  \vdash  \psi $}
+    \end {bprooftree}
+  ]]></fr:resource-source></fr:resource></html:center></fr:p><fr:p>The idea is that we push the cycle "a single rule up". Notice that the subtree <fr:tex
+display="inline"><![CDATA[\Sigma ]]></fr:tex> is copied in its entirety. This clearly simplifies when the rule above the companion has a single premise.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>In order to propagate a weakening along any cycle, we can interleave unrollings and weakening reductions: 
+  <fr:ul><fr:li>If a weakening is directly under the companion for a "bad" cycle, we make sure to unroll that "bad" cycle first <fr:em>before unrolling any others!</fr:em></fr:li>
+    <fr:li>If a weakening is directly under the companion for any single cycle, then we unroll that cycle one step, and push the weakening up one step.</fr:li></fr:ul>
+  The "good"-ness of the cycle with respect to the weakening instance is, in this setup, only used to decide which cycle to unroll first when reaching a companion for multiple cycles.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>983</fr:anchor><fr:addr
 type="user">mee-0005</fr:addr><fr:route>mee-0005.xml</fr:route><fr:title
 text="Meeting notes: Reuben 24/01/25">Meeting notes: Reuben 24/01/25</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -913,7 +1043,7 @@ part="body"><![CDATA[
 display="inline"><![CDATA[\chi ]]></fr:tex> that "interact badly" with the induced substitution along the cycle. As in, it could be that for the induced substitution <fr:tex
 display="inline"><![CDATA[\theta ]]></fr:tex> on formula variables along this cycle, we have <fr:tex
 display="inline"><![CDATA[\chi  \neq  \theta (\chi )]]></fr:tex>. This would mean that adding <fr:tex
-display="inline"><![CDATA[y : \chi ]]></fr:tex> to the companion and bud would invalidate the cycle. Call weakingings that don't interact badly with a cycle "good weakenings" for now.</fr:p><fr:p>I wonder if nested cycles make this more complicated: if a weakening is good with respect to the "top-most" cycle, can you guarantee that it is good for any "sub-cycles" in the subproof above the companion? <fr:em>I have a feeling that you can guarantee this</fr:em>.</fr:p><fr:p>It also seems that if you start with a cyclic proof where <fr:em>weakenings are only used immediately after buds</fr:em>, then they will <fr:em>always be good</fr:em> with respect to any cycles that might be produced via unfolding. We need to prove that this is the case.</fr:p><fr:p>Objectives after this meeting:
+display="inline"><![CDATA[y : \chi ]]></fr:tex> to the companion and bud would invalidate the cycle. Call weakingings that don't interact badly with a cycle "good weakenings" for now.</fr:p><fr:p>I wonder if nested cycles make this more complicated: if a weakening is good with respect to the "top-most" cycle, can you guarantee that it is good for any "sub-cycles" in the subproof above the companion? <fr:em>I have a feeling that you can guarantee this (Edit: you probably cannot guarantee this)</fr:em>.</fr:p><fr:p>It also seems that if you start with a cyclic proof where <fr:em>weakenings are only used immediately after buds</fr:em>, then they will <fr:em>always be good</fr:em> with respect to any cycles that might be produced via unfolding. We need to prove that this is the case.</fr:p><fr:p>Objectives after this meeting:
   <fr:ul><fr:li>Define weakening reduction, taking it to be stuck at a companion if the weakening is not good w.r.t. the cycle(s) corresponding to that companion. Pay extra care to possiblility of nested cycles, and also we <fr:em>should assume CNF</fr:em> as it looks like some of our intutions are based on taking it as given.</fr:li>
     <fr:li>Define other reductions on "weakening normal forms", making sure that "good-ness of weakenings" is preserved by these.</fr:li>
     <fr:li>Show that a proof where weakening rules are only used below buds doesn't get stuck in any reduction sequence.</fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
@@ -923,7 +1053,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>967</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>985</fr:anchor><fr:addr
 type="user">mee-0004</fr:addr><fr:route>mee-0004.xml</fr:route><fr:title
 text="Meeting notes: Reuben 17/01/25">Meeting notes: Reuben 17/01/25</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -936,7 +1066,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>390</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>404</fr:anchor><fr:addr
 type="user">not-0010</fr:addr><fr:route>not-0010.xml</fr:route><fr:title
 text="Contexts and reduction in natural deduction">Contexts and reduction in natural deduction</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -993,7 +1123,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>969</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>987</fr:anchor><fr:addr
 type="user">mee-0003</fr:addr><fr:route>mee-0003.xml</fr:route><fr:title
 text="Meeting notes: Reuben 18/12/24">Meeting notes: Reuben 18/12/24</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1013,7 +1143,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>612</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>626</fr:anchor><fr:addr
 type="user">not-0002</fr:addr><fr:route>not-0002.xml</fr:route><fr:title
 text="Ideas for cycle reduction in HOL^{ex}">Ideas for cycle reduction in <fr:tex
 display="inline"><![CDATA[\mu ]]></fr:tex>HOL<fr:tex
@@ -1037,7 +1167,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>614</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>628</fr:anchor><fr:addr
 type="machine">#255</fr:addr><fr:route>unstable-255.xml</fr:route><fr:title
 text="Guarded -predicates">Guarded <fr:tex
 display="inline"><![CDATA[\mu ]]></fr:tex>-predicates</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -1084,7 +1214,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>617</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>631</fr:anchor><fr:addr
 type="machine">#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:title
 text="Guard the whole context?">Guard the whole context?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1106,7 +1236,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>620</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>634</fr:anchor><fr:addr
 type="machine">#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:title
 text="Require the substitution property">Require the substitution property</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1127,7 +1257,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>623</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>637</fr:anchor><fr:addr
 type="user">not-0003</fr:addr><fr:route>not-0003.xml</fr:route><fr:title
 text="Natural deduction-style unfold rule">Natural deduction-style unfold rule</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1203,7 +1333,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>555</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>569</fr:anchor><fr:addr
 type="machine">#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:title
 text="Cyclic permutations example">Cyclic permutations example</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1353,7 +1483,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>972</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>990</fr:anchor><fr:addr
 type="user">mee-0002</fr:addr><fr:route>mee-0002.xml</fr:route><fr:title
 text="Meeting notes: Stef 11/12/24">Meeting notes: Stef 11/12/24</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1373,7 +1503,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>975</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>993</fr:anchor><fr:addr
 type="user">mee-0001</fr:addr><fr:route>mee-0001.xml</fr:route><fr:title
 text="Meeting notes: Stef 05/12/24">Meeting notes: Stef 05/12/24</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1396,7 +1526,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1599</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1623</fr:anchor><fr:addr
 type="user">lsd-0010</fr:addr><fr:route>lsd-0010.xml</fr:route><fr:title
 text="Monad container zoo">Monad container zoo</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1499,7 +1629,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1601</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1625</fr:anchor><fr:addr
 type="user">dia-0001</fr:addr><fr:route>dia-0001.xml</fr:route><fr:title
 text="Research diary">Research diary</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>13</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>I was previously using Obsidian for my research diary, but I found it a little heavyweight for
   what I was using it for: weekly (or fortnightly) notes on what I've been thinking about.</fr:p><fr:tree
@@ -1509,7 +1639,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1247</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1265</fr:anchor><fr:addr
 type="user">dia-0006</fr:addr><fr:route>dia-0006.xml</fr:route><fr:title
 text="Diary: Cyclic tree opfibrations">Diary: Cyclic tree opfibrations</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1529,7 +1659,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>510</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>524</fr:anchor><fr:addr
 type="user">cyt-0001</fr:addr><fr:route>cyt-0001.xml</fr:route><fr:title
 text="Cyclic tree">Cyclic tree</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1553,7 +1683,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>512</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>526</fr:anchor><fr:addr
 type="user">cyt-0002</fr:addr><fr:route>cyt-0002.xml</fr:route><fr:title
 text="Cyclic tree homomorphism">Cyclic tree homomorphism</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1624,7 +1754,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>514</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>528</fr:anchor><fr:addr
 type="machine">#265</fr:addr><fr:route>unstable-265.xml</fr:route><fr:title
 text="Unfoldings in the literature">Unfoldings in the literature</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1637,7 +1767,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>516</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>530</fr:anchor><fr:addr
 type="user">not-0005</fr:addr><fr:route>not-0005.xml</fr:route><fr:title
 text="Brotherston's notion of (un)folding">Brotherston's notion of (un)folding</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1656,7 +1786,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>518</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>532</fr:anchor><fr:addr
 type="user">not-0006</fr:addr><fr:route>not-0006.xml</fr:route><fr:title
 text="Sprenger and Dam's notion of unfolding">Sprenger and Dam's notion of unfolding</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1681,7 +1811,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>520</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>534</fr:anchor><fr:addr
 type="user">not-0007</fr:addr><fr:route>not-0007.xml</fr:route><fr:title
 text="Leigh and Wehr's notion of unfolding">Leigh and Wehr's notion of unfolding</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1765,7 +1895,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>522</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>536</fr:anchor><fr:addr
 type="user">cyt-0003</fr:addr><fr:route>cyt-0003.xml</fr:route><fr:title
 text="Considering cyclic trees as graphs">Considering cyclic trees as graphs</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1823,7 +1953,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>494</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>508</fr:anchor><fr:addr
 type="user">cyt-0005</fr:addr><fr:route>cyt-0005.xml</fr:route><fr:title
 text="Cycle-quotient of a cyclic tree">Cycle-quotient of a cyclic tree</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1856,7 +1986,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>496</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>510</fr:anchor><fr:addr
 type="user">cyt-0004</fr:addr><fr:route>cyt-0004.xml</fr:route><fr:title
 text="Spanning cyclic tree of a graph">Spanning cyclic tree of a graph</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1898,7 +2028,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1249</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1267</fr:anchor><fr:addr
 type="user">dia-0005</fr:addr><fr:route>dia-0005.xml</fr:route><fr:title
 text="Diary: Natural deduction-style unfold rule for -formulae">Diary: Natural deduction-style unfold rule for <fr:tex
 display="inline"><![CDATA[\mu ]]></fr:tex>-formulae</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -1922,7 +2052,7 @@ show-heading="false"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>553</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>567</fr:anchor><fr:addr
 type="user">not-0003</fr:addr><fr:route>not-0003.xml</fr:route><fr:title
 text="Natural deduction-style unfold rule">Natural deduction-style unfold rule</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1998,7 +2128,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>555</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>569</fr:anchor><fr:addr
 type="machine">#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:title
 text="Cyclic permutations example">Cyclic permutations example</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -2149,7 +2279,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1251</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1269</fr:anchor><fr:addr
 type="user">dia-0004</fr:addr><fr:route>dia-0004.xml</fr:route><fr:title
 text="Diary: Relation between container distributive laws and matching pairs of monoids/Zappa-Szép products">Diary: Relation between container distributive laws and matching pairs of monoids/Zappa-Szép products</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -2172,7 +2302,7 @@ show-heading="false"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>600</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>614</fr:anchor><fr:addr
 type="user">lsd-0024</fr:addr><fr:route>lsd-0024.xml</fr:route><fr:title
 text="Relation between container distributive laws and matching pairs of monoids/Zappa-Szép products">Relation between container distributive laws and matching pairs of monoids/Zappa-Szép products</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -2201,7 +2331,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>273</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>285</fr:anchor><fr:addr
 type="user">lsd-0025</fr:addr><fr:route>lsd-0025.xml</fr:route><fr:title
 text="Directed container distributive law between representables">Directed container distributive law between representables</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -2236,7 +2366,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>275</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>287</fr:anchor><fr:addr
 type="user">lsd-0026</fr:addr><fr:route>lsd-0026.xml</fr:route><fr:title
 text="Monad container distributive law between writers">Monad container distributive law between writers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -2290,7 +2420,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>277</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>289</fr:anchor><fr:addr
 type="user">lsd-0041</fr:addr><fr:route>lsd-0041.xml</fr:route><fr:title
 text="Monad-comonad container distributive law between writer monad and coreader comonad">Monad-comonad container distributive law between writer monad and coreader comonad</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -2336,7 +2466,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>279</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>291</fr:anchor><fr:addr
 type="user">lsd-0042</fr:addr><fr:route>lsd-0042.xml</fr:route><fr:title
 text="Comonad-monad container distributive law between coreader comonad and writer monad">Comonad-monad container distributive law between coreader comonad and writer monad</fr:title><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>30</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -2374,7 +2504,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1253</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1271</fr:anchor><fr:addr
 type="user">dia-0003</fr:addr><fr:route>dia-0003.xml</fr:route><fr:title
 text="Diary: Monad container algebras">Diary: Monad container algebras</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -2402,7 +2532,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>792</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>808</fr:anchor><fr:addr
 type="user">lsd-0019</fr:addr><fr:route>lsd-0019.xml</fr:route><fr:title
 text="Monad container algebras">Monad container algebras</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -2426,7 +2556,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>794</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>810</fr:anchor><fr:addr
 type="user">lsd-0020</fr:addr><fr:route>lsd-0020.xml</fr:route><fr:title
 text="Algebraic theories for cartesian monad containers">Algebraic theories for cartesian monad containers</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -2503,7 +2633,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1255</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1273</fr:anchor><fr:addr
 type="user">dia-0002</fr:addr><fr:route>dia-0002.xml</fr:route><fr:title
 text="Diary: UoN research visit, Nov 2024">Diary: UoN research visit, Nov 2024</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"

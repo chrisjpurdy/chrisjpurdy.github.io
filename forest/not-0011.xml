@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>269</fr:anchor><fr:addr
+type="user">not-0011</fr:addr><fr:route>not-0011.xml</fr:route><fr:title
+text="Getting Agda to provide termination checker debug info">Getting Agda to provide termination checker debug info</fr:title><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If you compile Agda with the <fr:code>debug</fr:code> flag, then run it with verbosity level set to 40 (i.e. add command line option <fr:code>--verbose={40}</fr:code> or <fr:code>-v={40}</fr:code>) then it will print out:
+  <fr:ul><fr:li>Call graphs</fr:li>
+    <fr:li>Call matrices</fr:li>
+    <fr:li>Final results of termination checking</fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
