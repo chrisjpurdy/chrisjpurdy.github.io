@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>280</fr:anchor><fr:addr
+type="user">mlu-0001</fr:addr><fr:route>mlu-0001.xml</fr:route><fr:title
+text="MLucid idea">MLucid idea</fr:title><fr:date><fr:year>2025</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="chrisjpurdy.xml"
+addr="chrisjpurdy"
+title="Chris Purdy">Chris Purdy</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The main idea is to extend the Lucid programming language by interpreting terms as <fr:em>monadic</fr:em> streams rather than just streams.</fr:p><fr:p>By fixing a monad, we can extend the core language of Lucid with extra operators specific to that monad. For example, for Maybe-streams (colists) we could add a concatenation operation:
+  <fr:tex
+display="block"><![CDATA[     x\,{++}\,y := \begin {cases}       x & \text {if } x \text { infinite}\\       x_0 , \dots  , x_n , y_0 , \dots  & \text {otherwise}      \end {cases}   ]]></fr:tex>
+  In Lucid, terms are thought of as time-varying values (or signals). In mLucid, the semantics are modified based on the chosen monad - for example, for mLucid instanciated with the Maybe monad, terms are signals that may terminate after some time. In mLucid with the Reader monad, terms are signal transformations (stream functions).</fr:p><fr:p>Lucid can be embedded into each of the instanciations of mLucid, by using the <fr:tex
+display="inline"><![CDATA[\eta ]]></fr:tex> for the monad in question. i.e. there is a monomorphism from streams to <fr:tex
+display="inline"><![CDATA[M]]></fr:tex>-streams for any given monad <fr:tex
+display="inline"><![CDATA[M]]></fr:tex>, given by:
+  
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}            & m : \mathbf {S} \to  \mathbf {S}_M\\     & m\,(x_0 , xs) := \eta _M\, (x_0 , m\, xs)         \end {align*}   ]]></fr:tex>
+
+  This means that any program in Lucid can express the same program in mLucid.</fr:p><fr:p>You could have a varient where <fr:em>multiple</fr:em> monads interact, given a distributive law of one monad over the other? Or at least a lifting?</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
